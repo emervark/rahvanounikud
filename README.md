@@ -18,7 +18,7 @@ kasutab podcasti avalikku RSS-feedi.
 | 3. Cloudflare backend (D1, hinded) | tehtud |
 | 4. Google login | ees |
 | 5. Spotify / YouTube lingid | ees |
-| 6. Deploy | vajab Cloudflare'i konto seadistust |
+| 6. Deploy | **tehtud** — https://rahvan6unikud.emervark.ee |
 
 Väliste teenuste seadistamine: **[SEADISTAMINE.md](SEADISTAMINE.md)**
 

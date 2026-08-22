@@ -4,6 +4,12 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-08-01",
 
+  // Cloudflare teeb DNS-kirje ja sertifikaadi ise, kuna emervark.ee on
+  // Cloudflare'i nimeserverite all.
+  "routes": [
+    { "pattern": "rahvan6unikud.emervark.ee", "custom_domain": true }
+  ],
+
   "assets": {
     "binding": "ASSETS",
     // Leht on ühelehe-rakendus: /edetabel jms ei ole päris faile, need peavad
