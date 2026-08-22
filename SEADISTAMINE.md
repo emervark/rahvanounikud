@@ -189,10 +189,29 @@ Testrežiim sobib alustuseks. Kui tahad, et kõik saaksid sisse logida, vajuta
 sealsamas **Publish app**. Me küsime ainult `email` ja `profile` skoope, mis on
 Google'i mõistes "mittetundlikud" — ülevaatust need ei nõua ja avaldamine on kohene.
 
+**Samm 5 — saada võtmed Cloudflare'i**
+
+> **Ära kleebi võtmeid terminali.** PowerShellis Ctrl+V ei kleebi, vaid sisestab
+> juhtmärgi `0x16`. `wrangler secret put` võtab selle vastu ja salvestab võtme
+> asemel ühe juhtmärgi — deploy õnnestub, leht paistab korras ja alles sisse
+> logides tuleb Google'ilt arusaamatu viga. Seda on tüütu tagantjärele leida.
+
+Selle asemel käib see faili kaudu:
+
 ```bash
-npx wrangler secret put GOOGLE_CLIENT_ID
-npx wrangler secret put GOOGLE_CLIENT_SECRET
+cp .secrets.example.json .secrets.json
 ```
+
+Ava `.secrets.json` **tekstiredaktoris** (VS Code vms), kleebi väärtused sisse
+ja salvesta. Siis:
+
+```bash
+npm run secrets:push
+```
+
+Skript kontrollib enne saatmist, et väärtused pole tühjad, asendamata näidised
+ega sisalda juhtmärke. Pärast õnnestumist kustuta `.secrets.json` ära —
+see on `.gitignore`'is, aga kettale pole seda mõtet jätta.
 
 Lisa needsamad ka `.dev.vars` faili kohalikuks arenduseks:
 
