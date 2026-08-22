@@ -20,7 +20,8 @@
     "test": "node scripts/test-merge.mjs && node scripts/test-match.mjs",
     "secrets:push": "node scripts/push-secrets.mjs",
     "resolve:spotify": "node scripts/resolve-spotify.mjs",
-    "resolve:youtube": "node scripts/resolve-youtube.mjs"
+    "resolve:youtube": "node scripts/resolve-youtube.mjs",
+    "revalidate": "node scripts/revalidate-matches.mjs"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.53.1",

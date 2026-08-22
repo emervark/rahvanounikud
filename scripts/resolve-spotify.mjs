@@ -51,9 +51,24 @@ async function getToken(clientId, clientSecret) {
   return access_token;
 }
 
-/** GET koos 429 (liiga palju päringuid) ootamisega. */
+/** Ilma ajapiiranguta jäi skript korra rippuma — vastuseta päring ei tohi
+ *  tervet käiku kinni panna, sest pooleli jäänud töö tuleks uuesti teha. */
+const REQUEST_TIMEOUT = 20_000;
+
+/** GET koos 429 (liiga palju päringuid) ootamise ja ajapiiranguga. */
 async function apiGet(token, url, attempt = 0) {
-  const res = await fetch(url, { headers: { authorization: `Bearer ${token}` } });
+  let res;
+  try {
+    res = await fetch(url, {
+      headers: { authorization: `Bearer ${token}` },
+      signal: AbortSignal.timeout(REQUEST_TIMEOUT),
+    });
+  } catch (err) {
+    if (attempt > 3) throw new Error(`Spotify ei vastanud: ${err.message}`);
+    console.log(`    (päring aegus, proovin uuesti ${attempt + 1}/3)`);
+    await sleep(1000 * (attempt + 1));
+    return apiGet(token, url, attempt + 1);
+  }
 
   if (res.status === 429) {
     const wait = Number(res.headers.get('retry-after') ?? 2) + 1;

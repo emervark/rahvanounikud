@@ -26,7 +26,7 @@
   },
   "51067548-perfectionist-blood-victory": {
     "id": null,
-    "confidence": 0.402,
+    "confidence": 0.285,
     "bestGuess": "Shout Out 631 — One Blood For Victory",
     "bestGuessId": "4xNWAbPJbbDfu233REUnA0"
   },
@@ -55,12 +55,10 @@
     "confidence": 0.907
   },
   "c71831ba-romare-computer-blue": {
-    "id": "7jbse8nX2uQPctfhgCZ0HX",
-    "name": "Computer Love",
-    "artists": [
-      "Romare"
-    ],
-    "confidence": 0.85
+    "id": null,
+    "confidence": 0.45,
+    "bestGuess": "Prince — Computer Blue",
+    "bestGuessId": "0KGNaaxTRtw5oYpZnQwpNS"
   },
   "c319ff35-koit-toome-ma-pogenen": {
     "id": "6orFAHUqnqYW1BcGvZcfhE",
@@ -250,7 +248,7 @@
   },
   "37bb174f-cold-cunts-doll": {
     "id": null,
-    "confidence": 0.214,
+    "confidence": 0.134,
     "bestGuess": "Top Cats — Baby Doll - Single Version",
     "bestGuessId": "6n5YL1rCRQ4mm8J6rMDNz5"
   },
@@ -409,7 +407,7 @@
   },
   "04293800-janet-girl-telle-me-about-it": {
     "id": null,
-    "confidence": 0.45,
+    "confidence": 0.423,
     "bestGuess": "Anne Agusti — Tell Me About It",
     "bestGuessId": "0K7G3iU6xbQvqmdAItsZfb"
   },
@@ -423,7 +421,7 @@
   },
   "04293800-brotherkrupa-rip-riky": {
     "id": null,
-    "confidence": 0.26,
+    "confidence": 0.026,
     "bestGuess": "OSKVR, Mirjam Olesk — Mitu Ringi",
     "bestGuessId": "25iibKyKKXXTRQXFByzDm2"
   },
@@ -691,9 +689,9 @@
   },
   "16e70f0c-skoone-suurtukk-ajab-suu-lohki": {
     "id": null,
-    "confidence": 0.255,
-    "bestGuess": "RUJA — Suudlus läbi jäätunud klaasi",
-    "bestGuessId": "6YACwsHrJd2LFFdLj80z69"
+    "confidence": 0.085,
+    "bestGuess": "säm — kõik mu süü",
+    "bestGuessId": "3Lo0nrqBq6Vl7kr3MDB2Zi"
   },
   "16e70f0c-vaiko-eplik-kuningas": {
     "id": "16XLU145WzAE8y0rhQGyGq",
@@ -705,7 +703,7 @@
   },
   "16e70f0c-c-c-haudvaikne": {
     "id": null,
-    "confidence": 0.295,
+    "confidence": 0.03,
     "bestGuess": "EiK 2509, Mari Jürjens — HEAD VAIMUD",
     "bestGuessId": "4c5HWLAQUi31ZHi0sU7kSG"
   },
@@ -719,9 +717,9 @@
   },
   "16e70f0c-roma-vjazemski-royal-brown-philipp-otterbach-ful": {
     "id": null,
-    "confidence": 0,
-    "bestGuess": "Mark Nrown — Romantica",
-    "bestGuessId": "6w0ehHr9JZxLQPiWK56BSR"
+    "confidence": 0.037,
+    "bestGuess": "NOËP, Maarja Nuut, Ruum — Kuud Kuulama (feat. Maarja Nuut & Ruum) - Remix",
+    "bestGuessId": "3j0vWucvUz6QsWutiTboSQ"
   },
   "16e70f0c-turnstile-i-care": {
     "id": "7KVIuHxbV5lvBE5Vyiw8FC",
@@ -775,7 +773,7 @@
   },
   "263c8fbc-gorillaz-damaskus": {
     "id": null,
-    "confidence": 0.232,
+    "confidence": 0.023,
     "bestGuess": "Kosmikud — Armastuse Lugu",
     "bestGuessId": "5eESmdcwhxHrjQxXEQvtRz"
   },
@@ -821,10 +819,12 @@
     "confidence": 1
   },
   "28a618cf-tul8te-el-hobo-gany": {
-    "id": null,
-    "confidence": 0.205,
-    "bestGuess": "Meie Mees — Tütreke Second Hand",
-    "bestGuessId": "4U3RvaVRAYhg3XqAuM3KAi"
+    "id": "67yheG887FPQXlPRNmoXqz",
+    "name": "El Hob Gany",
+    "artists": [
+      "TUL8TE"
+    ],
+    "confidence": 0.946
   },
   "17d543f7-reket-varjude-maa": {
     "id": "5oRD1pKbWkbUQJy4KfKJVn",
@@ -1014,9 +1014,9 @@
   },
   "4cc9e6ed-daniel-cesar-ft-bon-iver-moon": {
     "id": null,
-    "confidence": 0.409,
-    "bestGuess": "Bon Iver — Skinny Love",
-    "bestGuessId": "3B3eOgLJSqPEA0RfboIQVM"
+    "confidence": 0.115,
+    "bestGuess": "Daniel Levi — Over The Moon",
+    "bestGuessId": "0dZAwZ5pExbhIjjUxcpFtU"
   },
   "4cc9e6ed-mar-u-kassar": {
     "id": "58aJsJiHc4WVdRY5v6FZaC",
@@ -1172,7 +1172,7 @@
   },
   "e9622d5d-daniel-levi-following-the-lost": {
     "id": null,
-    "confidence": 0.144,
+    "confidence": 0.083,
     "bestGuess": "Gorilla Zoe — Lost",
     "bestGuessId": "6XIiqQp6A0gzaIEaDszkZX"
   },
@@ -1221,7 +1221,7 @@
   },
   "df1c87e3-lotte-darker-love": {
     "id": null,
-    "confidence": 0.295,
+    "confidence": 0.171,
     "bestGuess": "MAAPS — Oh My Love",
     "bestGuessId": "3FenawN1vf2LE7mfXVkHvT"
   },
@@ -1300,9 +1300,9 @@
   },
   "a84e0286-iiori-sprint": {
     "id": null,
-    "confidence": 0.217,
-    "bestGuess": "Qotid — Iris",
-    "bestGuessId": "2lm8thT1ibHAMk9mT3R4s4"
+    "confidence": 0.033,
+    "bestGuess": "PRODIGYBOYS — SPORT",
+    "bestGuessId": "3jFujL3krU5lruzpjI0eae"
   },
   "a84e0286-karameel-mul-ei-ole-raha": {
     "id": "2SpnyzeKoWC65FkXu9pRJ7",
@@ -1320,7 +1320,7 @@
   },
   "a84e0286-c-c-haudvaikne": {
     "id": null,
-    "confidence": 0.295,
+    "confidence": 0.03,
     "bestGuess": "EiK 2509, Mari Jürjens — HEAD VAIMUD",
     "bestGuessId": "4c5HWLAQUi31ZHi0sU7kSG"
   },
@@ -1342,9 +1342,9 @@
   },
   "c0b8424d-yasmyn-ft-sno-like-that": {
     "id": null,
-    "confidence": 0.325,
-    "bestGuess": "Yaysen Mas — About That",
-    "bestGuessId": "3JelloLVyWjwjOrDlXuoI9"
+    "confidence": 0.341,
+    "bestGuess": "Spiral Halo — Just Like That",
+    "bestGuessId": "7IbFeG3MKcPSJ2DtBx92EM"
   },
   "c0b8424d-neil-young-and-the-chrome-hearts-dark-mirage": {
     "id": "2dc6QqdRmzhnbN0rlR6LSN",
@@ -1391,7 +1391,7 @@
   },
   "1f4d07b9-lexsoul-dance-machine-it-s-over": {
     "id": null,
-    "confidence": 0.325,
+    "confidence": 0.175,
     "bestGuess": "Prophets Of Rage — The Party’s Over",
     "bestGuessId": "4o42t3TaRGPdLvVpoKoj4x"
   },
@@ -1444,7 +1444,7 @@
   },
   "2cbcfe43-andre-3000-spent-all-day-waiting-for-the-night": {
     "id": null,
-    "confidence": 0.297,
+    "confidence": 0.159,
     "bestGuess": "Nickelback — What Are You Waiting For?",
     "bestGuessId": "3k2NjPZsPrvWL55MVcqm4o"
   },
@@ -1702,7 +1702,7 @@
   },
   "03333d5e-c-c-haudvaikne": {
     "id": null,
-    "confidence": 0.295,
+    "confidence": 0.03,
     "bestGuess": "EiK 2509, Mari Jürjens — HEAD VAIMUD",
     "bestGuessId": "4c5HWLAQUi31ZHi0sU7kSG"
   },
@@ -1734,7 +1734,7 @@
   },
   "127c756b-marmormaze-koeramoodi": {
     "id": null,
-    "confidence": 0.195,
+    "confidence": 0.02,
     "bestGuess": "Smilers — Kõik mängu",
     "bestGuessId": "1i9xRr6ZPHKX67sfGDUNws"
   },
@@ -1866,7 +1866,7 @@
   },
   "68d262e1-fuzzolini-beauty-exist-in-every-one": {
     "id": null,
-    "confidence": 0.45,
+    "confidence": 0.07,
     "bestGuess": "Beth Peterson — Beauty",
     "bestGuessId": "0c6tpvgaOqzCfUsAjn3C8U"
   },
@@ -1897,9 +1897,9 @@
   },
   "a68b491a-mario-kaks-silma-kinni": {
     "id": null,
-    "confidence": 0.244,
-    "bestGuess": "Sõpruse Puiestee — Kaks Meest",
-    "bestGuessId": "19dYLXeCM6kdWML7km0qcF"
+    "confidence": 0.196,
+    "bestGuess": "Karl-Erik Taukar — Silmad pärani kinni",
+    "bestGuessId": "45GJmcFYh1hxHxwdg5KBQm"
   },
   "a68b491a-omar-s-something-real": {
     "id": "6OV3OoCZVWHkEq95E5pbwB",
@@ -1962,7 +1962,7 @@
   },
   "c4d6132b-jarek-kasar-endrofiin-fagin": {
     "id": null,
-    "confidence": 0.173,
+    "confidence": 0.017,
     "bestGuess": "Luke Varis — Enduring Memory",
     "bestGuessId": "7rO7aD7m2qHcvUSNlwFPea"
   },

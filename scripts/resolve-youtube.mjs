@@ -14,12 +14,13 @@ import fs from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { paths } from './lib/paths.mjs';
 import { requireEnv } from './lib/env.mjs';
-import { CONFIDENCE_THRESHOLD, pickBest } from './lib/match.mjs';
+import { CONFIDENCE_THRESHOLD, decodeHtmlEntities, pickBest } from './lib/match.mjs';
 
+/** Üks search.list päring maksab 100 ühikut päevasest 10 000-st. */
 const SEARCH_COST = 100;
 const DAILY_QUOTA = 10_000;
-/** Varu, et muud tegevused kvooti üle ei ajaks. */
-const DEFAULT_DAILY_SEARCHES = 90;
+/** Jätame veidi varu, et muud tegevused kvooti üle ei ajaks. */
+const DEFAULT_DAILY_SEARCHES = Math.floor(DAILY_QUOTA / SEARCH_COST) - 10;
 
 const args = process.argv.slice(2);
 const retryFailed = args.includes('--retry-failed');
@@ -37,7 +38,8 @@ async function readJson(file, fallback) {
 const NOISE = /\s*[([]?\s*\b(official\s+(music\s+)?(video|audio|visualizer|lyric\s+video)?|official|lyrics?|lyric\s+video|audio|visualizer|music\s+video|hd|hq|4k|full\s+album|with\s+lyrics|out\s+now|premiere)\b[^)\]]*[)\]]?\s*/gi;
 
 function cleanTitle(s) {
-  return String(s ?? '')
+  // Olemid enne müra eemaldamist — muidu jääks &#39; pealkirja sisse.
+  return decodeHtmlEntities(s)
     .replace(NOISE, ' ')
     .replace(/\s*\|\s*$/, '')
     .replace(/\s{2,}/g, ' ')
@@ -55,7 +57,7 @@ function toCandidates(item) {
   if (!videoId) return [];
 
   const rawTitle = cleanTitle(item.snippet?.title ?? '');
-  const channel = (item.snippet?.channelTitle ?? '').replace(/\s*-\s*Topic$/i, '').trim();
+  const channel = decodeHtmlEntities(item.snippet?.channelTitle ?? '').replace(/\s*-\s*Topic$/i, '').trim();
 
   const out = [{ id: videoId, title: rawTitle, artists: [channel].filter(Boolean) }];
 
@@ -85,7 +87,8 @@ async function search(apiKey, song) {
       maxResults: '10',
     });
 
-  const res = await fetch(url);
+  // Ajapiirang: vastuseta päring ei tohi kogu käiku kinni panna.
+  const res = await fetch(url, { signal: AbortSignal.timeout(20_000) });
   if (res.status === 403) {
     const body = await res.json().catch(() => ({}));
     const reason = body?.error?.errors?.[0]?.reason ?? '';

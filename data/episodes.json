@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T22:52:22.813Z",
+  "generatedAt": "2026-08-22T23:26:30.038Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -19,7 +19,7 @@
     "episodes": 91,
     "songs": 376,
     "withSpotify": 339,
-    "withYoutube": 0
+    "withYoutube": 71
   },
   "episodes": [
     {
@@ -48,7 +48,7 @@
           "note": null,
           "id": "51067548-an-marlen-tahtede-eest",
           "spotifyId": "4PtTBY7WI6fLot8TpXhENb",
-          "youtubeId": null,
+          "youtubeId": "9LP6jTlkXV8",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/An-Marlen%20Kermo%20Murel%20T%C3%A4htede%20eest",
             "youtube": "https://www.youtube.com/results?search_query=An-Marlen%20Kermo%20Murel%20T%C3%A4htede%20eest",
@@ -65,7 +65,7 @@
           "note": "albumilt „Neetud Ühiskond vol 2”",
           "id": "51067548-skizo-2katt",
           "spotifyId": "7gQn06gUwe4sqVwvWC0ptR",
-          "youtubeId": null,
+          "youtubeId": "TXSvekvKUUA",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/SKIZ%C3%98%202k%C3%A4tt",
             "youtube": "https://www.youtube.com/results?search_query=SKIZ%C3%98%202k%C3%A4tt",
@@ -135,7 +135,7 @@
           "note": null,
           "id": "c71831ba-bombillaz-saadame-siili-aafrikasse",
           "spotifyId": "6ayjP9f0ECGULixum0wbbS",
-          "youtubeId": null,
+          "youtubeId": "9bQ7p2Avk2M",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bombillaz%20Saadame%20siili%20Aafrikasse",
             "youtube": "https://www.youtube.com/results?search_query=Bombillaz%20Saadame%20siili%20Aafrikasse",
@@ -152,7 +152,7 @@
           "note": null,
           "id": "c71831ba-nomi-sweet-talk",
           "spotifyId": "5stCKPzR4uSF3Sr5aJS60Y",
-          "youtubeId": null,
+          "youtubeId": "RvB-vqNVGck",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Nomi.%20Sweet%20Talk",
             "youtube": "https://www.youtube.com/results?search_query=Nomi.%20Sweet%20Talk",
@@ -185,7 +185,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c71831ba-romare-computer-blue",
-          "spotifyId": "7jbse8nX2uQPctfhgCZ0HX",
+          "spotifyId": null,
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Romare%20Computer%20Blue",
@@ -220,7 +220,7 @@
           "note": null,
           "id": "c319ff35-koit-toome-ma-pogenen",
           "spotifyId": "6orFAHUqnqYW1BcGvZcfhE",
-          "youtubeId": null,
+          "youtubeId": "CK7ZQ8i0mJc",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Koit%20Toome%20Ma%20p%C3%B5genen",
             "youtube": "https://www.youtube.com/results?search_query=Koit%20Toome%20Ma%20p%C3%B5genen",
@@ -237,7 +237,7 @@
           "note": null,
           "id": "c319ff35-drake-janice-stfu",
           "spotifyId": "514joG57v4yKTsfQmz7stz",
-          "youtubeId": null,
+          "youtubeId": "SD4yRDY9mek",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Drake%20Janice%20STFU",
             "youtube": "https://www.youtube.com/results?search_query=Drake%20Janice%20STFU",
@@ -254,7 +254,7 @@
           "note": null,
           "id": "c319ff35-liisi-koikson-endaga-vii",
           "spotifyId": "6R0kLdQAfcLHKRZjmneIm2",
-          "youtubeId": null,
+          "youtubeId": "GhqSzYIPV1o",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Liisi%20Koikson%20Endaga%20vii",
             "youtube": "https://www.youtube.com/results?search_query=Liisi%20Koikson%20Endaga%20vii",
@@ -271,7 +271,7 @@
           "note": null,
           "id": "c319ff35-bts-swim",
           "spotifyId": "68lbSrXDORS51pmyjZv712",
-          "youtubeId": null,
+          "youtubeId": "q-UL8XyVD2w",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/BTS%20Swim",
             "youtube": "https://www.youtube.com/results?search_query=BTS%20Swim",
@@ -340,7 +340,7 @@
           "note": null,
           "id": "d06dc046-skizo-etteaste",
           "spotifyId": "0NwTFKAUm1ref1POyxMSOr",
-          "youtubeId": null,
+          "youtubeId": "EozQPlsLfkg",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Skizo%20Benakanister%20Etteaste",
             "youtube": "https://www.youtube.com/results?search_query=Skizo%20Benakanister%20Etteaste",
@@ -357,7 +357,7 @@
           "note": null,
           "id": "d06dc046-chassol-rude-crude-lude",
           "spotifyId": "63VHIVT2JODmfnGU3rscQ3",
-          "youtubeId": null,
+          "youtubeId": "KgEQPko1pJc",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Chassol%20Rude%20Crude%20Lude",
             "youtube": "https://www.youtube.com/results?search_query=Chassol%20Rude%20Crude%20Lude",
@@ -393,7 +393,7 @@
           "note": null,
           "id": "4d543f2a-prodigyboys-sport",
           "spotifyId": "3jFujL3krU5lruzpjI0eae",
-          "youtubeId": null,
+          "youtubeId": "mCQhzONCQqE",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Prodigyboys%20Sport",
             "youtube": "https://www.youtube.com/results?search_query=Prodigyboys%20Sport",
@@ -410,7 +410,7 @@
           "note": null,
           "id": "4d543f2a-salem-kin",
           "spotifyId": "7jKrHMjQuqMPj3Nvp9H9i9",
-          "youtubeId": null,
+          "youtubeId": "VT9U6IbNm-M",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Salem%20Kin",
             "youtube": "https://www.youtube.com/results?search_query=Salem%20Kin",
@@ -427,7 +427,7 @@
           "note": null,
           "id": "4d543f2a-simone-minn-tahtsin-ainult-oelda-sul",
           "spotifyId": "2JhE7qSfCBt9hlRn8Bxf4B",
-          "youtubeId": null,
+          "youtubeId": "xDKjRKuQrAk",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Simone%20Minn%20Tahtsin%20ainult%20%C3%B6elda%20sul",
             "youtube": "https://www.youtube.com/results?search_query=Simone%20Minn%20Tahtsin%20ainult%20%C3%B6elda%20sul",
@@ -446,7 +446,7 @@
           "note": null,
           "id": "4d543f2a-the-avalanches-ft-nikki-nair-together",
           "spotifyId": "0iYNsh3PU3BaRLtijklDM1",
-          "youtubeId": null,
+          "youtubeId": "KSa1zsPcj8w",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Avalanches%20ft%20Nikki%20Nair%20Jessy%20Lanza%20Prentiss%20Together",
             "youtube": "https://www.youtube.com/results?search_query=The%20Avalanches%20ft%20Nikki%20Nair%20Jessy%20Lanza%20Prentiss%20Together",
@@ -483,7 +483,7 @@
           "note": null,
           "id": "3b8b51d7-onyx-kah-mul-asi",
           "spotifyId": "6CSyc1n6UH49U4PKbMqevJ",
-          "youtubeId": null,
+          "youtubeId": "SgrlP8QCnkA",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/ONYX%20pluuto%20Kah%20mul%20asi",
             "youtube": "https://www.youtube.com/results?search_query=ONYX%20pluuto%20Kah%20mul%20asi",
@@ -500,7 +500,7 @@
           "note": null,
           "id": "3b8b51d7-boards-of-canada-prophecy-at-1420-mhz",
           "spotifyId": "4CpyZQzwxCzQPiUTvlOBrn",
-          "youtubeId": null,
+          "youtubeId": "I2FKjdfQw78",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Boards%20of%20Canada%20Prophecy%20at%201420%20Mhz",
             "youtube": "https://www.youtube.com/results?search_query=Boards%20of%20Canada%20Prophecy%20at%201420%20Mhz",
@@ -519,7 +519,7 @@
           "note": null,
           "id": "3b8b51d7-adel-force-be-cool",
           "spotifyId": "45tqDLpCKFhqOgS6tcuWVa",
-          "youtubeId": null,
+          "youtubeId": "WnfT5pwz-Wo",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Adel%20Force%20Breakfake%20Q100%20Be%20Cool",
             "youtube": "https://www.youtube.com/results?search_query=Adel%20Force%20Breakfake%20Q100%20Be%20Cool",
@@ -570,7 +570,7 @@
           "note": null,
           "id": "19717d8f-florian-wahl-timofei-chalamet",
           "spotifyId": "5zAkutSH0KhOMRiCIf913s",
-          "youtubeId": null,
+          "youtubeId": "La0PT9-moNI",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Florian%20Wahl%20TIMOFEI%20CHALAMET",
             "youtube": "https://www.youtube.com/results?search_query=Florian%20Wahl%20TIMOFEI%20CHALAMET",
@@ -590,7 +590,7 @@
           "note": null,
           "id": "19717d8f-skrillex-smoke",
           "spotifyId": "0shd35qg34N2zlEMv1BbhY",
-          "youtubeId": null,
+          "youtubeId": "moROwWRsmKU",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Skrillex%20ISOxo%20Cristale%20TeeZandos%20Smoke",
             "youtube": "https://www.youtube.com/results?search_query=Skrillex%20ISOxo%20Cristale%20TeeZandos%20Smoke",
@@ -624,7 +624,7 @@
           "note": null,
           "id": "19717d8f-vince-staples-blackberry-marmelade",
           "spotifyId": "2QOTLNlbpsTJq074uw3yLY",
-          "youtubeId": null,
+          "youtubeId": "qdcD99Pd0oo",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vince%20Staples%20Blackberry%20Marmelade",
             "youtube": "https://www.youtube.com/results?search_query=Vince%20Staples%20Blackberry%20Marmelade",
@@ -675,7 +675,7 @@
           "note": null,
           "id": "37bb174f-madonna-i-feel-so-free",
           "spotifyId": "5GNDe5JmNKP3OThhyXgx5S",
-          "youtubeId": null,
+          "youtubeId": "Zx83eVfP64A",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Madonna%20I%20Feel%20So%20Free",
             "youtube": "https://www.youtube.com/results?search_query=Madonna%20I%20Feel%20So%20Free",
@@ -709,7 +709,7 @@
           "note": null,
           "id": "37bb174f-smerz-spring-summer",
           "spotifyId": "3lKB7OuBglrz7Pjpe0e3sk",
-          "youtubeId": null,
+          "youtubeId": "9SicIk_sF7k",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Smerz%20Spring%20Summer",
             "youtube": "https://www.youtube.com/results?search_query=Smerz%20Spring%20Summer",
@@ -744,7 +744,7 @@
           "note": null,
           "id": "d73035d0-suurell-metafoorid",
           "spotifyId": "5qTTHQMdiFSFZLaxmvb1HS",
-          "youtubeId": null,
+          "youtubeId": "um1JHY_zJ-o",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/SuurEll%20miauf%20Metafoorid",
             "youtube": "https://www.youtube.com/results?search_query=SuurEll%20miauf%20Metafoorid",
@@ -762,7 +762,7 @@
           "note": null,
           "id": "d73035d0-dean-blunt-478-freestyle",
           "spotifyId": "6vzGpryGBxgf4HxFRElj0i",
-          "youtubeId": null,
+          "youtubeId": "_zlsGKreWsI",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Dean%20Blunt%20Celeste%20478%20freestyle",
             "youtube": "https://www.youtube.com/results?search_query=Dean%20Blunt%20Celeste%20478%20freestyle",
@@ -779,7 +779,7 @@
           "note": null,
           "id": "d73035d0-marco-tasane-eesti-jumalanna",
           "spotifyId": "6bfqwho4fahPe0EDAKEpCj",
-          "youtubeId": null,
+          "youtubeId": "XXlMgAqtI-U",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Marco%20Tasane%20Eesti%20jumalanna",
             "youtube": "https://www.youtube.com/results?search_query=Marco%20Tasane%20Eesti%20jumalanna",
@@ -796,7 +796,7 @@
           "note": null,
           "id": "d73035d0-oneohtrix-point-never-dim-stars",
           "spotifyId": "4uXMT0xoObBj422bkwOnXv",
-          "youtubeId": null,
+          "youtubeId": "j7pahoxIcOU",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Oneohtrix%20Point%20Never%20Dim%20Stars",
             "youtube": "https://www.youtube.com/results?search_query=Oneohtrix%20Point%20Never%20Dim%20Stars",
@@ -830,7 +830,7 @@
           "note": null,
           "id": "2700db98-olev-muska-chastushka-ii",
           "spotifyId": "7lXJ93HDanC6If8OhWcP72",
-          "youtubeId": null,
+          "youtubeId": "iA5nYbteOKQ",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Olev%20Muska%20Chastushka%20II",
             "youtube": "https://www.youtube.com/results?search_query=Olev%20Muska%20Chastushka%20II",
@@ -847,7 +847,7 @@
           "note": null,
           "id": "2700db98-the-strokes-going-shopping",
           "spotifyId": "18bHbpAKgsf8dor8F6qXHF",
-          "youtubeId": null,
+          "youtubeId": "4u3iI1WuU0k",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Strokes%20Going%20Shopping",
             "youtube": "https://www.youtube.com/results?search_query=The%20Strokes%20Going%20Shopping",
@@ -864,7 +864,7 @@
           "note": null,
           "id": "2700db98-raul-go3",
           "spotifyId": "7BJ3hpt4VjdYGPajcJ3RIC",
-          "youtubeId": null,
+          "youtubeId": "1JFGU-DZekY",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Raul%20Go3",
             "youtube": "https://www.youtube.com/results?search_query=Raul%20Go3",
@@ -881,7 +881,7 @@
           "note": null,
           "id": "2700db98-laufey-madwoman",
           "spotifyId": "0UqHzMvRQnaOXEPKgFVhxN",
-          "youtubeId": null,
+          "youtubeId": "yNa8jP4zoJo",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Laufey%20Madwoman",
             "youtube": "https://www.youtube.com/results?search_query=Laufey%20Madwoman",
@@ -917,7 +917,7 @@
           "note": null,
           "id": "762d405c-pitsa-alitalia-sinuga-ta-jaab",
           "spotifyId": "4y4lQrePp3w8ASjXg3x8un",
-          "youtubeId": null,
+          "youtubeId": "i88XNNNcPCI",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Pitsa%20alitalia%20(sinuga%20ta%20j%C3%A4%C3%A4b)",
             "youtube": "https://www.youtube.com/results?search_query=Pitsa%20alitalia%20(sinuga%20ta%20j%C3%A4%C3%A4b)",
@@ -934,7 +934,7 @@
           "note": null,
           "id": "762d405c-ye-ft-ceelo-green-bully",
           "spotifyId": "6KhDb86ThnlKirRw1UBZGb",
-          "youtubeId": null,
+          "youtubeId": "8oIJjFhdCNM",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Ye%20ft%20CeeLo%20Green%20Bully",
             "youtube": "https://www.youtube.com/results?search_query=Ye%20ft%20CeeLo%20Green%20Bully",
@@ -951,7 +951,7 @@
           "note": null,
           "id": "762d405c-freak-street-pahupidi-ring",
           "spotifyId": "2a50Rj6m0nAxC8pDxAfMQ7",
-          "youtubeId": null,
+          "youtubeId": "R-PNb-3_p4A",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Freak%20Street%20Pahupidi%20ring",
             "youtube": "https://www.youtube.com/results?search_query=Freak%20Street%20Pahupidi%20ring",
@@ -968,7 +968,7 @@
           "note": null,
           "id": "762d405c-funk-tribu-shock",
           "spotifyId": "3YHiBixRDP48H41xjzD8J7",
-          "youtubeId": null,
+          "youtubeId": "PrFfhnIlwzQ",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Funk%20Tribu%20Shock",
             "youtube": "https://www.youtube.com/results?search_query=Funk%20Tribu%20Shock",
@@ -1004,7 +1004,7 @@
           "note": null,
           "id": "32820b14-maria-kallastu-kus-magab-armastus",
           "spotifyId": "4FQcRRELC6cC4Dr3omHjoT",
-          "youtubeId": null,
+          "youtubeId": "Kdj9P36eRaw",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/maria%20kallastu%20kus%20magab%20armastus",
             "youtube": "https://www.youtube.com/results?search_query=maria%20kallastu%20kus%20magab%20armastus",
@@ -1021,7 +1021,7 @@
           "note": null,
           "id": "32820b14-robyn-sucker-for-love",
           "spotifyId": "5O8GYy3zDYonQno0UWYc9n",
-          "youtubeId": null,
+          "youtubeId": "uzf2OP1mvHY",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Robyn%20Sucker%20For%20Love",
             "youtube": "https://www.youtube.com/results?search_query=Robyn%20Sucker%20For%20Love",
@@ -1038,7 +1038,7 @@
           "note": null,
           "id": "32820b14-luurel-varas-standoff",
           "spotifyId": "4DohCwlifJ4I2zmZ7VsXzP",
-          "youtubeId": null,
+          "youtubeId": "sKiILmobUSI",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Luurel%20Varas%20Standoff",
             "youtube": "https://www.youtube.com/results?search_query=Luurel%20Varas%20Standoff",
@@ -1055,7 +1055,7 @@
           "note": null,
           "id": "32820b14-jessie-ware-automatic",
           "spotifyId": "3rtCZDdLpyeEp556iUzIli",
-          "youtubeId": null,
+          "youtubeId": "y35H9XrTpfE",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jessie%20Ware%20Automatic",
             "youtube": "https://www.youtube.com/results?search_query=Jessie%20Ware%20Automatic",
@@ -1089,7 +1089,7 @@
           "note": null,
           "id": "04293800-tommy-cash-figaro",
           "spotifyId": "2yOEbf5kU9yQ5LtLLPHVGc",
-          "youtubeId": null,
+          "youtubeId": "z6ZIrhsuJp8",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Tommy%20Cash%20Figaro",
             "youtube": "https://www.youtube.com/results?search_query=Tommy%20Cash%20Figaro",
@@ -1123,7 +1123,7 @@
           "note": null,
           "id": "04293800-lotey-puhas-valge-sark",
           "spotifyId": "12U4YfKp5sNxjXBNfH0AL9",
-          "youtubeId": null,
+          "youtubeId": "lZQkQ3JxZVU",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lotey%20Puhas%20valge%20s%C3%A4rk",
             "youtube": "https://www.youtube.com/results?search_query=Lotey%20Puhas%20valge%20s%C3%A4rk",
@@ -1192,7 +1192,7 @@
           "note": null,
           "id": "9ff7f5d7-james-blake-days-go-by",
           "spotifyId": "1C9GkHC3DzV47cVCvvHlnw",
-          "youtubeId": null,
+          "youtubeId": "2ZK4z36p7mQ",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/James%20Blake%20Days%20Go%20By",
             "youtube": "https://www.youtube.com/results?search_query=James%20Blake%20Days%20Go%20By",
@@ -1209,7 +1209,7 @@
           "note": null,
           "id": "9ff7f5d7-leslie-da-bass-viimasena-peol",
           "spotifyId": "48ZU7ywgfvXbbde6c5gr17",
-          "youtubeId": null,
+          "youtubeId": "LEkxAPoH8-0",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Leslie%20Da%20Bass%20Viimasena%20peol",
             "youtube": "https://www.youtube.com/results?search_query=Leslie%20Da%20Bass%20Viimasena%20peol",
@@ -1226,7 +1226,7 @@
           "note": null,
           "id": "9ff7f5d7-new-age-doom-we-re-all-the-same",
           "spotifyId": "1E8gfuI7N9TAESRTzqaJBJ",
-          "youtubeId": null,
+          "youtubeId": "DNotodH2Kb4",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/New%20Age%20Doom%20We%E2%80%99re%20All%20The%20Same",
             "youtube": "https://www.youtube.com/results?search_query=New%20Age%20Doom%20We%E2%80%99re%20All%20The%20Same",
@@ -1262,7 +1262,7 @@
           "note": null,
           "id": "a30b7b2f-qotid-kus-sa-lahed",
           "spotifyId": "3d2zU6yRwF2mbtUBO5V7Q6",
-          "youtubeId": null,
+          "youtubeId": "OFccpKn5448",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Qotid%20Kus%20sa%20l%C3%A4hed%3F",
             "youtube": "https://www.youtube.com/results?search_query=Qotid%20Kus%20sa%20l%C3%A4hed%3F",
@@ -1280,7 +1280,7 @@
           "note": null,
           "id": "a30b7b2f-juice-wrld-we-don-t-get-along",
           "spotifyId": "2XhatQ5NqfdqZMLCegWnbD",
-          "youtubeId": null,
+          "youtubeId": "4qevrSuB70s",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Juice%20WRLD%20Marshmello%20We%20Don%E2%80%99t%20Get%20Along",
             "youtube": "https://www.youtube.com/results?search_query=Juice%20WRLD%20Marshmello%20We%20Don%E2%80%99t%20Get%20Along",
@@ -1297,7 +1297,7 @@
           "note": null,
           "id": "a30b7b2f-sibyl-vane-can-t-keep-it-together",
           "spotifyId": "4r2SApYMZnlW9c7nKyfQEp",
-          "youtubeId": null,
+          "youtubeId": "9kJ76qrmfBE",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Sibyl%20Vane%20Can%E2%80%99t%20Keep%20It%20Together",
             "youtube": "https://www.youtube.com/results?search_query=Sibyl%20Vane%20Can%E2%80%99t%20Keep%20It%20Together",
@@ -1314,7 +1314,7 @@
           "note": null,
           "id": "a30b7b2f-morrissey-lester-bangs",
           "spotifyId": "2cSM8lDuJo5JmFgOKMV3zO",
-          "youtubeId": null,
+          "youtubeId": "Vvzd9G_JX8Y",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Morrissey%20Lester%20Bangs",
             "youtube": "https://www.youtube.com/results?search_query=Morrissey%20Lester%20Bangs",
@@ -1366,7 +1366,7 @@
           "note": null,
           "id": "40f1de08-bruno-mars-cha-cha-cha",
           "spotifyId": "6QletrrmpkUpeJkipX9pgf",
-          "youtubeId": null,
+          "youtubeId": "l38Aru5jICw",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bruno%20Mars%20Cha%20Cha%20Cha",
             "youtube": "https://www.youtube.com/results?search_query=Bruno%20Mars%20Cha%20Cha%20Cha",
@@ -1383,7 +1383,7 @@
           "note": null,
           "id": "40f1de08-kadri-voorand-tunnistus",
           "spotifyId": "6owhxfx7tsyMGczOCdDzza",
-          "youtubeId": null,
+          "youtubeId": "D2sg18QLhpo",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kadri%20Voorand%20Tunnistus",
             "youtube": "https://www.youtube.com/results?search_query=Kadri%20Voorand%20Tunnistus",
@@ -1400,7 +1400,7 @@
           "note": null,
           "id": "40f1de08-jill-scott-ft-too-hort-bpty",
           "spotifyId": "3VC2OG45kkdykebomK6Eus",
-          "youtubeId": null,
+          "youtubeId": "PYrz0gymfao",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jill%20Scott%20ft%20Too%20%24hort%20BPTY",
             "youtube": "https://www.youtube.com/results?search_query=Jill%20Scott%20ft%20Too%20%24hort%20BPTY",
@@ -1434,7 +1434,7 @@
           "note": null,
           "id": "2d7441fe-florian-wahl-miks-me-hurdime",
           "spotifyId": "7tY6JcCgSEtNjlWBPwwPzb",
-          "youtubeId": null,
+          "youtubeId": "s21olRDhYMs",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Florian%20Wahl%20Miks%20me%20hurdime",
             "youtube": "https://www.youtube.com/results?search_query=Florian%20Wahl%20Miks%20me%20hurdime",
@@ -1451,7 +1451,7 @@
           "note": null,
           "id": "2d7441fe-lana-del-rey-white-feather-hawk-tall-deer-hunter",
           "spotifyId": "7IM4xK4W4n06UAV48ZXMup",
-          "youtubeId": null,
+          "youtubeId": "S1stZOAIcW4",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lana%20Del%20Rey%20White%20Feather%20Hawk%20Tall%20Deer%20Hunter",
             "youtube": "https://www.youtube.com/results?search_query=Lana%20Del%20Rey%20White%20Feather%20Hawk%20Tall%20Deer%20Hunter",
@@ -1468,7 +1468,7 @@
           "note": null,
           "id": "2d7441fe-hanakiv-lastele",
           "spotifyId": "2xx1BA81SoPDLd9fPks79j",
-          "youtubeId": null,
+          "youtubeId": "VvNpTLMnkmc",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Hanakiv%20Lastele",
             "youtube": "https://www.youtube.com/results?search_query=Hanakiv%20Lastele",
@@ -1485,7 +1485,7 @@
           "note": null,
           "id": "2d7441fe-foo-fighters-your-favourite-toy",
           "spotifyId": "0L9RHQ6I91En6Ic1ILQAEF",
-          "youtubeId": null,
+          "youtubeId": "Lgy4a0tXz7M",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Foo%20Fighters%20Your%20Favourite%20Toy",
             "youtube": "https://www.youtube.com/results?search_query=Foo%20Fighters%20Your%20Favourite%20Toy",
@@ -1537,7 +1537,7 @@
           "note": null,
           "id": "27eae26f-charli-xcx-always-everywhere",
           "spotifyId": "6fGapufucZHPva1kvCqceA",
-          "youtubeId": null,
+          "youtubeId": "coCrrHqLQko",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Charli%20xcx%20Always%20Everywhere",
             "youtube": "https://www.youtube.com/results?search_query=Charli%20xcx%20Always%20Everywhere",
@@ -1554,7 +1554,7 @@
           "note": null,
           "id": "27eae26f-majaka-mandela-tossud",
           "spotifyId": "2qVEhOtj70CuOqnKT3CdiN",
-          "youtubeId": null,
+          "youtubeId": "DagGnNIhlEo",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Majaka%20Mandela%20Tossud",
             "youtube": "https://www.youtube.com/results?search_query=Majaka%20Mandela%20Tossud",
@@ -1571,7 +1571,7 @@
           "note": null,
           "id": "27eae26f-paul-anka-anytime",
           "spotifyId": "6vFBwtkILLW7FiNGkY9w2t",
-          "youtubeId": null,
+          "youtubeId": "pdYDe0NksyE",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Paul%20Anka%20Anytime",
             "youtube": "https://www.youtube.com/results?search_query=Paul%20Anka%20Anytime",
@@ -1605,7 +1605,7 @@
           "note": null,
           "id": "4015a542-an-marlen-sudame-jargi",
           "spotifyId": "0Ib0vNZxTbhNJWUukjNNSu",
-          "youtubeId": null,
+          "youtubeId": "zPEbNIeDEbI",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/An-Marlen%20S%C3%BCdame%20j%C3%A4rgi",
             "youtube": "https://www.youtube.com/results?search_query=An-Marlen%20S%C3%BCdame%20j%C3%A4rgi",
@@ -1622,7 +1622,7 @@
           "note": null,
           "id": "4015a542-sombr-homewrecker",
           "spotifyId": "7tICCrK3CcyRFKza7yrR0z",
-          "youtubeId": null,
+          "youtubeId": "mQezde_qeXw",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Sombr%20Homewrecker",
             "youtube": "https://www.youtube.com/results?search_query=Sombr%20Homewrecker",
@@ -1639,7 +1639,7 @@
           "note": null,
           "id": "4015a542-oopus-hanemang",
           "spotifyId": "32XFoFdn1znjXrzOhf3vve",
-          "youtubeId": null,
+          "youtubeId": "Xz0zQwHzYMo",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Oopus%20Hanem%C3%A4ng",
             "youtube": "https://www.youtube.com/results?search_query=Oopus%20Hanem%C3%A4ng",
@@ -1656,7 +1656,7 @@
           "note": null,
           "id": "4015a542-morrissey-notre-dam",
           "spotifyId": "0M1ZsqJ3tJTbiHKWenjnYM",
-          "youtubeId": null,
+          "youtubeId": "Q44JiUwa2Xg",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Morrissey%20Notre%20Dam",
             "youtube": "https://www.youtube.com/results?search_query=Morrissey%20Notre%20Dam",
@@ -1690,7 +1690,7 @@
           "note": null,
           "id": "e505c599-jarek-kasar-olen-terve-elu-s88nud-v6ileiba-valel",
           "spotifyId": "6Wm5UGCtgejcuj8HyDc5LQ",
-          "youtubeId": null,
+          "youtubeId": "V082YHtAJfg",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jarek%20Kasar%20Olen%20terve%20elu%20s88nud%20v6ileiba%20valelt%20poolt",
             "youtube": "https://www.youtube.com/results?search_query=Jarek%20Kasar%20Olen%20terve%20elu%20s88nud%20v6ileiba%20valelt%20poolt",
@@ -1707,7 +1707,7 @@
           "note": null,
           "id": "e505c599-harry-styles-aperture",
           "spotifyId": "45Z3m6yazmAi4jZuW0tzW0",
-          "youtubeId": null,
+          "youtubeId": "7sxVHYZ_PnA",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Harry%20Styles%20Aperture",
             "youtube": "https://www.youtube.com/results?search_query=Harry%20Styles%20Aperture",
@@ -1724,7 +1724,7 @@
           "note": null,
           "id": "e505c599-a-ap-rocky-punk-rocky",
           "spotifyId": "1AXsHbdIYx2OyKmdOcIL5T",
-          "youtubeId": null,
+          "youtubeId": "lCp0BmcFPQ8",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/A%24AP%20Rocky%20Punk%20Rocky",
             "youtube": "https://www.youtube.com/results?search_query=A%24AP%20Rocky%20Punk%20Rocky",
@@ -1778,7 +1778,7 @@
           "note": null,
           "id": "4b8b3c35-bruce-springsteen-streets-of-minneapolis",
           "spotifyId": "6AtgHxdvghUjcjdPX1VhWN",
-          "youtubeId": null,
+          "youtubeId": "GDaPdpwA4Iw",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bruce%20Springsteen%20Streets%20of%20Minneapolis",
             "youtube": "https://www.youtube.com/results?search_query=Bruce%20Springsteen%20Streets%20of%20Minneapolis",
@@ -1795,7 +1795,7 @@
           "note": null,
           "id": "4b8b3c35-fuzzolini-twilight-haze",
           "spotifyId": "5bvxExQplU3c9LYVAwFSCg",
-          "youtubeId": null,
+          "youtubeId": "djb1q6JtdW4",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Fuzzolini%20Twilight%20Haze",
             "youtube": "https://www.youtube.com/results?search_query=Fuzzolini%20Twilight%20Haze",
@@ -1814,7 +1814,7 @@
           "note": null,
           "id": "4b8b3c35-thundercat-i-did-this-to-myself",
           "spotifyId": "7fJM4XjW6m30iPxPxKeGpb",
-          "youtubeId": null,
+          "youtubeId": "RFsFfwiRxe0",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Thundercat%20Lil%20Yachty%20Flying%20Lotus%20I%20Did%20This%20To%20Myself",
             "youtube": "https://www.youtube.com/results?search_query=Thundercat%20Lil%20Yachty%20Flying%20Lotus%20I%20Did%20This%20To%20Myself",
@@ -1865,7 +1865,7 @@
           "note": null,
           "id": "16e70f0c-vaiko-eplik-kuningas",
           "spotifyId": "16XLU145WzAE8y0rhQGyGq",
-          "youtubeId": null,
+          "youtubeId": "V1t0OIjsBIA",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vaiko%20Eplik%20Kuningas",
             "youtube": "https://www.youtube.com/results?search_query=Vaiko%20Eplik%20Kuningas",
@@ -1899,7 +1899,7 @@
           "note": null,
           "id": "16e70f0c-margiiela-ilus-paev",
           "spotifyId": "5DRuLCH2Kh044yHkVDgGP1",
-          "youtubeId": null,
+          "youtubeId": "oDp5PVod09s",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/margiiela%20ilus%20p%C3%A4ev",
             "youtube": "https://www.youtube.com/results?search_query=margiiela%20ilus%20p%C3%A4ev",
@@ -1933,7 +1933,7 @@
           "note": null,
           "id": "16e70f0c-turnstile-i-care",
           "spotifyId": "7KVIuHxbV5lvBE5Vyiw8FC",
-          "youtubeId": null,
+          "youtubeId": "PnYzk4nsJAo",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Turnstile%20I%20Care",
             "youtube": "https://www.youtube.com/results?search_query=Turnstile%20I%20Care",
@@ -1950,7 +1950,7 @@
           "note": null,
           "id": "16e70f0c-cardiacs-busty-beez",
           "spotifyId": "1Eq0eyg4e5BKZwmhyMVl4H",
-          "youtubeId": null,
+          "youtubeId": "sy4XFSjDtHQ",
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Cardiacs%20Busty%20Beez",
             "youtube": "https://www.youtube.com/results?search_query=Cardiacs%20Busty%20Beez",
@@ -2174,7 +2174,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "28a618cf-tul8te-el-hobo-gany",
-          "spotifyId": null,
+          "spotifyId": "67yheG887FPQXlPRNmoXqz",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/TUL8TE%20El%20Hobo%20Gany",

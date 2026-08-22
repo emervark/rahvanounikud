@@ -125,9 +125,39 @@ shouldMatch('selgitav lisa pealkirja lõpus',
   [{ id: 'oige', title: 'Chastushka II | A Village Party Song II', artists: ['Olev Muska'] }],
   'oige');
 
+shouldReject('eesliide ilma eraldajata ei klapi',
+  song(['Keegi'], 'Summer'),
+  [{ id: 'vale', title: 'Summer Rain', artists: ['Keegi'] }]);
+
 shouldReject('eesliide ei tohi klappida sõna sees',
   song(['Keegi'], 'House'),
   [{ id: 'vale', title: 'Housework', artists: ['Keegi'] }]);
+
+// ── Üks sõna vale = teine lugu, ka kui tähed on sarnased ───────────────────
+shouldReject('Computer Blue ei ole Computer Love',
+  song(['Romare'], 'Computer Blue'),
+  [{ id: 'vale', title: 'Computer Love', artists: ['Romare'] }]);
+
+shouldReject('üks sõna kahest vale',
+  song(['Keegi'], 'Summer Rain'),
+  [{ id: 'vale', title: 'Summer Sun', artists: ['Keegi'] }]);
+
+// ── Kirjaviga meie pool EI tohi vastet ära lõhkuda ─────────────────────────
+shouldMatch('üks puuduv täht on kirjaviga, mitte teine lugu',
+  song(['Jill Scott', 'Too $hort'], 'BPTY'),
+  [{ id: 'oige', title: 'BPOTY (feat. Too $hort)', artists: ['Jill Scott', 'Too $hort'] }],
+  'oige');
+
+// ── Sama tähed, teine sõnajaotus ───────────────────────────────────────────
+shouldMatch('kokkukirjutatud vs lahku',
+  song(['Florian Wahl'], 'FBsõbrad'),
+  [{ id: 'oige', title: 'FB sõbrad', artists: ['Florian Wahl'] }],
+  'oige');
+
+shouldMatch('ülakoma ümber tühik',
+  song(['Beyoncé'], 'TEXAS HOLD’EM'),
+  [{ id: 'oige', title: "TEXAS HOLD 'EM", artists: ['Beyonce'] }],
+  'oige');
 
 // ── Sama pealkiri, vale artist ─────────────────────────────────────────────
 shouldReject('sama pealkiri, täiesti vale artist',

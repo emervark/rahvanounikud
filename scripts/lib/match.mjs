@@ -11,13 +11,28 @@ const DIACRITICS = {
   æ: 'ae', ß: 'ss', ð: 'd', þ: 'th', ł: 'l',
 };
 
+/**
+ * HTML-olemid lahti. YouTube'i API tagastab pealkirjad kodeerituna:
+ * "We&#39;re All The Same". Kodeerimata jätmine lõhub sobitamise.
+ */
+export function decodeHtmlEntities(s) {
+  return String(s ?? '')
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'");
+}
+
 /** Võrdlemiseks: väiketähed, ilma diakriitikuta, ilma kirjavahemärkideta. */
 export function normalize(s) {
   return String(s ?? '')
     .toLowerCase()
     .replace(/[õäöüšžøåæßðþł]/g, (c) => DIACRITICS[c] ?? c)
     .normalize('NFD').replace(/[̀-ͯ]/g, '')
-    .replace(/[''`´]/g, '')
+    // Kõik ülakomad kaovad jäljetult — ka kaarjas ’ (U+2019), mida allikad
+    // kirjutavad segamini sirge ' asemel. Kui üks kaob ja teine muutub tühikuks,
+    // saab "I'm a Man" sõnadeks [im, a, man] ja "I’m a Man" sõnadeks [i, m, a, man].
+    .replace(/[‘’ʼ`´']/g, '')
     .replace(/&/g, ' and ')
     .replace(/[^a-z0-9]+/g, ' ')
     .trim()
@@ -98,6 +113,45 @@ export function similarity(a, b) {
 }
 
 /**
+ * Sõnapõhine sarnasus.
+ *
+ * Levenshtein tervel sõnel alahindab lühikeste pealkirjade puhul ühe sõna
+ * vahetust: "Computer Blue" vs "Computer Love" on märgitasandil 0.77, aga tegu
+ * on eri looga. Sõnade kaupa vaadates on üks sõna kahest täiesti vale.
+ *
+ * Kirjaviga ei tohi aga sama karmilt karistada: "BPTY" vs "BPOTY" on üks
+ * lisatud täht, mitte teine sõna. Seepärast loeb sõna klappivaks siis, kui ta
+ * on märgitasandil piisavalt lähedal.
+ */
+const TOKEN_MATCH = 0.7;
+
+export function tokenSimilarity(a, b) {
+  const x = normalize(a).split(' ').filter(Boolean);
+  const y = normalize(b).split(' ').filter(Boolean);
+  if (x.length === 0 || y.length === 0) return 0;
+
+  const pool = [...y];
+  let matched = 0;
+  for (const token of x) {
+    const idx = pool.findIndex((t) => t === token || similarity(t, token) >= TOKEN_MATCH);
+    if (idx >= 0) { matched++; pool.splice(idx, 1); }
+  }
+  return matched / Math.max(x.length, y.length);
+}
+
+/**
+ * Sama tähed, teine sõnajaotus: "FBsõbrad" vs "FB sõbrad", "HOLD’EM" vs "HOLD 'EM".
+ *
+ * Sõnatasandi võrdlus karistab neid alusetult, sest sõnu on eri arv — aga tegu
+ * on sama pealkirjaga. Tähed ilma tühikuteta klapivad täpselt.
+ */
+export function spacelessEqual(a, b) {
+  const x = normalize(a).replace(/ /g, '');
+  const y = normalize(b).replace(/ /g, '');
+  return x.length > 0 && x === y;
+}
+
+/**
  * Kaasesitaja pealkirja sees: Spotify kirjutab sageli "House featuring John Cale",
  * kui meil on lihtsalt "House". See on esitaja info, mitte pealkirja osa.
  */
@@ -118,9 +172,16 @@ export function isPrefixMatch(a, b) {
   const x = normalize(a);
   const y = normalize(b);
   if (!x || !y || x === y) return false;
-  const [short, long] = x.length < y.length ? [x, y] : [y, x];
-  if (short.length < 4) return false;
-  return long.startsWith(short + ' ');
+
+  const [short, long] = x.length < y.length ? [String(a), String(b)] : [String(b), String(a)];
+  const ns = normalize(short);
+  if (ns.length < 4) return false;
+
+  // Nõuame selget eraldajat, mitte lihtsalt sõnapiiri. Muidu klapiks "Summer"
+  // ka looga "Summer Rain", mis on hoopis teine lugu — samas kui
+  // "Chastushka II | A Village Party Song II" on sama lugu koos tõlkega.
+  const head = long.split(/\s*[|/:–—]\s*|\s+-\s+/)[0];
+  return normalize(head) === ns;
 }
 
 /**
@@ -160,7 +221,20 @@ export function scoreCandidate(song, candidate) {
   // Selgitav lisa pealkirja lõpus: "Chastushka II | A Village Party Song II".
   const titlePrefix = isPrefixMatch(ourSplit.base, theirSplit.base) ? 0.9 : 0;
 
-  const titleScore = Math.max(titleFull, titleBase * 0.95, titleNoFeat * 0.97, titlePrefix);
+  // (charScore arvutatakse allpool eraldi, et eesliide ei satuks karistuse alla)
+
+  // Sõnatasand toimib kaitsena: kui terve sõna on vale, ei aita kõrge
+  // märgisarnasus. Ruutjuur pehmendab mõju, et üksik lisasõna kohe välja ei lööks.
+  const tokenScore = spacelessEqual(ourSplit.base, theirSplit.base) ? 1 : Math.max(
+    tokenSimilarity(song.title, candidate.title),
+    tokenSimilarity(stripFeat(song.title), stripFeat(candidate.title)),
+    tokenSimilarity(ourSplit.base, theirSplit.base),
+  );
+  // Eraldajaga selgitav lisa on tuntud-hea muster, mitte vale sõna — seda
+  // sõnatasandi karistus ei puuduta.
+  const penalized = Math.max(titleFull, titleBase * 0.95, titleNoFeat * 0.97)
+    * Math.sqrt(Math.max(tokenScore, 0.01));
+  const titleScore = Math.max(penalized, titlePrefix);
 
   const artistScore = artistOverlap(song.artists, candidate.artists);
 
