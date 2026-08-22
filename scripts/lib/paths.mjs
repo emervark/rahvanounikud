@@ -12,6 +12,9 @@ export const paths = {
   songIds:      path.join(DATA_DIR, 'song-ids.json'),
   overrides:    path.join(DATA_DIR, 'overrides.json'),
   spotifyCache: path.join(DATA_DIR, 'spotify-cache.json'),
+  spotifyEpisodes: path.join(DATA_DIR, 'spotify-episodes.json'),
   youtubeCache: path.join(DATA_DIR, 'youtube-cache.json'),
   episodes:     path.join(DATA_DIR, 'episodes.json'),
+  // Sama fail frontendile serveerimiseks. Genereeritud, seepärast .gitignore's.
+  webEpisodes:  path.join(ROOT, 'web', 'public', 'episodes.json'),
 };

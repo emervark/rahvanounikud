@@ -1,0 +1,825 @@
+/* ── Disainiteljed ──────────────────────────────────────────────────────────
+   Tume ja meelega ainus teema: muusikasaate leht, mida kuulatakse õhtul.
+   Aktsent on soe (merevaigukollane), sest kogu lehe mõte on number 1–10.
+   ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --bg:            #0b0b0f;
+  --bg-elevated:   #14141b;
+  --bg-hover:      #1c1c26;
+  --line:          #26263340;
+  --line-strong:   #33334a;
+
+  --text:          #f0eef4;
+  --text-muted:    #9a97a8;
+  --text-faint:    #6b6879;
+
+  --accent:        #ffb020;
+  --accent-strong: #ff8a3d;
+  --accent-dim:    #ffb02018;
+
+  --spotify:       #1db954;
+  --youtube:       #ff3d3d;
+  --bandcamp:      #48a2c4;
+
+  --radius:    14px;
+  --radius-sm: 9px;
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --page: 1080px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+a { color: inherit; }
+
+button {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Paigutus ─────────────────────────────────────────────────────────────── */
+
+.page {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Ruum kinnisele mängijale lehe allservas */
+  padding-bottom: var(--player-space, 0);
+}
+
+.app main { flex: 1; padding-bottom: 64px; }
+
+/* ── Päis ─────────────────────────────────────────────────────────────────── */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: #0b0b0fd8;
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  height: 62px;
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand span { color: var(--accent); }
+
+.site-nav {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.site-nav::-webkit-scrollbar { display: none; }
+
+.site-nav a {
+  padding: 7px 13px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 14.5px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: color 0.15s, background 0.15s;
+}
+
+.site-nav a:hover { color: var(--text); background: var(--bg-hover); }
+
+.site-nav a.is-active {
+  color: var(--bg);
+  background: var(--accent);
+  font-weight: 600;
+}
+
+.nav-count {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #ffffff1f;
+  font-size: 11.5px;
+  font-weight: 700;
+  line-height: 17px;
+  vertical-align: 1px;
+}
+
+/* ── Jalus ────────────────────────────────────────────────────────────────── */
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 28px 0 40px;
+  color: var(--text-faint);
+  font-size: 13.5px;
+}
+
+.site-footer p { margin: 0 0 6px; max-width: 62ch; }
+.site-footer a { color: var(--text-muted); }
+
+/* ── Üldised osad ─────────────────────────────────────────────────────────── */
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 18px;
+}
+
+.section-head h2 { font-size: 21px; }
+
+.section-head a {
+  color: var(--text-muted);
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.section-head a:hover { color: var(--accent); }
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 10px;
+}
+
+.muted { color: var(--text-muted); }
+.faint { color: var(--text-faint); }
+
+.empty {
+  padding: 44px 24px;
+  text-align: center;
+  color: var(--text-muted);
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius);
+}
+
+.loading { padding: 80px 0; text-align: center; color: var(--text-faint); }
+
+.error-box {
+  margin: 40px 0;
+  padding: 20px;
+  border: 1px solid #a33;
+  border-radius: var(--radius);
+  background: #a3333314;
+}
+
+/* ── Avaleht ──────────────────────────────────────────────────────────────── */
+
+.hero { padding: 56px 0 44px; border-bottom: 1px solid var(--line); }
+
+.hero h1 {
+  font-size: clamp(32px, 6vw, 52px);
+  max-width: 17ch;
+  margin-bottom: 18px;
+}
+
+.hero h1 em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+.hero p {
+  max-width: 56ch;
+  color: var(--text-muted);
+  font-size: 17px;
+  margin: 0 0 26px;
+}
+
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: transform 0.12s, background 0.15s;
+}
+
+.button:active { transform: translateY(1px); }
+
+.button--primary { background: var(--accent); color: #1a1206; }
+.button--primary:hover { background: var(--accent-strong); }
+
+.button--ghost {
+  border: 1px solid var(--line-strong);
+  color: var(--text);
+}
+
+.button--ghost:hover { background: var(--bg-hover); }
+
+.stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.stat-row div { display: flex; flex-direction: column; }
+
+.stat-row b {
+  font-family: var(--font-display);
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.stat-row span { color: var(--text-faint); font-size: 13.5px; }
+
+.home-section { padding: 44px 0 0; }
+
+/* ── Saatekaardid ─────────────────────────────────────────────────────────── */
+
+.episode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+  gap: 14px;
+}
+
+.episode-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s, transform 0.15s;
+}
+
+.episode-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--line-strong);
+  transform: translateY(-2px);
+}
+
+.episode-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  color: var(--text-faint);
+}
+
+.episode-card__meta .dot { opacity: 0.5; }
+
+.episode-card h3 {
+  font-size: 16px;
+  line-height: 1.32;
+  /* Pealkirjad on väga eri pikkusega — kolm rida hoiab ruudustiku ühtlase */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.episode-card__songs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13.5px;
+  color: var(--text-muted);
+}
+
+.episode-card__songs li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 1.5px 0;
+}
+
+.episode-card__songs b { color: var(--text); font-weight: 500; }
+
+/* ── Loo kaart ────────────────────────────────────────────────────────────── */
+
+.song-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.song-card__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.song-card__title { min-width: 0; }
+
+.song-card__title h3 {
+  font-size: 18px;
+  margin-bottom: 3px;
+  overflow-wrap: anywhere;
+}
+
+.song-card__artist {
+  color: var(--text-muted);
+  font-size: 14.5px;
+  overflow-wrap: anywhere;
+}
+
+.song-card__note {
+  color: var(--text-faint);
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.chooser-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* ── Kuulamislingid ───────────────────────────────────────────────────────── */
+
+.listen-row { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.listen-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text-muted);
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.listen-link:hover { background: var(--bg-hover); color: var(--text); }
+.listen-link--spotify:hover { border-color: var(--spotify); color: var(--spotify); }
+.listen-link--youtube:hover { border-color: var(--youtube); color: var(--youtube); }
+.listen-link--bandcamp:hover { border-color: var(--bandcamp); color: var(--bandcamp); }
+
+.embed-frame {
+  border: none;
+  border-radius: var(--radius-sm);
+  width: 100%;
+  display: block;
+  background: var(--bg-hover);
+}
+
+.embed-toggle {
+  align-self: flex-start;
+  color: var(--text-faint);
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.embed-toggle:hover { color: var(--accent); }
+
+/* ── Hindamisriba ─────────────────────────────────────────────────────────── */
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 4px;
+  border-top: 1px solid var(--line);
+}
+
+.rating__label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--text-faint);
+  padding-top: 10px;
+}
+
+.rating__clear {
+  color: var(--text-faint);
+  font-size: 12.5px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.rating__clear:hover { color: var(--accent); }
+
+.rating__scale {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 5px;
+}
+
+.rating__button {
+  aspect-ratio: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: #ffffff0a;
+  border: 1px solid transparent;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  transition: background 0.12s, color 0.12s, border-color 0.12s, transform 0.12s;
+}
+
+.rating__button:hover {
+  background: #ffffff16;
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+/* Kõik valitud hindeni — riba täitub vasakult, nagu skaala */
+.rating__button.is-filled {
+  background: var(--accent-dim);
+  color: var(--accent);
+}
+
+.rating__button.is-selected {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #1a1206;
+}
+
+/* ── Koondhinne ───────────────────────────────────────────────────────────── */
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 62px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  background: #ffffff08;
+  border: 1px solid var(--line);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.score__value {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.score__value.is-empty { color: var(--text-faint); }
+
+.score__label {
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-top: 2px;
+}
+
+.score--mine .score__value { color: var(--accent); }
+
+/* ── Saate leht ───────────────────────────────────────────────────────────── */
+
+.episode-head { padding: 36px 0 26px; border-bottom: 1px solid var(--line); }
+
+.episode-head h1 {
+  font-size: clamp(24px, 4vw, 34px);
+  max-width: 26ch;
+  margin: 10px 0 14px;
+}
+
+.episode-head__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  color: var(--text-faint);
+  font-size: 13.5px;
+}
+
+.back-link {
+  display: inline-block;
+  color: var(--text-muted);
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.back-link:hover { color: var(--accent); }
+
+.episode-description {
+  margin: 22px 0 0;
+  max-width: 68ch;
+  color: var(--text-muted);
+  font-size: 15px;
+  white-space: pre-line;
+}
+
+.episode-description__toggle {
+  display: block;
+  margin-top: 10px;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.song-list {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  margin-top: 20px;
+}
+
+/* ── Podcasti mängija ─────────────────────────────────────────────────────── */
+
+.player-panel {
+  margin: 24px 0 0;
+  padding: 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.player-tabs { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+
+.player-tab {
+  padding: 6px 13px;
+  border-radius: 999px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text-muted);
+  border: 1px solid var(--line-strong);
+  transition: background 0.15s, color 0.15s;
+}
+
+.player-tab:hover { background: var(--bg-hover); color: var(--text); }
+
+.player-tab.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #1a1206;
+  font-weight: 600;
+}
+
+.player-hint {
+  margin: 12px 0 0;
+  font-size: 13px;
+  color: var(--text-faint);
+  max-width: 60ch;
+}
+
+/* Kinnine mängija lehe all: saab saadet kuulata ja samal ajal lugusid hinnata */
+.sticky-player {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  background: #12121ae8;
+  backdrop-filter: blur(16px);
+  border-top: 1px solid var(--line-strong);
+  padding: 10px 0 calc(10px + env(safe-area-inset-bottom));
+}
+
+.sticky-player__inner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.sticky-player__title {
+  min-width: 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.sticky-player__title b {
+  display: block;
+  color: var(--text);
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sticky-player audio { flex: 1; min-width: 0; height: 36px; }
+
+.sticky-player__close {
+  color: var(--text-faint);
+  font-size: 20px;
+  line-height: 1;
+  padding: 4px 8px;
+}
+
+.sticky-player__close:hover { color: var(--text); }
+
+/* ── Filtririba ───────────────────────────────────────────────────────────── */
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 26px 0 20px;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 210px;
+  padding: 10px 15px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font: inherit;
+  font-size: 15px;
+}
+
+.search-input::placeholder { color: var(--text-faint); }
+.search-input:focus { outline: none; border-color: var(--accent); }
+
+.chip-row { display: flex; gap: 6px; flex-wrap: wrap; }
+
+.chip {
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  font-size: 13.5px;
+  color: var(--text-muted);
+  transition: background 0.15s, color 0.15s;
+}
+
+.chip:hover { background: var(--bg-hover); color: var(--text); }
+
+.chip.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #1a1206;
+  font-weight: 600;
+}
+
+.result-count { color: var(--text-faint); font-size: 13.5px; }
+
+/* ── Edetabel ─────────────────────────────────────────────────────────────── */
+
+.chart-list { display: flex; flex-direction: column; gap: 2px; }
+
+.chart-row {
+  display: grid;
+  grid-template-columns: 42px 1fr auto;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.chart-row:hover { background: var(--bg-elevated); }
+
+.chart-row__rank {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-faint);
+  text-align: right;
+}
+
+.chart-row__main {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-row__title {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chart-row__sub {
+  display: block;
+  color: var(--text-faint);
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chart-row__scores { display: flex; gap: 8px; align-items: center; }
+
+/* ── Kitsas ekraan ────────────────────────────────────────────────────────── */
+
+@media (max-width: 640px) {
+  .hero { padding: 38px 0 32px; }
+  .stat-row { gap: 22px; }
+  .stat-row b { font-size: 22px; }
+  .song-list, .episode-grid { grid-template-columns: 1fr; }
+  .rating__scale { gap: 4px; }
+  .rating__button { font-size: 13px; }
+  .chart-row { grid-template-columns: 30px 1fr auto; gap: 10px; padding: 11px 8px; }
+
+  /* Kitsal ekraanil ei mahu bränd ja neli linki kõrvuti — nav läheb oma reale,
+     muidu jääks „Minu hinded” ekraanist välja. */
+  .site-header__inner {
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding-top: 12px;
+  }
+
+  .site-nav {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 8px 20px 10px;
+  }
+}
+
+/* Väga kitsas: hoia hindamisnupud siiski ühel real */
+@media (max-width: 380px) {
+  .rating__scale { gap: 3px; }
+  .rating__button { font-size: 12px; border-radius: 7px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

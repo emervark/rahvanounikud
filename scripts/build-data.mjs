@@ -7,6 +7,7 @@
 // sinna ainult lisatakse, sealt ei kustutata ega muudeta.
 
 import fs from 'node:fs/promises';
+import path from 'node:path';
 import { existsSync } from 'node:fs';
 import {
   DELFI_SHOW_URL, SPOTIFY_SHOW_ID, SPOTIFY_SHOW_URL, PODCAST_ID,
@@ -111,6 +112,7 @@ async function main() {
   const overrides = await readJson(paths.overrides, { episodes: {}, songs: {} });
   const lock = await readJson(paths.songIds, {});
   const spotify = await readJson(paths.spotifyCache, {});
+  const spotifyEpisodes = await readJson(paths.spotifyEpisodes, {});
   const youtube = await readJson(paths.youtubeCache, {});
 
   const rawByGuid = Object.fromEntries(rawEpisodes.map((e) => [e.guid, e]));
@@ -137,6 +139,7 @@ async function main() {
       audioUrl: raw.audioUrl ?? null,
       coverImageUrl: raw.coverImageUrl ?? null,
       delfiUrl: `${DELFI_SHOW_URL}/${ep.guid}`,
+      spotifyEpisodeId: spotifyEpisodes[ep.guid]?.id ?? null,
       chooser: ep.chooser ?? null,
       guests: ep.guests ?? [],
       source: override ? 'kasitsi' : 'automaatne',
@@ -189,6 +192,10 @@ async function main() {
 
   await fs.writeFile(paths.episodes, JSON.stringify(out, null, 2) + '\n', 'utf8');
   await fs.writeFile(paths.songIds, JSON.stringify(newLock, null, 2) + '\n', 'utf8');
+
+  // Frontendile serveeritav koopia — kompaktne, sest see läheb üle võrgu.
+  await fs.mkdir(path.dirname(paths.webEpisodes), { recursive: true });
+  await fs.writeFile(paths.webEpisodes, JSON.stringify(out), 'utf8');
 
   console.log(`${episodes.length} saadet, ${totalSongs} lugu → ${paths.episodes}`);
   console.log(`ID-d: ${stats.reusedContent} taaskasutatud (sisu), ` +
