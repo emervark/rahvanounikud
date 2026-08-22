@@ -74,16 +74,27 @@ function main() {
 
   console.log(`Saadan ${entries.length} võtit Cloudflare'i...\n`);
 
+  // Wrangler kutsutakse otse Node'iga, mitte npx kaudu: Windowsis on npx
+  // fail npx.cmd ja Node keeldub .cmd faile ilma shellita käivitamast (EINVAL).
+  const wrangler = path.join(ROOT, 'node_modules', 'wrangler', 'bin', 'wrangler.js');
+  if (!fs.existsSync(wrangler)) {
+    console.error('wranglerit ei leitud. Käivita esmalt: npm install');
+    process.exit(1);
+  }
+
   for (const [name, value] of entries) {
     const res = spawnSync(
-      process.platform === 'win32' ? 'npx.cmd' : 'npx',
-      ['wrangler', 'secret', 'put', name],
+      process.execPath,
+      [wrangler, 'secret', 'put', name],
       { input: value, encoding: 'utf8' },
     );
 
-    if (res.status !== 0) {
+    if (res.error || res.status !== 0) {
       console.error(`  VIGA  ${name}`);
-      console.error((res.stderr || res.stdout || '').trim().split('\n').slice(-4).join('\n'));
+      const detail = res.error
+        ? `${res.error.code ?? ''} ${res.error.message}`.trim()
+        : (res.stderr || res.stdout || '(wrangler ei öelnud midagi)').trim();
+      console.error(detail.split('\n').slice(-6).map((l) => '        ' + l).join('\n'));
       process.exit(1);
     }
     // Väärtust ennast ei trüki kunagi — ainult pikkuse, et näha, et midagi läks.
