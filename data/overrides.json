@@ -1,0 +1,32 @@
+{
+  "_kirjeldus": [
+    "Käsitsi hooldatav fail. Kirjutab automaatse parsimise tulemuse üle.",
+    "episodes.<guid>.songs — asendab selle saate lugude nimekirja tervikuna.",
+    "songs.<songId>     — parandab üksiku loo välju (nt vale Spotify ID).",
+    "Loo ID-d leiab failist data/song-ids.json pärast 'npm run build:data'."
+  ],
+
+  "episodes": {
+    "51067548-b2d2-4c49-b3db-e445a68c3a05": {
+      "_note": "Proosavormis hooaja viimane saade — igal kriitikul oma lemmik, nimekirja pole. Sisestatud kirjelduse põhjal.",
+      "songs": [
+        { "artists": ["An-Marlen", "Kermo Murel"], "title": "Tähtede eest", "chooser": "Siim Nestor" },
+        { "artists": ["SKIZØ"], "title": "2kätt", "chooser": "Valner Valme", "note": "albumilt „Neetud Ühiskond vol 2”" },
+        { "artists": ["Anna Himma"], "title": "Get Summer!", "chooser": "Merit Maarits" },
+        { "artists": ["Perfectionist"], "title": "Blood Victory", "chooser": "Raul Saaremets" }
+      ]
+    },
+
+    "a84e0286-f21b-49d1-bc9f-240683eff0c4": {
+      "_note": "Proosavormis hooaja lõpusaade — kriitikud tõid üksteisele oma poolaasta lemmikud.",
+      "songs": [
+        { "artists": ["iiori"], "title": "sprint", "chooser": "Siim Nestor" },
+        { "artists": ["Karameel"], "title": "Mul ei ole raha", "chooser": "Merit Maarits" },
+        { "artists": ["Valge Tüdruk"], "title": "mul krdi suva", "chooser": "Valner Valme" },
+        { "artists": ["C.C."], "title": "Haudvaikne", "chooser": "Raul Saaremets", "note": "albumilt „Siin olema peab”" }
+      ]
+    }
+  },
+
+  "songs": {}
+}
