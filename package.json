@@ -1,0 +1,12 @@
+{
+  "name": "rahvanounikud",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-feed.mjs",
+    "parse": "node scripts/parse-songs.mjs",
+    "build:data": "node scripts/build-data.mjs",
+    "data": "npm run fetch && npm run parse && npm run build:data"
+  }
+}

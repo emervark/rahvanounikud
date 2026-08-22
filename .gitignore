@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.wrangler/
+
+# Cloudflare'i kohalikud secretid — need ei tohi kunagi repos olla
+.dev.vars
+.env
+*.local
+
+.DS_Store
+Thumbs.db
