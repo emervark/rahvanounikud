@@ -11,3 +11,4 @@ dist/
 Thumbs.db
 
 web/public/
+web/.wrangler/

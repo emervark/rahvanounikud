@@ -9,7 +9,7 @@ const NAV = [
 ];
 
 export function Layout() {
-  const { ratedCount } = useRatings();
+  const { ratedCount, error } = useRatings();
   const { current } = usePlayer();
 
   return (
@@ -40,6 +40,10 @@ export function Layout() {
           </nav>
         </div>
       </header>
+
+      {/* Kui hinne serverisse ei jõudnud, on see kasutajale nähtav — vaikselt
+          kadunud hinne oleks halvim variant, sest inimene arvab, et hindas. */}
+      {error && <div className="toast" role="alert">{error}</div>}
 
       <main>
         <Outlet />

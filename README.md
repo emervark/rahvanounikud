@@ -14,11 +14,45 @@ kasutab podcasti avalikku RSS-feedi.
 | Etapp | Staatus |
 |---|---|
 | 1. Andmetorustik (RSS → lood) | tehtud |
-| 2. Frontend (localStorage'i hinded) | pooleli |
-| 3. Cloudflare backend (D1, hinded) | ees |
+| 2. Frontend | tehtud |
+| 3. Cloudflare backend (D1, hinded) | tehtud |
 | 4. Google login | ees |
 | 5. Spotify / YouTube lingid | ees |
-| 6. Deploy | ees |
+| 6. Deploy | vajab Cloudflare'i konto seadistust |
+
+Väliste teenuste seadistamine: **[SEADISTAMINE.md](SEADISTAMINE.md)**
+
+## Arendus
+
+```bash
+npm install
+npm run db:local     # kohalik D1: tabelid + 376 lugu (üks kord)
+npm run dev          # http://localhost:5173
+```
+
+`npm run dev` käivitab Vite'i koos Cloudflare'i pluginaga, nii et `/api` ja D1
+töötavad päris Workers-runtime'is — kohalik käitumine vastab sellele, mis tuleb
+pärast deploy'd.
+
+```bash
+npm run build        # andmed + frontend + Worker + tüübikontroll
+npm run deploy       # build ja Cloudflare'i
+npm run tail         # päris Workeri logid
+```
+
+## Kuidas hinded töötavad
+
+Hindamiseks ei pea sisse logima. Brauser saab allkirjastatud küpsise (`rn_uid`),
+mille külge hinded seotakse — allkiri takistab võõra kasutaja-ID väljamõtlemist ja
+teise inimese hinnete ülekirjutamist. Küpsist saab muidugi kustutada ja uue saada;
+tugevam identiteet tuleb etapis 4 valikulise Google'i sisselogimisega.
+
+Koondnäitajad (`song_stats`) arvutatakse iga kirjutamise järel hinnetest **uuesti**,
+mitte juurdekasvuna. Juurdekasv triibiks aja jooksul paigast ja vale keskmine oleks
+kõigile nähtav; üks indekseeritud kokkulöömine on selle kindluse hind.
+
+Varem ainult brauserisse salvestatud hinded tuuakse serverisse üle automaatselt,
+esimesel külastusel. Server ei kirjuta olemasolevaid hindeid üle.
 
 ## Andmed
 

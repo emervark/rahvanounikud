@@ -1,0 +1,33 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "rahvanounikud",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-01",
+
+  "assets": {
+    "binding": "ASSETS",
+    // Leht on ühelehe-rakendus: /edetabel jms ei ole päris faile, need peavad
+    // saama index.html-i, muidu annaks otselink või värskendamine 404.
+    "not_found_handling": "single-page-application",
+    // Ainult API läheb Workerisse. Pildid, JS ja episodes.json serveeritakse
+    // otse serva pealt, ilma Workerit käivitamata — kiirem ja odavam.
+    "run_worker_first": ["/api/*"]
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "rahvanounikud",
+      // ASENDA päris ID-ga, mille annab: npx wrangler d1 create rahvanounikud
+      "database_id": "PLACEHOLDER-ASENDA-MIND"
+    }
+  ],
+
+  "observability": {
+    "enabled": true
+  }
+
+  // COOKIE_SECRET ei ole siin meelega — see on saladus ja käib käsuga:
+  //   npx wrangler secret put COOKIE_SECRET
+  // Kohalikuks arenduseks pane see faili .dev.vars (mis on .gitignore's).
+}

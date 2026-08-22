@@ -1,11 +1,12 @@
 // Hinnete hoidla.
 //
-// Praegu elavad hinded ainult brauseris (localStorage). Etapis 3 vahetatakse
-// `localBackend` API-põhise vastu ja ülejäänud rakendus ei muutu — seepärast käib
-// kõik läbi kitsa RatingsBackend liidese ja kõik meetodid on juba praegu async.
+// Kogu rakendus käib läbi kitsa RatingsBackend liidese. `apiBackend` räägib
+// Workeriga, `localBackend` hoiab hindeid ainult brauseris — viimane on olemas
+// selleks, et leht töötaks ka siis, kui API pole saadaval (nt puhas `vite build`
+// eelvaade), ja et arendades ei peaks andmebaasi püsti panema.
 
 import {
-  createContext, useCallback, useContext, useEffect, useMemo, useState,
+  createContext, useCallback, useContext, useEffect, useMemo, useRef, useState,
   type ReactNode,
 } from 'react';
 import type { SongStats } from './types';
@@ -14,15 +15,17 @@ export const MIN_SCORE = 1;
 export const MAX_SCORE = 10;
 
 export interface RatingsBackend {
-  /** Kas koondhindeid on üldse kuskilt võtta. Kohalikus režiimis ei ole. */
+  /** Kas koondhindeid on kuskilt võtta. Kohalikus režiimis ei ole. */
   readonly hasCommunityScores: boolean;
   loadMine(): Promise<Record<string, number>>;
-  setRating(songId: string, score: number): Promise<void>;
-  removeRating(songId: string): Promise<void>;
+  /** Tagastab loo uued koondnäitajad, kui backend neid teab. */
+  setRating(songId: string, score: number): Promise<SongStats | null>;
+  removeRating(songId: string): Promise<SongStats | null>;
   loadStats(): Promise<Record<string, SongStats>>;
 }
 
 const STORAGE_KEY = 'rahvanounikud.hinded.v1';
+const MIGRATED_KEY = 'rahvanounikud.hinded-ule-toodud.v1';
 
 function readStorage(): Record<string, number> {
   try {
@@ -55,14 +58,77 @@ export const localBackend: RatingsBackend = {
   },
   async setRating(songId, score) {
     writeStorage({ ...readStorage(), [songId]: score });
+    return null;
   },
   async removeRating(songId) {
     const all = readStorage();
     delete all[songId];
     writeStorage(all);
+    return null;
   },
   async loadStats() {
     return {};
+  },
+};
+
+async function api<T>(path: string, init?: RequestInit): Promise<T> {
+  const res = await fetch(path, {
+    ...init,
+    headers: { 'content-type': 'application/json', ...init?.headers },
+  });
+  if (!res.ok) {
+    const body = await res.json().catch(() => null) as { error?: string } | null;
+    throw new Error(body?.error ?? `Päring ebaõnnestus (${res.status})`);
+  }
+  return res.json() as Promise<T>;
+}
+
+/**
+ * Toob varem ainult brauserisse salvestatud hinded serverisse.
+ *
+ * Käib täpselt korra seadme kohta. Server ei kirjuta olemasolevaid hindeid üle,
+ * nii et kordus oleks kahjutu — aga lipp hoiab ära mõttetu päringu igal laadimisel.
+ */
+async function migrateLocalRatings(): Promise<void> {
+  try {
+    if (localStorage.getItem(MIGRATED_KEY)) return;
+    const local = readStorage();
+    if (Object.keys(local).length > 0) {
+      await api('/api/ratings/import', {
+        method: 'POST',
+        body: JSON.stringify({ ratings: local }),
+      });
+    }
+    localStorage.setItem(MIGRATED_KEY, String(Date.now()));
+  } catch {
+    // Ebaõnnestunud ületoomine ei tohi lehte kinni panna — proovime järgmine kord.
+  }
+}
+
+export const apiBackend: RatingsBackend = {
+  hasCommunityScores: true,
+  async loadMine() {
+    await migrateLocalRatings();
+    const { ratings } = await api<{ ratings: Record<string, number> }>('/api/me');
+    return ratings;
+  },
+  async setRating(songId, score) {
+    const { stats } = await api<{ stats: SongStats }>('/api/ratings', {
+      method: 'POST',
+      body: JSON.stringify({ songId, score }),
+    });
+    return stats;
+  },
+  async removeRating(songId) {
+    const { stats } = await api<{ stats: SongStats }>('/api/ratings', {
+      method: 'DELETE',
+      body: JSON.stringify({ songId }),
+    });
+    return stats;
+  },
+  async loadStats() {
+    const { stats } = await api<{ stats: Record<string, SongStats> }>('/api/stats');
+    return stats;
   },
 };
 
@@ -72,6 +138,7 @@ interface RatingsContextValue {
   hasCommunityScores: boolean;
   ready: boolean;
   ratedCount: number;
+  error: string | null;
   rate(songId: string, score: number): void;
   clearRating(songId: string): void;
 }
@@ -80,7 +147,7 @@ const RatingsContext = createContext<RatingsContextValue | null>(null);
 
 export function RatingsProvider({
   children,
-  backend = localBackend,
+  backend = apiBackend,
 }: {
   children: ReactNode;
   backend?: RatingsBackend;
@@ -88,32 +155,69 @@ export function RatingsProvider({
   const [mine, setMine] = useState<Record<string, number>>({});
   const [stats, setStats] = useState<Record<string, SongStats>>({});
   const [ready, setReady] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  // Optimistlikult näidatud hinne tuleb tagasi keerata, kui kirjutamine kukub läbi.
+  const previous = useRef<Record<string, number>>({});
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([backend.loadMine(), backend.loadStats()]).then(([m, s]) => {
-      if (cancelled) return;
-      setMine(m);
-      setStats(s);
-      setReady(true);
-    });
+    Promise.all([backend.loadMine(), backend.loadStats()]).then(
+      ([m, s]) => {
+        if (cancelled) return;
+        setMine(m);
+        setStats(s);
+        setReady(true);
+      },
+      (err: unknown) => {
+        if (cancelled) return;
+        setError(err instanceof Error ? err.message : 'Hindeid ei õnnestunud laadida.');
+        setReady(true);
+      },
+    );
     return () => { cancelled = true; };
   }, [backend]);
 
+  const applyStats = useCallback((fresh: SongStats | null) => {
+    if (!fresh) return;
+    setStats((prev) => ({ ...prev, [fresh.songId]: fresh }));
+  }, []);
+
   const rate = useCallback((songId: string, score: number) => {
-    // Optimistlik uuendus: hindamine peab tunduma hetkeline ka aeglase ühendusega.
-    setMine((prev) => ({ ...prev, [songId]: score }));
-    void backend.setRating(songId, score);
-  }, [backend]);
+    setMine((prev) => {
+      previous.current[songId] = prev[songId];
+      return { ...prev, [songId]: score };
+    });
+    setError(null);
+
+    backend.setRating(songId, score).then(applyStats, (err: unknown) => {
+      setMine((prev) => {
+        const next = { ...prev };
+        const old = previous.current[songId];
+        if (old === undefined) delete next[songId];
+        else next[songId] = old;
+        return next;
+      });
+      setError(err instanceof Error ? err.message : 'Hinde salvestamine ebaõnnestus.');
+    });
+  }, [backend, applyStats]);
 
   const clearRating = useCallback((songId: string) => {
     setMine((prev) => {
+      previous.current[songId] = prev[songId];
       const next = { ...prev };
       delete next[songId];
       return next;
     });
-    void backend.removeRating(songId);
-  }, [backend]);
+    setError(null);
+
+    backend.removeRating(songId).then(applyStats, (err: unknown) => {
+      setMine((prev) => {
+        const old = previous.current[songId];
+        return old === undefined ? prev : { ...prev, [songId]: old };
+      });
+      setError(err instanceof Error ? err.message : 'Hinde eemaldamine ebaõnnestus.');
+    });
+  }, [backend, applyStats]);
 
   const value = useMemo<RatingsContextValue>(() => ({
     mine,
@@ -121,9 +225,10 @@ export function RatingsProvider({
     hasCommunityScores: backend.hasCommunityScores,
     ready,
     ratedCount: Object.keys(mine).length,
+    error,
     rate,
     clearRating,
-  }), [mine, stats, backend, ready, rate, clearRating]);
+  }), [mine, stats, backend, ready, error, rate, clearRating]);
 
   return <RatingsContext.Provider value={value}>{children}</RatingsContext.Provider>;
 }
