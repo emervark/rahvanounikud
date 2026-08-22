@@ -130,20 +130,64 @@ Cloudflare teeb DNS-kirje ja sertifikaadi ise. Levimine võtab kuni paar minutit
 
 ### 2.2. Google'i sisselogimine (etapp 4)
 
-1. **APIs & Services → OAuth consent screen**
-   - User type: **External** → Create
-   - App name: `Rahvanõunikud`, tugimeil: sinu oma
-   - Authorized domains: `emervark.ee`
-   - Salvesta ja liigu lõpuni. Jäta rakendus **Testing** olekusse seniks, kuni
-     tahad seda avalikult kasutatavaks teha (testrežiimis saab sisse logida
-     ainult lisatud testkasutajad — lisa vähemalt iseend).
-2. **APIs & Services → Credentials → Create Credentials → OAuth client ID**
-   - Application type: **Web application**
-   - Name: `Rahvanõunikud veeb`
-   - **Authorized redirect URIs** — lisa mõlemad:
-     - `http://localhost:5173/api/auth/callback`
-     - `https://rahvan6unikud.emervark.ee/api/auth/callback`
-   - **Create** → saad **Client ID** ja **Client secret**
+> **NB!** Google nimetas selle osa ümber. Vanad juhendid — ka Google'i enda omad —
+> räägivad menüüpunktist **APIs & Services → OAuth consent screen**. Seda seal enam
+> **ei ole**. Uus nimi on **Google Auth Platform**, jagatud vahelehtedeks
+> *Overview*, *Branding*, *Audience*, *Clients*, *Data access*.
+>
+> Menüüst otsimise asemel kasuta otselinke — projekt on URL-i sees, nii et õige
+> projekt valitakse automaatselt.
+
+**Samm 1 — seadista Auth Platform** (üks kord projekti kohta)
+
+`https://console.cloud.google.com/auth/overview?project=rahvanounikud`
+
+Uue projekti puhul näed nuppu **Get started**. Vasta neljale küsimusele:
+
+| Küsimus | Vastus |
+|---|---|
+| App name | `Rahvanõunikud` |
+| User support email | sinu meiliaadress |
+| Audience | **External** |
+| Contact information | sinu meiliaadress |
+
+Lõpuks nõustu "Google API Services: User Data Policy" tingimustega → **Create**.
+
+**Samm 2 — lisa lubatud domeen**
+
+`https://console.cloud.google.com/auth/branding?project=rahvanounikud`
+
+Lisa **Authorized domains** alla `emervark.ee`. Ilma selleta ei võta Google
+järgmises sammus vastu `rahvan6unikud.emervark.ee` suunamisaadressi.
+
+**Samm 3 — loo OAuth klient** (siit tulevad võtmed)
+
+`https://console.cloud.google.com/auth/clients?project=rahvanounikud`
+
+**Create client** →
+
+| Väli | Väärtus |
+|---|---|
+| Application type | **Web application** |
+| Name | `Rahvanõunikud veeb` |
+| Authorized redirect URIs | `http://localhost:5173/api/auth/callback` |
+| *(vajuta "Add URI" ja lisa teine)* | `https://rahvan6unikud.emervark.ee/api/auth/callback` |
+
+**Create** → avaneb aken **Client ID** ja **Client secret**'iga.
+
+> Aadressid peavad klappima **täht-tähelt**: lõpus ei tohi olla kaldkriipsu ning
+> `http` vs `https` loeb. Vale aadress annab sisse logides vea `redirect_uri_mismatch`.
+
+**Samm 4 — lisa endale testkasutaja õigus**
+
+`https://console.cloud.google.com/auth/audience?project=rahvanounikud`
+
+Publishing status on **Testing**. Selles olekus saavad sisse logida **ainult**
+nimekirjas olevad inimesed → **Add users** → lisa oma Google'i meiliaadress.
+
+Testrežiim sobib alustuseks. Kui tahad, et kõik saaksid sisse logida, vajuta
+sealsamas **Publish app**. Me küsime ainult `email` ja `profile` skoope, mis on
+Google'i mõistes "mittetundlikud" — ülevaatust need ei nõua ja avaldamine on kohene.
 
 ```bash
 npx wrangler secret put GOOGLE_CLIENT_ID
@@ -159,8 +203,14 @@ GOOGLE_CLIENT_SECRET=...
 
 ### 2.3. YouTube Data API (etapp 5)
 
-1. **APIs & Services → Library** → otsi `YouTube Data API v3` → **Enable**
-2. **Credentials → Create Credentials → API key**
+Siin on menüünimed endised (ümber nimetati ainult OAuth-i osa). Otselingid:
+
+1. Lülita API sisse:
+   `https://console.cloud.google.com/apis/library/youtube.googleapis.com?project=rahvanounikud`
+   → **Enable**
+2. Loo võti:
+   `https://console.cloud.google.com/apis/credentials?project=rahvanounikud`
+   → **Create Credentials** → **API key**
 3. Klõpsa võtmel → **Restrict key** → API restrictions → vali `YouTube Data API v3`
 
 See võti on ainult build-aegse skripti jaoks, mitte Workeri jaoks — pane
