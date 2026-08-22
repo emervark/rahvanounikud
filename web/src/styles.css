@@ -25,7 +25,9 @@
   --radius:    14px;
   --radius-sm: 9px;
 
-  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  /* Bricolage Grotesque: toimetuslik kirjakuju vahelduva laiusega, mis annab
+     pealkirjadele iseloomu ja hoiab 1-10 numbrid selgesti loetavana. */
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
   --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
   --page: 1080px;
