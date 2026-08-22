@@ -16,10 +16,13 @@
 
   "d1_databases": [
     {
+      // Seose nimi peab olema DB — nii kutsub seda Workeri kood (env.DB).
       "binding": "DB",
       "database_name": "rahvanounikud",
-      // ASENDA päris ID-ga, mille annab: npx wrangler d1 create rahvanounikud
-      "database_id": "PLACEHOLDER-ASENDA-MIND"
+      "database_id": "52888e44-f107-4356-909d-99a152f72496"
+      // Teadlikult ilma "remote": true — arendades kasutatakse kohalikku
+      // andmebaasi. Muidu läheks iga proovihinne päris koondhinnete sisse.
+      // Päris andmebaasiga saab vajadusel ühendust: npm run dev -- --remote
     }
   ],
 
@@ -29,5 +32,5 @@
 
   // COOKIE_SECRET ei ole siin meelega — see on saladus ja käib käsuga:
   //   npx wrangler secret put COOKIE_SECRET
-  // Kohalikuks arenduseks pane see faili .dev.vars (mis on .gitignore's).
+  // Kohalikuks arenduseks on see failis .dev.vars (mis on .gitignore's).
 }
