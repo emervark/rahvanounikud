@@ -14,10 +14,18 @@ import type { SongStats } from './types';
 export const MIN_SCORE = 1;
 export const MAX_SCORE = 10;
 
+/** Kes ma olen ja kas sisselogimine on üldse saadaval. */
+export interface Account {
+  ratings: Record<string, number>;
+  isLoggedIn: boolean;
+  displayName: string | null;
+  loginAvailable: boolean;
+}
+
 export interface RatingsBackend {
   /** Kas koondhindeid on kuskilt võtta. Kohalikus režiimis ei ole. */
   readonly hasCommunityScores: boolean;
-  loadMine(): Promise<Record<string, number>>;
+  loadMe(): Promise<Account>;
   /** Tagastab loo uued koondnäitajad, kui backend neid teab. */
   setRating(songId: string, score: number): Promise<SongStats | null>;
   removeRating(songId: string): Promise<SongStats | null>;
@@ -53,8 +61,13 @@ function writeStorage(all: Record<string, number>): void {
 
 export const localBackend: RatingsBackend = {
   hasCommunityScores: false,
-  async loadMine() {
-    return readStorage();
+  async loadMe() {
+    return {
+      ratings: readStorage(),
+      isLoggedIn: false,
+      displayName: null,
+      loginAvailable: false,
+    };
   },
   async setRating(songId, score) {
     writeStorage({ ...readStorage(), [songId]: score });
@@ -107,10 +120,9 @@ async function migrateLocalRatings(): Promise<void> {
 
 export const apiBackend: RatingsBackend = {
   hasCommunityScores: true,
-  async loadMine() {
+  async loadMe() {
     await migrateLocalRatings();
-    const { ratings } = await api<{ ratings: Record<string, number> }>('/api/me');
-    return ratings;
+    return api<Account>('/api/me');
   },
   async setRating(songId, score) {
     const { stats } = await api<{ stats: SongStats }>('/api/ratings', {
@@ -139,9 +151,16 @@ interface RatingsContextValue {
   ready: boolean;
   ratedCount: number;
   error: string | null;
+  isLoggedIn: boolean;
+  displayName: string | null;
+  loginAvailable: boolean;
   rate(songId: string, score: number): void;
   clearRating(songId: string): void;
 }
+
+const ANONYMOUS: Account = {
+  ratings: {}, isLoggedIn: false, displayName: null, loginAvailable: false,
+};
 
 const RatingsContext = createContext<RatingsContextValue | null>(null);
 
@@ -154,6 +173,7 @@ export function RatingsProvider({
 }) {
   const [mine, setMine] = useState<Record<string, number>>({});
   const [stats, setStats] = useState<Record<string, SongStats>>({});
+  const [account, setAccount] = useState<Account>(ANONYMOUS);
   const [ready, setReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
   // Optimistlikult näidatud hinne tuleb tagasi keerata, kui kirjutamine kukub läbi.
@@ -161,10 +181,11 @@ export function RatingsProvider({
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([backend.loadMine(), backend.loadStats()]).then(
-      ([m, s]) => {
+    Promise.all([backend.loadMe(), backend.loadStats()]).then(
+      ([me, s]) => {
         if (cancelled) return;
-        setMine(m);
+        setAccount(me);
+        setMine(me.ratings);
         setStats(s);
         setReady(true);
       },
@@ -226,9 +247,12 @@ export function RatingsProvider({
     ready,
     ratedCount: Object.keys(mine).length,
     error,
+    isLoggedIn: account.isLoggedIn,
+    displayName: account.displayName,
+    loginAvailable: account.loginAvailable,
     rate,
     clearRating,
-  }), [mine, stats, backend, ready, error, rate, clearRating]);
+  }), [mine, stats, backend, ready, error, account, rate, clearRating]);
 
   return <RatingsContext.Provider value={value}>{children}</RatingsContext.Provider>;
 }

@@ -8,7 +8,7 @@ import { useRatings } from '../ratings';
 
 export function MyRatings() {
   const { data, error } = useEpisodesFile();
-  const { mine, stats, hasCommunityScores } = useRatings();
+  const { mine, stats, hasCommunityScores, isLoggedIn, loginAvailable } = useRatings();
 
   const rated = useMemo(() => {
     if (!data) return [];
@@ -60,6 +60,14 @@ export function MyRatings() {
             <p className="player-hint" style={{ marginTop: 16 }}>
               Hinded on praegu salvestatud ainult sellesse brauserisse. Kui sa ajaloo
               kustutad või teise seadme võtad, siis neid seal ei ole.
+            </p>
+          )}
+
+          {hasCommunityScores && loginAvailable && !isLoggedIn && (
+            <p className="player-hint" style={{ marginTop: 16 }}>
+              Sinu hinded on seotud selle brauseriga. Kui logid Google'iga sisse,
+              lähevad juba antud hinded kontoga kaasa ja on olemas ka teises seadmes.{' '}
+              <a href="/api/auth/google" style={{ color: 'var(--accent)' }}>Logi sisse →</a>
             </p>
           )}
 

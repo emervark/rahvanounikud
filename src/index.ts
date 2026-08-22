@@ -5,11 +5,14 @@ import {
   ApiError, deleteRating, importRatings, readMine, readStats,
   validateScore, validateSongId, writeRating,
 } from './ratings';
+import { finishGoogleLogin, googleConfig, logout, startGoogleLogin } from './google-auth';
 
 export interface Env {
   DB: D1Database;
   ASSETS: Fetcher;
   COOKIE_SECRET: string;
+  GOOGLE_CLIENT_ID?: string;
+  GOOGLE_CLIENT_SECRET?: string;
 }
 
 const json = (data: unknown, init?: ResponseInit) =>
@@ -40,6 +43,39 @@ async function readJsonBody(request: Request): Promise<Record<string, unknown>> 
   }
 }
 
+/**
+ * Sisselogimise marsruudid haldavad oma küpsiseid ise (tagasitulek Google'ilt
+ * seob küpsise hoopis konto kasutaja külge), nii et neid ei tohi mähkida
+ * anonüümse identiteedi külgepanekusse — muidu tuleks kaks rn_uid päist.
+ */
+async function handleAuth(
+  request: Request,
+  env: Env,
+  path: string,
+  userId: string,
+): Promise<Response | null> {
+  if (path === '/api/auth/logout') {
+    // POST + sama päritolu, et võõras leht ei saaks kasutajat vaikselt välja logida.
+    if (request.method !== 'POST') throw new ApiError(405, 'Väljalogimine käib POST-iga.');
+    assertSameOrigin(request);
+    return logout();
+  }
+
+  const config = googleConfig(env);
+
+  if (path === '/api/auth/google') {
+    if (!config) throw new ApiError(503, 'Google\'i sisselogimine ei ole seadistatud.');
+    return startGoogleLogin(request, config);
+  }
+
+  if (path === '/api/auth/callback') {
+    if (!config) throw new ApiError(503, 'Google\'i sisselogimine ei ole seadistatud.');
+    return finishGoogleLogin(request, env.DB, config, userId, env.COOKIE_SECRET);
+  }
+
+  return null;
+}
+
 async function handleApi(
   request: Request,
   env: Env,
@@ -48,42 +84,56 @@ async function handleApi(
 ): Promise<Response> {
   const method = request.method;
 
-  let response: Response;
-
   if (path === '/api/stats' && method === 'GET') {
     // Koondhinded on avalikud ja muutuvad aeglaselt — lühike vahemälu serva peal
     // hoiab andmebaasi koormuse madalal ka siis, kui saade äsja ilmus.
-    response = json(
+    return json(
       { stats: await readStats(env.DB) },
       { headers: { 'cache-control': 'public, max-age=30' } },
     );
-  } else if (path === '/api/me' && method === 'GET') {
-    response = json({ userId, ratings: await readMine(env.DB, userId) });
-  } else if (path === '/api/ratings' && method === 'POST') {
+  }
+
+  if (path === '/api/me' && method === 'GET') {
+    const account = await env.DB
+      .prepare('SELECT google_sub, display_name FROM users WHERE id = ?')
+      .bind(userId)
+      .first<{ google_sub: string | null; display_name: string | null }>();
+
+    return json({
+      userId,
+      ratings: await readMine(env.DB, userId),
+      isLoggedIn: Boolean(account?.google_sub),
+      displayName: account?.display_name ?? null,
+      loginAvailable: googleConfig(env) !== null,
+    });
+  }
+
+  if (path === '/api/ratings' && method === 'POST') {
     assertSameOrigin(request);
     const body = await readJsonBody(request);
     const songId = validateSongId(body.songId);
     const score = validateScore(body.score);
-    response = json({ stats: await writeRating(env.DB, userId, songId, score) });
-  } else if (path === '/api/ratings' && method === 'DELETE') {
+    return json({ stats: await writeRating(env.DB, userId, songId, score) });
+  }
+
+  if (path === '/api/ratings' && method === 'DELETE') {
     assertSameOrigin(request);
     const body = await readJsonBody(request);
     const songId = validateSongId(body.songId);
-    response = json({ stats: await deleteRating(env.DB, userId, songId) });
-  } else if (path === '/api/ratings/import' && method === 'POST') {
-    assertSameOrigin(request);
-    const body = await readJsonBody(request);
-    const ratings = body.ratings;
-    if (!ratings || typeof ratings !== 'object') {
-      throw new ApiError(400, 'Puudub väli "ratings".');
-    }
-    const imported = await importRatings(env.DB, userId, ratings as Record<string, unknown>);
-    response = json({ imported });
-  } else {
-    throw new ApiError(404, 'Tundmatu API otspunkt.');
+    return json({ stats: await deleteRating(env.DB, userId, songId) });
   }
 
-  return response;
+  if (path === '/api/ratings/import' && method === 'POST') {
+    assertSameOrigin(request);
+    const body = await readJsonBody(request);
+    if (!body.ratings || typeof body.ratings !== 'object') {
+      throw new ApiError(400, 'Puudub väli "ratings".');
+    }
+    const imported = await importRatings(env.DB, userId, body.ratings as Record<string, unknown>);
+    return json({ imported });
+  }
+
+  throw new ApiError(404, 'Tundmatu API otspunkt.');
 }
 
 export default {
@@ -99,18 +149,29 @@ export default {
     // kasutaja-ID ja sama inimene võiks samale loole mitu häält anda.
     const identity = await resolveIdentity(request, env.COOKIE_SECRET);
 
-    let response: Response;
     try {
-      response = await handleApi(request, env, url.pathname, identity.userId);
+      if (url.pathname.startsWith('/api/auth/')) {
+        const authResponse = await handleAuth(request, env, url.pathname, identity.userId);
+        if (authResponse) {
+          // Sisselogimise algus vajab siiski anonüümset küpsist, et tagasitulekul
+          // oleks sama kasutaja ja tema senised hinded leitavad.
+          return url.pathname === '/api/auth/google'
+            ? withIdentity(authResponse, identity, env.COOKIE_SECRET)
+            : authResponse;
+        }
+      }
+
+      const response = await handleApi(request, env, url.pathname, identity.userId);
+      return withIdentity(response, identity, env.COOKIE_SECRET);
     } catch (err) {
+      let response: Response;
       if (err instanceof ApiError) {
         response = json({ error: err.message }, { status: err.status });
       } else {
         console.error('API viga:', err);
         response = json({ error: 'Serveri viga.' }, { status: 500 });
       }
+      return withIdentity(response, identity, env.COOKIE_SECRET);
     }
-
-    return withIdentity(response, identity, env.COOKIE_SECRET);
   },
 } satisfies ExportedHandler<Env>;

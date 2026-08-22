@@ -8,6 +8,33 @@ const NAV = [
   { to: '/edetabel', label: 'Edetabel' },
 ];
 
+/**
+ * Sisselogimine on valikuline ja jääb meelega tagaplaanile: hindamine töötab
+ * kohe ja ilma. Nupp on selleks, et hinded ei jääks ühe brauseri küljes kinni.
+ */
+function AccountButton() {
+  const { isLoggedIn, displayName, loginAvailable } = useRatings();
+
+  if (!loginAvailable) return null;
+
+  if (isLoggedIn) {
+    return (
+      <form method="post" action="/api/auth/logout" className="account">
+        <span className="account__name" title={displayName ?? undefined}>
+          {displayName ?? 'Sisse logitud'}
+        </span>
+        <button type="submit" className="account__action">Logi välja</button>
+      </form>
+    );
+  }
+
+  return (
+    <a className="account__action account__action--in" href="/api/auth/google">
+      Logi sisse
+    </a>
+  );
+}
+
 export function Layout() {
   const { ratedCount, error } = useRatings();
   const { current } = usePlayer();
@@ -38,6 +65,7 @@ export function Layout() {
               {ratedCount > 0 && <span className="nav-count">{ratedCount}</span>}
             </NavLink>
           </nav>
+          <AccountButton />
         </div>
       </header>
 
