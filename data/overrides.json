@@ -28,5 +28,10 @@
     }
   },
 
-  "songs": {}
+  "songs": {
+    "a84e0286-valge-tudruk-mul-krdi-suva": {
+      "_note": "Spotifys esineb artist ingliskeelse nimega White Girl, nii et automaatne sobitamine ei tundnud teda ära. Lugu ise on sama, pealkiri klapib täht-tähelt.",
+      "spotifyId": "3XakzcEu3QIALuRdiCzqku"
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T22:27:13.850Z",
+  "generatedAt": "2026-08-22T22:52:22.813Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -18,7 +18,7 @@
   "stats": {
     "episodes": 91,
     "songs": 376,
-    "withSpotify": 0,
+    "withSpotify": 339,
     "withYoutube": 0
   },
   "episodes": [
@@ -32,7 +32,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/51067548-b2d2-4c49-b3db-e445a68c3a05/file/42463d36-9aba-477f-86df-7064b1ee4aea.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/51067548-b2d2-4c49-b3db-e445a68c3a05",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "2VFxYL1l8y3UsMWIXsK3DP",
       "chooser": null,
       "guests": [],
       "source": "kasitsi",
@@ -47,7 +47,7 @@
           "chooser": "Siim Nestor",
           "note": null,
           "id": "51067548-an-marlen-tahtede-eest",
-          "spotifyId": null,
+          "spotifyId": "4PtTBY7WI6fLot8TpXhENb",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/An-Marlen%20Kermo%20Murel%20T%C3%A4htede%20eest",
@@ -64,7 +64,7 @@
           "chooser": "Valner Valme",
           "note": "albumilt „Neetud Ühiskond vol 2”",
           "id": "51067548-skizo-2katt",
-          "spotifyId": null,
+          "spotifyId": "7gQn06gUwe4sqVwvWC0ptR",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/SKIZ%C3%98%202k%C3%A4tt",
@@ -81,7 +81,7 @@
           "chooser": "Merit Maarits",
           "note": null,
           "id": "51067548-anna-himma-get-summer",
-          "spotifyId": null,
+          "spotifyId": "6T437bIxhd3FXZq3CJRRzw",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Anna%20Himma%20Get%20Summer!",
@@ -118,7 +118,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/c71831ba-7c50-4ab3-8ffa-88d51b99679d/file/d5d5ea57-278f-48d8-952e-3e0eb4be997c.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/c71831ba-7c50-4ab3-8ffa-88d51b99679d",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "5n0jiaOO2GmxtV3XAyqUDX",
       "chooser": "Raul Saaremets",
       "guests": [
         "Kadri Voorand"
@@ -134,7 +134,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c71831ba-bombillaz-saadame-siili-aafrikasse",
-          "spotifyId": null,
+          "spotifyId": "6ayjP9f0ECGULixum0wbbS",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bombillaz%20Saadame%20siili%20Aafrikasse",
@@ -151,7 +151,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c71831ba-nomi-sweet-talk",
-          "spotifyId": null,
+          "spotifyId": "5stCKPzR4uSF3Sr5aJS60Y",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Nomi.%20Sweet%20Talk",
@@ -168,7 +168,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c71831ba-vera-vice-tell-me-tell-me",
-          "spotifyId": null,
+          "spotifyId": "4dP8AJAXMLPb0EyrSwkKki",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vera%20Vice%20Tell%20Me%2C%20Tell%20Me",
@@ -185,7 +185,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c71831ba-romare-computer-blue",
-          "spotifyId": null,
+          "spotifyId": "7jbse8nX2uQPctfhgCZ0HX",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Romare%20Computer%20Blue",
@@ -219,7 +219,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c319ff35-koit-toome-ma-pogenen",
-          "spotifyId": null,
+          "spotifyId": "6orFAHUqnqYW1BcGvZcfhE",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Koit%20Toome%20Ma%20p%C3%B5genen",
@@ -236,7 +236,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c319ff35-drake-janice-stfu",
-          "spotifyId": null,
+          "spotifyId": "514joG57v4yKTsfQmz7stz",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Drake%20Janice%20STFU",
@@ -253,7 +253,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c319ff35-liisi-koikson-endaga-vii",
-          "spotifyId": null,
+          "spotifyId": "6R0kLdQAfcLHKRZjmneIm2",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Liisi%20Koikson%20Endaga%20vii",
@@ -270,7 +270,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c319ff35-bts-swim",
-          "spotifyId": null,
+          "spotifyId": "68lbSrXDORS51pmyjZv712",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/BTS%20Swim",
@@ -290,7 +290,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/d06dc046-8fdf-4ae6-b47a-4f97f25eac31/file/4a83c649-fe59-43a5-9d77-10b30291a530.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/d06dc046-8fdf-4ae6-b47a-4f97f25eac31",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "4cgQHhWNEd7HBRewHQmosV",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -304,7 +304,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d06dc046-alika-laagna-tee",
-          "spotifyId": null,
+          "spotifyId": "49AUmKtze9rjKQgm9pWNVK",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Alika%20Laagna%20tee",
@@ -321,7 +321,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d06dc046-the-durutti-kolumn-liars",
-          "spotifyId": null,
+          "spotifyId": "5s8skf66FzZK9dxASx3QZS",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Durutti%20Kolumn%20Liars",
@@ -339,7 +339,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d06dc046-skizo-etteaste",
-          "spotifyId": null,
+          "spotifyId": "0NwTFKAUm1ref1POyxMSOr",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Skizo%20Benakanister%20Etteaste",
@@ -356,7 +356,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d06dc046-chassol-rude-crude-lude",
-          "spotifyId": null,
+          "spotifyId": "63VHIVT2JODmfnGU3rscQ3",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Chassol%20Rude%20Crude%20Lude",
@@ -392,7 +392,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4d543f2a-prodigyboys-sport",
-          "spotifyId": null,
+          "spotifyId": "3jFujL3krU5lruzpjI0eae",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Prodigyboys%20Sport",
@@ -409,7 +409,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4d543f2a-salem-kin",
-          "spotifyId": null,
+          "spotifyId": "7jKrHMjQuqMPj3Nvp9H9i9",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Salem%20Kin",
@@ -426,7 +426,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4d543f2a-simone-minn-tahtsin-ainult-oelda-sul",
-          "spotifyId": null,
+          "spotifyId": "2JhE7qSfCBt9hlRn8Bxf4B",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Simone%20Minn%20Tahtsin%20ainult%20%C3%B6elda%20sul",
@@ -445,7 +445,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4d543f2a-the-avalanches-ft-nikki-nair-together",
-          "spotifyId": null,
+          "spotifyId": "0iYNsh3PU3BaRLtijklDM1",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Avalanches%20ft%20Nikki%20Nair%20Jessy%20Lanza%20Prentiss%20Together",
@@ -482,7 +482,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3b8b51d7-onyx-kah-mul-asi",
-          "spotifyId": null,
+          "spotifyId": "6CSyc1n6UH49U4PKbMqevJ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/ONYX%20pluuto%20Kah%20mul%20asi",
@@ -499,7 +499,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3b8b51d7-boards-of-canada-prophecy-at-1420-mhz",
-          "spotifyId": null,
+          "spotifyId": "4CpyZQzwxCzQPiUTvlOBrn",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Boards%20of%20Canada%20Prophecy%20at%201420%20Mhz",
@@ -518,7 +518,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3b8b51d7-adel-force-be-cool",
-          "spotifyId": null,
+          "spotifyId": "45tqDLpCKFhqOgS6tcuWVa",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Adel%20Force%20Breakfake%20Q100%20Be%20Cool",
@@ -535,7 +535,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3b8b51d7-cortis-tnt",
-          "spotifyId": null,
+          "spotifyId": "7diH1qnFziArYzynk3vkr6",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Cortis%20TNT",
@@ -569,7 +569,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "19717d8f-florian-wahl-timofei-chalamet",
-          "spotifyId": null,
+          "spotifyId": "5zAkutSH0KhOMRiCIf913s",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Florian%20Wahl%20TIMOFEI%20CHALAMET",
@@ -589,7 +589,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "19717d8f-skrillex-smoke",
-          "spotifyId": null,
+          "spotifyId": "0shd35qg34N2zlEMv1BbhY",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Skrillex%20ISOxo%20Cristale%20TeeZandos%20Smoke",
@@ -606,7 +606,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "19717d8f-intrepid-ball-laviin",
-          "spotifyId": null,
+          "spotifyId": "51IgVVhxMlIQzQ6H6nbg24",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Intrepid%20Ball%2FLaviin",
@@ -623,7 +623,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "19717d8f-vince-staples-blackberry-marmelade",
-          "spotifyId": null,
+          "spotifyId": "2QOTLNlbpsTJq074uw3yLY",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vince%20Staples%20Blackberry%20Marmelade",
@@ -657,7 +657,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "37bb174f-holy-motors-heavens-night",
-          "spotifyId": null,
+          "spotifyId": "1HYTyot9GiIJ1YciTxDGZT",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Holy%20Motors%20Heavens%20Night",
@@ -674,7 +674,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "37bb174f-madonna-i-feel-so-free",
-          "spotifyId": null,
+          "spotifyId": "5GNDe5JmNKP3OThhyXgx5S",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Madonna%20I%20Feel%20So%20Free",
@@ -708,7 +708,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "37bb174f-smerz-spring-summer",
-          "spotifyId": null,
+          "spotifyId": "3lKB7OuBglrz7Pjpe0e3sk",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Smerz%20Spring%20Summer",
@@ -743,7 +743,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d73035d0-suurell-metafoorid",
-          "spotifyId": null,
+          "spotifyId": "5qTTHQMdiFSFZLaxmvb1HS",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/SuurEll%20miauf%20Metafoorid",
@@ -761,7 +761,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d73035d0-dean-blunt-478-freestyle",
-          "spotifyId": null,
+          "spotifyId": "6vzGpryGBxgf4HxFRElj0i",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Dean%20Blunt%20Celeste%20478%20freestyle",
@@ -778,7 +778,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d73035d0-marco-tasane-eesti-jumalanna",
-          "spotifyId": null,
+          "spotifyId": "6bfqwho4fahPe0EDAKEpCj",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Marco%20Tasane%20Eesti%20jumalanna",
@@ -795,7 +795,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d73035d0-oneohtrix-point-never-dim-stars",
-          "spotifyId": null,
+          "spotifyId": "4uXMT0xoObBj422bkwOnXv",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Oneohtrix%20Point%20Never%20Dim%20Stars",
@@ -829,7 +829,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2700db98-olev-muska-chastushka-ii",
-          "spotifyId": null,
+          "spotifyId": "7lXJ93HDanC6If8OhWcP72",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Olev%20Muska%20Chastushka%20II",
@@ -846,7 +846,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2700db98-the-strokes-going-shopping",
-          "spotifyId": null,
+          "spotifyId": "18bHbpAKgsf8dor8F6qXHF",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Strokes%20Going%20Shopping",
@@ -863,7 +863,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2700db98-raul-go3",
-          "spotifyId": null,
+          "spotifyId": "7BJ3hpt4VjdYGPajcJ3RIC",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Raul%20Go3",
@@ -880,7 +880,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2700db98-laufey-madwoman",
-          "spotifyId": null,
+          "spotifyId": "0UqHzMvRQnaOXEPKgFVhxN",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Laufey%20Madwoman",
@@ -916,7 +916,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "762d405c-pitsa-alitalia-sinuga-ta-jaab",
-          "spotifyId": null,
+          "spotifyId": "4y4lQrePp3w8ASjXg3x8un",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Pitsa%20alitalia%20(sinuga%20ta%20j%C3%A4%C3%A4b)",
@@ -933,7 +933,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "762d405c-ye-ft-ceelo-green-bully",
-          "spotifyId": null,
+          "spotifyId": "6KhDb86ThnlKirRw1UBZGb",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Ye%20ft%20CeeLo%20Green%20Bully",
@@ -950,7 +950,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "762d405c-freak-street-pahupidi-ring",
-          "spotifyId": null,
+          "spotifyId": "2a50Rj6m0nAxC8pDxAfMQ7",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Freak%20Street%20Pahupidi%20ring",
@@ -967,7 +967,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "762d405c-funk-tribu-shock",
-          "spotifyId": null,
+          "spotifyId": "3YHiBixRDP48H41xjzD8J7",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Funk%20Tribu%20Shock",
@@ -1003,7 +1003,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "32820b14-maria-kallastu-kus-magab-armastus",
-          "spotifyId": null,
+          "spotifyId": "4FQcRRELC6cC4Dr3omHjoT",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/maria%20kallastu%20kus%20magab%20armastus",
@@ -1020,7 +1020,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "32820b14-robyn-sucker-for-love",
-          "spotifyId": null,
+          "spotifyId": "5O8GYy3zDYonQno0UWYc9n",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Robyn%20Sucker%20For%20Love",
@@ -1037,7 +1037,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "32820b14-luurel-varas-standoff",
-          "spotifyId": null,
+          "spotifyId": "4DohCwlifJ4I2zmZ7VsXzP",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Luurel%20Varas%20Standoff",
@@ -1054,7 +1054,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "32820b14-jessie-ware-automatic",
-          "spotifyId": null,
+          "spotifyId": "3rtCZDdLpyeEp556iUzIli",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jessie%20Ware%20Automatic",
@@ -1074,7 +1074,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/04293800-3b03-4491-854f-171a3ed8563f/file/4e983951-0161-485c-b0ff-0250e09be449.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/04293800-3b03-4491-854f-171a3ed8563f",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "56GjOEwX3j1oxzH1Md1FQf",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -1088,7 +1088,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "04293800-tommy-cash-figaro",
-          "spotifyId": null,
+          "spotifyId": "2yOEbf5kU9yQ5LtLLPHVGc",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Tommy%20Cash%20Figaro",
@@ -1122,7 +1122,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "04293800-lotey-puhas-valge-sark",
-          "spotifyId": null,
+          "spotifyId": "12U4YfKp5sNxjXBNfH0AL9",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lotey%20Puhas%20valge%20s%C3%A4rk",
@@ -1159,7 +1159,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/9ff7f5d7-2da0-4bc1-90b1-dbdc8d22bc9f/file/57f4aaff-1e44-4abd-8251-8f5f411d4f5c.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/9ff7f5d7-2da0-4bc1-90b1-dbdc8d22bc9f",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "5LKSiSbgXhKsWGxUSCFXgj",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -1174,7 +1174,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "9ff7f5d7-alonette-uneasy",
-          "spotifyId": null,
+          "spotifyId": "1wiLSyNsjZhfKns7UNJVdc",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Alonette%20Anna%20Kaneelina%20Uneasy",
@@ -1191,7 +1191,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "9ff7f5d7-james-blake-days-go-by",
-          "spotifyId": null,
+          "spotifyId": "1C9GkHC3DzV47cVCvvHlnw",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/James%20Blake%20Days%20Go%20By",
@@ -1208,7 +1208,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "9ff7f5d7-leslie-da-bass-viimasena-peol",
-          "spotifyId": null,
+          "spotifyId": "48ZU7ywgfvXbbde6c5gr17",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Leslie%20Da%20Bass%20Viimasena%20peol",
@@ -1225,7 +1225,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "9ff7f5d7-new-age-doom-we-re-all-the-same",
-          "spotifyId": null,
+          "spotifyId": "1E8gfuI7N9TAESRTzqaJBJ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/New%20Age%20Doom%20We%E2%80%99re%20All%20The%20Same",
@@ -1245,7 +1245,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/a30b7b2f-9ca6-492f-9849-155d40389d7d/file/f4657f7e-6570-428c-8ec5-4276d1e03ac1.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/a30b7b2f-9ca6-492f-9849-155d40389d7d",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "7zn7ShiAoxQMawMoHZ9UUM",
       "chooser": "Raul Saaremets",
       "guests": [
         "Piret Järvis-Milder"
@@ -1261,7 +1261,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a30b7b2f-qotid-kus-sa-lahed",
-          "spotifyId": null,
+          "spotifyId": "3d2zU6yRwF2mbtUBO5V7Q6",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Qotid%20Kus%20sa%20l%C3%A4hed%3F",
@@ -1279,7 +1279,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a30b7b2f-juice-wrld-we-don-t-get-along",
-          "spotifyId": null,
+          "spotifyId": "2XhatQ5NqfdqZMLCegWnbD",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Juice%20WRLD%20Marshmello%20We%20Don%E2%80%99t%20Get%20Along",
@@ -1296,7 +1296,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a30b7b2f-sibyl-vane-can-t-keep-it-together",
-          "spotifyId": null,
+          "spotifyId": "4r2SApYMZnlW9c7nKyfQEp",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Sibyl%20Vane%20Can%E2%80%99t%20Keep%20It%20Together",
@@ -1313,7 +1313,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a30b7b2f-morrissey-lester-bangs",
-          "spotifyId": null,
+          "spotifyId": "2cSM8lDuJo5JmFgOKMV3zO",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Morrissey%20Lester%20Bangs",
@@ -1348,7 +1348,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "40f1de08-clicherik-ft-karl-killing-dusiruumi-muusik",
-          "spotifyId": null,
+          "spotifyId": "1Jq785EA33vBKF62gqpLIW",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Clicherik%20ft%20Karl%20Killing%20Maria%20Kallastu%20Du%C5%A1iruumi%20muusik",
@@ -1365,7 +1365,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "40f1de08-bruno-mars-cha-cha-cha",
-          "spotifyId": null,
+          "spotifyId": "6QletrrmpkUpeJkipX9pgf",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bruno%20Mars%20Cha%20Cha%20Cha",
@@ -1382,7 +1382,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "40f1de08-kadri-voorand-tunnistus",
-          "spotifyId": null,
+          "spotifyId": "6owhxfx7tsyMGczOCdDzza",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kadri%20Voorand%20Tunnistus",
@@ -1399,7 +1399,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "40f1de08-jill-scott-ft-too-hort-bpty",
-          "spotifyId": null,
+          "spotifyId": "3VC2OG45kkdykebomK6Eus",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jill%20Scott%20ft%20Too%20%24hort%20BPTY",
@@ -1433,7 +1433,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2d7441fe-florian-wahl-miks-me-hurdime",
-          "spotifyId": null,
+          "spotifyId": "7tY6JcCgSEtNjlWBPwwPzb",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Florian%20Wahl%20Miks%20me%20hurdime",
@@ -1450,7 +1450,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2d7441fe-lana-del-rey-white-feather-hawk-tall-deer-hunter",
-          "spotifyId": null,
+          "spotifyId": "7IM4xK4W4n06UAV48ZXMup",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lana%20Del%20Rey%20White%20Feather%20Hawk%20Tall%20Deer%20Hunter",
@@ -1467,7 +1467,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2d7441fe-hanakiv-lastele",
-          "spotifyId": null,
+          "spotifyId": "2xx1BA81SoPDLd9fPks79j",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Hanakiv%20Lastele",
@@ -1484,7 +1484,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2d7441fe-foo-fighters-your-favourite-toy",
-          "spotifyId": null,
+          "spotifyId": "0L9RHQ6I91En6Ic1ILQAEF",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Foo%20Fighters%20Your%20Favourite%20Toy",
@@ -1504,7 +1504,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/27eae26f-89b6-4deb-ba4c-7f242eebbc09/file/dd83f252-2924-49cf-8601-de81cd7b1f07.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/27eae26f-89b6-4deb-ba4c-7f242eebbc09",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "0ftcftJxuyyBt3MJdvwVDv",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -1519,7 +1519,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "27eae26f-jooseppro-ma-nagu-lol",
-          "spotifyId": null,
+          "spotifyId": "3FBVycGAD2XGR2iO86haFn",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jooseppro%20Lennu%20Ma%20nagu%20LOL",
@@ -1536,7 +1536,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "27eae26f-charli-xcx-always-everywhere",
-          "spotifyId": null,
+          "spotifyId": "6fGapufucZHPva1kvCqceA",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Charli%20xcx%20Always%20Everywhere",
@@ -1553,7 +1553,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "27eae26f-majaka-mandela-tossud",
-          "spotifyId": null,
+          "spotifyId": "2qVEhOtj70CuOqnKT3CdiN",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Majaka%20Mandela%20Tossud",
@@ -1570,7 +1570,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "27eae26f-paul-anka-anytime",
-          "spotifyId": null,
+          "spotifyId": "6vFBwtkILLW7FiNGkY9w2t",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Paul%20Anka%20Anytime",
@@ -1590,7 +1590,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/4015a542-f0c8-4056-b372-318ae354b50f/file/4b5d448d-8d2e-40c2-9137-e4b7c4745f8f.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/4015a542-f0c8-4056-b372-318ae354b50f",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "1mXhZTQf1Cr0jG2l6XCQih",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -1604,7 +1604,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4015a542-an-marlen-sudame-jargi",
-          "spotifyId": null,
+          "spotifyId": "0Ib0vNZxTbhNJWUukjNNSu",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/An-Marlen%20S%C3%BCdame%20j%C3%A4rgi",
@@ -1621,7 +1621,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4015a542-sombr-homewrecker",
-          "spotifyId": null,
+          "spotifyId": "7tICCrK3CcyRFKza7yrR0z",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Sombr%20Homewrecker",
@@ -1638,7 +1638,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4015a542-oopus-hanemang",
-          "spotifyId": null,
+          "spotifyId": "32XFoFdn1znjXrzOhf3vve",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Oopus%20Hanem%C3%A4ng",
@@ -1655,7 +1655,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4015a542-morrissey-notre-dam",
-          "spotifyId": null,
+          "spotifyId": "0M1ZsqJ3tJTbiHKWenjnYM",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Morrissey%20Notre%20Dam",
@@ -1675,7 +1675,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/e505c599-9e3e-46e1-846a-b35e7948a389/file/5f6de722-7909-45c1-be8f-8ebb18188233.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/e505c599-9e3e-46e1-846a-b35e7948a389",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "3bCqqXMyfc1DD9XRPB54fQ",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -1689,7 +1689,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e505c599-jarek-kasar-olen-terve-elu-s88nud-v6ileiba-valel",
-          "spotifyId": null,
+          "spotifyId": "6Wm5UGCtgejcuj8HyDc5LQ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jarek%20Kasar%20Olen%20terve%20elu%20s88nud%20v6ileiba%20valelt%20poolt",
@@ -1706,7 +1706,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e505c599-harry-styles-aperture",
-          "spotifyId": null,
+          "spotifyId": "45Z3m6yazmAi4jZuW0tzW0",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Harry%20Styles%20Aperture",
@@ -1723,7 +1723,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e505c599-a-ap-rocky-punk-rocky",
-          "spotifyId": null,
+          "spotifyId": "1AXsHbdIYx2OyKmdOcIL5T",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/A%24AP%20Rocky%20Punk%20Rocky",
@@ -1743,7 +1743,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/4b8b3c35-0adb-4510-91d2-4608c396dc4b/file/0b3be09e-5826-4eca-a1eb-2248f761242a.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/4b8b3c35-0adb-4510-91d2-4608c396dc4b",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "0H4vaW4Y68cpxkIALrbTUO",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -1760,7 +1760,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4b8b3c35-skizo-narkopoliitika",
-          "spotifyId": null,
+          "spotifyId": "7K6ccdK3jFGA5lOZv5OsJH",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/SKIZO%20Benakanister%20V%C3%A4ike%20PD%20Hanf%20Kung%20Narkopoliitika",
@@ -1777,7 +1777,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4b8b3c35-bruce-springsteen-streets-of-minneapolis",
-          "spotifyId": null,
+          "spotifyId": "6AtgHxdvghUjcjdPX1VhWN",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bruce%20Springsteen%20Streets%20of%20Minneapolis",
@@ -1794,7 +1794,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4b8b3c35-fuzzolini-twilight-haze",
-          "spotifyId": null,
+          "spotifyId": "5bvxExQplU3c9LYVAwFSCg",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Fuzzolini%20Twilight%20Haze",
@@ -1813,7 +1813,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4b8b3c35-thundercat-i-did-this-to-myself",
-          "spotifyId": null,
+          "spotifyId": "7fJM4XjW6m30iPxPxKeGpb",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Thundercat%20Lil%20Yachty%20Flying%20Lotus%20I%20Did%20This%20To%20Myself",
@@ -1833,7 +1833,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/16e70f0c-6c76-4d96-809b-8d34790f9e19/file/1ae3a56d-8a1a-4364-92bd-6803edd910c6.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/16e70f0c-6c76-4d96-809b-8d34790f9e19",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "3LthpLlbOs7nGcA9EjCyYi",
       "chooser": null,
       "guests": [],
       "source": "automaatne",
@@ -1864,7 +1864,7 @@
           "chooser": null,
           "note": null,
           "id": "16e70f0c-vaiko-eplik-kuningas",
-          "spotifyId": null,
+          "spotifyId": "16XLU145WzAE8y0rhQGyGq",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vaiko%20Eplik%20Kuningas",
@@ -1898,7 +1898,7 @@
           "chooser": null,
           "note": null,
           "id": "16e70f0c-margiiela-ilus-paev",
-          "spotifyId": null,
+          "spotifyId": "5DRuLCH2Kh044yHkVDgGP1",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/margiiela%20ilus%20p%C3%A4ev",
@@ -1932,7 +1932,7 @@
           "chooser": null,
           "note": null,
           "id": "16e70f0c-turnstile-i-care",
-          "spotifyId": null,
+          "spotifyId": "7KVIuHxbV5lvBE5Vyiw8FC",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Turnstile%20I%20Care",
@@ -1949,7 +1949,7 @@
           "chooser": null,
           "note": null,
           "id": "16e70f0c-cardiacs-busty-beez",
-          "spotifyId": null,
+          "spotifyId": "1Eq0eyg4e5BKZwmhyMVl4H",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Cardiacs%20Busty%20Beez",
@@ -1966,7 +1966,7 @@
           "chooser": null,
           "note": null,
           "id": "16e70f0c-jjjjjerome-ellis-savannah-sparrow-for-and-after-",
-          "spotifyId": null,
+          "spotifyId": "0XOqFA9NwqrJylYJ0MbNAV",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/JJJJJerome%20Ellis%20Savannah%20Sparrow%20(for%20and%20after%20Kenita%20Miller)",
@@ -1983,7 +1983,7 @@
           "chooser": null,
           "note": null,
           "id": "16e70f0c-dijon-higher",
-          "spotifyId": null,
+          "spotifyId": "0XnD9GJRD01wvXFLWJXiYx",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Dijon%20Higher",
@@ -2000,7 +2000,7 @@
           "chooser": null,
           "note": null,
           "id": "16e70f0c-kelman-duran-equinox",
-          "spotifyId": null,
+          "spotifyId": "163L7wORqND1nCuFfCwxVR",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kelman%20Duran%20Equinox",
@@ -2020,7 +2020,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/263c8fbc-4f46-45b9-819f-836ff6f1905f/file/fed17679-6052-43ec-aa86-ddbec169686b.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/263c8fbc-4f46-45b9-819f-836ff6f1905f",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "1Xd13yToilaGybp9ARNWJB",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2035,7 +2035,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "263c8fbc-lotte-jurjendal-alien-angel",
-          "spotifyId": null,
+          "spotifyId": "1XCBtrAYCFKhuiR5TIjXRT",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lotte%20J%C3%BCrjendal%20Taavi%20Laatsit%20Alien%20Angel",
@@ -2071,7 +2071,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "263c8fbc-elisabeth-tiffany-jopetaskud",
-          "spotifyId": null,
+          "spotifyId": "6UfIb8uTr3Jby9pzsryjdZ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Elisabeth%20Tiffany%20jopetaskud",
@@ -2088,7 +2088,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "263c8fbc-glasser-knave-dj-python-remix",
-          "spotifyId": null,
+          "spotifyId": "0ZO93WbuhtzYvUTnhGwPsP",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Glasser%20Knave%20(DJ%20Python%20Remix)",
@@ -2108,7 +2108,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/28a618cf-df98-4fd5-b453-efec1e11e8a0/file/a3163e8c-d26b-4672-801e-1bd980376390.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/28a618cf-df98-4fd5-b453-efec1e11e8a0",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "38Pqug9P24N2TgoyjKbwH3",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2122,7 +2122,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "28a618cf-blix-tallinn-2000-uksi",
-          "spotifyId": null,
+          "spotifyId": "74Z5Obf5PRXrTS8eqjQOcj",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Blix%20Tallinn%202000%20(%C3%BCksi)",
@@ -2140,7 +2140,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "28a618cf-anika-these-days",
-          "spotifyId": null,
+          "spotifyId": "2zWHeOcp8vv6hHpaQCBJMd",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Anika%20Jim%20Jarmusch%20These%20Days",
@@ -2157,7 +2157,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "28a618cf-marju-kuut-naen-end-su-silmades",
-          "spotifyId": null,
+          "spotifyId": "61OQ9radzyW3Q9UJzoc3rV",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Marju%20Kuut%20N%C3%A4en%20end%20su%20silmades",
@@ -2194,7 +2194,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/17d543f7-d88a-48ec-b661-4336ce144ae4/file/1a4ac3f5-fda2-4efa-801a-9da6713362bd.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/17d543f7-d88a-48ec-b661-4336ce144ae4",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "4H9snjj7YXXYEd87Muxz6p",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2208,7 +2208,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "17d543f7-reket-varjude-maa",
-          "spotifyId": null,
+          "spotifyId": "5oRD1pKbWkbUQJy4KfKJVn",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/reket%20Varjude%20maa",
@@ -2225,7 +2225,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "17d543f7-jimi-tenor-shine-all-night",
-          "spotifyId": null,
+          "spotifyId": "0GrSTRsMLy7KnBXAiC8byh",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jimi%20Tenor%20Shine%20All%20Night",
@@ -2243,7 +2243,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "17d543f7-jooseppro-kaliiber",
-          "spotifyId": null,
+          "spotifyId": "3bXOQAMf5pPpNw0ZB2mJ2c",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/jooseppro%20Lennu%20Kaliiber",
@@ -2260,7 +2260,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "17d543f7-headache-the-joy-is-ours",
-          "spotifyId": null,
+          "spotifyId": "01LCIX0nhCVR6W1nOmggeC",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Headache%20The%20Joy%20Is%20Ours",
@@ -2280,7 +2280,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/7d01a2d3-0529-4b26-bffe-dcb30f1353fd/file/2bdf6f78-4850-43d9-9673-120a5c7d087d.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/7d01a2d3-0529-4b26-bffe-dcb30f1353fd",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "4xeGoUIEm3ZRhm3yct25iU",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2294,7 +2294,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "7d01a2d3-maria-kallastu-ddg",
-          "spotifyId": null,
+          "spotifyId": "6BfQ9hufLHgXRM2Wm9RVgt",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Maria%20Kallastu%20DDG",
@@ -2313,7 +2313,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "7d01a2d3-fred-again-beto-s-horns-fred-remix",
-          "spotifyId": null,
+          "spotifyId": "53rDh4kB1LJyLgnxm8K6Np",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Fred%20again..%20CA7RIEL%20Paco%20Ambroso%20Beto%E2%80%99s%20Horns%20%E2%80%93%20fred%20remix",
@@ -2330,7 +2330,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "7d01a2d3-sadu-uueks-hommikul",
-          "spotifyId": null,
+          "spotifyId": "1a7A3FoOogzD0HnViWe1DU",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/SADU%20Uueks%20hommikul",
@@ -2347,7 +2347,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "7d01a2d3-portugal-the-man-denali",
-          "spotifyId": null,
+          "spotifyId": "1jhgSVa96fjzb1dsJw6kvB",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Portugal.%20The%20Man%20Denali",
@@ -2367,7 +2367,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/cae25c7a-5904-4742-a78f-ce6214802fde/file/398cca1d-719b-4e7e-aa8f-ace79007dc30.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/cae25c7a-5904-4742-a78f-ce6214802fde",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "4Ia8CiEhpWZJXhA287YSsw",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2381,7 +2381,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "cae25c7a-maris-pihlap-ara-lopeta",
-          "spotifyId": null,
+          "spotifyId": "5q2TP5NbhucRjrpCSUpXpb",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Maris%20Pihlap%20%C3%84ra%20l%C3%B5peta",
@@ -2398,7 +2398,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "cae25c7a-charli-xcx-ft-john-cale-house",
-          "spotifyId": null,
+          "spotifyId": "15ApEgs3gaAMKOEj2vzH1p",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Charli%20XCX%20ft%20John%20Cale%20House",
@@ -2415,7 +2415,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "cae25c7a-ans-andur-must-pilv",
-          "spotifyId": null,
+          "spotifyId": "3vEPlsBFaDELSpZGoq1pCX",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Ans.%20Andur%20Must%20pilv",
@@ -2432,7 +2432,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "cae25c7a-smerz-imagine-this-new-york-edit",
-          "spotifyId": null,
+          "spotifyId": "7aLekIhtPcJC5KsYQlCZy3",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Smerz%20Imagine%20This%20%E2%80%93%20New%20York%20edit",
@@ -2467,7 +2467,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d3af9788-siim-pojeng-sules-lilli",
-          "spotifyId": null,
+          "spotifyId": "4OuvXk4CFwVjh1zkLN6dzY",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Siim%20Pojeng%20EiK%20S%C3%BCles%20lilli",
@@ -2484,7 +2484,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d3af9788-florence-the-machine-sympathy-magic",
-          "spotifyId": null,
+          "spotifyId": "6ExwNwWLXvvKr5hk6lkHUY",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Florence%20%2B%20The%20Machine%20Sympathy%20Magic",
@@ -2501,7 +2501,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d3af9788-meelik-johker-puss",
-          "spotifyId": null,
+          "spotifyId": "4pXhe6gdeg0Sf0GIevliaE",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Meelik%20J%C3%B5hker%20P%C3%BCss",
@@ -2520,7 +2520,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d3af9788-moore-kismet-blue2th",
-          "spotifyId": null,
+          "spotifyId": "3WlZDXyo8jPkHuCAIb3uPR",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Moore%20Kismet%20Lunnari%20Kyva%20BLUE2TH!",
@@ -2540,7 +2540,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/3bc11027-a2bd-46cf-b7fb-0acdf4914632/file/7926a354-7f9b-4966-bbf2-78f77073f529.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/3bc11027-a2bd-46cf-b7fb-0acdf4914632",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "3ni3AlSnP3HlgLqn7c5Io0",
       "chooser": "Raul Saaremets",
       "guests": [
         "Sandra Sillamaa"
@@ -2556,7 +2556,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3bc11027-gram-of-fun-corolla",
-          "spotifyId": null,
+          "spotifyId": "5NE9YDcJ2MWigkPuwO9Mz3",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Gram-of-Fun%20corolla",
@@ -2575,7 +2575,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3bc11027-rosalia-berghain",
-          "spotifyId": null,
+          "spotifyId": "6V4ntlX6608rd3Ec5SpVhj",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Rosal%C3%ADa%20Bj%C3%B6rk%20Yves%20Tumor%20Berghain",
@@ -2593,7 +2593,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3bc11027-boipepperoni-open-heart",
-          "spotifyId": null,
+          "spotifyId": "1BGo1bUgmgHPeiGfTh0ici",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/boipepperoni%20Malla%20Open%20Heart",
@@ -2611,7 +2611,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3bc11027-tyler-up-all-night",
-          "spotifyId": null,
+          "spotifyId": "4AkqBKanjlSKMmNLGW4oSk",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Tyler%20the%20Creator%20Up%20All%20Night",
@@ -2631,7 +2631,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/4cc9e6ed-9420-43c2-93b2-fe7ef60e6d5a/file/7ddb068d-0224-4e27-9bfc-39e555452237.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/4cc9e6ed-9420-43c2-93b2-fe7ef60e6d5a",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "5JXLLsy14HRyqbJshWeObh",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2646,7 +2646,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4cc9e6ed-karl-killing-ara-enam-ella",
-          "spotifyId": null,
+          "spotifyId": "1imaHHFvbGAnWMWRb2sHhY",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Karl%20Killing%20villemdrillem%20%C3%A4ra%20enam%20ella",
@@ -2681,7 +2681,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4cc9e6ed-mar-u-kassar",
-          "spotifyId": null,
+          "spotifyId": "58aJsJiHc4WVdRY5v6FZaC",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/MAR%24U%20Angeel%20K%C3%A4ssar",
@@ -2698,7 +2698,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4cc9e6ed-powell-up-all-night",
-          "spotifyId": null,
+          "spotifyId": "2C50KXEH8DPoQXDeOOAC8D",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Powell%20Up%20All%20Night",
@@ -2718,7 +2718,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/ecacb7c9-f2b0-4a1a-aeb6-5a2afae3ab53/file/b7e7e64b-3358-4f70-9201-5a4b4628a32a.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/ecacb7c9-f2b0-4a1a-aeb6-5a2afae3ab53",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "2wzgpWrBy4TRYa0NL7np31",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2732,7 +2732,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ecacb7c9-randaja-inimeseks-olemine",
-          "spotifyId": null,
+          "spotifyId": "7KgpgW9YhR1sTdOnZJDiia",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/R%C3%A4ndaja%20Inimeseks%20olemine",
@@ -2750,7 +2750,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ecacb7c9-lojay-memories",
-          "spotifyId": null,
+          "spotifyId": "4zMoZEkWSHb5NXuflbLHNI",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lojay%20Tyla%20Memories",
@@ -2768,7 +2768,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ecacb7c9-clicherik-sobralaul",
-          "spotifyId": null,
+          "spotifyId": "64hTptTXGZ27m6xgG8DNzN",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Clicherik%20M%C3%A4x%20S%C3%B5bralaul",
@@ -2785,7 +2785,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ecacb7c9-t-i-ride-the-plane",
-          "spotifyId": null,
+          "spotifyId": "7pX2ih9z26J9Re0mXaVkE2",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/T%20%3E%20I%20Ride%20the%20Plane",
@@ -2805,7 +2805,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/4dfa188b-487e-4d24-b6cc-e22259becd9b/file/9e44891e-1852-4c9d-a0ae-85ac21be6002.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/4dfa188b-487e-4d24-b6cc-e22259becd9b",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "4dAOdzJL5JJruDOhEMIYSh",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2822,7 +2822,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4dfa188b-dew8-kui-kedagi-piinad",
-          "spotifyId": null,
+          "spotifyId": "1oIpPfVk2N1o6H4nbvjJkf",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/DEW8%20DeBu%2057EVEN%20SULTAN%20Kui%20kedagi%20piinad",
@@ -2839,7 +2839,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4dfa188b-twice-me-you",
-          "spotifyId": null,
+          "spotifyId": "0hGWmmZuKyd8sO7RCvF6rH",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Twice%20ME%20%2B%20YOU",
@@ -2856,7 +2856,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4dfa188b-meisterjaan-meelehein",
-          "spotifyId": null,
+          "spotifyId": "3U2ZCKqsnePyaSVGIgmvVC",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Meisterjaan%20Meelehein",
@@ -2875,7 +2875,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4dfa188b-gorillaz-the-manifesto",
-          "spotifyId": null,
+          "spotifyId": "1pgl5ntthebzHaqJVI1n6B",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Gorillaz%20Treuno%20Proof%20The%20Manifesto",
@@ -2895,7 +2895,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/4998e33a-ccac-42a9-a0c1-82b887849d8b/file/bb15a95f-9b6b-46e4-ae3d-97fc1950e680.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/4998e33a-ccac-42a9-a0c1-82b887849d8b",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "1h11Rx2aQqx3yKu9wzw6fq",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2909,7 +2909,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4998e33a-margiiela-alexandria",
-          "spotifyId": null,
+          "spotifyId": "7G5cCPSdWEPQvVpslATvIv",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/margiiela%20Alexandria",
@@ -2926,7 +2926,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4998e33a-taylor-swift-the-fate-of-ophelia",
-          "spotifyId": null,
+          "spotifyId": "53iuhJlwXhSER5J2IYYv1W",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Taylor%20Swift%20The%20Fate%20of%20Ophelia",
@@ -2943,7 +2943,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4998e33a-kreemikast-onn-ilma-roomuta",
-          "spotifyId": null,
+          "spotifyId": "5YBL01WjkVQreu1doYOd9G",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kreemikast%20%C3%95nn%20ilma%20r%C3%B5%C3%B5muta",
@@ -2960,7 +2960,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4998e33a-dry-cleaning-hit-my-head-all-day",
-          "spotifyId": null,
+          "spotifyId": "0quJpknjZo8gMmwzMhiHb3",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Dry%20Cleaning%20Hit%20My%20Head%20All%20Day",
@@ -2980,7 +2980,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/f247c45d-04ba-4b8c-846d-5e7aaf06b13c/file/895445a0-ba12-409b-8f39-4dd30d4756ab.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/f247c45d-04ba-4b8c-846d-5e7aaf06b13c",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "63FRkAcKcIraAHFuWpmAtE",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -2994,7 +2994,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f247c45d-white-girl-ma-ei-taha",
-          "spotifyId": null,
+          "spotifyId": "2QRCwK0LoB6GrPJBcdQ8KU",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/White%20Girl%20Ma%20ei%20taha",
@@ -3011,7 +3011,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f247c45d-danny-brown-stardust",
-          "spotifyId": null,
+          "spotifyId": "0tfeN7mf5y5Fyz8xxoNTB9",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Danny%20Brown%20Stardust",
@@ -3028,7 +3028,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f247c45d-heleenyum-siren-remix",
-          "spotifyId": null,
+          "spotifyId": "7nSmzCc8FzGt0CavI3AGqF",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Heleenyum%20Siren%20(Remix)",
@@ -3045,7 +3045,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f247c45d-juana-molina-siestas-ahi",
-          "spotifyId": null,
+          "spotifyId": "48ZuLtNLHM0I5DdmIo99YZ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Juana%20Molina%20Siestas%20Ahi",
@@ -3065,7 +3065,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/e9622d5d-4aa3-4f8b-9e73-7df8d40d1da0/file/438eefc5-80e3-4b48-9450-afd6da0dc44a.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/e9622d5d-4aa3-4f8b-9e73-7df8d40d1da0",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "0ye8rbyGBZEv7NfuhSWUeY",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -3096,7 +3096,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e9622d5d-jonas-f-k-nadal",
-          "spotifyId": null,
+          "spotifyId": "2VDPBRBCWwvtt8Xz2Ta8az",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/jonas.f.k.%20N%C3%A4dal",
@@ -3114,7 +3114,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e9622d5d-villemdrillem-kas-tuled-ka",
-          "spotifyId": null,
+          "spotifyId": "6d4Cu5d7wbMmi0EynydKbQ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/villemdrillem%20Liis%20Lemsalu%20Kas%20tuled%20ka%3F",
@@ -3131,7 +3131,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e9622d5d-yshiroma-amends",
-          "spotifyId": null,
+          "spotifyId": "78BqNzJoI3SyVTQT9w1GRm",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/yshiroma%20Amends",
@@ -3151,7 +3151,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/df1c87e3-89ca-4408-98d6-0495d6244a8c/file/9725e1fa-2fbe-4fb4-a785-7a6c1ac2cc59.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/df1c87e3-89ca-4408-98d6-0495d6244a8c",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "0zVNiQePGco3wWhq127eiO",
       "chooser": "Raul Saaremets",
       "guests": [
         "King Jayy Lordd"
@@ -3167,7 +3167,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "df1c87e3-rom-nagun2ff",
-          "spotifyId": null,
+          "spotifyId": "4zJnfDP4SdilbKb4HqViNY",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/ROM%20nagun2ff",
@@ -3185,7 +3185,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "df1c87e3-odumodublvck-ft-stormzy-pay-me",
-          "spotifyId": null,
+          "spotifyId": "48olFFX6QTTXB47q4qfPFU",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/ODUMODUBLVCK%20ft%20Stormzy%20Zatan%20Pay%20Me",
@@ -3219,7 +3219,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "df1c87e3-lukid-new-river",
-          "spotifyId": null,
+          "spotifyId": "3kEWJq127r1qjM68rxjENH",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lukid%20New%20River",
@@ -3239,7 +3239,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/7ae27574-0da4-4d8b-8b6a-29274818896c/file/1b54d529-fe60-42c5-a45a-0b10c510918a.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/7ae27574-0da4-4d8b-8b6a-29274818896c",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "29o9hKJX5RrHnlOgpPJYaA",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -3253,7 +3253,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "7ae27574-jarek-kasar-jt",
-          "spotifyId": null,
+          "spotifyId": "6oUnyGUONoqxugxF3nguhX",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jarek%20Kasar%20jt.",
@@ -3270,7 +3270,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "7ae27574-lady-gaga-the-dead-dance",
-          "spotifyId": null,
+          "spotifyId": "3NFs3XUduzBfvc5Bx1gmzh",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lady%20Gaga%20The%20Dead%20Dance",
@@ -3287,7 +3287,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "7ae27574-triinu-upkin-ballerina-let-her-dance",
-          "spotifyId": null,
+          "spotifyId": "6GzxMekuyvJNrSTrE249vx",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Triinu%20Upkin%20Ballerina%20(Let%20Her%20Dance)",
@@ -3304,7 +3304,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "7ae27574-lizzo-i-love-being-myself",
-          "spotifyId": null,
+          "spotifyId": "2htDCWcfX8RAEU5BtKPRm8",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lizzo%20I%20Love%20Being%20Myself",
@@ -3324,7 +3324,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/f00dce8b-41f3-4a0e-82de-ebede45970fd/file/01400fd3-fd79-4d8d-af01-be5567b6d57d.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/029ee6cf-ea8c-4975-bef2-09b13acf4e16.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/f00dce8b-41f3-4a0e-82de-ebede45970fd",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "3BLS6QqVTe4k4ZPRyMMuEt",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -3338,7 +3338,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f00dce8b-prodigyboys-ft-lotey-come-closer",
-          "spotifyId": null,
+          "spotifyId": "2KupIo83cTx4PiHIkDiKJS",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/PRODIGYBOYS%20ft%20Lotey%20COME%20CLOSER",
@@ -3355,7 +3355,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f00dce8b-ariel-pink-with-you-every-night",
-          "spotifyId": null,
+          "spotifyId": "2OnqbuM3s6YPtq6Gjm18H1",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Ariel%20Pink%20With%20You%20Every%20Night",
@@ -3372,7 +3372,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f00dce8b-night-tapes-storm",
-          "spotifyId": null,
+          "spotifyId": "3Jo13MZ9GlmCLcNvJ4LDXb",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Night%20Tapes%20storm",
@@ -3389,7 +3389,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f00dce8b-cardi-b-imaginary-playerz",
-          "spotifyId": null,
+          "spotifyId": "37tH9V9YK8P9Q2oGfZjJXy",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Cardi%20B%20Imaginary%20Playerz",
@@ -3409,7 +3409,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/a84e0286-f21b-49d1-bc9f-240683eff0c4/file/d9c3c73b-913e-46da-92ad-b92fb230b391.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/6949b298-8ff9-4265-9ee5-c5f9a6b92714.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/a84e0286-f21b-49d1-bc9f-240683eff0c4",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "0BA6IUHDDTHqQBkaQx8GKY",
       "chooser": null,
       "guests": [],
       "source": "kasitsi",
@@ -3440,7 +3440,7 @@
           "chooser": "Merit Maarits",
           "note": null,
           "id": "a84e0286-karameel-mul-ei-ole-raha",
-          "spotifyId": null,
+          "spotifyId": "2SpnyzeKoWC65FkXu9pRJ7",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Karameel%20Mul%20ei%20ole%20raha",
@@ -3457,7 +3457,8 @@
           "chooser": "Valner Valme",
           "note": null,
           "id": "a84e0286-valge-tudruk-mul-krdi-suva",
-          "spotifyId": null,
+          "_note": "Spotifys esineb artist ingliskeelse nimega White Girl, nii et automaatne sobitamine ei tundnud teda ära. Lugu ise on sama, pealkiri klapib täht-tähelt.",
+          "spotifyId": "3XakzcEu3QIALuRdiCzqku",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Valge%20T%C3%BCdruk%20mul%20krdi%20suva",
@@ -3510,7 +3511,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c0b8424d-maria-kallastu-amore-tossico",
-          "spotifyId": null,
+          "spotifyId": "2nc6nH46GARqaG6dGpEanp",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/maria%20kallastu%20amore%20tossico",
@@ -3527,7 +3528,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c0b8424d-sabrina-carpenter-manchild",
-          "spotifyId": null,
+          "spotifyId": "42UBPzRMh5yyz0EDPr6fr1",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Sabrina%20Carpenter%20Manchild",
@@ -3561,7 +3562,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c0b8424d-neil-young-and-the-chrome-hearts-dark-mirage",
-          "spotifyId": null,
+          "spotifyId": "2dc6QqdRmzhnbN0rlR6LSN",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Neil%20Young%20and%20the%20Chrome%20Hearts%20Dark%20Mirage",
@@ -3596,7 +3597,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ec783a5e-nublu-tipus-ulub-tuul",
-          "spotifyId": null,
+          "spotifyId": "1uVBbFLDRLGv0LV9sxiw4J",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/nublu%20Vaiko%20Eplik%20Tipus%20ulub%20tuul",
@@ -3613,7 +3614,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ec783a5e-lorde-man-of-the-year",
-          "spotifyId": null,
+          "spotifyId": "1gvOEwQbIEjkpLdcZwtBoB",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lorde%20Man%20of%20the%20Year",
@@ -3630,7 +3631,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ec783a5e-leslie-da-bass-ei-keegi-saa-roovida-me-suve",
-          "spotifyId": null,
+          "spotifyId": "5cpW22bU3y6B6lV4p0piMp",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Leslie%20Da%20Bass%20Ei%20keegi%20saa%20r%C3%B6%C3%B6vida%20me%20suve",
@@ -3648,7 +3649,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ec783a5e-pluto-whim-whamiee-remix",
-          "spotifyId": null,
+          "spotifyId": "7pvrkNvlIQMY0hfGcdCr5m",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/PLUTO%20Sexyy%20Red%20Whim%20Whamiee%20(Remix)",
@@ -3700,7 +3701,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "1f4d07b9-burna-boy-tatata",
-          "spotifyId": null,
+          "spotifyId": "7iCvoWlfuJ1y7zibnh1EW9",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Burna%20Boy%20Travis%20Scott%20TaTaTa",
@@ -3717,7 +3718,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "1f4d07b9-music-four-your-plants-novacyne",
-          "spotifyId": null,
+          "spotifyId": "2o8qdUBI1UWZuiswc0vM7J",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Music%20Four%20Your%20Plants%20Novacyne",
@@ -3734,7 +3735,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "1f4d07b9-st-etienne-glad",
-          "spotifyId": null,
+          "spotifyId": "1URMqt0roaVHKilmuQ3JoF",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/St%20Etienne%20Glad",
@@ -3768,7 +3769,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2cbcfe43-kiki-kellelgi-on-raske",
-          "spotifyId": null,
+          "spotifyId": "6ZOmnIcwTQIb7fBzsLl57z",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kiki%20Kellelgi%20on%20raske",
@@ -3802,7 +3803,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2cbcfe43-freak-street-paikese-all",
-          "spotifyId": null,
+          "spotifyId": "1nqna2asncZf1iYDnTdbFd",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Freak%20Street%20P%C3%A4ikese%20all",
@@ -3853,7 +3854,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3e638468-triibupasta-tantsuriik",
-          "spotifyId": null,
+          "spotifyId": "6p1WSCHxkK6pGFh7sOt67k",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Triibupasta%20Tantsuriik",
@@ -3871,7 +3872,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3e638468-quavo-dope-boy-phone",
-          "spotifyId": null,
+          "spotifyId": "2nvZUnuXYrOUlZXJV5TJwo",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Quavo%20Takeoff%20Dope%20Boy%20Phone",
@@ -3888,7 +3889,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3e638468-clicherik-nagu-kodus",
-          "spotifyId": null,
+          "spotifyId": "3ZpAA0odoSZo1RTczoQmIx",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Clicherik%20Nagu%20kodus",
@@ -3905,7 +3906,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3e638468-ed-sheeran-old-phone",
-          "spotifyId": null,
+          "spotifyId": "2QxviKpVdEXKDWs706MUZB",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Ed%20Sheeran%20Old%20Phone",
@@ -3939,7 +3940,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "8311c8b9-shelton-san-funky-old-fella",
-          "spotifyId": null,
+          "spotifyId": "2wdeIbcwf0G81bsoadGlLS",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Shelton%20San%20Funky%20Old%20Fella",
@@ -3957,7 +3958,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "8311c8b9-ariel-pink-spin-cycle",
-          "spotifyId": null,
+          "spotifyId": "1nHzQOjJCw3LI94Q6XTlI9",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Ariel%20Pink%20Devin%20Lynn%20Spin%20Cycle",
@@ -3974,7 +3975,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "8311c8b9-slam-sigma-boy",
-          "spotifyId": null,
+          "spotifyId": "0n1zV0r5qhQegYV47Tcd3P",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Sl%C3%A4m%20Sigma%20Boy",
@@ -3992,7 +3993,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "8311c8b9-billy-idol-77",
-          "spotifyId": null,
+          "spotifyId": "6cEG5stzTtXrrCLgWKYV6j",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Billy%20Idol%20Avril%20Lavigne%2077",
@@ -4029,7 +4030,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "92971a74-inger-tirib-mind-kuuma",
-          "spotifyId": null,
+          "spotifyId": "5usxsKpGaLc3FaOKnkrybZ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Inger%20Genka%20Tirib%20mind%20kuuma",
@@ -4047,7 +4048,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "92971a74-mark-pritchard-gangsters",
-          "spotifyId": null,
+          "spotifyId": "4cug7RkMB0SCoYkYrXYN4y",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Mark%20Pritchard%20Thom%20Yorke%20Gangsters",
@@ -4064,7 +4065,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "92971a74-sopruse-puiestee-hullimaja-hoovis",
-          "spotifyId": null,
+          "spotifyId": "3r3CTrdjdxra2S3ZBCjrcO",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/S%C3%B5pruse%20Puiestee%20Hullimaja%20hoovis",
@@ -4081,7 +4082,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "92971a74-lana-del-rey-henry-come-on",
-          "spotifyId": null,
+          "spotifyId": "6CYldrsUPBsiPtfLW4xZCl",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lana%20Del%20Rey%20Henry%2C%20Come%20On",
@@ -4115,7 +4116,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e86c4137-sammalhabe-lotus-elise",
-          "spotifyId": null,
+          "spotifyId": "1HLdzzXicDWPpTZlulj2df",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Sammalhabe%20Lotus%20Elise",
@@ -4132,7 +4133,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e86c4137-pink-pantheress-tonight",
-          "spotifyId": null,
+          "spotifyId": "5QCfOMH5K7bS4dH7H7PNeI",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Pink%20Pantheress%20Tonight",
@@ -4149,7 +4150,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e86c4137-luurel-varas-lab-grown-black-hole",
-          "spotifyId": null,
+          "spotifyId": "2SaQK8PNCXgeIDS1YsaU6A",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Luurel%20Varas%20Lab-Grown%20Black%20Hole",
@@ -4166,7 +4167,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e86c4137-barker-stochastic-drift",
-          "spotifyId": null,
+          "spotifyId": "71WOzqtJI1CNFC38454Aih",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Barker%20Stochastic%20Drift",
@@ -4202,7 +4203,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6df8fc6e-margiiela-ilus-paev",
-          "spotifyId": null,
+          "spotifyId": "5DRuLCH2Kh044yHkVDgGP1",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/margiiela%20Ilus%20p%C3%A4ev",
@@ -4220,7 +4221,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6df8fc6e-black-country-happy-birthday",
-          "spotifyId": null,
+          "spotifyId": "56Vk4WrIrTr3Jg7hReNZVb",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Black%20Country%20New%20Road%20Happy%20Birthday",
@@ -4237,7 +4238,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6df8fc6e-eik-roomus",
-          "spotifyId": null,
+          "spotifyId": "7FoD3KPnflrVWVDGrpgOab",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Eik%20R%C3%B5%C3%B5mus",
@@ -4254,7 +4255,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6df8fc6e-yukimi-rules-of-school",
-          "spotifyId": null,
+          "spotifyId": "1vVIHMFCuwc6FGRPmBvSIV",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Yukimi%20Rules%20of%20School",
@@ -4288,7 +4289,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "13e8f612-florian-wahl-fbsobrad",
-          "spotifyId": null,
+          "spotifyId": "6TSGWm65Gnoc5AC7PLVaIK",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Florian%20Wahl%20FBs%C3%B5brad",
@@ -4305,7 +4306,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "13e8f612-lady-gaga-abracadabra",
-          "spotifyId": null,
+          "spotifyId": "2LHNTC9QZxsL3nWpt8iaSR",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lady%20Gaga%20Abracadabra",
@@ -4322,7 +4323,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "13e8f612-alonette-true-north",
-          "spotifyId": null,
+          "spotifyId": "23yDVhmBr6iROYRIudhXWT",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Alonette%20True%20North",
@@ -4340,7 +4341,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "13e8f612-jennie-ft-kali-uchis-damn-right",
-          "spotifyId": null,
+          "spotifyId": "1e7VWi3ThY7t1F4vkfNfde",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jennie%20ft%20Kali%20Uchis%20Childish%20Gambino%20Damn%20Right",
@@ -4375,7 +4376,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "de1c611f-meisterjaan-tode-ja-tegu",
-          "spotifyId": null,
+          "spotifyId": "7s50LqIPG7FsjZGfa9tQ0e",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Meisterjaan%20Riste%20T%C3%B5de%20ja%20tegu",
@@ -4392,7 +4393,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "de1c611f-playboi-carti-pop-out",
-          "spotifyId": null,
+          "spotifyId": "3j3SfV4hAcR4XjCvW393Gr",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Playboi%20Carti%20Pop%20Out",
@@ -4409,7 +4410,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "de1c611f-the-boondocks-jeanette",
-          "spotifyId": null,
+          "spotifyId": "6Ygd2uinKRd4MNOElQBZIP",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Boondocks%20Jeanette",
@@ -4427,7 +4428,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "de1c611f-fred-frith-your-sweet-time",
-          "spotifyId": null,
+          "spotifyId": "5thnuWBYs8onAMtYMRZc78",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Fred%20Frith%20Shelly%20Burgon%20Your%20Sweet%20Time",
@@ -4463,7 +4464,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "03333d5e-ines-daferrari-nr-1",
-          "spotifyId": null,
+          "spotifyId": "7HANZHEnkcRu5nS1PSY15f",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Ines%20Daferrari%20Nr.%201",
@@ -4481,7 +4482,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "03333d5e-sonic-boom-ask-for-the-moon",
-          "spotifyId": null,
+          "spotifyId": "3K5wGxcxXe7Ia2d2Q814Kf",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Sonic%20Boom%20Sinner%20DC%20Ask%20For%20the%20Moon",
@@ -4515,7 +4516,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "03333d5e-muni-long-slow-grind",
-          "spotifyId": null,
+          "spotifyId": "2TbwCYJSZrDpEz1cTIwTjx",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Muni%20Long%20Slow%20Grind",
@@ -4550,7 +4551,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "127c756b-kantri-guidu-band-meesnaine",
-          "spotifyId": null,
+          "spotifyId": "6qS5ZmG053Bdas3AxKmXWf",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kantri%20Guidu%20B%C3%A4nd%20Donna%20Kihoote%20MeesNaine",
@@ -4568,7 +4569,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "127c756b-joy-orbison-bastard",
-          "spotifyId": null,
+          "spotifyId": "7wezQzF31IztdsWRiyV0gJ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Joy%20Orbison%20Joe%20James%20Bastard",
@@ -4603,7 +4604,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "127c756b-dean-blunt-2",
-          "spotifyId": null,
+          "spotifyId": "6eLfGGLdhv4x5IPl7N88AS",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Dean%20Blunt%20Elias%20Ronnenfelt%202",
@@ -4639,7 +4640,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "58a9212a-nkn-trakuinice",
-          "spotifyId": null,
+          "spotifyId": "7fd1rlPtvDhDMvUR7or7xB",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/NKN%20trakuinice",
@@ -4656,7 +4657,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "58a9212a-bon-iver-everything-is-peaceful-love",
-          "spotifyId": null,
+          "spotifyId": "4XosapYiYaXGcxc83p3DD9",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bon%20Iver%20Everything%20Is%20Peaceful%20Love",
@@ -4673,7 +4674,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "58a9212a-triibupasta-viinaingel",
-          "spotifyId": null,
+          "spotifyId": "3llyYmTWZDBGCZH76jF4ck",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/triibupasta%20viinaingel",
@@ -4690,7 +4691,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "58a9212a-nazar-anticipate",
-          "spotifyId": null,
+          "spotifyId": "3cM0gQCC0WuOTXsOxZjvMn",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Nazar%20Anticipate",
@@ -4724,7 +4725,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "35994776-karl-killing-staatus",
-          "spotifyId": null,
+          "spotifyId": "4hDBjx4AltTBTNLAMxqSCs",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Karl%20Killing%20STAATUS",
@@ -4742,7 +4743,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "35994776-drake-nokia",
-          "spotifyId": null,
+          "spotifyId": "2u9S9JJ6hTZS3Vf22HOZKg",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Drake%20PARTYNEXTDOOR%20Nokia",
@@ -4759,7 +4760,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "35994776-pia-fraus-across-the-street",
-          "spotifyId": null,
+          "spotifyId": "17m8UM8gsESJdt8ggH3GRi",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Pia%20Fraus%20Across%20the%20Street",
@@ -4776,7 +4777,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "35994776-jpegmafia-what-the-hip-hop-hell-is-this",
-          "spotifyId": null,
+          "spotifyId": "6QjdkLo5iUrPV8zEJugGnM",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/JPEGMAFIA%20What%20The%20Hip%20Hop%20Hell%20Is%20This",
@@ -4810,7 +4811,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "575fdbf7-kaschalot-laminar-flow",
-          "spotifyId": null,
+          "spotifyId": "6iVI1UWM9No3nMbYdRywIQ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kaschalot%20Laminar%20Flow",
@@ -4827,7 +4828,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "575fdbf7-panda-bear-ferry-lady",
-          "spotifyId": null,
+          "spotifyId": "387tpks4U8UCaPctPJVR0U",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Panda%20Bear%20Ferry%20Lady",
@@ -4844,7 +4845,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "575fdbf7-mari-kalkun-kiri-algab",
-          "spotifyId": null,
+          "spotifyId": "2IneQLrCS4jBITNROaF9t1",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Mari%20Kalkun%20Kiri%20algab",
@@ -4861,7 +4862,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "575fdbf7-squid-cro-magnon-man",
-          "spotifyId": null,
+          "spotifyId": "4hUuxvpzrWWpucSFrXHTwN",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Squid%20Cro-Magnon%20Man",
@@ -4896,7 +4897,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "68d262e1-helina-ok3-ok3-ok3-pohjakoristaja",
-          "spotifyId": null,
+          "spotifyId": "14dfAppngA71tOk4dBrqs7",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Helina%20September%20OK3%20OK3%20Ok3%20(P%C3%95HJAKORISTAJA)",
@@ -4914,7 +4915,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "68d262e1-black-country-besties",
-          "spotifyId": null,
+          "spotifyId": "4U9ZjqhaGF9wl56899E4sW",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Black%20Country%20New%20Road%20Besties",
@@ -4949,7 +4950,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "68d262e1-the-weeknd-big-sleep",
-          "spotifyId": null,
+          "spotifyId": "4sWQbsLLH2NEbO79DSZCL9",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Weeknd%20Giorgio%20Moroder%20Big%20Sleep",
@@ -4983,7 +4984,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a68b491a-alonette-costume",
-          "spotifyId": null,
+          "spotifyId": "1Q7K5toh45MjxdrmYGlT9W",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Alonette%20Costume",
@@ -5000,7 +5001,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a68b491a-fka-twigs-room-of-fools",
-          "spotifyId": null,
+          "spotifyId": "1CqyErlQstROOe9hAn93oI",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/FKA%20twigs%20Room%20Of%20Fools",
@@ -5035,7 +5036,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a68b491a-omar-s-something-real",
-          "spotifyId": null,
+          "spotifyId": "6OV3OoCZVWHkEq95E5pbwB",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Omar%20S%20Desire%20Something%20Real",
@@ -5069,7 +5070,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4f7d1d5a-tungevaag-liis-lemsalu-solodance",
-          "spotifyId": null,
+          "spotifyId": "17YBzqFJYoX3jhzPgP55WD",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Tungevaag%20%2B%20Liis%20Lemsalu%20Solodance",
@@ -5086,7 +5087,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4f7d1d5a-ela-minus-i-want-to-do-better",
-          "spotifyId": null,
+          "spotifyId": "6qDUtM6TrV0IFg3nMmXeIQ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Ela%20Minus%20I%20Want%20To%20Do%20Better",
@@ -5103,7 +5104,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4f7d1d5a-merilin-malk-dilemma",
-          "spotifyId": null,
+          "spotifyId": "4QZ0oKTKYPbRRpuSy4lnfk",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Merilin%20M%C3%A4lk%20Dilemma",
@@ -5120,7 +5121,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "4f7d1d5a-bad-bunny-dtmf",
-          "spotifyId": null,
+          "spotifyId": "3sK8wGT43QFpWrvNQsrQya",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bad%20Bunny%20DTMF",
@@ -5140,7 +5141,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/c4d6132b-4f85-41c1-8be2-353c4377b421/file/159cc146-a6da-47d3-9f42-4dc854420a79.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/6949b298-8ff9-4265-9ee5-c5f9a6b92714.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/c4d6132b-4f85-41c1-8be2-353c4377b421",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "6frVKgHQqvQQwfN2bGiTXH",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -5155,7 +5156,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c4d6132b-bedwetters-koik-muu-voib-oodata",
-          "spotifyId": null,
+          "spotifyId": "22eGFSMNDEm3PDJ6yFxkaz",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bedwetters%20Anne%20Veski%20K%C3%B5ik%20muu%20v%C3%B5ib%20oodata",
@@ -5172,7 +5173,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c4d6132b-lambrini-girls-bad-apples",
-          "spotifyId": null,
+          "spotifyId": "5pWHXtj4OyOLVoQZHpuXBK",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lambrini%20Girls%20Bad%20Apples",
@@ -5207,7 +5208,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c4d6132b-jungle-keep-me-satisfied",
-          "spotifyId": null,
+          "spotifyId": "4OxDppy29ZuxXgQ1kMEjCr",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jungle%20Keep%20Me%20Satisfied",
@@ -5227,7 +5228,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/59255337-cb7e-4423-a7c2-c632495c0d45/file/856c24dd-d26a-4cd7-b347-77cb0f06f4a8.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/6949b298-8ff9-4265-9ee5-c5f9a6b92714.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/59255337-cb7e-4423-a7c2-c632495c0d45",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "5R09D3tM3h8kDArKEAtq5k",
       "chooser": null,
       "guests": [],
       "source": "automaatne",
@@ -5241,7 +5242,7 @@
           "chooser": null,
           "note": null,
           "id": "59255337-karl-killing-vastased",
-          "spotifyId": null,
+          "spotifyId": "36IWOSMfnVUa0hhKfPpHwi",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Karl%20Killing%20Vastased",
@@ -5258,7 +5259,7 @@
           "chooser": null,
           "note": null,
           "id": "59255337-laurel-2-metsa-elf",
-          "spotifyId": null,
+          "spotifyId": "1RPMN6Zfhqy1EMdIrtOvyQ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/laurel%202%20metsa%20elf",
@@ -5276,7 +5277,7 @@
           "chooser": null,
           "note": null,
           "id": "59255337-karl-killing-sinust-saati",
-          "spotifyId": null,
+          "spotifyId": "7piQz82zo3XvIjJiDBN7QK",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Karl%20Killing%20Anne%20Veski%20Sinust%20saati",
@@ -5312,7 +5313,7 @@
           "chooser": null,
           "note": null,
           "id": "59255337-karja-foam",
-          "spotifyId": null,
+          "spotifyId": "4dlH3wVDmrFerQTtOWlUSa",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Karja%20Renard%20Wandinger%20Foam",
@@ -5329,7 +5330,7 @@
           "chooser": null,
           "note": null,
           "id": "59255337-oranssi-pazuzu-ikikaarme",
-          "spotifyId": null,
+          "spotifyId": "37tqHUSSr3lad6P1TNW05B",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Oranssi%20Pazuzu%20Ikik%C3%A4%C3%A4rme",
@@ -5347,7 +5348,7 @@
           "chooser": null,
           "note": null,
           "id": "59255337-laurie-anderson-india-and-down-to-australia",
-          "spotifyId": null,
+          "spotifyId": "1UuJykLvRT9JOUPL1jYgMe",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Laurie%20Anderson%20Anohni%20India%20And%20Down%20to%20Australia",
@@ -5381,7 +5382,7 @@
           "chooser": null,
           "note": null,
           "id": "59255337-laryssa-kim-les-amants-d-osmium-76-os",
-          "spotifyId": null,
+          "spotifyId": "3aJhSvIH6rE6RpZSX872JA",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Laryssa%20Kim%20Les%20Amants%20d%E2%80%99Osmium%20%E2%80%93%2076%20OS",
@@ -5398,7 +5399,7 @@
           "chooser": null,
           "note": null,
           "id": "59255337-fontaines-d-c-starburster",
-          "spotifyId": null,
+          "spotifyId": "09ttHg3ZNVgDlYBZa1ZBw0",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Fontaines%20D.C.%20Starburster",
@@ -5432,7 +5433,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d5b62c3c-tommy-cash-espresso-macchiato",
-          "spotifyId": null,
+          "spotifyId": "4f5sxA4nQywcBlU05Ixdc7",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Tommy%20Cash%20Espresso%20Macchiato",
@@ -5449,7 +5450,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d5b62c3c-james-messiah-meets-lord-tusk-open-up",
-          "spotifyId": null,
+          "spotifyId": "2IWokOAZ8kL13nJ0K6ujb4",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/James%20Messiah%20meets%20Lord%20Tusk%20Open%20Up",
@@ -5466,7 +5467,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d5b62c3c-vennaskond-joulusokk",
-          "spotifyId": null,
+          "spotifyId": "2OfLnLGqaI029wOuTVDYly",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vennaskond%20J%C3%B5ulu%C5%A1okk",
@@ -5483,7 +5484,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d5b62c3c-angel-olsen-the-takeover",
-          "spotifyId": null,
+          "spotifyId": "776rj4MU1PBrkj8bUB07gq",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Angel%20Olsen%20The%20Takeover",
@@ -5503,7 +5504,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/dc837b32-5d56-43a5-8a53-93eae4dc7325/file/fe0471f8-aa0f-402d-83af-9a102ed88551.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/6949b298-8ff9-4265-9ee5-c5f9a6b92714.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/dc837b32-5d56-43a5-8a53-93eae4dc7325",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "0150VlKipQtB7gzs9B32bL",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -5517,7 +5518,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "dc837b32-vera-vice-ever-since",
-          "spotifyId": null,
+          "spotifyId": "4JGRY1CW8hc6yVnFAtq73L",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vera%20Vice%20Ever%20Since",
@@ -5534,7 +5535,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "dc837b32-becky-and-the-birds-london-is-not-the-same",
-          "spotifyId": null,
+          "spotifyId": "7ABil3s9BbFathjbfDgCE6",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Becky%20and%20the%20Birds%20London%20is%20Not%20The%20Same",
@@ -5551,7 +5552,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "dc837b32-prodigyboys-ratchet",
-          "spotifyId": null,
+          "spotifyId": "4c5c6nwTzqPtAtbVSAPRmq",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Prodigyboys%20Ratchet",
@@ -5568,7 +5569,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "dc837b32-cyn-the-smiths",
-          "spotifyId": null,
+          "spotifyId": "09rxsu6GJPVivSOkRZ5Hc0",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Cyn%20The%20Smiths",
@@ -5588,7 +5589,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/c2cbc0e2-e7b7-4bc7-b8e3-3450e66f8477/file/d06312d0-6855-4fc2-9543-053d23254c80.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/6949b298-8ff9-4265-9ee5-c5f9a6b92714.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/c2cbc0e2-e7b7-4bc7-b8e3-3450e66f8477",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "0vO3VFJwZAKiOUnpQstNeo",
       "chooser": "Raul Saaremets",
       "guests": [
         "Maris Pihlap"
@@ -5604,7 +5605,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c2cbc0e2-inga-do-you-really-want-her",
-          "spotifyId": null,
+          "spotifyId": "7iZdIRLS3LQ8OU8C9QqZ0x",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/INGA%20Do%20You%20Really%20Want%20Her",
@@ -5621,7 +5622,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c2cbc0e2-kim-deal-summerland",
-          "spotifyId": null,
+          "spotifyId": "039UNzELUQod4eq1Pve9Av",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kim%20Deal%20Summerland",
@@ -5638,7 +5639,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c2cbc0e2-tommy-cash-hottie",
-          "spotifyId": null,
+          "spotifyId": "7aX9ClrRetOsTBwsDlgD27",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Tommy%20Cash%20Hottie",
@@ -5655,7 +5656,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c2cbc0e2-wizkid-soji",
-          "spotifyId": null,
+          "spotifyId": "4hH9eVrAzlKR0jbLmHUkPD",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Wizkid%20Soji",
@@ -5692,7 +5693,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "5a8ce01b-sip-lga-tere-kaine-eesti",
-          "spotifyId": null,
+          "spotifyId": "47HYp6rB3k8OAnQ56Dh6cw",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/SIP%E2%82%ACLGA%20Yohan%20Tere%2C%20kaine%20Eesti",
@@ -5709,7 +5710,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "5a8ce01b-squid-crispy-skin",
-          "spotifyId": null,
+          "spotifyId": "6gLaRcJnA7FqyEYpYJ4uPI",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Squid%20Crispy%20Skin",
@@ -5727,7 +5728,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "5a8ce01b-stefan-purjetuul",
-          "spotifyId": null,
+          "spotifyId": "6aAeBGMlrSgQXi5CqRegnh",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Stefan%20Reket%20Purjetuul",
@@ -5744,7 +5745,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "5a8ce01b-nettspend-f-ck-swag",
-          "spotifyId": null,
+          "spotifyId": "1N5ECRUsgd7iBMWdEQ7fp3",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Nettspend%20F*ck%20Swag",
@@ -5778,7 +5779,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f043c304-tanel-siimann-to-wait-for",
-          "spotifyId": null,
+          "spotifyId": "6ngMgQCFbIjzXJ7kkYgg8p",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Tanel%20Siimann%20To%20Wait%20For",
@@ -5795,7 +5796,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f043c304-primal-scream-deep-dark-waters",
-          "spotifyId": null,
+          "spotifyId": "5lo9urhtu7echJpFFU1S0n",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Primal%20Scream%20Deep%20Dark%20Waters",
@@ -5812,7 +5813,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f043c304-heleenyum-ft-mcandthat-disappear",
-          "spotifyId": null,
+          "spotifyId": "2s6VkF2It3GiXrBaj3DUVP",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Heleenyum%20ft.%20Mcandthat%20Disappear",
@@ -5829,7 +5830,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f043c304-central-cee-one-by-one",
-          "spotifyId": null,
+          "spotifyId": "3desWYUkTBp3imvV6VkdXx",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Central%20Cee%20One%20By%20One",
@@ -5868,7 +5869,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ad1528cf-villemdrillem-goyard",
-          "spotifyId": null,
+          "spotifyId": "5MTWqOKRLwAZVz4oOh1ETp",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/villemdrillem%20pluuto%20goyard",
@@ -5885,7 +5886,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ad1528cf-lcd-soundsystem-x-ray-eyes",
-          "spotifyId": null,
+          "spotifyId": "6vitrLyJKoMUUC87JsgIAY",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/LCD%20Soundsystem%20X-Ray%20Eyes",
@@ -5902,7 +5903,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ad1528cf-pohja-konn-hingedepaev",
-          "spotifyId": null,
+          "spotifyId": "5R5Ot84lrmCIW31JJqOrEN",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/P%C3%B5hja%20Konn%20Hingedep%C3%A4ev",
@@ -5920,7 +5921,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ad1528cf-lola-young-charlie",
-          "spotifyId": null,
+          "spotifyId": "7d25e7sGPoQ0orHhKroTu3",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lola%20Young%20Lil%20Yachty%20Charlie",
@@ -5956,7 +5957,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e833fac2-motonormal-cocacolastic",
-          "spotifyId": null,
+          "spotifyId": "0k5HdNDXru5algGyOy7eIO",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/motonormal%20cocacolastic",
@@ -5974,7 +5975,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e833fac2-tyler-i-hope-you-find-your-way-home",
-          "spotifyId": null,
+          "spotifyId": "0pvZCv4JOS5WBu7JITYef6",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Tyler%20the%20Creator%20I%20Hope%20You%20Find%20Your%20Way%20Home",
@@ -5992,7 +5993,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e833fac2-loits-toelised-kuningad-kutse-sugavikust",
-          "spotifyId": null,
+          "spotifyId": "4ajnkpGMDpMYeUrcAs6kKt",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Loits%20FAAM%20T%C3%B5elised%20kuningad%20(Kutse%20s%C3%BCgavikust)",
@@ -6029,7 +6030,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/d95612df-4bef-4fed-93e4-8f9aadf68e51/file/8eb8eae0-7a3c-44cf-a9ed-94ef11fe876f.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/6949b298-8ff9-4265-9ee5-c5f9a6b92714.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/d95612df-4bef-4fed-93e4-8f9aadf68e51",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "6Oo2XwMhsvC1PliLDtKMHH",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -6060,7 +6061,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d95612df-mk-gee-rockman",
-          "spotifyId": null,
+          "spotifyId": "63ABAnFKJCp28TAyqf2cGL",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Mk.gee%20Rockman",
@@ -6077,7 +6078,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d95612df-jarek-kasar-und-mina-n2gin",
-          "spotifyId": null,
+          "spotifyId": "4LEW51UH7nb443Q2GofzEU",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jarek%20Kasar%20Und%20mina%20n2gin",
@@ -6094,7 +6095,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d95612df-fka-twigs-perfect",
-          "spotifyId": null,
+          "spotifyId": "4rXdgnwfuHyWhIFWdzw5cy",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/FKA%20twigs%20Perfect",
@@ -6114,7 +6115,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/f6d0a2a1-4187-4c5d-a82e-df996554d255/file/e7c07006-94de-4db2-845c-4e84b0ef2921.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/6949b298-8ff9-4265-9ee5-c5f9a6b92714.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/f6d0a2a1-4187-4c5d-a82e-df996554d255",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "7bCcGkXcRrG6D9CqO5eVZw",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -6128,7 +6129,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f6d0a2a1-kaisa-ling-thing-elu-naisteta-on-jant",
-          "spotifyId": null,
+          "spotifyId": "25CDbVCJA5FV6b2NobcYhz",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kaisa%20Ling%20Thing%20Elu%20naisteta%20on%20jant",
@@ -6145,7 +6146,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f6d0a2a1-charli-xcx-ft-bladee-rewind",
-          "spotifyId": null,
+          "spotifyId": "0aezkNKaZGeJKMPKBSezlP",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Charli%20XCX%20ft%20Bladee%20Rewind",
@@ -6162,7 +6163,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f6d0a2a1-heleza-armastaks",
-          "spotifyId": null,
+          "spotifyId": "1n7CmcjBKAXbrP2753WNt7",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/heleza%20Armastaks%3F",
@@ -6179,7 +6180,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "f6d0a2a1-milan-w-face-to-face",
-          "spotifyId": null,
+          "spotifyId": "07KL6pzAHjTbroHRB4R40o",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Milan%20W%20Face%20to%20Face",
@@ -6233,7 +6234,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c9f6f00c-metronomy-petit-boy",
-          "spotifyId": null,
+          "spotifyId": "0MSN9A0nVONYW8E3Ml7k3E",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Metronomy%20Porij%20Petit%20Boy",
@@ -6252,7 +6253,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c9f6f00c-margiila-eitohikshiljaksjaada",
-          "spotifyId": null,
+          "spotifyId": "4fhbnkDMtmABElJYOQLGeD",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/margiila%20Chillin%20TheoFuego%20EiTohiksHiljaksJ%C3%A4%C3%A4da",
@@ -6269,7 +6270,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c9f6f00c-kylie-minogue-lights-camera-action",
-          "spotifyId": null,
+          "spotifyId": "1vbhiBKv5Tyfx75BOoTbdU",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kylie%20Minogue%20Lights%20Camera%20Action",
@@ -6305,7 +6306,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "9f28ab5f-zetod-sita-maitse-suuh",
-          "spotifyId": null,
+          "spotifyId": "1PK0SvYjLuFjRAzvktFUix",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Zetod%20Sita%20maitse%20suuh",
@@ -6322,7 +6323,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "9f28ab5f-the-cure-alone",
-          "spotifyId": null,
+          "spotifyId": "1FlKUh04wsO7Z2AFmzplCw",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Cure%20Alone",
@@ -6376,7 +6377,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2a917cbf-villemdrillem-klepto",
-          "spotifyId": null,
+          "spotifyId": "3OTsXBsaIyUiwrWtKpVfsI",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/villemdrillem%20klepto",
@@ -6393,7 +6394,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2a917cbf-the-smile-zero-sum",
-          "spotifyId": null,
+          "spotifyId": "7tJ2ZPwHRrPTy1OW7jais0",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Smile%20Zero%20Sum",
@@ -6411,7 +6412,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2a917cbf-vaiko-eplik-oh-jeerum",
-          "spotifyId": null,
+          "spotifyId": "6RDpSZpcbopGzd8iSYVeUJ",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vaiko%20Eplik%20Eliit%20Oh%20jeerum",
@@ -6430,7 +6431,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2a917cbf-jamie-xx-dafodil",
-          "spotifyId": null,
+          "spotifyId": "1gRMKwvMvp6LcQVMpMXQg2",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jamie%20xx%20Kelsey%20Ly%20Panda%20Bear%20John%20Glacier%20Dafodil",
@@ -6466,7 +6467,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3c94eb93-luurel-varas-sleeper",
-          "spotifyId": null,
+          "spotifyId": "38Q8w4cl2tOP93LVHGqHJh",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Luurel%20Varas%20Sleeper",
@@ -6483,7 +6484,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3c94eb93-playboi-carti-all-red",
-          "spotifyId": null,
+          "spotifyId": "2cZOYofOX4d6g0OXxkaIjA",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Playboi%20Carti%20All%20Red",
@@ -6500,7 +6501,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3c94eb93-maria-kallastu-varahommik",
-          "spotifyId": null,
+          "spotifyId": "0lwsUZHGhwQR87rxa1diTO",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Maria%20Kallastu%20Varahommik",
@@ -6517,7 +6518,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3c94eb93-playboi-carti-2024",
-          "spotifyId": null,
+          "spotifyId": "1bAv1DWUibxCIjAk9SlzRi",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Playboi%20Carti%202024",
@@ -6553,7 +6554,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ac3547be-dnd-viimane-kustutab-tule",
-          "spotifyId": null,
+          "spotifyId": "2g4uRj4hskGPYVZGQg5EOm",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/DND%20Viimane%20kustutab%20tule",
@@ -6571,7 +6572,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ac3547be-asap-rocky-highjack",
-          "spotifyId": null,
+          "spotifyId": "57L5EYzCfHS7Jd58rV33lW",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/ASAP%20Rocky%20Jessica%20Pratt%20Highjack",
@@ -6605,7 +6606,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "ac3547be-fat-dog-closer-to-god",
-          "spotifyId": null,
+          "spotifyId": "5zHzofWXEpq1KiYIqTv7s2",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Fat%20Dog%20Closer%20to%20God",
@@ -6640,7 +6641,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "764f7f83-maris-pihlap-midagi-head",
-          "spotifyId": null,
+          "spotifyId": "3HgTiFQD2ZCH2r3CAczUoq",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Maris%20Pihlap%20villemdrillem%20Midagi%20head",
@@ -6657,7 +6658,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "764f7f83-jack-white-archbishop-harold-holmes",
-          "spotifyId": null,
+          "spotifyId": "0hIYrRFTLlG8pRjAn9tW4P",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jack%20White%20Archbishop%20Harold%20Holmes",
@@ -6674,7 +6675,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "764f7f83-florian-wahl-viimane-hetero",
-          "spotifyId": null,
+          "spotifyId": "1OIr0YFq7vIKLhRosSkeiR",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Florian%20Wahl%20Viimane%20hetero",
@@ -6708,7 +6709,7 @@
           "chooser": null,
           "note": null,
           "id": "d99cdf2c-siim-nestor-sabrina-carpenter-espresso",
-          "spotifyId": null,
+          "spotifyId": "2qSkIjg1o9h3YT9RAgYN75",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Siim%20Nestor%3A%20Sabrina%20Carpenter%20Espresso",
@@ -6793,7 +6794,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "91b12664-gram-of-fun-complicated-plant-jafunk-remix",
-          "spotifyId": null,
+          "spotifyId": "7FsXlMpVd3pfQ1bRmTO9Ky",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Gram-Of-Fun%20Complicated%20Plant%20(Jafunk%20Remix)",
@@ -6810,7 +6811,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "91b12664-eminem-houdini",
-          "spotifyId": null,
+          "spotifyId": "2HYFX63wP3otVIvopRS99Z",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Eminem%20Houdini",
@@ -6827,7 +6828,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "91b12664-lotey-rohkem-raha",
-          "spotifyId": null,
+          "spotifyId": "0uPoscE8OHZq6jrgXmLhub",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lotey%20Rohkem%20raha",
@@ -6844,7 +6845,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "91b12664-kaytranada-more-than-a-little-bit",
-          "spotifyId": null,
+          "spotifyId": "5KZJIGQmNlBEcCljJLti9f",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kaytranada%20More%20Than%20a%20Little%20Bit",
@@ -6878,7 +6879,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6cd02773-bedwetters-ma-ei-oska-oelda-ei",
-          "spotifyId": null,
+          "spotifyId": "1I4WJEDYRx3BA4QCRowFrY",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bedwetters%20Ma%20ei%20oska%20%C3%B6elda%20ei",
@@ -6895,7 +6896,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6cd02773-imagine-dragons-nice-to-meet-you",
-          "spotifyId": null,
+          "spotifyId": "6KmrCHbuNOsdoeDOpwetr7",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Imagine%20Dragons%20Nice%20to%20Meet%20You",
@@ -6912,7 +6913,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6cd02773-u-l-a-by-your-side",
-          "spotifyId": null,
+          "spotifyId": "4Mo2JrYmCXIP2OFS9SCYEI",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/U-L-A%20By%20Your%20Side",
@@ -6930,7 +6931,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6cd02773-shimza-parachute",
-          "spotifyId": null,
+          "spotifyId": "0BlxpYD81CZucSEvCS11Ed",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Shimza%20Rachel%20Chinouriri%20Parachute",
@@ -6965,7 +6966,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a2c53e9d-nublu-push-it",
-          "spotifyId": null,
+          "spotifyId": "7AleqJvqrVBeQitkWntUUc",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/nublu%20maria%20kallastu%20Push%20It",
@@ -6982,7 +6983,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a2c53e9d-pinkpantheress-turn-it-up",
-          "spotifyId": null,
+          "spotifyId": "1YhNljrEyPYaYNgBNsWap5",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/PinkPantheress%20Turn%20It%20Up",
@@ -7000,7 +7001,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a2c53e9d-vaiko-eplik-ekstaas",
-          "spotifyId": null,
+          "spotifyId": "5umlEmfqgxJkr3ARVIpM1Y",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vaiko%20Eplik%20Eliit%20Ekstaas",
@@ -7021,7 +7022,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a2c53e9d-skrillex-push",
-          "spotifyId": null,
+          "spotifyId": "3rWIzNYE2tbrJFRUOvWenu",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Skrillex%20Hamdi%20TAICHU%20contra%20OFFAIAH%20Push",
@@ -7055,7 +7056,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6fee00c7-kenors-raha2",
-          "spotifyId": null,
+          "spotifyId": "1ow0GduYrttCF5vblG9uSR",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kenors%20Raha2",
@@ -7072,7 +7073,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6fee00c7-billie-eilish-birds-of-a-feather",
-          "spotifyId": null,
+          "spotifyId": "6dOtVTDdiauQNBQEDOtlAB",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Billie%20Eilish%20Birds%20of%20a%20Feather",
@@ -7089,7 +7090,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6fee00c7-horror-dance-squad-taste-the-doom",
-          "spotifyId": null,
+          "spotifyId": "45EWGICjEBpCvY70JocIfp",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Horror%20Dance%20Squad%20Taste%20the%20Doom",
@@ -7106,7 +7107,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6fee00c7-childish-gambino-to-be-hunted",
-          "spotifyId": null,
+          "spotifyId": "7kjL0ldXgBwZ3xOzA0WHMD",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Childish%20Gambino%20To%20Be%20Hunted",
@@ -7140,7 +7141,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2381b82b-konts-solka",
-          "spotifyId": null,
+          "spotifyId": "76Jn9kpASdbTSy5JNwOsqI",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/K%C3%B5nts%20Solka",
@@ -7157,7 +7158,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2381b82b-kamasi-washington-interstellar-peace-the-last-st",
-          "spotifyId": null,
+          "spotifyId": "6m7X9pyvTIBLgS5Jt1ef9x",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kamasi%20Washington%20Interstellar%20Peace%20(The%20Last%20Stance)",
@@ -7175,7 +7176,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2381b82b-haldi-meile-kahele",
-          "spotifyId": null,
+          "spotifyId": "7fQkbTG5X9U6oNKOye1lxl",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Haldi%20ans%20Flamingo%20Meile%20kahele",
@@ -7192,7 +7193,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "2381b82b-hiatus-kaiyote-telescope",
-          "spotifyId": null,
+          "spotifyId": "23OSfYuny7LLnWHtWVV3bs",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Hiatus%20Kaiyote%20Telescope",
@@ -7226,7 +7227,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "32d48ca9-maris-pihlap-x-reket-kui-sa-vaid-teaks",
-          "spotifyId": null,
+          "spotifyId": "4427Wd7vcocRV9kHkBhvNp",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Maris%20Pihlap%20x%20Reket%20Kui%20sa%20vaid%20teaks",
@@ -7243,7 +7244,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "32d48ca9-dua-lipa-end-of-an-era",
-          "spotifyId": null,
+          "spotifyId": "1YrY0vjHWp672gt0crtj5A",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Dua%20Lipa%20End%20of%20an%20Era",
@@ -7277,7 +7278,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "32d48ca9-kendrick-lamar-euphoria",
-          "spotifyId": null,
+          "spotifyId": "77DRzu7ERs0TX3roZcre7Q",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kendrick%20Lamar%20Euphoria",
@@ -7297,7 +7298,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/80e27b14-73c6-48b4-bb2b-3ae025a2ef3b/file/87260d6a-41c2-4278-bc20-958c2a1cb81b.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/6949b298-8ff9-4265-9ee5-c5f9a6b92714.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/80e27b14-73c6-48b4-bb2b-3ae025a2ef3b",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "0S3L1nCuQj18c7TbHEaq9w",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -7329,7 +7330,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "80e27b14-taylor-swift-florida",
-          "spotifyId": null,
+          "spotifyId": "5ExOm0dh4NyRyAdSAO9hyM",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Taylor%20Swift%20Florence%20%2B%20The%20Machine%20Florida!!!",
@@ -7347,7 +7348,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "80e27b14-beebi-broken-hearts",
-          "spotifyId": null,
+          "spotifyId": "1ilF8xMtqcNvUYhHCc8NYg",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/beebi%20jonts%20broken%20hearts",
@@ -7364,7 +7365,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "80e27b14-mark-knopfler-before-my-train-comes",
-          "spotifyId": null,
+          "spotifyId": "0UogG2UNM2693fECUSNLLq",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Mark%20Knopfler%20Before%20My%20Train%20Comes",
@@ -7398,7 +7399,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d0450ebc-rain-x-ingra-seek-and-you-shall-find",
-          "spotifyId": null,
+          "spotifyId": "0qAsDYYSHQhrDkSsPxbEBA",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/RAIN%20X%20INGRA%20Seek%20and%20You%20Shall%20Find",
@@ -7415,7 +7416,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d0450ebc-artemas-i-like-the-way-you-kiss-me",
-          "spotifyId": null,
+          "spotifyId": "2GxrNKugF82CnoRFbQfzPf",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Artemas%20i%20like%20the%20way%20you%20kiss%20me",
@@ -7433,7 +7434,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d0450ebc-lepin-kalkuleeritudrynnak",
-          "spotifyId": null,
+          "spotifyId": "2DtPUPvD4u6DqCNgEGcF5K",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/lepin%20Yshiroma%20kalkuleeritudrynnak",
@@ -7450,7 +7451,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d0450ebc-darkthrone-black-dawn-affiliation",
-          "spotifyId": null,
+          "spotifyId": "1VNqsXsV8piRqmwXBVlzX4",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Darkthrone%20Black%20Dawn%20Affiliation",
@@ -7485,7 +7486,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "010c11f6-eik-armastatud",
-          "spotifyId": null,
+          "spotifyId": "31Xy2EPTJmg2UPz1CudinL",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/EiK%20boipepperoni%20Armastatud",
@@ -7503,7 +7504,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "010c11f6-vegyn-the-dream-goes-on-forever",
-          "spotifyId": null,
+          "spotifyId": "1CGT5LV74SNzXFnVmTdAE8",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Vegyn%20John%20Glacier%20The%20Dream%20Goes%20On%20Forever",
@@ -7521,7 +7522,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "010c11f6-nm-barramundi-mitsubishi-freestyle",
-          "spotifyId": null,
+          "spotifyId": "2opJrXfnd0ISIQEqshVjPv",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/NM%20Barramundi%20Coffin-Dodger%20Mitsubishi%20Freestyle",
@@ -7538,7 +7539,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "010c11f6-the-libertines-merry-old-england",
-          "spotifyId": null,
+          "spotifyId": "0YiTirE9lABJWdTkvH2sii",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/The%20Libertines%20Merry%20Old%20England",
@@ -7572,7 +7573,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "afee239a-skuuba-kuidas-sul-on-laind",
-          "spotifyId": null,
+          "spotifyId": "6hDpzwM4LHQdj2y43DXEQO",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Skuuba%20Kuidas%20sul%20on%20l%C3%A4ind%3F",
@@ -7589,7 +7590,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "afee239a-jessica-pratt-world-on-a-string",
-          "spotifyId": null,
+          "spotifyId": "76Cdo2E1HlmlHOHCHKscfy",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Jessica%20Pratt%20World%20on%20a%20String",
@@ -7606,7 +7607,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "afee239a-liis-lemsalu-silmad-lahti",
-          "spotifyId": null,
+          "spotifyId": "5nyZUpWwLWzg1XY1DCaVCN",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Liis%20Lemsalu%20Silmad%20lahti",
@@ -7623,7 +7624,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "afee239a-charli-xcx-club-classics",
-          "spotifyId": null,
+          "spotifyId": "0CySZwyRJ0vyUqtSjM9i2k",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Charli%20XCX%20Club%20Classics",
@@ -7643,7 +7644,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/bf14f06b-6bfb-4c52-be05-ef0a06ba856c/file/60ca04a4-ab9f-4652-b6eb-640695e0cba3.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/6949b298-8ff9-4265-9ee5-c5f9a6b92714.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/bf14f06b-6bfb-4c52-be05-ef0a06ba856c",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "5Secq9vk4MzBGVWmp89gty",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -7657,7 +7658,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "bf14f06b-buzhold-morlort",
-          "spotifyId": null,
+          "spotifyId": "3jqK7ZZiopfGxffIeHfjdM",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Buzhold%20Morlort",
@@ -7675,7 +7676,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "bf14f06b-tyla-no-1",
-          "spotifyId": null,
+          "spotifyId": "3qeMtqV38UWPZfps7mPTUE",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Tyla%20Tems%20No.1",
@@ -7709,7 +7710,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "bf14f06b-lolina-rules-of-the-game",
-          "spotifyId": null,
+          "spotifyId": "5JcnCsaQZ0wVWquOCpfx0z",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lolina%20Rules%20of%20the%20Game",
@@ -7743,7 +7744,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3fe878b0-florian-wahl-jousaal",
-          "spotifyId": null,
+          "spotifyId": "25XVO0WaNODosv0hSCpSVL",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Florian%20Wahl%20J%C3%B5usaal",
@@ -7760,7 +7761,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3fe878b0-four-tet-so-blue",
-          "spotifyId": null,
+          "spotifyId": "0oLurbsZupVj0mUCiWJx2Z",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Four%20Tet%20So%20Blue",
@@ -7778,7 +7779,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3fe878b0-marmormaze-underdog",
-          "spotifyId": null,
+          "spotifyId": "6i0KanD2X6pQ1hYSe8x70t",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Marmormaze%20Rara%20Blue%20Underdog",
@@ -7798,7 +7799,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3fe878b0-future-type-shit",
-          "spotifyId": null,
+          "spotifyId": "28drn6tQo95MRvO0jQEo5C",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Future%20Metro%20Boomin%20Travis%20Scott%20Playboi%20Carti%20Type%20Shit",
@@ -7815,7 +7816,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3fe878b0-kosmikud-berber",
-          "spotifyId": null,
+          "spotifyId": "7JQKpKEQXzcqcXSEllXkQ2",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kosmikud%20Berber",
@@ -7851,7 +7852,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-manna-mosaic",
-          "spotifyId": null,
+          "spotifyId": "5OG2DLzwji5vogOiPuJjom",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Manna%20Mosaic",
@@ -7868,7 +7869,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-justin-timberlake-conditions",
-          "spotifyId": null,
+          "spotifyId": "7BQdqre9lvLM3HmZ7QPgjU",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Justin%20Timberlake%20Conditions",
@@ -7886,7 +7887,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-lil-till-epp-karsin",
-          "spotifyId": null,
+          "spotifyId": "7urKGFq3ay0988ZIg2jVIS",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Lil%20Till%20Chillin%20Epp%20K%C3%A4rsin",
@@ -7904,7 +7905,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-nick-cave-wild-god",
-          "spotifyId": null,
+          "spotifyId": "1dkZqdTUVdLaPKAO62TT0g",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Nick%20Cave%20The%20Bad%20Seeds%20Wild%20God",
@@ -7921,7 +7922,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-night-tapes-every-day-is-a-game",
-          "spotifyId": null,
+          "spotifyId": "64ircYoqL31h8dhGPpiUYO",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Night%20Tapes%20Every%20Day%20is%20a%20Game",
@@ -7957,7 +7958,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "93ad6a77-arop-aamen",
-          "spotifyId": null,
+          "spotifyId": "2m0OFGIoENfjYRNMZoBXXw",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Arop%20Aamen",
@@ -7974,7 +7975,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "93ad6a77-ariana-grande-the-boy-is-mine",
-          "spotifyId": null,
+          "spotifyId": "0Lmbke3KNVFXtoH2mMSHCw",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Ariana%20Grande%20The%20Boy%20Is%20Mine",
@@ -7991,7 +7992,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "93ad6a77-winny-puhh-suusasoit",
-          "spotifyId": null,
+          "spotifyId": "4dXD60j0LR6JcKCSElOIFz",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Winny%20Puhh%20Suusas%C3%B5it",
@@ -8008,7 +8009,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "93ad6a77-kim-gordon-i-m-a-man",
-          "spotifyId": null,
+          "spotifyId": "53f8auncprn9sIQjlkgd45",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Kim%20Gordon%20I%E2%80%99m%20a%20Man",
@@ -8042,7 +8043,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "18b69b06-karl-killing-vastased",
-          "spotifyId": null,
+          "spotifyId": "36IWOSMfnVUa0hhKfPpHwi",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Karl%20Killing%20vastased",
@@ -8059,7 +8060,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "18b69b06-dj-arana-mini-game-dos-taliba",
-          "spotifyId": null,
+          "spotifyId": "4et7ZTuT9TespQC3LbXulm",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/DJ%20Arana%20Mini%20Game%20dos%20Taliba",
@@ -8093,7 +8094,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "18b69b06-beyonce-texas-hold-em",
-          "spotifyId": null,
+          "spotifyId": "0Z7nGFVCLfixWctgePsRk9",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Beyonc%C3%A9%20TEXAS%20HOLD%E2%80%99EM",
@@ -8111,7 +8112,7 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "18b69b06-maria-kallastu-saran",
-          "spotifyId": null,
+          "spotifyId": "7Bb8pvrG3NSGdyteD2g7iX",
           "youtubeId": null,
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/maria%20kallastu%20boipepperoni%20s%C3%A4ran",
