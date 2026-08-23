@@ -76,7 +76,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
    ───────────────────────────────────────────────────────────────────────── */
 .shead, .disp, .chart-head, .chart-row, .song, .stat-row, .empty,
 .result-count, .toolbar, .pagehead, .episode-head, .hero__inner,
-.scale, .site-footer, .error-box, .loading, .home-cta, .comments {
+.scale, .site-footer, .error-box, .loading, .home-cta, .comments, .bento {
   width: min(calc(var(--page) - var(--pad) * 2), calc(100% - var(--pad) * 2));
   margin-inline: auto;
   padding-inline: 0;
@@ -796,8 +796,93 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .chart-row:hover > *:not(.go) { transform: translateX(16px); }
 .chart-row:hover { background: var(--wash); }
 
-/* Avalehe kompaktne variant: koht, lugu, hinne, nool — ilma "sinu" veeruta */
-.chart-row--compact { grid-template-columns: 56px 1fr 104px 40px; }
+/* ── Avalehe top 10 ────────────────────────────────────────────────────────
+   Väikesed kastid sama loogikaga mis päise navimärgised: värviline ruut ees,
+   nimi kõrval. Üks pikk veerg bento paremas servas, kangelaspaneeli kõrval.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.toprail { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+
+.toprail__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  padding: 10px 12px;
+  margin-bottom: 4px;
+}
+
+.toprail__all { margin-top: 4px; justify-content: space-between; }
+
+.topitem {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  padding: 9px 12px 9px 9px;
+  min-width: 0;
+  transition: background 0.15s;
+}
+
+.topitem:hover { background: var(--wash); color: inherit; }
+.topitem:hover .topitem__title { color: var(--accent-ink); }
+
+.topitem__rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  flex: none;
+  border: 1px solid var(--line);
+  background: var(--card);
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Esikolmik kannab paleti värve, ülejäänud on valged — järjestus on näha
+   ilma numbrit lugemata, aga kümme värvilist kasti oleks lärm. */
+.rank-1 { background: var(--pink); }
+.rank-2 { background: var(--sage); }
+.rank-3 { background: var(--gold); }
+
+.topitem__body { min-width: 0; flex: 1; }
+
+.topitem__title {
+  display: block;
+  font-size: 14.5px;
+  line-height: 1.25;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+
+.topitem__artist {
+  display: block;
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.topitem__score {
+  font-size: 19px;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  flex: none;
+}
+
+.critics-note {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+  max-width: 74ch;
+}
 
 /* Nõunike veeruga variant — veerg ilmub ainult siis, kui skoore on sisestatud */
 .chart-head--critics, .chart-row--critics { grid-template-columns: 88px 1fr 62px 96px 96px 40px; }
@@ -1003,9 +1088,21 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 }
 
 
-/* ── Avalehe bento ────────────────────────────────────────────────────────── */
+/* ── Avalehe bento ─────────────────────────────────────────────────────────
+   Vasak pool on kahes reas (kangelane+skaala, selgitus+dither), top-riba
+   paremal ulatub üle mõlema rea. Nii on top üks pikk veerg, mitte laiali
+   laotatud ruudustik.
+   ───────────────────────────────────────────────────────────────────────── */
 
 .pad-block { padding-block: var(--gap) 40px; }
+
+/* Selged veerunumbrid, sest top-riba peab olema päris paremas servas ja
+   ulatuma üle mõlema rea — automaatne paigutus paneks ta valesse kohta. */
+.hero-panel   { grid-column: 1 / 7;   grid-row: 1; }
+.scale-panel  { grid-column: 7 / 10;  grid-row: 1; }
+.gold-panel   { grid-column: 1 / 6;   grid-row: 2; }
+.dither-panel { grid-column: 6 / 10;  grid-row: 2; }
+.toprail      { grid-column: 10 / 13; grid-row: 1 / 3; }
 
 .hero-panel { display: flex; flex-direction: column; min-height: 340px; }
 .hero-panel__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
@@ -1017,7 +1114,15 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   margin-top: auto;
   padding-top: 40px;
 }
-.hero-panel__cta { margin-top: 26px; align-self: flex-start; }
+.hero-panel__foot {
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  gap: 18px 24px;
+  flex-wrap: wrap;
+}
+
+.hero-panel__stats { display: flex; gap: 6px 18px; flex-wrap: wrap; }
 
 .scale-panel { display: flex; flex-direction: column; min-height: 340px; }
 .scale-panel__head { display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
@@ -1034,15 +1139,36 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 /* Külgriba istub bento paremas servas ja on sama kõrge kui vasak pool */
 .rail.span-3 { grid-column: span 3; }
 
+/* Keskmisel laiusel ei mahu kolm veergu kõrvuti: kangelane üle laiuse,
+   top ja skaala poolikult. Ridade sidumine tuleb maha, muidu venitaks
+   top-riba tühja rea endaga kaasa. */
 @media (max-width: 1100px) {
-  .span-8, .span-7, .span-9 { grid-column: span 12; }
-  .span-5, .span-4, .rail.span-3 { grid-column: span 6; }
+  .hero-panel { grid-column: span 12; grid-row: auto; }
+  .scale-panel { grid-column: span 5; grid-row: auto; }
+  .gold-panel { grid-column: span 7; grid-row: auto; }
+  .dither-panel { grid-column: span 5; grid-row: auto; }
+
+  /* Kitsamal ekraanil saab top oma rea ja laotub veergudesse. Ühe veeruna
+     kõrvuti venitaks ta naaberpaneeli kümne kirje kõrguseks ja jätaks
+     sinna tühja välja. */
+  .toprail {
+    grid-column: span 12;
+    grid-row: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 4px;
+  }
+  .toprail__head, .toprail__all { grid-column: 1 / -1; }
 }
 
 @media (max-width: 700px) {
-  .span-4, .span-5, .span-6, .rail.span-3 { grid-column: span 12; }
+  .hero-panel, .toprail, .scale-panel, .gold-panel, .dither-panel {
+    grid-column: span 12;
+    grid-row: auto;
+  }
   .hero-panel, .scale-panel { min-height: 0; }
   .hero-panel__title { padding-top: 24px; }
+  .dither-panel { min-height: 180px; }
 }
 
 /* ── Sektsioonipäis ───────────────────────────────────────────────────────── */

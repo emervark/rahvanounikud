@@ -4,7 +4,6 @@ import { EpisodeCard } from '../components/EpisodeCard';
 import { PageState } from '../components/PageState';
 import { DitherField } from '../components/DitherField';
 import { SectionTag } from '../components/SectionTag';
-import { CommunityScore } from '../components/ScoreBadge';
 import { allSongs } from '../data';
 import { useRatings } from '../ratings';
 
@@ -73,7 +72,7 @@ export function Home() {
     <>
       <div className="bento pad-block">
         {/* Kangelane: roosa paneel, kerge suur kiri, klahvinupp */}
-        <section className="panel panel--pink span-8 hero-panel">
+        <section className="panel panel--pink hero-panel">
           <div className="hero-panel__top">
             <SectionTag num="01" label="Rahva hinnang" />
             <span className="bignum">01.1</span>
@@ -81,13 +80,58 @@ export function Home() {
           <h1 className="hero-panel__title">
             Kriitikud on oma sõna öelnud. Nüüd ütle sina.
           </h1>
-          <Link className="key key--pink hero-panel__cta" to={`/saade/${data.episodes[0].guid}`}>
-            Alusta värskeimast <span className="key__chip">1</span>
-          </Link>
+          <div className="hero-panel__foot">
+            <Link className="key key--pink" to={`/saade/${data.episodes[0].guid}`}>
+              Alusta värskeimast <span className="key__chip">1</span>
+            </Link>
+            <div className="hero-panel__stats mono">
+              <span className="live">Rahvas hindab</span>
+              <span>{data.stats.episodes} saadet</span>
+              <span>{data.stats.songs} lugu</span>
+              <span>sinu hinnatud: {ratedCount}</span>
+            </div>
+          </div>
         </section>
 
+        {/* Top 10 püsti parempoolses veerus, kogu bento kõrguses */}
+        <aside className="toprail">
+          <div className="toprail__head">
+            <SectionTag num="02" label="Rahva top" />
+            <span className="mono">{top.length > 0 ? 'koondhinne' : '—'}</span>
+          </div>
+
+          {top.length === 0 ? (
+            <div className="railcard">
+              <span className="note-text">
+                Top tekib siia siis, kui lugusid on hinnatud.
+              </span>
+            </div>
+          ) : (
+            top.map(({ song, episode }, i) => (
+              <Link className="topitem" key={song.id} to={`/lugu/${song.id}`}>
+                <span className={`topitem__rank rank-${i + 1}`}>{i + 1}</span>
+                <span className="topitem__body">
+                  <span className="topitem__title">{song.title}</span>
+                  <span className="topitem__artist mono">
+                    {song.artistsRaw} · {episode.publishedAt.slice(0, 4)}
+                  </span>
+                </span>
+                <span className="topitem__score">
+                  {stats[song.id].average.toFixed(1).replace('.', ',')}
+                </span>
+              </Link>
+            ))
+          )}
+
+          {top.length > 0 && (
+            <Link className="key toprail__all" to="/edetabel">
+              Kogu edetabel <span className="key__chip">→</span>
+            </Link>
+          )}
+        </aside>
+
         {/* Skaala: salveiroheline paneel joonlauaga */}
-        <section className="panel panel--sage span-4 scale-panel">
+        <section className="panel panel--sage scale-panel">
           <div className="scale-panel__head mono">
             <span>Hinnete jaotus</span>
             <span>{rated > 0 ? `${rated} hinnatud lugu` : 'veel hindamata'}</span>
@@ -99,7 +143,7 @@ export function Home() {
         </section>
 
         {/* Selgitus: ooker paneel */}
-        <section className="panel panel--gold span-5">
+        <section className="panel panel--gold gold-panel">
           <p className="lead">
             Igas „Muusikanõunike” saates kuulavad kriitikud läbi uued lood ja
             annavad neile hinde. Siin saad samad lood ise üle kuulata, hinnata
@@ -112,80 +156,10 @@ export function Home() {
         </section>
 
         {/* 1-bitine väli: must paneel */}
-        <section className="panel panel--ink panel--flat span-4 dither-panel">
+        <section className="panel panel--ink panel--flat dither-panel">
           <DitherField strength={0.55} speed={0.035} pixel={5} colorNum={2} />
         </section>
-
-        {/* Külgriba: statistika ja teated */}
-        <aside className="rail span-3">
-          <div className="railcard railstat">
-            <b>{data.stats.episodes}</b>
-            <span className="mono">saadet</span>
-          </div>
-          <div className="railcard railstat">
-            <b>{data.stats.songs}</b>
-            <span className="mono">lugu</span>
-          </div>
-          <div className="railcard railstat">
-            <b>{ratedCount}</b>
-            <span className="mono">sinu hinnatud</span>
-          </div>
-          <Link className="railcard" to="/saated">
-            <span className="railcard__chip" style={{ background: 'var(--sage)' }}>S</span>
-            <span className="railcard__body">
-              <span className="railcard__title">Kõik saated</span>
-              <span className="railcard__note">Otsi artisti või loo järgi</span>
-            </span>
-            <span className="railcard__go">↗</span>
-          </Link>
-          <Link className="railcard" to="/minu-hinded">
-            <span className="railcard__chip" style={{ background: 'var(--lav)' }}>M</span>
-            <span className="railcard__body">
-              <span className="railcard__title">Minu hinded</span>
-              <span className="railcard__note">Sinu hinded rahva omade kõrval</span>
-            </span>
-            <span className="railcard__go">↗</span>
-          </Link>
-        </aside>
       </div>
-
-      <div className="shead">
-        <SectionTag num="02" label="Rahva top 10" />
-        <span className="mono note">
-          {top.length > 0 ? 'Kõrgeim koondhinne' : 'ootab hindeid'}
-        </span>
-      </div>
-
-      {top.length === 0 ? (
-        <div className="empty">
-          <p className="note-text">
-            Edetabel tekib siia siis, kui lugusid on hinnatud. Ava mõni saade ja
-            anna esimene hinne.
-          </p>
-        </div>
-      ) : (
-        top.map(({ song, episode }, i) => (
-          <Link className="chart-row chart-row--compact" key={song.id} to={`/lugu/${song.id}`}>
-            <span className={`chart-row__rank${i < 3 ? ` top top${i + 1}` : ''}`}>{i + 1}</span>
-            <span style={{ minWidth: 0 }}>
-              <span className="chart-row__title">{song.title}</span>
-              <span className="chart-row__sub mono">
-                {song.artistsRaw} · {episode.publishedAt.slice(0, 4)}
-              </span>
-            </span>
-            <CommunityScore stats={stats[song.id]} />
-            <span className="go">→</span>
-          </Link>
-        ))
-      )}
-
-      {top.length > 0 && (
-        <div className="home-cta" style={{ paddingBlock: '18px 8px' }}>
-          <Link className="key" to="/edetabel">
-            Kogu edetabel <span className="key__chip">→</span>
-          </Link>
-        </div>
-      )}
 
       <div className="shead">
         <SectionTag num="03" label="Värsked saated" />
