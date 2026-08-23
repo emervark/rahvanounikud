@@ -671,14 +671,23 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 /* ── Loo kirje saate lehel ────────────────────────────────────────────────── */
 
+/* Pealkiri ja lingid üle laiuse; mängija, hindamisriba ja hindeplaat ühes
+   reas, ühelt jooneltt algavad. Enne hõljus plaat üksi pealkirja kõrval,
+   samal ajal kui mängija algas palju allpool. */
 .song {
   border-top: 1px solid var(--rule);
   padding-block: 26px 30px;
+}
+
+.song__body {
   display: grid;
   grid-template-columns: 1fr 132px;
   gap: 32px;
   align-items: start;
+  margin-top: 18px;
 }
+
+.song__player { min-width: 0; }
 
 .song h3 { font-size: clamp(24px, 3.2vw, 34px); letter-spacing: -0.03em; line-height: 1.05; }
 .song__artist { font-size: 18px; margin-top: 4px; }
@@ -787,6 +796,9 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .chart-row:hover > *:not(.go) { transform: translateX(16px); }
 .chart-row:hover { background: var(--wash); }
 
+/* Avalehe kompaktne variant: koht, lugu, hinne, nool — ilma "sinu" veeruta */
+.chart-row--compact { grid-template-columns: 56px 1fr 104px 40px; }
+
 /* Nõunike veeruga variant — veerg ilmub ainult siis, kui skoore on sisestatud */
 .chart-head--critics, .chart-row--critics { grid-template-columns: 88px 1fr 62px 96px 96px 40px; }
 .chart-row__score--critic b { color: var(--accent-ink); font-size: 26px; }
@@ -846,13 +858,39 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 /* ── Loo leht ─────────────────────────────────────────────────────────────── */
 
-.songpage { display: grid; grid-template-columns: 1fr 220px; gap: 44px; align-items: start; }
+/* Sama loogika loo lehel */
+.songpage__body {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 44px;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.songpage__player { min-width: 0; }
 .songpage__title { font-size: clamp(30px, 5vw, 56px); line-height: 1; letter-spacing: -0.04em; }
 .songpage__artist { font-size: 20px; margin-top: 6px; color: var(--ink-80); }
 
 /* ── Kommentaarid ─────────────────────────────────────────────────────────── */
 
 .comments { padding-bottom: 48px; }
+
+/* Loo sees avanev lõim: eristub taandega ja joonega, et oleks näha, et see
+   kuulub selle loo juurde, mitte lehe järgmise ploki juurde. */
+/* Loo sees olev lõim ei tohi pärida jagatud lehelaiust — see on juba
+   konteineri sees ja tsentreerimine nihutaks ta loost eemale. */
+.comments--inline {
+  width: auto;
+  margin: 18px 0 0;
+  padding: 4px 0 8px 18px;
+  border-left: 1px solid var(--line);
+  max-width: 74ch;
+}
+
+.comments--inline .comment:first-of-type { border-top: none; padding-top: 0; }
+
+/* Avatud olekus on nupp täidetud — sama loogika mis mujal valikutel */
+.listen-link--on { background: var(--ink); color: var(--paper); border-color: var(--line); }
 
 /* Kogu kommentaar ühes veerus: kui päis oleks lehe laiune ja tekst kitsas,
    jääksid "muuda/kustuta" kommentaarist lahku hõljuma. */
@@ -960,8 +998,8 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .namebox__error { color: var(--accent-ink); margin: 10px 0 0; }
 
 @media (max-width: 900px) {
-  .songpage { grid-template-columns: 1fr; gap: 24px; }
-  .songpage .plate { max-width: 200px; }
+  .songpage__body { grid-template-columns: 1fr; gap: 24px; }
+  .songpage__body .plate { max-width: 200px; }
 }
 
 
@@ -1025,9 +1063,8 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 @media (max-width: 900px) {
   .episode-grid { grid-template-columns: 1fr; gap: 24px; }
-  .song { grid-template-columns: 1fr; gap: 20px; }
-  /* Koondhinne läheb loo pealkirja kõrvale, mitte omaette veergu */
-  .song .plate { max-width: 200px; }
+  .song__body { grid-template-columns: 1fr; gap: 20px; }
+  .song__body .plate { max-width: 200px; }
   .chart-head, .chart-row { grid-template-columns: 54px 1fr 92px 34px; }
   .chart-head span:nth-child(3), .chart-row__mine { display: none; }
   /* Kitsas ekraanis ei mahu kolm arvu kõrvuti — nõunike skoor on loo lehel */

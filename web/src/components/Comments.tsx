@@ -100,7 +100,14 @@ function CommentForm({
   );
 }
 
-export function Comments({ songId }: { songId: string }) {
+export function Comments({
+  songId,
+  heading = true,
+}: {
+  songId: string;
+  /** Saate lehel istub lõim loo sees, kus eraldi sektsioonipäis oleks üleliigne. */
+  heading?: boolean;
+}) {
   const { comments, error, needsName, busy, add, edit, remove, setNeedsName } = useComments(songId);
   const { displayName, isLoggedIn, loginAvailable } = useRatings();
   const [editing, setEditing] = useState<string | null>(null);
@@ -110,14 +117,16 @@ export function Comments({ songId }: { songId: string }) {
 
   return (
     <section>
-      <div className="shead">
-        <SectionTag num="03" label="Kommentaarid" />
-        <span className="mono note">
-          {comments === null ? 'Laen…' : `${comments.length} tk`}
-        </span>
-      </div>
+      {heading && (
+        <div className="shead">
+          <SectionTag num="03" label="Kommentaarid" />
+          <span className="mono note">
+            {comments === null ? 'Laen…' : `${comments.length} tk`}
+          </span>
+        </div>
+      )}
 
-      <div className="comments">
+      <div className={heading ? 'comments' : 'comments comments--inline'}>
         {error && <p className="note-text comments__error">{error}</p>}
 
         {comments !== null && comments.length === 0 && (

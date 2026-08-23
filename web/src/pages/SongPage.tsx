@@ -50,13 +50,12 @@ export function SongPage() {
           ← Edetabel
         </Link>
 
-        <div className="songpage">
-          <div>
-            <div className="mono" style={{ marginBottom: 12 }}>{meta}</div>
-            <h1 className="songpage__title">{song.title}</h1>
-            <div className="songpage__artist">{song.artistsRaw}</div>
+        <div className="songpage__head">
+          <div className="mono" style={{ marginBottom: 12 }}>{meta}</div>
+          <h1 className="songpage__title">{song.title}</h1>
+          <div className="songpage__artist">{song.artistsRaw}</div>
 
-            <div className="listen-row">
+          <div className="listen-row">
               {!song.spotifyId && (
                 <a className="listen-link" href={song.searchUrls.spotify} target="_blank" rel="noreferrer">
                   Otsi Spotifyst ↗
@@ -67,15 +66,19 @@ export function SongPage() {
                   Otsi YouTube'ist ↗
                 </a>
               )}
-              <a className="listen-link" href={song.searchUrls.bandcamp} target="_blank" rel="noreferrer">
-                Otsi Bandcampist ↗
-              </a>
-            </div>
+            <a className="listen-link" href={song.searchUrls.bandcamp} target="_blank" rel="noreferrer">
+              Otsi Bandcampist ↗
+            </a>
+          </div>
+        </div>
 
+        {/* Mängija, hindamisriba ja hindeplaat algavad ühelt jooneltt */}
+        <div className="songpage__body">
+          <div className="songpage__player">
             {song.spotifyId && (
               <iframe
                 className="embed-frame"
-                style={{ height: 152 }}
+                style={{ height: 152, marginTop: 0 }}
                 src={`https://open.spotify.com/embed/track/${song.spotifyId}?utm_source=generator`}
                 title={`Spotify: ${songLabel(song)}`}
                 loading="lazy"

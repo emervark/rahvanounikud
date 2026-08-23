@@ -4,6 +4,8 @@ import { EpisodeCard } from '../components/EpisodeCard';
 import { PageState } from '../components/PageState';
 import { DitherField } from '../components/DitherField';
 import { SectionTag } from '../components/SectionTag';
+import { CommunityScore } from '../components/ScoreBadge';
+import { allSongs } from '../data';
 import { useRatings } from '../ratings';
 
 /**
@@ -55,6 +57,17 @@ export function Home() {
   const latest = data.episodes.slice(0, 4);
   const total = data.episodes.length;
   const rated = Object.keys(stats).length;
+
+  // Top 10: ainult hinnatud lood. Võrdse keskmise korral võidab see, millel
+  // on rohkem hääli — üks kümme ei tohi edestada kümmet kaheksat.
+  const top = allSongs(data)
+    .filter(({ song }) => (stats[song.id]?.count ?? 0) > 0)
+    .sort((a, b) => {
+      const sa = stats[a.song.id];
+      const sb = stats[b.song.id];
+      return sb.average - sa.average || sb.count - sa.count;
+    })
+    .slice(0, 10);
 
   return (
     <>
@@ -137,7 +150,45 @@ export function Home() {
       </div>
 
       <div className="shead">
-        <SectionTag num="02" label="Värsked saated" />
+        <SectionTag num="02" label="Rahva top 10" />
+        <span className="mono note">
+          {top.length > 0 ? 'Kõrgeim koondhinne' : 'ootab hindeid'}
+        </span>
+      </div>
+
+      {top.length === 0 ? (
+        <div className="empty">
+          <p className="note-text">
+            Edetabel tekib siia siis, kui lugusid on hinnatud. Ava mõni saade ja
+            anna esimene hinne.
+          </p>
+        </div>
+      ) : (
+        top.map(({ song, episode }, i) => (
+          <Link className="chart-row chart-row--compact" key={song.id} to={`/lugu/${song.id}`}>
+            <span className={`chart-row__rank${i < 3 ? ` top top${i + 1}` : ''}`}>{i + 1}</span>
+            <span style={{ minWidth: 0 }}>
+              <span className="chart-row__title">{song.title}</span>
+              <span className="chart-row__sub mono">
+                {song.artistsRaw} · {episode.publishedAt.slice(0, 4)}
+              </span>
+            </span>
+            <CommunityScore stats={stats[song.id]} />
+            <span className="go">→</span>
+          </Link>
+        ))
+      )}
+
+      {top.length > 0 && (
+        <div className="home-cta" style={{ paddingBlock: '18px 8px' }}>
+          <Link className="key" to="/edetabel">
+            Kogu edetabel <span className="key__chip">→</span>
+          </Link>
+        </div>
+      )}
+
+      <div className="shead">
+        <SectionTag num="03" label="Värsked saated" />
         <span className="mono note">Uuemad enne</span>
       </div>
 
