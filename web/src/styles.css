@@ -248,10 +248,15 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   align-items: center;
   padding: 18px var(--pad);
   border-top: 1px solid var(--rule);
-  transition: background 0.18s, padding 0.18s;
+  transition: background 0.18s;
 }
 
-.disp:hover { background: var(--wash); padding-left: calc(var(--pad) + 16px); }
+/* Sissenihe hoveril käib transformiga, mitte polstriga: polstri animeerimine
+   sunniks brauseri kogu voo ümber arvutama, ja edetabelis on neid ridu 376.
+   Nool jääb paigale ja teeb oma väikese liigutuse ise. */
+.disp > *:not(.go) { transition: transform 0.18s; }
+.disp:hover > *:not(.go) { transform: translateX(16px); }
+.disp:hover { background: var(--wash); }
 .disp:hover .dt, .disp:hover .disp__title { color: var(--accent-ink); }
 
 .disp .go { color: rgba(21, 21, 21, 0.45); font-size: 15px; transition: transform 0.18s, color 0.18s; }
@@ -561,12 +566,14 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   align-items: center;
   padding: 18px var(--pad);
   border-top: 1px solid var(--rule);
-  transition: background 0.18s, padding 0.18s;
+  transition: background 0.18s;
   max-width: var(--page);
   margin: 0 auto;
 }
 
-.chart-row:hover { background: var(--wash); padding-left: calc(var(--pad) + 16px); }
+.chart-row > *:not(.go) { transition: transform 0.18s; }
+.chart-row:hover > *:not(.go) { transform: translateX(16px); }
+.chart-row:hover { background: var(--wash); }
 .chart-row:hover .chart-row__title { color: var(--accent-ink); }
 .chart-row:hover .go { color: var(--accent-ink); transform: translateX(5px); }
 
@@ -645,10 +652,10 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
   .disp { grid-template-columns: 1fr auto; gap: 12px; }
   .disp .dt { grid-column: 1 / -1; }
-  .disp:hover { padding-left: var(--pad); }
+  .disp:hover > *:not(.go) { transform: none; }
   .disp__title { font-size: 17px; }
 
-  .chart-row:hover { padding-left: var(--pad); }
+  .chart-row:hover > *:not(.go) { transform: none; }
   .chart-row__rank.top1 { font-size: 32px; }
   .chart-row__rank.top2, .chart-row__rank.top3 { font-size: 30px; }
   .chart-row__title { font-size: 17px; }
