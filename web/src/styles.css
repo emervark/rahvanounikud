@@ -30,9 +30,11 @@
   --accent-ink: #a1256b;
 
   --font: 'Archivo', system-ui, -apple-system, sans-serif;
-  /* Siltide kiri. NB: Nova Round EI ole monospace ega oma paksu kaalu —
-     tabular-nums ja font-weight:700 siin ei tööta, rõhk tuleb värvist. */
+  /* Siltide kiri lehe sees. NB: Nova Round EI ole monospace ega oma paksu
+     kaalu — tabular-nums ja font-weight:700 siin ei tööta, rõhk tuleb värvist. */
   --label: 'Nova Round', 'Trebuchet MS', system-ui, sans-serif;
+  /* Päiseriba kiri: tehniline register, mida ümar Nova Round ei kanna. */
+  --mono: 'Space Mono', ui-monospace, Menlo, monospace;
 
   --pad: 32px;
   --page: 1400px;
@@ -365,8 +367,9 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   background: var(--ink);
   color: var(--paper);
   padding: 9px 13px;
-  font-family: var(--label);
+  font-family: var(--mono);
   font-size: 12px;
+  font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   transition: background 0.18s, color 0.18s;
@@ -381,9 +384,10 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  font-family: var(--label);
-  font-size: 12px;
-  letter-spacing: 1.1px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
   padding: 7px 10px;
   border: 1px solid transparent;
   color: var(--ink);
@@ -402,6 +406,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   height: 19px;
   flex: none;
   border: 1px solid var(--line);
+  font-family: var(--mono);
   font-size: 10px;
   line-height: 1;
 }
@@ -409,7 +414,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .account { display: flex; align-items: center; gap: 10px; margin: 0; }
 
 .account__name {
-  font-family: var(--label);
+  font-family: var(--mono);
   font-size: 10px;
   letter-spacing: 1.6px;
   text-transform: uppercase;
@@ -424,9 +429,10 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--label);
-  font-size: 12px;
-  letter-spacing: 1.1px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
   padding: 7px 8px 7px 12px;
   border: 1px solid var(--line);
   background: var(--card);
