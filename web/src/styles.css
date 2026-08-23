@@ -66,7 +66,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
    ───────────────────────────────────────────────────────────────────────── */
 .shead, .disp, .chart-head, .chart-row, .song, .stat-row, .empty,
 .result-count, .toolbar, .pagehead, .episode-head, .hero__inner,
-.scale, .site-footer, .error-box, .loading, .home-cta {
+.scale, .site-footer, .error-box, .loading, .home-cta, .comments {
   width: min(calc(var(--page) - var(--pad) * 2), calc(100% - var(--pad) * 2));
   margin-inline: auto;
   padding-inline: 0;
@@ -658,7 +658,9 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 .comments { padding-bottom: 48px; }
 
-.comment { border-top: 1px solid var(--rule); padding: 18px 0; }
+/* Kogu kommentaar ühes veerus: kui päis oleks lehe laiune ja tekst kitsas,
+   jääksid "muuda/kustuta" kommentaarist lahku hõljuma. */
+.comment { border-top: 1px solid var(--rule); padding: 18px 0; max-width: 68ch; }
 
 .comment__head {
   display: flex;
@@ -685,8 +687,8 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
    sest keegi kleebib varem või hiljem katkematu URL-i. */
 .comment__body {
   margin: 0;
-  font-size: 16px;
-  line-height: 1.65;
+  font-size: 15px;
+  line-height: 1.7;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
   max-width: 68ch;
@@ -715,7 +717,14 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 /* ── Kommentaari vorm ─────────────────────────────────────────────────────── */
 
-.cform { border-top: 1px solid var(--rule); padding-top: 18px; margin-top: 4px; }
+/* Sisestuskast järgib teksti lugemislaiust, mitte lehe laiust: üle terve
+   ekraani venitatud kast näeb välja nagu ootaks essee, mitte kommentaari. */
+.cform {
+  border-top: 1px solid var(--rule);
+  padding-top: 18px;
+  margin-top: 4px;
+  max-width: 68ch;
+}
 
 .cform__field {
   width: 100%;
@@ -723,9 +732,9 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   background: transparent;
   color: var(--ink);
   font-family: var(--font);
-  font-size: 16px;
-  line-height: 1.6;
-  padding: 12px 14px;
+  font-size: 15px;
+  line-height: 1.7;
+  padding: 11px 13px;
   resize: vertical;
 }
 
@@ -748,7 +757,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 /* ── Nimeküsimine ─────────────────────────────────────────────────────────── */
 
-.namebox { border: 2px solid var(--ink); padding: 18px; margin-top: 18px; }
+.namebox { border: 2px solid var(--ink); padding: 16px; margin-top: 18px; max-width: 68ch; }
 .namebox__note { margin: 8px 0 14px; line-height: 1.8; max-width: 60ch; }
 .namebox__row { display: flex; gap: 10px; flex-wrap: wrap; }
 .namebox__row .search-input { min-width: 200px; }

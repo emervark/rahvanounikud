@@ -78,7 +78,7 @@ function CommentForm({
         value={body}
         onChange={(e) => setBody(e.target.value)}
         maxLength={MAX_BODY}
-        rows={onCancel ? 3 : 4}
+        rows={onCancel ? 3 : 3}
         placeholder="Mis sa sellest loost arvad?"
         aria-label="Kommentaar"
       />
