@@ -1323,10 +1323,15 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   }
 }
 
-/* ── Lehevahetus ────────────────────────────────────────────────────────
-   Ekraan täitub esitajanimedega ja tühjeneb siis uuesti — uus leht on juba
-   all olemas. Kadumine algab enne, kui täitumine lõpeb, nii et keskel ei
-   teki seisakut: kate on pigem üle libisev laine kui vahekaader.
+/* ── Lehevahetus ──────────────────────────────────────────
+   Ekraan täitub esitajanimedega, leht vahetub katte all ära ja kate
+   tühjeneb siis juba uue lehe pealt.
+
+   Read on flex-konteinerid ja sõnad pakitakse ilma vaheta: kate peab olema
+   täitumise lõpuks läbipaistmatu, muidu jääks vahetus lünkade vahelt
+   paistma. Kasti kõrgus ja ridade joon tulevad päisest, mitte siit —
+   PageTransition mõõdab navipunkti ja annab need sisse.
+
    Sõnad ei püüa hiirt, klikk ülemineku ajal läheb lehe peale läbi. */
 .pt {
   position: fixed;
@@ -1336,18 +1341,34 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   pointer-events: none;
 }
 
-.pt__w {
+.pt__row {
   position: absolute;
-  font-family: var(--mono);
-  font-size: 14px;
-  line-height: 1;
+  display: flex;
+  flex-wrap: nowrap;
   white-space: nowrap;
-  padding: 5px 7px;
+}
+
+.pt__w {
+  flex: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  line-height: 1;
   color: var(--ink);
   transform-origin: 0 50%;
-  animation:
-    ptIn 130ms cubic-bezier(0.2, 0.7, 0.2, 1) var(--enter) both,
-    ptOut 170ms ease-in var(--exit) forwards;
+}
+
+/* Sõna ei ilmu tuhmides vaid rullub vasakult lahti — nagu kirjutaks keegi
+   selle sinna. Sama liigutus tagurpidi viib ta ära. */
+.pt--in .pt__w {
+  animation: ptIn var(--in-dur) cubic-bezier(0.16, 0.8, 0.24, 1) var(--enter) both;
+}
+.pt--out .pt__w {
+  animation: ptOut var(--out-dur) cubic-bezier(0.5, 0, 0.75, 0) var(--exit) forwards;
 }
 
 .pt__w--pink  { background: var(--pink); }
@@ -1357,15 +1378,13 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .pt__w--cream { background: #e7e1d3; }
 .pt__w--ink   { background: var(--ink); color: var(--paper); }
 
-/* Sõna ei ilmu tuhmides vaid rullub vasakult lahti — nagu kirjutaks keegi
-   selle sinna. Sama liigutus tagurpidi viib ta ära. */
 @keyframes ptIn {
-  from { opacity: 0; transform: scaleX(0.3); }
+  from { opacity: 0; transform: scaleX(0.14); }
   to   { opacity: 1; transform: none; }
 }
 @keyframes ptOut {
   from { opacity: 1; transform: none; }
-  to   { opacity: 0; transform: scaleX(0.3); }
+  to   { opacity: 0; transform: scaleX(0.14); }
 }
 
 /* ── Kerimisel sisse ────────────────────────────────────────────────────
