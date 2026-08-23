@@ -73,7 +73,7 @@ export function EpisodePage() {
       </div>
 
       <div className="shead" style={{ marginTop: 26 }}>
-        <SectionTag num="02" label="Hinnatud lood" />
+        <SectionTag label="Hinnatud lood" />
         <span className="mono note">Skaala 1—10 · sinu hinne salvestub kohe</span>
       </div>
 

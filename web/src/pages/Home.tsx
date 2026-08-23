@@ -74,11 +74,10 @@ export function Home() {
         {/* Kangelane: roosa paneel, kerge suur kiri, klahvinupp */}
         <section className="panel panel--pink hero-panel">
           <div className="hero-panel__top">
-            <SectionTag num="01" label="Rahva hinnang" />
-            <span className="bignum">01.1</span>
+            <SectionTag label="Rahva hinnang" />
           </div>
           <h1 className="hero-panel__title">
-            Kriitikud on oma sõna öelnud. Nüüd ütle sina.
+            Maitse üle ei vaielda. Sellele pannakse number!
           </h1>
           <div className="hero-panel__foot">
             <Link className="key key--pink" to={`/saade/${data.episodes[0].guid}`}>
@@ -96,7 +95,7 @@ export function Home() {
         {/* Top 10 püsti parempoolses veerus, kogu bento kõrguses */}
         <aside className="toprail">
           <div className="toprail__head">
-            <SectionTag num="02" label="Rahva top" />
+            <SectionTag label="Rahva top" />
             <span className="mono">{top.length > 0 ? 'koondhinne' : '—'}</span>
           </div>
 
@@ -162,7 +161,7 @@ export function Home() {
       </div>
 
       <div className="shead">
-        <SectionTag num="03" label="Värsked saated" />
+        <SectionTag label="Värsked saated" />
         <span className="mono note">Uuemad enne</span>
       </div>
 
