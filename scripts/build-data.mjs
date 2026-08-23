@@ -114,6 +114,7 @@ async function main() {
   const spotify = await readJson(paths.spotifyCache, {});
   const spotifyEpisodes = await readJson(paths.spotifyEpisodes, {});
   const youtube = await readJson(paths.youtubeCache, {});
+  const critics = await readJson(paths.criticScores, {});
 
   const rawByGuid = Object.fromEntries(rawEpisodes.map((e) => [e.guid, e]));
 
@@ -159,7 +160,23 @@ async function main() {
       song.spotifyId = fix.spotifyId ?? spotify[song.id]?.id ?? null;
       song.youtubeId = fix.youtubeId ?? youtube[song.id]?.id ?? null;
       // Kriitikute hinne tuleb ainult käsitsi — feedis seda ei ole.
-      song.criticScore = typeof fix.criticScore === 'number' ? fix.criticScore : null;
+      // Lubatud on üks number või kriitikute kaupa; viimasest arvutame keskmise
+      // ja jätame ka üksikhinded alles, et lehel saaks näidata, kes mida arvas.
+      const raw = fix.criticScore ?? critics[song.id]?.skoor ?? null;
+      if (typeof raw === 'number' && Number.isFinite(raw)) {
+        song.criticScore = raw;
+        song.criticScores = null;
+      } else if (raw && typeof raw === 'object') {
+        const entries = Object.entries(raw)
+          .filter(([, v]) => typeof v === 'number' && Number.isFinite(v));
+        song.criticScore = entries.length
+          ? entries.reduce((sum, [, v]) => sum + v, 0) / entries.length
+          : null;
+        song.criticScores = entries.length ? Object.fromEntries(entries) : null;
+      } else {
+        song.criticScore = null;
+        song.criticScores = null;
+      }
 
       const q = encodeURIComponent(searchQuery(song));
       song.searchUrls = {
@@ -188,7 +205,10 @@ async function main() {
       spotifyShowId: SPOTIFY_SHOW_ID,
       coverImageUrl: episodes[0]?.coverImageUrl ?? null,
     },
-    stats: { episodes: episodes.length, songs: totalSongs, withSpotify, withYoutube },
+    stats: {
+      episodes: episodes.length, songs: totalSongs, withSpotify, withYoutube,
+      withCriticScore: episodes.reduce((n, e) => n + e.songs.filter((s) => s.criticScore != null).length, 0),
+    },
     episodes,
   };
 
@@ -203,6 +223,7 @@ async function main() {
   console.log(`ID-d: ${stats.reusedContent} taaskasutatud (sisu), ` +
               `${stats.reusedPosition} taaskasutatud (asukoht), ${stats.minted} uut`);
   console.log(`Kuulamislingid: Spotify ${withSpotify}/${totalSongs}, YouTube ${withYoutube}/${totalSongs}`);
+  console.log(`Nõunike skoor: ${out.stats.withCriticScore}/${totalSongs}`);
 
   if (emptyEpisodes.length) {
     console.log(`\nHOIATUS — ${emptyEpisodes.length} saadet ilma lugudeta:`);

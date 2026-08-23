@@ -68,7 +68,7 @@ function ListenOptions({ song, comments }: { song: Song; comments: number }) {
 }
 
 export function SongCard({ song, index }: { song: Song; index: number }) {
-  const { stats } = useRatings();
+  const { stats, mine } = useRatings();
   const commentCounts = useCommentCounts();
   const comments = commentCounts[song.id] ?? 0;
 
@@ -90,7 +90,12 @@ export function SongCard({ song, index }: { song: Song; index: number }) {
         <RatingBar songId={song.id} label={songLabel(song)} />
       </div>
 
-      <ScorePlate stats={stats[song.id]} criticScore={song.criticScore} />
+      <ScorePlate
+        stats={stats[song.id]}
+        criticScore={song.criticScore}
+        criticScores={song.criticScores}
+        myScore={mine[song.id]}
+      />
     </article>
   );
 }

@@ -21,7 +21,8 @@
     "secrets:push": "node scripts/push-secrets.mjs",
     "resolve:spotify": "node scripts/resolve-spotify.mjs",
     "resolve:youtube": "node scripts/resolve-youtube.mjs",
-    "revalidate": "node scripts/revalidate-matches.mjs"
+    "revalidate": "node scripts/revalidate-matches.mjs",
+    "critics": "node scripts/critic-scores.mjs"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.53.1",

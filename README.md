@@ -63,7 +63,8 @@ iga samm oleks eraldi kontrollitav:
 npm run fetch       # RSS → data/raw-episodes.json
 npm run parse       # kirjeldused → data/parsed-songs.json + data/parse-report.md
 npm run build:data  # kõik kokku + overrides → data/episodes.json
-npm run data        # kõik kolm järjest
+npm run data        # kõik järjest
+npm run critics     # värskendab data/critic-scores.json (nõunike hinded)
 ```
 
 `npm run fetch -- --cached` kasutab salvestatud `data/raw-feed.xml`-i ja ei käi võrgus.
@@ -81,6 +82,37 @@ rida on kallis.
 
 Käsitsi sisestatud ja parandatud lood elavad failis `data/overrides.json`, mis kirjutab
 automaatika tulemuse üle.
+
+### Nõunike skoor tuleb ainult käsitsi
+
+Podcasti kirjeldustes numbrilisi hindeid **ei ole** — 91 kirjelduse peale on
+üksainus sõna „punktisumma" ja seegi jutu sees. Kriitikute hinded kõlavad
+ainult helis.
+
+Seepärast on `data/critic-scores.json`: iga lugu eraldi real koos artisti,
+pealkirja ja saatenumbriga, saadete kaupa järjest. Ühte saadet kuulates
+täidad ühe ploki.
+
+```jsonc
+"51067548-an-marlen-tahtede-eest": {
+  "_": "An-Marlen, Kermo Murel — Tähtede eest · saade 91",
+  "skoor": 7                                    // nõunike ühine hinne
+}
+```
+
+`skoor` võib olla ka kriitikute kaupa — siis arvutatakse keskmine ja lehel
+näidatakse ka üksikhinded:
+
+```jsonc
+"skoor": { "Raul Saaremets": 7, "Valner Valme": 6, "Siim Nestor": 8 }
+```
+
+Kuni skoori pole, on plaat ja edetabel lihtsalt kahesed: nõunike veerg ilmub
+alles siis, kui vähemalt üks skoor on sisestatud. Tühi veerg oleks lubadus,
+mida andmed ei kata.
+
+`npm run critics` lisab uute saadete lood faili juurde ja jätab juba
+sisestatud väärtused puutumata.
 
 ### Loo ID-de stabiilsus
 

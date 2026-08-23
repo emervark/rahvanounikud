@@ -16,6 +16,8 @@ export interface Song {
    * võrdlust „Nõunike skoor vs Rahva hääl” alles siis, kui väärtus on olemas.
    */
   criticScore: number | null;
+  /** Kriitikute kaupa, kui need on sisestatud. Keskmine on criticScore. */
+  criticScores: Record<string, number> | null;
   searchUrls: {
     spotify: string;
     youtube: string;
@@ -55,7 +57,10 @@ export interface PodcastMeta {
 export interface EpisodesFile {
   generatedAt: string;
   podcast: PodcastMeta;
-  stats: { episodes: number; songs: number; withSpotify: number; withYoutube: number };
+  stats: {
+    episodes: number; songs: number;
+    withSpotify: number; withYoutube: number; withCriticScore: number;
+  };
   episodes: Episode[];
 }
 

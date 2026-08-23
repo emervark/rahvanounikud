@@ -17,7 +17,7 @@ import { allSongs, formatDate, songLabel } from '../data';
 export function SongPage() {
   const { songId = '' } = useParams();
   const { data, error } = useEpisodesFile();
-  const { stats } = useRatings();
+  const { stats, mine } = useRatings();
 
   if (!data) return <PageState error={error} />;
 
@@ -97,7 +97,12 @@ export function SongPage() {
             <RatingBar songId={song.id} label={songLabel(song)} />
           </div>
 
-          <ScorePlate stats={stats[song.id]} criticScore={song.criticScore} />
+          <ScorePlate
+            stats={stats[song.id]}
+            criticScore={song.criticScore}
+            criticScores={song.criticScores}
+            myScore={mine[song.id]}
+          />
         </div>
       </div>
 

@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useEpisodesFile } from '../useData';
 import { PageState } from '../components/PageState';
-import { CommunityScore } from '../components/ScoreBadge';
+import { CommunityScore, CriticScore } from '../components/ScoreBadge';
 import { allSongs, normalize } from '../data';
 import { useCommentCounts } from '../comments';
 import { useRatings } from '../ratings';
@@ -59,6 +59,9 @@ export function Leaderboard() {
   if (!data) return <PageState error={error} />;
 
   const totalVotes = Object.values(stats).reduce((n, s) => n + s.count, 0);
+  // Nõunike veerg ilmub alles siis, kui vähemalt üks skoor on sisestatud —
+  // tühi veerg oleks lubadus, mida andmed ei kata.
+  const showCritics = data.stats.withCriticScore > 0;
   const ranked = sort === 'top' || sort === 'bottom';
 
   return (
@@ -93,11 +96,12 @@ export function Leaderboard() {
         </div>
       </div>
 
-      <div className="chart-head mono">
+      <div className={`chart-head mono${showCritics ? ' chart-head--critics' : ''}`}>
         <span>Koht</span>
         <span>Lugu / artist</span>
         <span>Sinu</span>
         <span>Rahva hääl</span>
+        {showCritics && <span>Nõunikud</span>}
         <span />
       </div>
 
@@ -114,7 +118,11 @@ export function Leaderboard() {
           // Esikolmik saab punase ja kasvava numbri — edetabel, mitte andmetabel.
           const rankClass = ranked && i < 3 ? ` top top${i + 1}` : '';
           return (
-            <Link className="chart-row" key={song.id} to={`/lugu/${song.id}`}>
+            <Link
+              className={`chart-row${showCritics ? ' chart-row--critics' : ''}`}
+              key={song.id}
+              to={`/lugu/${song.id}`}
+            >
               <span className={`chart-row__rank${rankClass}`}>{i + 1}</span>
               <span style={{ minWidth: 0 }}>
                 <span className="chart-row__title">{song.title}</span>
@@ -126,6 +134,7 @@ export function Leaderboard() {
               </span>
               <span className="chart-row__mine">{mine[song.id] ?? ''}</span>
               <CommunityScore stats={stats[song.id]} />
+              {showCritics && <CriticScore criticScore={song.criticScore} stats={stats[song.id]} />}
               <span className="go">→</span>
             </Link>
           );

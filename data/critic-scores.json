@@ -1,0 +1,1517 @@
+{
+  "_juhend": [
+    "Kriitikute hinded saadetest. Täida \"skoor\" väli.",
+    "",
+    "skoor võib olla:",
+    "  8            — nõunike ühine hinne",
+    "  { \"Raul Saaremets\": 8, \"Siim Nestor\": 6 }  — iga kriitik eraldi, keskmine arvutatakse",
+    "  null         — veel sisestamata",
+    "",
+    "Pärast täitmist: npm run build:data && npm run deploy",
+    "Uute saadete lisandudes: npm run critics (olemasolevad väärtused jäävad alles)"
+  ],
+  "51067548-an-marlen-tahtede-eest": {
+    "_": "An-Marlen, Kermo Murel — Tähtede eest · saade 91",
+    "skoor": null
+  },
+  "51067548-skizo-2katt": {
+    "_": "SKIZØ — 2kätt · saade 91",
+    "skoor": null
+  },
+  "51067548-anna-himma-get-summer": {
+    "_": "Anna Himma — Get Summer! · saade 91",
+    "skoor": null
+  },
+  "51067548-perfectionist-blood-victory": {
+    "_": "Perfectionist — Blood Victory · saade 91",
+    "skoor": null
+  },
+  "c71831ba-bombillaz-saadame-siili-aafrikasse": {
+    "_": "Bombillaz — Saadame siili Aafrikasse · saade 90",
+    "skoor": null
+  },
+  "c71831ba-nomi-sweet-talk": {
+    "_": "Nomi. — Sweet Talk · saade 90",
+    "skoor": null
+  },
+  "c71831ba-vera-vice-tell-me-tell-me": {
+    "_": "Vera Vice — Tell Me, Tell Me · saade 90",
+    "skoor": null
+  },
+  "c71831ba-romare-computer-blue": {
+    "_": "Romare — Computer Blue · saade 90",
+    "skoor": null
+  },
+  "c319ff35-koit-toome-ma-pogenen": {
+    "_": "Koit Toome — Ma põgenen · saade 89",
+    "skoor": null
+  },
+  "c319ff35-drake-janice-stfu": {
+    "_": "Drake — Janice STFU · saade 89",
+    "skoor": null
+  },
+  "c319ff35-liisi-koikson-endaga-vii": {
+    "_": "Liisi Koikson — Endaga vii · saade 89",
+    "skoor": null
+  },
+  "c319ff35-bts-swim": {
+    "_": "BTS — Swim · saade 89",
+    "skoor": null
+  },
+  "d06dc046-alika-laagna-tee": {
+    "_": "Alika — Laagna tee · saade 88",
+    "skoor": null
+  },
+  "d06dc046-the-durutti-kolumn-liars": {
+    "_": "The Durutti Kolumn — Liars · saade 88",
+    "skoor": null
+  },
+  "d06dc046-skizo-etteaste": {
+    "_": "Skizo, Benakanister — Etteaste · saade 88",
+    "skoor": null
+  },
+  "d06dc046-chassol-rude-crude-lude": {
+    "_": "Chassol — Rude Crude Lude · saade 88",
+    "skoor": null
+  },
+  "4d543f2a-prodigyboys-sport": {
+    "_": "Prodigyboys — Sport · saade 87",
+    "skoor": null
+  },
+  "4d543f2a-salem-kin": {
+    "_": "Salem — Kin · saade 87",
+    "skoor": null
+  },
+  "4d543f2a-simone-minn-tahtsin-ainult-oelda-sul": {
+    "_": "Simone Minn — Tahtsin ainult öelda sul · saade 87",
+    "skoor": null
+  },
+  "4d543f2a-the-avalanches-ft-nikki-nair-together": {
+    "_": "The Avalanches ft Nikki Nair, Jessy Lanza & Prentiss — Together · saade 87",
+    "skoor": null
+  },
+  "3b8b51d7-onyx-kah-mul-asi": {
+    "_": "ONYX, pluuto — Kah mul asi · saade 86",
+    "skoor": null
+  },
+  "3b8b51d7-boards-of-canada-prophecy-at-1420-mhz": {
+    "_": "Boards of Canada — Prophecy at 1420 Mhz · saade 86",
+    "skoor": null
+  },
+  "3b8b51d7-adel-force-be-cool": {
+    "_": "Adel Force, Breakfake, Q100 — Be Cool · saade 86",
+    "skoor": null
+  },
+  "3b8b51d7-cortis-tnt": {
+    "_": "Cortis — TNT · saade 86",
+    "skoor": null
+  },
+  "19717d8f-florian-wahl-timofei-chalamet": {
+    "_": "Florian Wahl — TIMOFEI CHALAMET · saade 85",
+    "skoor": null
+  },
+  "19717d8f-skrillex-smoke": {
+    "_": "Skrillex, ISOxo, Cristale, TeeZandos — Smoke · saade 85",
+    "skoor": null
+  },
+  "19717d8f-intrepid-ball-laviin": {
+    "_": "Intrepid — Ball/Laviin · saade 85",
+    "skoor": null
+  },
+  "19717d8f-vince-staples-blackberry-marmelade": {
+    "_": "Vince Staples — Blackberry Marmelade · saade 85",
+    "skoor": null
+  },
+  "37bb174f-holy-motors-heavens-night": {
+    "_": "Holy Motors — Heavens Night · saade 84",
+    "skoor": null
+  },
+  "37bb174f-madonna-i-feel-so-free": {
+    "_": "Madonna — I Feel So Free · saade 84",
+    "skoor": null
+  },
+  "37bb174f-cold-cunts-doll": {
+    "_": "Cold Cunts — Doll · saade 84",
+    "skoor": null
+  },
+  "37bb174f-smerz-spring-summer": {
+    "_": "Smerz — Spring Summer · saade 84",
+    "skoor": null
+  },
+  "d73035d0-suurell-metafoorid": {
+    "_": "SuurEll feat miauf — Metafoorid · saade 83",
+    "skoor": null
+  },
+  "d73035d0-dean-blunt-478-freestyle": {
+    "_": "Dean Blunt, Celeste — 478 freestyle · saade 83",
+    "skoor": null
+  },
+  "d73035d0-marco-tasane-eesti-jumalanna": {
+    "_": "Marco Tasane — Eesti jumalanna · saade 83",
+    "skoor": null
+  },
+  "d73035d0-oneohtrix-point-never-dim-stars": {
+    "_": "Oneohtrix Point Never — Dim Stars · saade 83",
+    "skoor": null
+  },
+  "2700db98-olev-muska-chastushka-ii": {
+    "_": "Olev Muska — Chastushka II · saade 82",
+    "skoor": null
+  },
+  "2700db98-the-strokes-going-shopping": {
+    "_": "The Strokes — Going Shopping · saade 82",
+    "skoor": null
+  },
+  "2700db98-raul-go3": {
+    "_": "Raul — Go3 · saade 82",
+    "skoor": null
+  },
+  "2700db98-laufey-madwoman": {
+    "_": "Laufey — Madwoman · saade 82",
+    "skoor": null
+  },
+  "762d405c-pitsa-alitalia-sinuga-ta-jaab": {
+    "_": "Pitsa — alitalia (sinuga ta jääb) · saade 81",
+    "skoor": null
+  },
+  "762d405c-ye-ft-ceelo-green-bully": {
+    "_": "Ye ft CeeLo Green — Bully · saade 81",
+    "skoor": null
+  },
+  "762d405c-freak-street-pahupidi-ring": {
+    "_": "Freak Street — Pahupidi ring · saade 81",
+    "skoor": null
+  },
+  "762d405c-funk-tribu-shock": {
+    "_": "Funk Tribu — Shock · saade 81",
+    "skoor": null
+  },
+  "32820b14-maria-kallastu-kus-magab-armastus": {
+    "_": "maria kallastu — kus magab armastus · saade 80",
+    "skoor": null
+  },
+  "32820b14-robyn-sucker-for-love": {
+    "_": "Robyn — Sucker For Love · saade 80",
+    "skoor": null
+  },
+  "32820b14-luurel-varas-standoff": {
+    "_": "Luurel Varas — Standoff · saade 80",
+    "skoor": null
+  },
+  "32820b14-jessie-ware-automatic": {
+    "_": "Jessie Ware — Automatic · saade 80",
+    "skoor": null
+  },
+  "04293800-tommy-cash-figaro": {
+    "_": "Tommy Cash — Figaro · saade 79",
+    "skoor": null
+  },
+  "04293800-janet-girl-telle-me-about-it": {
+    "_": "Janet — Girl Telle Me About It · saade 79",
+    "skoor": null
+  },
+  "04293800-lotey-puhas-valge-sark": {
+    "_": "Lotey — Puhas valge särk · saade 79",
+    "skoor": null
+  },
+  "04293800-brotherkrupa-rip-riky": {
+    "_": "Brotherkrupa — RIP RIKY · saade 79",
+    "skoor": null
+  },
+  "9ff7f5d7-alonette-uneasy": {
+    "_": "Alonette ja Anna Kaneelina — Uneasy · saade 78",
+    "skoor": null
+  },
+  "9ff7f5d7-james-blake-days-go-by": {
+    "_": "James Blake — Days Go By · saade 78",
+    "skoor": null
+  },
+  "9ff7f5d7-leslie-da-bass-viimasena-peol": {
+    "_": "Leslie Da Bass — Viimasena peol · saade 78",
+    "skoor": null
+  },
+  "9ff7f5d7-new-age-doom-we-re-all-the-same": {
+    "_": "New Age Doom — We’re All The Same · saade 78",
+    "skoor": null
+  },
+  "a30b7b2f-qotid-kus-sa-lahed": {
+    "_": "Qotid — Kus sa lähed? · saade 77",
+    "skoor": null
+  },
+  "a30b7b2f-juice-wrld-we-don-t-get-along": {
+    "_": "Juice WRLD, Marshmello — We Don’t Get Along · saade 77",
+    "skoor": null
+  },
+  "a30b7b2f-sibyl-vane-can-t-keep-it-together": {
+    "_": "Sibyl Vane — Can’t Keep It Together · saade 77",
+    "skoor": null
+  },
+  "a30b7b2f-morrissey-lester-bangs": {
+    "_": "Morrissey — Lester Bangs · saade 77",
+    "skoor": null
+  },
+  "40f1de08-clicherik-ft-karl-killing-dusiruumi-muusik": {
+    "_": "Clicherik ft Karl Killing, Maria Kallastu — Duširuumi muusik · saade 76",
+    "skoor": null
+  },
+  "40f1de08-bruno-mars-cha-cha-cha": {
+    "_": "Bruno Mars — Cha Cha Cha · saade 76",
+    "skoor": null
+  },
+  "40f1de08-kadri-voorand-tunnistus": {
+    "_": "Kadri Voorand — Tunnistus · saade 76",
+    "skoor": null
+  },
+  "40f1de08-jill-scott-ft-too-hort-bpty": {
+    "_": "Jill Scott ft Too $hort — BPTY · saade 76",
+    "skoor": null
+  },
+  "2d7441fe-florian-wahl-miks-me-hurdime": {
+    "_": "Florian Wahl — Miks me hurdime · saade 75",
+    "skoor": null
+  },
+  "2d7441fe-lana-del-rey-white-feather-hawk-tall-deer-hunter": {
+    "_": "Lana Del Rey — White Feather Hawk Tall Deer Hunter · saade 75",
+    "skoor": null
+  },
+  "2d7441fe-hanakiv-lastele": {
+    "_": "Hanakiv — Lastele · saade 75",
+    "skoor": null
+  },
+  "2d7441fe-foo-fighters-your-favourite-toy": {
+    "_": "Foo Fighters — Your Favourite Toy · saade 75",
+    "skoor": null
+  },
+  "27eae26f-jooseppro-ma-nagu-lol": {
+    "_": "Jooseppro & Lennu — Ma nagu LOL · saade 74",
+    "skoor": null
+  },
+  "27eae26f-charli-xcx-always-everywhere": {
+    "_": "Charli xcx — Always Everywhere · saade 74",
+    "skoor": null
+  },
+  "27eae26f-majaka-mandela-tossud": {
+    "_": "Majaka Mandela — Tossud · saade 74",
+    "skoor": null
+  },
+  "27eae26f-paul-anka-anytime": {
+    "_": "Paul Anka — Anytime · saade 74",
+    "skoor": null
+  },
+  "4015a542-an-marlen-sudame-jargi": {
+    "_": "An-Marlen — Südame järgi · saade 73",
+    "skoor": null
+  },
+  "4015a542-sombr-homewrecker": {
+    "_": "Sombr — Homewrecker · saade 73",
+    "skoor": null
+  },
+  "4015a542-oopus-hanemang": {
+    "_": "Oopus — Hanemäng · saade 73",
+    "skoor": null
+  },
+  "4015a542-morrissey-notre-dam": {
+    "_": "Morrissey — Notre Dam · saade 73",
+    "skoor": null
+  },
+  "e505c599-jarek-kasar-olen-terve-elu-s88nud-v6ileiba-valel": {
+    "_": "Jarek Kasar — Olen terve elu s88nud v6ileiba valelt poolt · saade 72",
+    "skoor": null
+  },
+  "e505c599-harry-styles-aperture": {
+    "_": "Harry Styles — Aperture · saade 72",
+    "skoor": null
+  },
+  "e505c599-a-ap-rocky-punk-rocky": {
+    "_": "A$AP Rocky — Punk Rocky · saade 72",
+    "skoor": null
+  },
+  "4b8b3c35-skizo-narkopoliitika": {
+    "_": "SKIZO, Benakanister, Väike PD, Hanf Kung — Narkopoliitika · saade 71",
+    "skoor": null
+  },
+  "4b8b3c35-bruce-springsteen-streets-of-minneapolis": {
+    "_": "Bruce Springsteen — Streets of Minneapolis · saade 71",
+    "skoor": null
+  },
+  "4b8b3c35-fuzzolini-twilight-haze": {
+    "_": "Fuzzolini — Twilight Haze · saade 71",
+    "skoor": null
+  },
+  "4b8b3c35-thundercat-i-did-this-to-myself": {
+    "_": "Thundercat, Lil Yachty, Flying Lotus — I Did This To Myself · saade 71",
+    "skoor": null
+  },
+  "16e70f0c-skoone-suurtukk-ajab-suu-lohki": {
+    "_": "Skoone — Suurtükk ajab suu lõhki · saade 70",
+    "skoor": null
+  },
+  "16e70f0c-vaiko-eplik-kuningas": {
+    "_": "Vaiko Eplik — Kuningas · saade 70",
+    "skoor": null
+  },
+  "16e70f0c-c-c-haudvaikne": {
+    "_": "C.C. — Haudvaikne · saade 70",
+    "skoor": null
+  },
+  "16e70f0c-margiiela-ilus-paev": {
+    "_": "margiiela — ilus päev · saade 70",
+    "skoor": null
+  },
+  "16e70f0c-roma-vjazemski-royal-brown-philipp-otterbach-ful": {
+    "_": "Roma Vjazemski — Royal Brown (Philipp Otterbach Full Nelson Remix) · saade 70",
+    "skoor": null
+  },
+  "16e70f0c-turnstile-i-care": {
+    "_": "Turnstile — I Care · saade 70",
+    "skoor": null
+  },
+  "16e70f0c-cardiacs-busty-beez": {
+    "_": "Cardiacs — Busty Beez · saade 70",
+    "skoor": null
+  },
+  "16e70f0c-jjjjjerome-ellis-savannah-sparrow-for-and-after-": {
+    "_": "JJJJJerome Ellis — Savannah Sparrow (for and after Kenita Miller) · saade 70",
+    "skoor": null
+  },
+  "16e70f0c-dijon-higher": {
+    "_": "Dijon — Higher · saade 70",
+    "skoor": null
+  },
+  "16e70f0c-kelman-duran-equinox": {
+    "_": "Kelman Duran — Equinox · saade 70",
+    "skoor": null
+  },
+  "263c8fbc-lotte-jurjendal-alien-angel": {
+    "_": "Lotte Jürjendal ja Taavi Laatsit — Alien Angel · saade 69",
+    "skoor": null
+  },
+  "263c8fbc-gorillaz-damaskus": {
+    "_": "Gorillaz feat Omar Souleyman & Yasiin Bey — Damaskus · saade 69",
+    "skoor": null
+  },
+  "263c8fbc-elisabeth-tiffany-jopetaskud": {
+    "_": "Elisabeth Tiffany — jopetaskud · saade 69",
+    "skoor": null
+  },
+  "263c8fbc-glasser-knave-dj-python-remix": {
+    "_": "Glasser — Knave (DJ Python Remix) · saade 69",
+    "skoor": null
+  },
+  "28a618cf-blix-tallinn-2000-uksi": {
+    "_": "Blix — Tallinn 2000 (üksi) · saade 68",
+    "skoor": null
+  },
+  "28a618cf-anika-these-days": {
+    "_": "Anika & Jim Jarmusch — These Days · saade 68",
+    "skoor": null
+  },
+  "28a618cf-marju-kuut-naen-end-su-silmades": {
+    "_": "Marju Kuut — Näen end su silmades · saade 68",
+    "skoor": null
+  },
+  "28a618cf-tul8te-el-hobo-gany": {
+    "_": "TUL8TE — El Hobo Gany · saade 68",
+    "skoor": null
+  },
+  "17d543f7-reket-varjude-maa": {
+    "_": "reket — Varjude maa · saade 67",
+    "skoor": null
+  },
+  "17d543f7-jimi-tenor-shine-all-night": {
+    "_": "Jimi Tenor — Shine All Night · saade 67",
+    "skoor": null
+  },
+  "17d543f7-jooseppro-kaliiber": {
+    "_": "jooseppro ja Lennu — Kaliiber · saade 67",
+    "skoor": null
+  },
+  "17d543f7-headache-the-joy-is-ours": {
+    "_": "Headache — The Joy Is Ours · saade 67",
+    "skoor": null
+  },
+  "7d01a2d3-maria-kallastu-ddg": {
+    "_": "Maria Kallastu — DDG · saade 66",
+    "skoor": null
+  },
+  "7d01a2d3-fred-again-beto-s-horns-fred-remix": {
+    "_": "Fred again.., CA7RIEL & Paco Ambroso — Beto’s Horns – fred remix · saade 66",
+    "skoor": null
+  },
+  "7d01a2d3-sadu-uueks-hommikul": {
+    "_": "SADU — Uueks hommikul · saade 66",
+    "skoor": null
+  },
+  "7d01a2d3-portugal-the-man-denali": {
+    "_": "Portugal. The Man — Denali · saade 66",
+    "skoor": null
+  },
+  "cae25c7a-maris-pihlap-ara-lopeta": {
+    "_": "Maris Pihlap — Ära lõpeta · saade 65",
+    "skoor": null
+  },
+  "cae25c7a-charli-xcx-ft-john-cale-house": {
+    "_": "Charli XCX ft John Cale — House · saade 65",
+    "skoor": null
+  },
+  "cae25c7a-ans-andur-must-pilv": {
+    "_": "Ans. Andur — Must pilv · saade 65",
+    "skoor": null
+  },
+  "cae25c7a-smerz-imagine-this-new-york-edit": {
+    "_": "Smerz — Imagine This – New York edit · saade 65",
+    "skoor": null
+  },
+  "d3af9788-siim-pojeng-sules-lilli": {
+    "_": "Siim Pojeng, EiK — Süles lilli · saade 64",
+    "skoor": null
+  },
+  "d3af9788-florence-the-machine-sympathy-magic": {
+    "_": "Florence + The Machine — Sympathy Magic · saade 64",
+    "skoor": null
+  },
+  "d3af9788-meelik-johker-puss": {
+    "_": "Meelik — Jõhker Püss · saade 64",
+    "skoor": null
+  },
+  "d3af9788-moore-kismet-blue2th": {
+    "_": "Moore Kismet, Lunnari, Kyva — BLUE2TH! · saade 64",
+    "skoor": null
+  },
+  "3bc11027-gram-of-fun-corolla": {
+    "_": "Gram-of-Fun — corolla · saade 63",
+    "skoor": null
+  },
+  "3bc11027-rosalia-berghain": {
+    "_": "Rosalía, Björk, Yves Tumor — Berghain · saade 63",
+    "skoor": null
+  },
+  "3bc11027-boipepperoni-open-heart": {
+    "_": "boipepperoni, Malla — Open Heart · saade 63",
+    "skoor": null
+  },
+  "3bc11027-tyler-up-all-night": {
+    "_": "Tyler, the Creator — Up All Night · saade 63",
+    "skoor": null
+  },
+  "4cc9e6ed-karl-killing-ara-enam-ella": {
+    "_": "Karl Killing, villemdrillem — ära enam ella · saade 62",
+    "skoor": null
+  },
+  "4cc9e6ed-daniel-cesar-ft-bon-iver-moon": {
+    "_": "Daniel Cesar ft Bon Iver — Moon · saade 62",
+    "skoor": null
+  },
+  "4cc9e6ed-mar-u-kassar": {
+    "_": "MAR$U, Angeel — Kässar · saade 62",
+    "skoor": null
+  },
+  "4cc9e6ed-powell-up-all-night": {
+    "_": "Powell — Up All Night · saade 62",
+    "skoor": null
+  },
+  "ecacb7c9-randaja-inimeseks-olemine": {
+    "_": "Rändaja — Inimeseks olemine · saade 61",
+    "skoor": null
+  },
+  "ecacb7c9-lojay-memories": {
+    "_": "Lojay, Tyla — Memories · saade 61",
+    "skoor": null
+  },
+  "ecacb7c9-clicherik-sobralaul": {
+    "_": "Clicherik & Mäx — Sõbralaul · saade 61",
+    "skoor": null
+  },
+  "ecacb7c9-t-i-ride-the-plane": {
+    "_": "T > I — Ride the Plane · saade 61",
+    "skoor": null
+  },
+  "4dfa188b-dew8-kui-kedagi-piinad": {
+    "_": "DEW8, DeBu, 57EVEN, SULTAN — Kui kedagi piinad · saade 60",
+    "skoor": null
+  },
+  "4dfa188b-twice-me-you": {
+    "_": "Twice — ME + YOU · saade 60",
+    "skoor": null
+  },
+  "4dfa188b-meisterjaan-meelehein": {
+    "_": "Meisterjaan — Meelehein · saade 60",
+    "skoor": null
+  },
+  "4dfa188b-gorillaz-the-manifesto": {
+    "_": "Gorillaz feat Treuno & Proof — The Manifesto · saade 60",
+    "skoor": null
+  },
+  "4998e33a-margiiela-alexandria": {
+    "_": "margiiela — Alexandria · saade 59",
+    "skoor": null
+  },
+  "4998e33a-taylor-swift-the-fate-of-ophelia": {
+    "_": "Taylor Swift — The Fate of Ophelia · saade 59",
+    "skoor": null
+  },
+  "4998e33a-kreemikast-onn-ilma-roomuta": {
+    "_": "Kreemikast — Õnn ilma rõõmuta · saade 59",
+    "skoor": null
+  },
+  "4998e33a-dry-cleaning-hit-my-head-all-day": {
+    "_": "Dry Cleaning — Hit My Head All Day · saade 59",
+    "skoor": null
+  },
+  "f247c45d-white-girl-ma-ei-taha": {
+    "_": "White Girl — Ma ei taha · saade 58",
+    "skoor": null
+  },
+  "f247c45d-danny-brown-stardust": {
+    "_": "Danny Brown — Stardust · saade 58",
+    "skoor": null
+  },
+  "f247c45d-heleenyum-siren-remix": {
+    "_": "Heleenyum — Siren (Remix) · saade 58",
+    "skoor": null
+  },
+  "f247c45d-juana-molina-siestas-ahi": {
+    "_": "Juana Molina — Siestas Ahi · saade 58",
+    "skoor": null
+  },
+  "e9622d5d-daniel-levi-following-the-lost": {
+    "_": "Daniel Levi — Following The Lost · saade 57",
+    "skoor": null
+  },
+  "e9622d5d-jonas-f-k-nadal": {
+    "_": "jonas.f.k. — Nädal · saade 57",
+    "skoor": null
+  },
+  "e9622d5d-villemdrillem-kas-tuled-ka": {
+    "_": "villemdrillem, Liis Lemsalu — Kas tuled ka? · saade 57",
+    "skoor": null
+  },
+  "e9622d5d-yshiroma-amends": {
+    "_": "yshiroma — Amends · saade 57",
+    "skoor": null
+  },
+  "df1c87e3-rom-nagun2ff": {
+    "_": "ROM — nagun2ff · saade 56",
+    "skoor": null
+  },
+  "df1c87e3-odumodublvck-ft-stormzy-pay-me": {
+    "_": "ODUMODUBLVCK ft Stormzy, Zatan — Pay Me · saade 56",
+    "skoor": null
+  },
+  "df1c87e3-lotte-darker-love": {
+    "_": "Lotte — Darker Love · saade 56",
+    "skoor": null
+  },
+  "df1c87e3-lukid-new-river": {
+    "_": "Lukid — New River · saade 56",
+    "skoor": null
+  },
+  "7ae27574-jarek-kasar-jt": {
+    "_": "Jarek Kasar — jt. · saade 55",
+    "skoor": null
+  },
+  "7ae27574-lady-gaga-the-dead-dance": {
+    "_": "Lady Gaga — The Dead Dance · saade 55",
+    "skoor": null
+  },
+  "7ae27574-triinu-upkin-ballerina-let-her-dance": {
+    "_": "Triinu Upkin — Ballerina (Let Her Dance) · saade 55",
+    "skoor": null
+  },
+  "7ae27574-lizzo-i-love-being-myself": {
+    "_": "Lizzo — I Love Being Myself · saade 55",
+    "skoor": null
+  },
+  "f00dce8b-prodigyboys-ft-lotey-come-closer": {
+    "_": "PRODIGYBOYS ft Lotey — COME CLOSER · saade 54",
+    "skoor": null
+  },
+  "f00dce8b-ariel-pink-with-you-every-night": {
+    "_": "Ariel Pink — With You Every Night · saade 54",
+    "skoor": null
+  },
+  "f00dce8b-night-tapes-storm": {
+    "_": "Night Tapes — storm · saade 54",
+    "skoor": null
+  },
+  "f00dce8b-cardi-b-imaginary-playerz": {
+    "_": "Cardi B — Imaginary Playerz · saade 54",
+    "skoor": null
+  },
+  "a84e0286-iiori-sprint": {
+    "_": "iiori — sprint · saade 53",
+    "skoor": null
+  },
+  "a84e0286-karameel-mul-ei-ole-raha": {
+    "_": "Karameel — Mul ei ole raha · saade 53",
+    "skoor": null
+  },
+  "a84e0286-valge-tudruk-mul-krdi-suva": {
+    "_": "Valge Tüdruk — mul krdi suva · saade 53",
+    "skoor": null
+  },
+  "a84e0286-c-c-haudvaikne": {
+    "_": "C.C. — Haudvaikne · saade 53",
+    "skoor": null
+  },
+  "c0b8424d-maria-kallastu-amore-tossico": {
+    "_": "maria kallastu — amore tossico · saade 52",
+    "skoor": null
+  },
+  "c0b8424d-sabrina-carpenter-manchild": {
+    "_": "Sabrina Carpenter — Manchild · saade 52",
+    "skoor": null
+  },
+  "c0b8424d-yasmyn-ft-sno-like-that": {
+    "_": "Yasmyn ft Sno — Like That · saade 52",
+    "skoor": null
+  },
+  "c0b8424d-neil-young-and-the-chrome-hearts-dark-mirage": {
+    "_": "Neil Young and the Chrome Hearts — Dark Mirage · saade 52",
+    "skoor": null
+  },
+  "ec783a5e-nublu-tipus-ulub-tuul": {
+    "_": "nublu, Vaiko Eplik — Tipus ulub tuul · saade 51",
+    "skoor": null
+  },
+  "ec783a5e-lorde-man-of-the-year": {
+    "_": "Lorde — Man of the Year · saade 51",
+    "skoor": null
+  },
+  "ec783a5e-leslie-da-bass-ei-keegi-saa-roovida-me-suve": {
+    "_": "Leslie Da Bass — Ei keegi saa röövida me suve · saade 51",
+    "skoor": null
+  },
+  "ec783a5e-pluto-whim-whamiee-remix": {
+    "_": "PLUTO, Sexyy Red — Whim Whamiee (Remix) · saade 51",
+    "skoor": null
+  },
+  "1f4d07b9-lexsoul-dance-machine-it-s-over": {
+    "_": "Lexsoul Dance Machine — It’s Over · saade 50",
+    "skoor": null
+  },
+  "1f4d07b9-burna-boy-tatata": {
+    "_": "Burna Boy, Travis Scott — TaTaTa · saade 50",
+    "skoor": null
+  },
+  "1f4d07b9-music-four-your-plants-novacyne": {
+    "_": "Music Four Your Plants — Novacyne · saade 50",
+    "skoor": null
+  },
+  "1f4d07b9-st-etienne-glad": {
+    "_": "St Etienne — Glad · saade 50",
+    "skoor": null
+  },
+  "2cbcfe43-kiki-kellelgi-on-raske": {
+    "_": "Kiki — Kellelgi on raske · saade 49",
+    "skoor": null
+  },
+  "2cbcfe43-ye-ww3": {
+    "_": "Ye — WW3 · saade 49",
+    "skoor": null
+  },
+  "2cbcfe43-freak-street-paikese-all": {
+    "_": "Freak Street — Päikese all · saade 49",
+    "skoor": null
+  },
+  "2cbcfe43-andre-3000-spent-all-day-waiting-for-the-night": {
+    "_": "Andre 3000 — Spent All Day Waiting For the Night · saade 49",
+    "skoor": null
+  },
+  "3e638468-triibupasta-tantsuriik": {
+    "_": "Triibupasta — Tantsuriik · saade 48",
+    "skoor": null
+  },
+  "3e638468-quavo-dope-boy-phone": {
+    "_": "Quavo, Takeoff — Dope Boy Phone · saade 48",
+    "skoor": null
+  },
+  "3e638468-clicherik-nagu-kodus": {
+    "_": "Clicherik — Nagu kodus · saade 48",
+    "skoor": null
+  },
+  "3e638468-ed-sheeran-old-phone": {
+    "_": "Ed Sheeran — Old Phone · saade 48",
+    "skoor": null
+  },
+  "8311c8b9-shelton-san-funky-old-fella": {
+    "_": "Shelton San — Funky Old Fella · saade 47",
+    "skoor": null
+  },
+  "8311c8b9-ariel-pink-spin-cycle": {
+    "_": "Ariel Pink, Devin Lynn — Spin Cycle · saade 47",
+    "skoor": null
+  },
+  "8311c8b9-slam-sigma-boy": {
+    "_": "Släm — Sigma Boy · saade 47",
+    "skoor": null
+  },
+  "8311c8b9-billy-idol-77": {
+    "_": "Billy Idol, Avril Lavigne — 77 · saade 47",
+    "skoor": null
+  },
+  "92971a74-inger-tirib-mind-kuuma": {
+    "_": "Inger feat Genka — Tirib mind kuuma · saade 46",
+    "skoor": null
+  },
+  "92971a74-mark-pritchard-gangsters": {
+    "_": "Mark Pritchard, Thom Yorke — Gangsters · saade 46",
+    "skoor": null
+  },
+  "92971a74-sopruse-puiestee-hullimaja-hoovis": {
+    "_": "Sõpruse Puiestee — Hullimaja hoovis · saade 46",
+    "skoor": null
+  },
+  "92971a74-lana-del-rey-henry-come-on": {
+    "_": "Lana Del Rey — Henry, Come On · saade 46",
+    "skoor": null
+  },
+  "e86c4137-sammalhabe-lotus-elise": {
+    "_": "Sammalhabe — Lotus Elise · saade 45",
+    "skoor": null
+  },
+  "e86c4137-pink-pantheress-tonight": {
+    "_": "Pink Pantheress — Tonight · saade 45",
+    "skoor": null
+  },
+  "e86c4137-luurel-varas-lab-grown-black-hole": {
+    "_": "Luurel Varas — Lab-Grown Black Hole · saade 45",
+    "skoor": null
+  },
+  "e86c4137-barker-stochastic-drift": {
+    "_": "Barker — Stochastic Drift · saade 45",
+    "skoor": null
+  },
+  "6df8fc6e-margiiela-ilus-paev": {
+    "_": "margiiela — Ilus päev · saade 44",
+    "skoor": null
+  },
+  "6df8fc6e-black-country-happy-birthday": {
+    "_": "Black Country, New Road — Happy Birthday · saade 44",
+    "skoor": null
+  },
+  "6df8fc6e-eik-roomus": {
+    "_": "Eik — Rõõmus · saade 44",
+    "skoor": null
+  },
+  "6df8fc6e-yukimi-rules-of-school": {
+    "_": "Yukimi — Rules of School · saade 44",
+    "skoor": null
+  },
+  "13e8f612-florian-wahl-fbsobrad": {
+    "_": "Florian Wahl — FBsõbrad · saade 43",
+    "skoor": null
+  },
+  "13e8f612-lady-gaga-abracadabra": {
+    "_": "Lady Gaga — Abracadabra · saade 43",
+    "skoor": null
+  },
+  "13e8f612-alonette-true-north": {
+    "_": "Alonette — True North · saade 43",
+    "skoor": null
+  },
+  "13e8f612-jennie-ft-kali-uchis-damn-right": {
+    "_": "Jennie ft Kali Uchis, Childish Gambino — Damn Right · saade 43",
+    "skoor": null
+  },
+  "de1c611f-meisterjaan-tode-ja-tegu": {
+    "_": "Meisterjaan, Riste — Tõde ja tegu · saade 42",
+    "skoor": null
+  },
+  "de1c611f-playboi-carti-pop-out": {
+    "_": "Playboi Carti — Pop Out · saade 42",
+    "skoor": null
+  },
+  "de1c611f-the-boondocks-jeanette": {
+    "_": "The Boondocks — Jeanette · saade 42",
+    "skoor": null
+  },
+  "de1c611f-fred-frith-your-sweet-time": {
+    "_": "Fred Frith, Shelly Burgon — Your Sweet Time · saade 42",
+    "skoor": null
+  },
+  "03333d5e-ines-daferrari-nr-1": {
+    "_": "Ines Daferrari — Nr. 1 · saade 41",
+    "skoor": null
+  },
+  "03333d5e-sonic-boom-ask-for-the-moon": {
+    "_": "Sonic Boom & Sinner DC — Ask For the Moon · saade 41",
+    "skoor": null
+  },
+  "03333d5e-c-c-haudvaikne": {
+    "_": "C.C. — Haudvaikne · saade 41",
+    "skoor": null
+  },
+  "03333d5e-muni-long-slow-grind": {
+    "_": "Muni Long — Slow Grind · saade 41",
+    "skoor": null
+  },
+  "127c756b-kantri-guidu-band-meesnaine": {
+    "_": "Kantri Guidu Bänd feat Donna Kihoote — MeesNaine · saade 40",
+    "skoor": null
+  },
+  "127c756b-joy-orbison-bastard": {
+    "_": "Joy Orbison, Joe James — Bastard · saade 40",
+    "skoor": null
+  },
+  "127c756b-marmormaze-koeramoodi": {
+    "_": "MARMORMAZE — Koeramoodi · saade 40",
+    "skoor": null
+  },
+  "127c756b-dean-blunt-2": {
+    "_": "Dean Blunt, Elias Ronnenfelt — 2 · saade 40",
+    "skoor": null
+  },
+  "58a9212a-nkn-trakuinice": {
+    "_": "NKN — trakuinice · saade 39",
+    "skoor": null
+  },
+  "58a9212a-bon-iver-everything-is-peaceful-love": {
+    "_": "Bon Iver — Everything Is Peaceful Love · saade 39",
+    "skoor": null
+  },
+  "58a9212a-triibupasta-viinaingel": {
+    "_": "triibupasta — viinaingel · saade 39",
+    "skoor": null
+  },
+  "58a9212a-nazar-anticipate": {
+    "_": "Nazar — Anticipate · saade 39",
+    "skoor": null
+  },
+  "35994776-karl-killing-staatus": {
+    "_": "Karl Killing — STAATUS · saade 38",
+    "skoor": null
+  },
+  "35994776-drake-nokia": {
+    "_": "Drake, PARTYNEXTDOOR — Nokia · saade 38",
+    "skoor": null
+  },
+  "35994776-pia-fraus-across-the-street": {
+    "_": "Pia Fraus — Across the Street · saade 38",
+    "skoor": null
+  },
+  "35994776-jpegmafia-what-the-hip-hop-hell-is-this": {
+    "_": "JPEGMAFIA — What The Hip Hop Hell Is This · saade 38",
+    "skoor": null
+  },
+  "575fdbf7-kaschalot-laminar-flow": {
+    "_": "Kaschalot — Laminar Flow · saade 37",
+    "skoor": null
+  },
+  "575fdbf7-panda-bear-ferry-lady": {
+    "_": "Panda Bear — Ferry Lady · saade 37",
+    "skoor": null
+  },
+  "575fdbf7-mari-kalkun-kiri-algab": {
+    "_": "Mari Kalkun — Kiri algab · saade 37",
+    "skoor": null
+  },
+  "575fdbf7-squid-cro-magnon-man": {
+    "_": "Squid — Cro-Magnon Man · saade 37",
+    "skoor": null
+  },
+  "68d262e1-helina-ok3-ok3-ok3-pohjakoristaja": {
+    "_": "Helina, September — OK3 OK3 Ok3 (PÕHJAKORISTAJA) · saade 36",
+    "skoor": null
+  },
+  "68d262e1-black-country-besties": {
+    "_": "Black Country, New Road — Besties · saade 36",
+    "skoor": null
+  },
+  "68d262e1-fuzzolini-beauty-exist-in-every-one": {
+    "_": "Fuzzolini — Beauty Exist In Every One · saade 36",
+    "skoor": null
+  },
+  "68d262e1-the-weeknd-big-sleep": {
+    "_": "The Weeknd feat Giorgio Moroder — Big Sleep · saade 36",
+    "skoor": null
+  },
+  "a68b491a-alonette-costume": {
+    "_": "Alonette — Costume · saade 35",
+    "skoor": null
+  },
+  "a68b491a-fka-twigs-room-of-fools": {
+    "_": "FKA twigs — Room Of Fools · saade 35",
+    "skoor": null
+  },
+  "a68b491a-mario-kaks-silma-kinni": {
+    "_": "Mario — Kaks silma kinni · saade 35",
+    "skoor": null
+  },
+  "a68b491a-omar-s-something-real": {
+    "_": "Omar S & Desire — Something Real · saade 35",
+    "skoor": null
+  },
+  "4f7d1d5a-tungevaag-liis-lemsalu-solodance": {
+    "_": "Tungevaag + Liis Lemsalu — Solodance · saade 34",
+    "skoor": null
+  },
+  "4f7d1d5a-ela-minus-i-want-to-do-better": {
+    "_": "Ela Minus — I Want To Do Better · saade 34",
+    "skoor": null
+  },
+  "4f7d1d5a-merilin-malk-dilemma": {
+    "_": "Merilin Mälk — Dilemma · saade 34",
+    "skoor": null
+  },
+  "4f7d1d5a-bad-bunny-dtmf": {
+    "_": "Bad Bunny — DTMF · saade 34",
+    "skoor": null
+  },
+  "c4d6132b-bedwetters-koik-muu-voib-oodata": {
+    "_": "Bedwetters & Anne Veski — Kõik muu võib oodata · saade 33",
+    "skoor": null
+  },
+  "c4d6132b-lambrini-girls-bad-apples": {
+    "_": "Lambrini Girls — Bad Apples · saade 33",
+    "skoor": null
+  },
+  "c4d6132b-jarek-kasar-endrofiin-fagin": {
+    "_": "Jarek Kasar feat Jüri Vlassov — Endrofiin (Fagin) · saade 33",
+    "skoor": null
+  },
+  "c4d6132b-jungle-keep-me-satisfied": {
+    "_": "Jungle — Keep Me Satisfied · saade 33",
+    "skoor": null
+  },
+  "59255337-karl-killing-vastased": {
+    "_": "Karl Killing — Vastased · saade 32",
+    "skoor": null
+  },
+  "59255337-laurel-2-metsa-elf": {
+    "_": "laurel 2 — metsa elf · saade 32",
+    "skoor": null
+  },
+  "59255337-karl-killing-sinust-saati": {
+    "_": "Karl Killing, Anne Veski — Sinust saati · saade 32",
+    "skoor": null
+  },
+  "59255337-valge-tudruk-tere-paevik": {
+    "_": "Valge Tüdruk — Tere, päevik! · saade 32",
+    "skoor": null
+  },
+  "59255337-karja-foam": {
+    "_": "Karja, Renard, Wandinger — Foam · saade 32",
+    "skoor": null
+  },
+  "59255337-oranssi-pazuzu-ikikaarme": {
+    "_": "Oranssi Pazuzu — Ikikäärme · saade 32",
+    "skoor": null
+  },
+  "59255337-laurie-anderson-india-and-down-to-australia": {
+    "_": "Laurie Anderson feat Anohni — India And Down to Australia · saade 32",
+    "skoor": null
+  },
+  "59255337-still-house-plants-pant": {
+    "_": "Still House Plants — Pant · saade 32",
+    "skoor": null
+  },
+  "59255337-laryssa-kim-les-amants-d-osmium-76-os": {
+    "_": "Laryssa Kim — Les Amants d’Osmium – 76 OS · saade 32",
+    "skoor": null
+  },
+  "59255337-fontaines-d-c-starburster": {
+    "_": "Fontaines D.C. — Starburster · saade 32",
+    "skoor": null
+  },
+  "d5b62c3c-tommy-cash-espresso-macchiato": {
+    "_": "Tommy Cash — Espresso Macchiato · saade 31",
+    "skoor": null
+  },
+  "d5b62c3c-james-messiah-meets-lord-tusk-open-up": {
+    "_": "James Messiah meets Lord Tusk — Open Up · saade 31",
+    "skoor": null
+  },
+  "d5b62c3c-vennaskond-joulusokk": {
+    "_": "Vennaskond — Jõulušokk · saade 31",
+    "skoor": null
+  },
+  "d5b62c3c-angel-olsen-the-takeover": {
+    "_": "Angel Olsen — The Takeover · saade 31",
+    "skoor": null
+  },
+  "dc837b32-vera-vice-ever-since": {
+    "_": "Vera Vice — Ever Since · saade 30",
+    "skoor": null
+  },
+  "dc837b32-becky-and-the-birds-london-is-not-the-same": {
+    "_": "Becky and the Birds — London is Not The Same · saade 30",
+    "skoor": null
+  },
+  "dc837b32-prodigyboys-ratchet": {
+    "_": "Prodigyboys — Ratchet · saade 30",
+    "skoor": null
+  },
+  "dc837b32-cyn-the-smiths": {
+    "_": "Cyn — The Smiths · saade 30",
+    "skoor": null
+  },
+  "c2cbc0e2-inga-do-you-really-want-her": {
+    "_": "INGA — Do You Really Want Her · saade 29",
+    "skoor": null
+  },
+  "c2cbc0e2-kim-deal-summerland": {
+    "_": "Kim Deal — Summerland · saade 29",
+    "skoor": null
+  },
+  "c2cbc0e2-tommy-cash-hottie": {
+    "_": "Tommy Cash — Hottie · saade 29",
+    "skoor": null
+  },
+  "c2cbc0e2-wizkid-soji": {
+    "_": "Wizkid — Soji · saade 29",
+    "skoor": null
+  },
+  "5a8ce01b-sip-lga-tere-kaine-eesti": {
+    "_": "SIP€LGA, Yohan — Tere, kaine Eesti · saade 28",
+    "skoor": null
+  },
+  "5a8ce01b-squid-crispy-skin": {
+    "_": "Squid — Crispy Skin · saade 28",
+    "skoor": null
+  },
+  "5a8ce01b-stefan-purjetuul": {
+    "_": "Stefan, Reket — Purjetuul · saade 28",
+    "skoor": null
+  },
+  "5a8ce01b-nettspend-f-ck-swag": {
+    "_": "Nettspend — F*ck Swag · saade 28",
+    "skoor": null
+  },
+  "f043c304-tanel-siimann-to-wait-for": {
+    "_": "Tanel Siimann — To Wait For · saade 27",
+    "skoor": null
+  },
+  "f043c304-primal-scream-deep-dark-waters": {
+    "_": "Primal Scream — Deep Dark Waters · saade 27",
+    "skoor": null
+  },
+  "f043c304-heleenyum-ft-mcandthat-disappear": {
+    "_": "Heleenyum ft. Mcandthat — Disappear · saade 27",
+    "skoor": null
+  },
+  "f043c304-central-cee-one-by-one": {
+    "_": "Central Cee — One By One · saade 27",
+    "skoor": null
+  },
+  "ad1528cf-villemdrillem-goyard": {
+    "_": "villemdrillem, pluuto — goyard · saade 26",
+    "skoor": null
+  },
+  "ad1528cf-lcd-soundsystem-x-ray-eyes": {
+    "_": "LCD Soundsystem — X-Ray Eyes · saade 26",
+    "skoor": null
+  },
+  "ad1528cf-pohja-konn-hingedepaev": {
+    "_": "Põhja Konn — Hingedepäev · saade 26",
+    "skoor": null
+  },
+  "ad1528cf-lola-young-charlie": {
+    "_": "Lola Young, Lil Yachty — Charlie · saade 26",
+    "skoor": null
+  },
+  "e833fac2-motonormal-cocacolastic": {
+    "_": "motonormal — cocacolastic · saade 25",
+    "skoor": null
+  },
+  "e833fac2-tyler-i-hope-you-find-your-way-home": {
+    "_": "Tyler, the Creator — I Hope You Find Your Way Home · saade 25",
+    "skoor": null
+  },
+  "e833fac2-loits-toelised-kuningad-kutse-sugavikust": {
+    "_": "Loits feat FAAM — Tõelised kuningad (Kutse sügavikust) · saade 25",
+    "skoor": null
+  },
+  "e833fac2-underworld-hilo-sku": {
+    "_": "Underworld — Hilo Sku · saade 25",
+    "skoor": null
+  },
+  "d95612df-kitty-florentine-ft-aid-kid-balance": {
+    "_": "Kitty Florentine ft. Aid Kid — Balance · saade 24",
+    "skoor": null
+  },
+  "d95612df-mk-gee-rockman": {
+    "_": "Mk.gee — Rockman · saade 24",
+    "skoor": null
+  },
+  "d95612df-jarek-kasar-und-mina-n2gin": {
+    "_": "Jarek Kasar — Und mina n2gin · saade 24",
+    "skoor": null
+  },
+  "d95612df-fka-twigs-perfect": {
+    "_": "FKA twigs — Perfect · saade 24",
+    "skoor": null
+  },
+  "f6d0a2a1-kaisa-ling-thing-elu-naisteta-on-jant": {
+    "_": "Kaisa Ling Thing — Elu naisteta on jant · saade 23",
+    "skoor": null
+  },
+  "f6d0a2a1-charli-xcx-ft-bladee-rewind": {
+    "_": "Charli XCX ft Bladee — Rewind · saade 23",
+    "skoor": null
+  },
+  "f6d0a2a1-heleza-armastaks": {
+    "_": "heleza — Armastaks? · saade 23",
+    "skoor": null
+  },
+  "f6d0a2a1-milan-w-face-to-face": {
+    "_": "Milan W — Face to Face · saade 23",
+    "skoor": null
+  },
+  "c9f6f00c-smilers-raagi-mis-sa-teed-lv-remix": {
+    "_": "Smilers — Räägi mis sa teed (LV remix) · saade 22",
+    "skoor": null
+  },
+  "c9f6f00c-metronomy-petit-boy": {
+    "_": "Metronomy, Porij — Petit Boy · saade 22",
+    "skoor": null
+  },
+  "c9f6f00c-margiila-eitohikshiljaksjaada": {
+    "_": "margiila, Chillin, TheoFuego — EiTohiksHiljaksJääda · saade 22",
+    "skoor": null
+  },
+  "c9f6f00c-kylie-minogue-lights-camera-action": {
+    "_": "Kylie Minogue — Lights Camera Action · saade 22",
+    "skoor": null
+  },
+  "9f28ab5f-zetod-sita-maitse-suuh": {
+    "_": "Zetod — Sita maitse suuh · saade 21",
+    "skoor": null
+  },
+  "9f28ab5f-the-cure-alone": {
+    "_": "The Cure — Alone · saade 21",
+    "skoor": null
+  },
+  "9f28ab5f-kalli-talonpoika-kaua": {
+    "_": "Kalli Talonpoika — Kaua · saade 21",
+    "skoor": null
+  },
+  "2a917cbf-villemdrillem-klepto": {
+    "_": "villemdrillem — klepto · saade 20",
+    "skoor": null
+  },
+  "2a917cbf-the-smile-zero-sum": {
+    "_": "The Smile — Zero Sum · saade 20",
+    "skoor": null
+  },
+  "2a917cbf-vaiko-eplik-oh-jeerum": {
+    "_": "Vaiko Eplik & Eliit — Oh jeerum · saade 20",
+    "skoor": null
+  },
+  "2a917cbf-jamie-xx-dafodil": {
+    "_": "Jamie xx feat Kelsey Ly, Panda Bear John Glacier — Dafodil · saade 20",
+    "skoor": null
+  },
+  "3c94eb93-luurel-varas-sleeper": {
+    "_": "Luurel Varas — Sleeper · saade 19",
+    "skoor": null
+  },
+  "3c94eb93-playboi-carti-all-red": {
+    "_": "Playboi Carti — All Red · saade 19",
+    "skoor": null
+  },
+  "3c94eb93-maria-kallastu-varahommik": {
+    "_": "Maria Kallastu — Varahommik · saade 19",
+    "skoor": null
+  },
+  "3c94eb93-playboi-carti-2024": {
+    "_": "Playboi Carti — 2024 · saade 19",
+    "skoor": null
+  },
+  "ac3547be-dnd-viimane-kustutab-tule": {
+    "_": "DND — Viimane kustutab tule · saade 18",
+    "skoor": null
+  },
+  "ac3547be-asap-rocky-highjack": {
+    "_": "ASAP Rocky & Jessica Pratt — Highjack · saade 18",
+    "skoor": null
+  },
+  "ac3547be-tont-paevalill-kuuvalgel": {
+    "_": "Tont — Päevalill kuuvalgel · saade 18",
+    "skoor": null
+  },
+  "ac3547be-fat-dog-closer-to-god": {
+    "_": "Fat Dog — Closer to God · saade 18",
+    "skoor": null
+  },
+  "764f7f83-maris-pihlap-midagi-head": {
+    "_": "Maris Pihlap & villemdrillem — Midagi head · saade 17",
+    "skoor": null
+  },
+  "764f7f83-jack-white-archbishop-harold-holmes": {
+    "_": "Jack White — Archbishop Harold Holmes · saade 17",
+    "skoor": null
+  },
+  "764f7f83-florian-wahl-viimane-hetero": {
+    "_": "Florian Wahl — Viimane hetero · saade 17",
+    "skoor": null
+  },
+  "d99cdf2c-siim-nestor-sabrina-carpenter-espresso": {
+    "_": "Siim Nestor: Sabrina Carpenter — Espresso · saade 16",
+    "skoor": null
+  },
+  "d99cdf2c-merit-maarits-valge-tudruk-tere-paevik": {
+    "_": "Merit Maarits: Valge Tüdruk — Tere, päevik! · saade 16",
+    "skoor": null
+  },
+  "d99cdf2c-raul-saaremets-avemaria-diskoteek": {
+    "_": "Raul Saaremets: Avemaria — Diskoteek · saade 16",
+    "skoor": null
+  },
+  "d99cdf2c-valner-valme-nondi-pls-just-shut-the-fuck-up": {
+    "_": "Valner Valme: Nondi_ — pls just shut the fuck up · saade 16",
+    "skoor": null
+  },
+  "91b12664-gram-of-fun-complicated-plant-jafunk-remix": {
+    "_": "Gram-Of-Fun — Complicated Plant (Jafunk Remix) · saade 15",
+    "skoor": null
+  },
+  "91b12664-eminem-houdini": {
+    "_": "Eminem — Houdini · saade 15",
+    "skoor": null
+  },
+  "91b12664-lotey-rohkem-raha": {
+    "_": "Lotey — Rohkem raha · saade 15",
+    "skoor": null
+  },
+  "91b12664-kaytranada-more-than-a-little-bit": {
+    "_": "Kaytranada — More Than a Little Bit · saade 15",
+    "skoor": null
+  },
+  "6cd02773-bedwetters-ma-ei-oska-oelda-ei": {
+    "_": "Bedwetters — Ma ei oska öelda ei · saade 14",
+    "skoor": null
+  },
+  "6cd02773-imagine-dragons-nice-to-meet-you": {
+    "_": "Imagine Dragons — Nice to Meet You · saade 14",
+    "skoor": null
+  },
+  "6cd02773-u-l-a-by-your-side": {
+    "_": "U-L-A — By Your Side · saade 14",
+    "skoor": null
+  },
+  "6cd02773-shimza-parachute": {
+    "_": "Shimza & Rachel Chinouriri — Parachute · saade 14",
+    "skoor": null
+  },
+  "a2c53e9d-nublu-push-it": {
+    "_": "nublu feat maria kallastu — Push It · saade 13",
+    "skoor": null
+  },
+  "a2c53e9d-pinkpantheress-turn-it-up": {
+    "_": "PinkPantheress — Turn It Up · saade 13",
+    "skoor": null
+  },
+  "a2c53e9d-vaiko-eplik-ekstaas": {
+    "_": "Vaiko Eplik & Eliit — Ekstaas · saade 13",
+    "skoor": null
+  },
+  "a2c53e9d-skrillex-push": {
+    "_": "Skrillex, Hamdi, TAICHU, contra, OFFAIAH — Push · saade 13",
+    "skoor": null
+  },
+  "6fee00c7-kenors-raha2": {
+    "_": "Kenors — Raha2 · saade 12",
+    "skoor": null
+  },
+  "6fee00c7-billie-eilish-birds-of-a-feather": {
+    "_": "Billie Eilish — Birds of a Feather · saade 12",
+    "skoor": null
+  },
+  "6fee00c7-horror-dance-squad-taste-the-doom": {
+    "_": "Horror Dance Squad — Taste the Doom · saade 12",
+    "skoor": null
+  },
+  "6fee00c7-childish-gambino-to-be-hunted": {
+    "_": "Childish Gambino — To Be Hunted · saade 12",
+    "skoor": null
+  },
+  "2381b82b-konts-solka": {
+    "_": "Kõnts — Solka · saade 11",
+    "skoor": null
+  },
+  "2381b82b-kamasi-washington-interstellar-peace-the-last-st": {
+    "_": "Kamasi Washington — Interstellar Peace (The Last Stance) · saade 11",
+    "skoor": null
+  },
+  "2381b82b-haldi-meile-kahele": {
+    "_": "Haldi & ans Flamingo — Meile kahele · saade 11",
+    "skoor": null
+  },
+  "2381b82b-hiatus-kaiyote-telescope": {
+    "_": "Hiatus Kaiyote — Telescope · saade 11",
+    "skoor": null
+  },
+  "32d48ca9-maris-pihlap-x-reket-kui-sa-vaid-teaks": {
+    "_": "Maris Pihlap x Reket — Kui sa vaid teaks · saade 10",
+    "skoor": null
+  },
+  "32d48ca9-dua-lipa-end-of-an-era": {
+    "_": "Dua Lipa — End of an Era · saade 10",
+    "skoor": null
+  },
+  "32d48ca9-saaremets-koik-saab-korda": {
+    "_": "Saaremets — Kõik saab korda · saade 10",
+    "skoor": null
+  },
+  "32d48ca9-kendrick-lamar-euphoria": {
+    "_": "Kendrick Lamar — Euphoria · saade 10",
+    "skoor": null
+  },
+  "80e27b14-mari-liis-x-rhei-x-caater-ii-dimensioon": {
+    "_": "Mari Liis x Rhei x Caater — II Dimensioon · saade 9",
+    "skoor": null
+  },
+  "80e27b14-taylor-swift-florida": {
+    "_": "Taylor Swift feat. Florence + The Machine — Florida!!! · saade 9",
+    "skoor": null
+  },
+  "80e27b14-beebi-broken-hearts": {
+    "_": "beebi, jonts — broken hearts · saade 9",
+    "skoor": null
+  },
+  "80e27b14-mark-knopfler-before-my-train-comes": {
+    "_": "Mark Knopfler — Before My Train Comes · saade 9",
+    "skoor": null
+  },
+  "d0450ebc-rain-x-ingra-seek-and-you-shall-find": {
+    "_": "RAIN X INGRA — Seek and You Shall Find · saade 8",
+    "skoor": null
+  },
+  "d0450ebc-artemas-i-like-the-way-you-kiss-me": {
+    "_": "Artemas — i like the way you kiss me · saade 8",
+    "skoor": null
+  },
+  "d0450ebc-lepin-kalkuleeritudrynnak": {
+    "_": "lepin, Yshiroma — kalkuleeritudrynnak · saade 8",
+    "skoor": null
+  },
+  "d0450ebc-darkthrone-black-dawn-affiliation": {
+    "_": "Darkthrone — Black Dawn Affiliation · saade 8",
+    "skoor": null
+  },
+  "010c11f6-eik-armastatud": {
+    "_": "EiK & boipepperoni — Armastatud · saade 7",
+    "skoor": null
+  },
+  "010c11f6-vegyn-the-dream-goes-on-forever": {
+    "_": "Vegyn & John Glacier — The Dream Goes On Forever · saade 7",
+    "skoor": null
+  },
+  "010c11f6-nm-barramundi-mitsubishi-freestyle": {
+    "_": "NM Barramundi & Coffin-Dodger — Mitsubishi Freestyle · saade 7",
+    "skoor": null
+  },
+  "010c11f6-the-libertines-merry-old-england": {
+    "_": "The Libertines — Merry Old England · saade 7",
+    "skoor": null
+  },
+  "afee239a-skuuba-kuidas-sul-on-laind": {
+    "_": "Skuuba — Kuidas sul on läind? · saade 6",
+    "skoor": null
+  },
+  "afee239a-jessica-pratt-world-on-a-string": {
+    "_": "Jessica Pratt — World on a String · saade 6",
+    "skoor": null
+  },
+  "afee239a-liis-lemsalu-silmad-lahti": {
+    "_": "Liis Lemsalu — Silmad lahti · saade 6",
+    "skoor": null
+  },
+  "afee239a-charli-xcx-club-classics": {
+    "_": "Charli XCX — Club Classics · saade 6",
+    "skoor": null
+  },
+  "bf14f06b-buzhold-morlort": {
+    "_": "Buzhold — Morlort · saade 5",
+    "skoor": null
+  },
+  "bf14f06b-tyla-no-1": {
+    "_": "Tyla feat. Tems — No.1 · saade 5",
+    "skoor": null
+  },
+  "bf14f06b-kergo-klubi-kergo-klubi-rapp": {
+    "_": "Kergo Klubi — Kergo Klubi räpp · saade 5",
+    "skoor": null
+  },
+  "bf14f06b-lolina-rules-of-the-game": {
+    "_": "Lolina — Rules of the Game · saade 5",
+    "skoor": null
+  },
+  "3fe878b0-florian-wahl-jousaal": {
+    "_": "Florian Wahl — Jõusaal · saade 4",
+    "skoor": null
+  },
+  "3fe878b0-four-tet-so-blue": {
+    "_": "Four Tet — So Blue · saade 4",
+    "skoor": null
+  },
+  "3fe878b0-marmormaze-underdog": {
+    "_": "Marmormaze feat Rara Blue — Underdog · saade 4",
+    "skoor": null
+  },
+  "3fe878b0-future-type-shit": {
+    "_": "Future, Metro Boomin, Travis Scott, Playboi Carti — Type Shit · saade 4",
+    "skoor": null
+  },
+  "3fe878b0-kosmikud-berber": {
+    "_": "Kosmikud — Berber · saade 4",
+    "skoor": null
+  },
+  "325504f8-manna-mosaic": {
+    "_": "Manna — Mosaic · saade 3",
+    "skoor": null
+  },
+  "325504f8-justin-timberlake-conditions": {
+    "_": "Justin Timberlake — Conditions · saade 3",
+    "skoor": null
+  },
+  "325504f8-lil-till-epp-karsin": {
+    "_": "Lil Till & Chillin — Epp Kärsin · saade 3",
+    "skoor": null
+  },
+  "325504f8-nick-cave-wild-god": {
+    "_": "Nick Cave & The Bad Seeds — Wild God · saade 3",
+    "skoor": null
+  },
+  "325504f8-night-tapes-every-day-is-a-game": {
+    "_": "Night Tapes — Every Day is a Game · saade 3",
+    "skoor": null
+  },
+  "93ad6a77-arop-aamen": {
+    "_": "Arop — Aamen · saade 2",
+    "skoor": null
+  },
+  "93ad6a77-ariana-grande-the-boy-is-mine": {
+    "_": "Ariana Grande — The Boy Is Mine · saade 2",
+    "skoor": null
+  },
+  "93ad6a77-winny-puhh-suusasoit": {
+    "_": "Winny Puhh — Suusasõit · saade 2",
+    "skoor": null
+  },
+  "93ad6a77-kim-gordon-i-m-a-man": {
+    "_": "Kim Gordon — I’m a Man · saade 2",
+    "skoor": null
+  },
+  "18b69b06-karl-killing-vastased": {
+    "_": "Karl Killing — vastased · saade 1",
+    "skoor": null
+  },
+  "18b69b06-dj-arana-mini-game-dos-taliba": {
+    "_": "DJ Arana — Mini Game dos Taliba · saade 1",
+    "skoor": null
+  },
+  "18b69b06-vimka-kevadpaike": {
+    "_": "Vimka — Kevadpäike · saade 1",
+    "skoor": null
+  },
+  "18b69b06-beyonce-texas-hold-em": {
+    "_": "Beyoncé — TEXAS HOLD’EM · saade 1",
+    "skoor": null
+  },
+  "18b69b06-maria-kallastu-saran": {
+    "_": "maria kallastu, boipepperoni — säran · saade 1",
+    "skoor": null
+  }
+}

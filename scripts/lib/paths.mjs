@@ -11,6 +11,7 @@ export const paths = {
   parseReport:  path.join(DATA_DIR, 'parse-report.md'),
   songIds:      path.join(DATA_DIR, 'song-ids.json'),
   overrides:    path.join(DATA_DIR, 'overrides.json'),
+  criticScores: path.join(DATA_DIR, 'critic-scores.json'),
   spotifyCache: path.join(DATA_DIR, 'spotify-cache.json'),
   spotifyEpisodes: path.join(DATA_DIR, 'spotify-episodes.json'),
   youtubeCache: path.join(DATA_DIR, 'youtube-cache.json'),
