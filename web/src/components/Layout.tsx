@@ -39,10 +39,7 @@ export function Layout() {
     <div className="app" style={current ? { ['--player-space' as string]: '76px' } : undefined}>
       <header className="site-header">
         <div className="site-header__inner">
-          <div className="site-header__row">
-            <Link className="logo" to="/">Rahvanõunikud</Link>
-            <AccountButton />
-          </div>
+          <Link className="logo" to="/">Rahvanõunikud</Link>
           <nav className="site-nav">
             {NAV.map((item) => (
               <NavLink
@@ -61,6 +58,7 @@ export function Layout() {
               Minu hinded{ratedCount > 0 && ` · ${ratedCount}`}
             </NavLink>
           </nav>
+          <AccountButton />
         </div>
       </header>
 

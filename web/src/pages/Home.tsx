@@ -33,9 +33,9 @@ function ScaleLine({ stats }: { stats: Record<string, { average: number }> }) {
   return (
     <div className="scale">
       <svg viewBox="0 0 1150 76" role="img" aria-label="Rahva hinnete jaotus skaalal 1 kuni 10">
-        <line x1="0" y1="58" x2="1150" y2="58" stroke="#151515" strokeWidth="2" />
-        <path className="trace" d={d} fill="none" stroke="#a3006f" strokeWidth="3" />
-        <g stroke="#151515" strokeWidth="2">
+        <line x1="0" y1="58" x2="1150" y2="58" stroke="var(--ink)" strokeWidth="2" />
+        <path className="trace" d={d} fill="none" stroke="var(--accent-ink)" strokeWidth="3" />
+        <g stroke="var(--ink)" strokeWidth="2">
           {Array.from({ length: 10 }, (_, i) => {
             const x = i === 0 ? 1 : Math.round((1148 / 9) * i);
             const long = i === 0 || i === 9;
@@ -95,7 +95,7 @@ export function Home() {
       <div className="shead">
         <span className="idx">01</span>
         <h2>Värsked saated</h2>
-        <span className="mono note">Uuemad enne · neli lugu saates</span>
+        <span className="mono note">Uuemad enne</span>
       </div>
 
       {latest.map((episode, i) => (
@@ -107,7 +107,7 @@ export function Home() {
         />
       ))}
 
-      <div style={{ padding: '22px var(--pad) 40px' }}>
+      <div className="home-cta" style={{ paddingBlock: '22px 40px' }}>
         <Link className="btn" to="/saated">
           Kõik {total} saadet <span className="arw">→</span>
         </Link>

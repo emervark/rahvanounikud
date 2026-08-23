@@ -40,7 +40,7 @@ export function PodcastPlayer({ episode, podcast }: { episode: Episode; podcast:
         <>
           <iframe
             className="embed-frame"
-            style={{ height: episode.spotifyEpisodeId ? 180 : 352, marginTop: 0 }}
+            style={{ height: episode.spotifyEpisodeId ? 152 : 352, marginTop: 0 }}
             src={spotifySrc}
             title={`Spotify: ${episode.title}`}
             loading="lazy"
