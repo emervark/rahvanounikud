@@ -59,7 +59,7 @@ export function Layout() {
               className={({ isActive }) => (isActive ? 'navl on' : 'navl')}
             >
               <span className="navl__chip" style={{ background: 'var(--lav)' }}>M</span>
-              Minu hinded{ratedCount > 0 && ` · ${ratedCount}`}
+              Minu<span className="nav-long">&nbsp;hinded</span>{ratedCount > 0 && ` · ${ratedCount}`}
             </NavLink>
           </nav>
           <AccountButton />

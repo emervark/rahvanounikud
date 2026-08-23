@@ -1236,23 +1236,56 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 @media (max-width: 640px) {
   :root { --pad: 16px; }
 
-  /* Nav ei mahu brändi kõrvale: bränd ja konto ühel real, nav teisel.
-     Nimetatud alad on vajalikud, sest DOM-järjekord on bränd → nav → konto ja
-     automaatne paigutus lükkaks konto kolmandale reale. */
+  /* Bränd ja konto ühel real, nav teisel. Nimetatud alad on vajalikud, sest
+     DOM-järjekord on bränd → nav → konto ja automaatne paigutus lükkaks
+     konto kolmandale reale. */
   .site-header__inner {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-areas: 'logo konto' 'nav nav';
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    padding: 10px var(--pad);
   }
   .site-header__inner > .logo { grid-area: logo; justify-self: start; }
   .site-header__inner > .account,
   .site-header__inner > .account__action { grid-area: konto; justify-self: end; }
-  /* Tähemärgis + nimi ei mahu neljale veerule 375px sees — kaks rida kahest */
-  .site-nav { grid-area: nav; display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; }
-  .navl { padding: 9px 8px; font-size: 11px; letter-spacing: 0.8px; border-color: var(--rule); }
-  .account__name { max-width: 90px; }
+
+  .logo { padding: 7px 10px; font-size: 11px; }
+  .account__action { padding: 6px 7px 6px 10px; font-size: 10.5px; }
+
+  /* Neli võrdset lahtrit ühel real: märgis sildi kohal. Kaks rida suuri
+     kaste võttis kolmandiku ekraanist ja nav mõjus tähtsamana kui sisu. */
+  .site-nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+    /* Põhireeglis on margin-left:auto, mis lükkaks navi paremasse serva ka
+       siis, kui ta peaks üle terve rea ulatuma. */
+    margin-left: 0;
+  }
+
+  .navl {
+    flex-direction: column;
+    gap: 4px;
+    padding: 7px 2px 6px;
+    font-size: 9px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    line-height: 1.2;
+    border-color: var(--rule);
+    white-space: normal;
+  }
+
+  .navl__chip { width: 17px; height: 17px; font-size: 9px; }
+
+  /* Kõigil lahtritel on siin joon, nii et aktiivne vajab tugevamat märki */
+  .navl.on { background: var(--ink); color: var(--paper); border-color: var(--line); }
+  .navl.on:hover { background: var(--ink); color: var(--paper); }
+
+  /* Pikk silt ei mahu 4. lahtrisse — mobiilis lühem sõnastus */
+  .nav-long { display: none; }
 
   /* 44px puutesihtmärk ei mahu kümnesse veergu — kaks rida viiest */
   .rating__scale { grid-template-columns: repeat(5, 1fr); }
