@@ -3,14 +3,15 @@ import { useEpisodesFile } from '../useData';
 import { EpisodeCard } from '../components/EpisodeCard';
 import { PageState } from '../components/PageState';
 import { DitherField } from '../components/DitherField';
+import { SectionTag } from '../components/SectionTag';
 import { useRatings } from '../ratings';
 
 /**
- * Hinnete jaotus sagedusjoonena.
+ * Hinnete jaotus mõõteskaalana.
  *
- * Motiiv on raadioskaala: 1–10 on sagedused ja piigid näitavad, kuhu rahva
- * hinded kogunevad. Kui hindeid veel ei ole, jääb joon tasaseks — see on aus
- * pilt tühjast skaalast, mitte kaunistus.
+ * Motiiv on joonlaud: 1–10 on jaotus ja piigid näitavad, kuhu rahva hinded
+ * kogunevad. Kui hindeid veel ei ole, jääb joon tasaseks — see on aus pilt
+ * tühjast skaalast, mitte kaunistus.
  */
 function ScaleLine({ stats }: { stats: Record<string, { average: number }> }) {
   const buckets = new Array(10).fill(0);
@@ -20,33 +21,28 @@ function ScaleLine({ stats }: { stats: Record<string, { average: number }> }) {
   }
   const peak = Math.max(1, ...buckets);
 
-  // Iga sagedus saab piigi, mille kõrgus on selle hinde osakaal.
-  const step = 1150 / 10;
-  let d = 'M0 50';
+  const step = 1000 / 10;
+  let d = 'M0 88';
   buckets.forEach((count, i) => {
     const x = step * i + step / 2;
-    const h = 50 - (count / peak) * 46;
-    d += ` L${(x - 18).toFixed(0)} 50 L${x.toFixed(0)} ${h.toFixed(0)} L${(x + 18).toFixed(0)} 50`;
+    const h = 88 - (count / peak) * 74;
+    d += ` L${(x - 16).toFixed(0)} 88 L${x.toFixed(0)} ${h.toFixed(0)} L${(x + 16).toFixed(0)} 88`;
   });
-  d += ' L1150 50';
+  d += ' L1000 88';
 
   return (
-    <div className="scale">
-      <svg viewBox="0 0 1150 76" role="img" aria-label="Rahva hinnete jaotus skaalal 1 kuni 10">
-        <line x1="0" y1="58" x2="1150" y2="58" stroke="var(--ink)" strokeWidth="2" />
-        <path className="trace" d={d} fill="none" stroke="var(--accent-ink)" strokeWidth="3" />
-        <g stroke="var(--ink)" strokeWidth="2">
-          {Array.from({ length: 10 }, (_, i) => {
-            const x = i === 0 ? 1 : Math.round((1148 / 9) * i);
-            const long = i === 0 || i === 9;
-            return <line key={i} x1={x} y1="58" x2={x} y2={long ? 72 : 68} />;
-          })}
-        </g>
-      </svg>
-      <div className="scale__ticks mono">
-        {Array.from({ length: 10 }, (_, i) => <span key={i}>{i + 1}</span>)}
-      </div>
-    </div>
+    <svg viewBox="0 0 1000 118" className="ruler" role="img"
+         aria-label="Rahva hinnete jaotus skaalal 1 kuni 10">
+      <path className="trace" d={d} fill="none" stroke="var(--ink)" strokeWidth="3" />
+      <line x1="0" y1="96" x2="1000" y2="96" stroke="var(--ink)" strokeWidth="2" />
+      <g stroke="var(--ink)" strokeWidth="1.5">
+        {Array.from({ length: 41 }, (_, i) => {
+          const x = (1000 / 40) * i;
+          const major = i % 4 === 0;
+          return <line key={i} x1={x} y1="96" x2={x} y2={major ? 112 : 105} />;
+        })}
+      </g>
+    </svg>
   );
 }
 
@@ -58,43 +54,90 @@ export function Home() {
 
   const latest = data.episodes.slice(0, 4);
   const total = data.episodes.length;
+  const rated = Object.keys(stats).length;
 
   return (
     <>
-      <section className="hero">
-        <DitherField strength={0.3} speed={0.03} pixel={2} colorNum={3} />
-        <div className="hero__inner">
-          <div className="mono stamp rise">
-            Hindajate register — Muusikanõunikud · V1.0
+      <div className="bento pad-block">
+        {/* Kangelane: roosa paneel, kerge suur kiri, klahvinupp */}
+        <section className="panel panel--pink span-8 hero-panel">
+          <div className="hero-panel__top">
+            <SectionTag num="01" label="Rahva hinnang" />
+            <span className="bignum">01.1</span>
           </div>
-          <h1 className="rise" style={{ animationDelay: '.05s' }}>
-            Kriitikud on oma sõna öelnud. Nüüd ütle <span className="mark">sina</span>.
+          <h1 className="hero-panel__title">
+            Kriitikud on oma sõna öelnud. Nüüd ütle sina.
           </h1>
-          <p className="hero__lead rise" style={{ animationDelay: '.12s' }}>
-            Igas „Muusikanõunike” saates kuulavad kriitikud läbi neli uut lugu ja
-            annavad neile hinde. Siin saad samad lood ise üle kuulata ja hinnata
-            skaalal 1–10. Kõigi kuulajate hinnetest sünnib Rahvanõunikud koondhinne.
-          </p>
-          <div className="hero__stats mono rise" style={{ animationDelay: '.18s' }}>
-            <span className="live">Rahvas hindab</span>
-            <span>Saateid: <b>{data.stats.episodes}</b></span>
-            <span>Lugusid: <b>{data.stats.songs}</b></span>
-            <span>Sinu hinnatud: <b>{ratedCount}</b></span>
-          </div>
-          <div className="hero__actions rise" style={{ animationDelay: '.24s' }}>
-            <Link className="btn solid" to={`/saade/${data.episodes[0].guid}`}>
-              Alusta värskeimast saatest <span className="arw">→</span>
-            </Link>
-            <Link className="btn" to="/edetabel">Vaata edetabelit</Link>
-          </div>
-        </div>
-      </section>
+          <Link className="key key--pink hero-panel__cta" to={`/saade/${data.episodes[0].guid}`}>
+            Alusta värskeimast <span className="key__chip">1</span>
+          </Link>
+        </section>
 
-      <ScaleLine stats={stats} />
+        {/* Skaala: salveiroheline paneel joonlauaga */}
+        <section className="panel panel--sage span-4 scale-panel">
+          <div className="scale-panel__head mono">
+            <span>Hinnete jaotus</span>
+            <span>{rated > 0 ? `${rated} hinnatud lugu` : 'veel hindamata'}</span>
+          </div>
+          <ScaleLine stats={stats} />
+          <div className="scale-panel__ticks mono">
+            <span>1</span><span>5</span><span>10</span>
+          </div>
+        </section>
+
+        {/* Selgitus: ooker paneel */}
+        <section className="panel panel--gold span-5">
+          <p className="lead">
+            Igas „Muusikanõunike” saates kuulavad kriitikud läbi uued lood ja
+            annavad neile hinde. Siin saad samad lood ise üle kuulata, hinnata
+            skaalal 1–10 ja kommenteerida. Kõigi kuulajate hinnetest sünnib
+            Rahvanõunikud koondhinne.
+          </p>
+          <Link className="key key--gold" to="/edetabel">
+            Vaata edetabelit <span className="key__chip">2</span>
+          </Link>
+        </section>
+
+        {/* 1-bitine väli: must paneel */}
+        <section className="panel panel--ink panel--flat span-4 dither-panel">
+          <DitherField strength={0.55} speed={0.035} pixel={5} colorNum={2} />
+        </section>
+
+        {/* Külgriba: statistika ja teated */}
+        <aside className="rail span-3">
+          <div className="railcard railstat">
+            <b>{data.stats.episodes}</b>
+            <span className="mono">saadet</span>
+          </div>
+          <div className="railcard railstat">
+            <b>{data.stats.songs}</b>
+            <span className="mono">lugu</span>
+          </div>
+          <div className="railcard railstat">
+            <b>{ratedCount}</b>
+            <span className="mono">sinu hinnatud</span>
+          </div>
+          <Link className="railcard" to="/saated">
+            <span className="railcard__chip" style={{ background: 'var(--sage)' }}>S</span>
+            <span className="railcard__body">
+              <span className="railcard__title">Kõik saated</span>
+              <span className="railcard__note">Otsi artisti või loo järgi</span>
+            </span>
+            <span className="railcard__go">↗</span>
+          </Link>
+          <Link className="railcard" to="/minu-hinded">
+            <span className="railcard__chip" style={{ background: 'var(--lav)' }}>M</span>
+            <span className="railcard__body">
+              <span className="railcard__title">Minu hinded</span>
+              <span className="railcard__note">Sinu hinded rahva omade kõrval</span>
+            </span>
+            <span className="railcard__go">↗</span>
+          </Link>
+        </aside>
+      </div>
 
       <div className="shead">
-        <span className="idx">01</span>
-        <h2>Värsked saated</h2>
+        <SectionTag num="02" label="Värsked saated" />
         <span className="mono note">Uuemad enne</span>
       </div>
 
@@ -107,9 +150,9 @@ export function Home() {
         />
       ))}
 
-      <div className="home-cta" style={{ paddingBlock: '22px 40px' }}>
-        <Link className="btn" to="/saated">
-          Kõik {total} saadet <span className="arw">→</span>
+      <div className="home-cta" style={{ paddingBlock: '22px 44px' }}>
+        <Link className="key" to="/saated">
+          Kõik {total} saadet <span className="key__chip">→</span>
         </Link>
       </div>
     </>

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { SectionTag } from './SectionTag';
 import {
   MAX_BODY, MAX_NAME, formatWhen, saveDisplayName, useComments,
 } from '../comments';
@@ -110,8 +111,7 @@ export function Comments({ songId }: { songId: string }) {
   return (
     <section>
       <div className="shead">
-        <span className="idx">03</span>
-        <h2>Kommentaarid</h2>
+        <SectionTag num="03" label="Kommentaarid" />
         <span className="mono note">
           {comments === null ? 'Laen…' : `${comments.length} tk`}
         </span>

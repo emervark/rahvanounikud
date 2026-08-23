@@ -1,30 +1,40 @@
 /* ── Disainiteljed ──────────────────────────────────────────────────────────
-   Ajakirjalik-brutalistlik: soe paber, must tint, roosa aktsent. Nurgad on
-   teravad ja jooned nähtavad — leht käitub nagu trükitud register, mitte
-   nagu tarkvara. Mikrosildid on Space Monos, sisu Archivos.
+   Bento-ruudustik värvipaneelidest murtud paberil. Kirjapilt on kerge ja
+   õhurikas, mikrosildid monos. Iga paneel on oma värviga plokk õhukese musta
+   joone sees — leht loeb kui kataloogileht, mitte kui rakendus.
 
-   Ainus teema on hele: see on kataloog, mida sirvitakse, mitte pult, mida
-   õhtuti pimedas vaadatakse.
+   Palett on tahtlikult tuhm: roosa, salvei ja ooker on trükivärvid, mitte
+   ekraanivärvid. Ainus ere asi lehel on hinne.
    ────────────────────────────────────────────────────────────────────────── */
 
 :root {
-  --paper:      #f6f0e4;
-  --ink:        #151515;
-  --accent:     #ff76df;
-  --accent-ink: #c9008a;
+  --paper:  #f5f3ef;
+  --card:   #ffffff;
+  --ink:    #111111;
 
-  --rule:        rgba(21, 21, 21, 0.22);
-  --rule-strong: rgba(21, 21, 21, 0.5);
-  --rule-dash:   rgba(21, 21, 21, 0.4);
-  --ink-60:      rgba(21, 21, 21, 0.62);
-  --ink-80:      rgba(21, 21, 21, 0.82);
-  --wash:        rgba(21, 21, 21, 0.05);
+  --pink:   #ddb7cc;
+  --sage:   #a9baa5;
+  --gold:   #c69a2c;
+  --lav:    #98a6d6;
+
+  --line:       #111111;
+  --rule:       rgba(17, 17, 17, 0.18);
+  --rule-strong: rgba(17, 17, 17, 0.45);
+  --rule-dash:  rgba(17, 17, 17, 0.35);
+  --ink-60:     rgba(17, 17, 17, 0.58);
+  --ink-80:     rgba(17, 17, 17, 0.8);
+  --wash:       rgba(17, 17, 17, 0.045);
+
+  /* Aktsent tekstile: kasutame süvendatud roosat, mis paberil loetav püsib */
+  --accent:     var(--pink);
+  --accent-ink: #a1256b;
 
   --font: 'Archivo', system-ui, -apple-system, sans-serif;
   --mono: 'Space Mono', ui-monospace, Menlo, monospace;
 
-  --pad: 44px;
-  --page: 1240px;
+  --pad: 32px;
+  --page: 1400px;
+  --gap: 8px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -41,11 +51,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Pealkirjad on kerged ja hõredad — raskus tuleb suurusest, mitte kaalust */
 h1, h2, h3, h4 {
   font-family: var(--font);
-  font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -0.025em;
   margin: 0;
 }
 
@@ -54,10 +65,9 @@ a:hover { color: var(--accent-ink); }
 
 button { font: inherit; color: inherit; border: none; background: none; cursor: pointer; }
 
-:focus-visible { outline: 2px solid var(--accent-ink); outline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 
-::selection { background: var(--accent); color: var(--ink); }
-
+::selection { background: var(--pink); color: var(--ink); }
 
 /* ── Sisulaius ─────────────────────────────────────────────────────────────
    Kõik sisuplokid on täpselt sama laiad: piiratud lehe laiusega, muidu
@@ -71,6 +81,163 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   margin-inline: auto;
   padding-inline: 0;
 }
+
+
+/* ── Bento-paneelid ────────────────────────────────────────────────────────
+   Paneel on värviline plokk õhukese musta joone sees. Ruudustik kasutab
+   väikest vahet, nii et paneelid loevad plaatidena, mitte kaartidena.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.bento {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(12, 1fr);
+  align-items: stretch;
+}
+
+.panel {
+  border: 1px solid var(--line);
+  background: var(--card);
+  padding: 26px 28px;
+  position: relative;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.panel--pink  { background: var(--pink); }
+.panel--sage  { background: var(--sage); }
+.panel--gold  { background: var(--gold); }
+.panel--ink   { background: var(--ink); color: var(--paper); }
+.panel--flat  { padding: 0; }
+
+/* Paneeli sisu istub alati üle taustagraafika */
+.panel > * { position: relative; z-index: 2; }
+.panel > canvas.dither { z-index: 0; }
+
+.span-4  { grid-column: span 4; }
+.span-5  { grid-column: span 5; }
+.span-6  { grid-column: span 6; }
+.span-7  { grid-column: span 7; }
+.span-8  { grid-column: span 8; }
+.span-9  { grid-column: span 9; }
+.span-12 { grid-column: span 12; }
+
+/* ── Sektsioonimärgis ──────────────────────────────────────────────────────
+   [04] PRODUCTS ................................................ 04.1
+   Number kastis, silt monos, suur number paremal.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tag__num {
+  display: inline-block;
+  border: 1px solid var(--line);
+  background: var(--card);
+  padding: 3px 7px;
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.tag__label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+/* Suur sektsiooninumber paneeli paremas ülanurgas */
+.bignum {
+  font-family: var(--mono);
+  font-size: clamp(30px, 4vw, 54px);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Nupp klahvivihjega ────────────────────────────────────────────────────
+   [ Alusta värskeimast   1 ] — silt vasakul, klahvimärgis paremal.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.key {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  padding: 10px 10px 10px 16px;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.key:hover { background: var(--ink); color: var(--paper); }
+.key:hover .key__chip { background: var(--paper); color: var(--ink); border-color: var(--paper); }
+
+.key__chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 4px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  font-size: 10px;
+  line-height: 1;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.key--pink .key__chip { background: var(--pink); }
+.key--sage .key__chip { background: var(--sage); }
+.key--gold .key__chip { background: var(--gold); }
+.key--lav  .key__chip { background: var(--lav); }
+
+/* ── Külgriba kaardid ──────────────────────────────────────────────────────
+   Väiksed valged kaardid parempoolses veerus, nagu referentsi teatekastid.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.rail { display: flex; flex-direction: column; gap: var(--gap); min-width: 0; }
+
+.railcard {
+  border: 1px solid var(--line);
+  background: var(--card);
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.railcard__chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  flex: none;
+  border: 1px solid var(--line);
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1;
+}
+
+.railcard__body { min-width: 0; flex: 1; }
+.railcard__title { display: block; font-family: var(--mono); font-size: 12px; letter-spacing: 1px; }
+.railcard__note { display: block; font-size: 12.5px; color: var(--ink-60); margin-top: 3px; line-height: 1.45; }
+.railcard__go { font-size: 13px; color: var(--ink-60); }
+.railcard:hover .railcard__go { color: var(--accent-ink); }
+
+/* Suur number kaardil — statistika */
+.railstat { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.railstat b { font-size: 30px; font-weight: 400; letter-spacing: -0.03em; line-height: 1; }
+
 
 /* ── Korduvad märgid ──────────────────────────────────────────────────────── */
 
@@ -132,8 +299,9 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   position: sticky;
   top: 0;
   z-index: 40;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--card);
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
 }
 
 .site-header__inner {
@@ -148,41 +316,54 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .site-nav { margin-left: auto; }
 .account { margin-left: 0; }
 
+/* Bränd on must plaat valgel ribal — üks kindel ankur vasakus servas */
 .logo {
-  display: inline-block;
-  border: 1px solid var(--paper);
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  background: var(--ink);
   color: var(--paper);
-  padding: 9px 14px;
+  padding: 9px 13px;
   font-family: var(--mono);
   font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.4px;
   text-transform: uppercase;
   transition: background 0.18s, color 0.18s;
 }
 
-.logo:hover { background: var(--paper); color: var(--ink); }
+.logo:hover { background: var(--card); color: var(--ink); }
 
 .site-nav { display: flex; gap: 2px; }
 
+/* Navipunkt = värviline tähemärgis + nimi, nagu referentsis */
 .navl {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
   font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding: 8px 11px;
+  font-size: 12px;
+  letter-spacing: 1.1px;
+  padding: 7px 10px;
   border: 1px solid transparent;
-  color: rgba(246, 240, 228, 0.72);
-  transition: border-color 0.18s, background 0.18s, color 0.18s;
+  color: var(--ink);
+  transition: border-color 0.18s, background 0.18s;
   white-space: nowrap;
 }
 
-.navl:hover { border-color: rgba(246, 240, 228, 0.45); color: var(--paper); }
+.navl:hover { border-color: var(--rule-strong); color: var(--ink); }
+.navl.on { border-color: var(--line); background: var(--wash); }
 
-/* Aktiivne leht on paberivärvi plaat mustal päisel — sama loogika mis mujal:
-   valitud asi pöörab värvid ümber. */
-.navl.on { background: var(--paper); color: var(--ink); }
-.navl.on:hover { background: var(--paper); color: var(--ink); }
+.navl__chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  flex: none;
+  border: 1px solid var(--line);
+  font-size: 10px;
+  line-height: 1;
+}
 
 .account { display: flex; align-items: center; gap: 10px; margin: 0; }
 
@@ -191,7 +372,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   font-size: 10px;
   letter-spacing: 1.6px;
   text-transform: uppercase;
-  color: rgba(246, 240, 228, 0.72);
+  color: var(--ink-60);
   max-width: 130px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -199,18 +380,21 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 }
 
 .account__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding: 8px 11px;
-  border: 1px solid rgba(246, 240, 228, 0.45);
-  color: var(--paper);
+  font-size: 12px;
+  letter-spacing: 1.1px;
+  padding: 7px 8px 7px 12px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
   transition: background 0.18s, color 0.18s;
   white-space: nowrap;
 }
 
-.account__action:hover { background: var(--paper); color: var(--ink); }
+.account__action:hover { background: var(--ink); color: var(--paper); }
 
 /* ── Nupud ────────────────────────────────────────────────────────────────── */
 
@@ -218,14 +402,13 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  border: 1px solid var(--ink);
-  background: transparent;
+  border: 1px solid var(--line);
+  background: var(--card);
   color: var(--ink);
-  padding: 15px 20px;
+  padding: 12px 17px;
   font-family: var(--mono);
   font-size: 12px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  letter-spacing: 1.2px;
   transition: background 0.18s, color 0.18s;
 }
 
@@ -233,29 +416,11 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .btn .arw { transition: transform 0.2s; }
 .btn:hover .arw { transform: translateX(4px); }
 
-.btn.solid { background: var(--accent); }
+.btn.solid { background: var(--pink); }
 .btn.solid:hover { background: var(--ink); color: var(--paper); }
 
 /* ── Sektsioonipäis ja kirjeread ──────────────────────────────────────────── */
 
-.shead {
-  display: flex;
-  align-items: baseline;
-  gap: 16px;
-  padding-block: 18px;
-  flex-wrap: wrap;
-  border-top: 1px dashed var(--rule-dash);
-}
-
-.shead h2 {
-  margin: 0;
-  font-size: 15px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.shead .note { margin-left: auto; }
 
 /* Kirjerida. Hoveril nihkub sisu paremale — sama žest mis kataloogi lehitsemisel. */
 .disp {
@@ -279,7 +444,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .disp .go { color: rgba(21, 21, 21, 0.45); font-size: 15px; transition: transform 0.18s, color 0.18s; }
 .disp:hover .go { color: var(--accent-ink); transform: translateX(5px); }
 
-.disp__title { margin: 0; font-size: 20px; letter-spacing: -0.015em; transition: color 0.18s; }
+.disp__title { margin: 0; font-size: 19px; font-weight: 400; letter-spacing: -0.02em; transition: color 0.18s; }
 .disp__songs { margin: 6px 0 0; font-size: 14px; color: rgba(21, 21, 21, 0.65); }
 
 .disp--last { border-bottom: 1px solid var(--rule); }
@@ -363,7 +528,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   flex-wrap: wrap;
 }
 
-.pagehead h1 { font-size: clamp(34px, 5.5vw, 64px); line-height: 0.95; letter-spacing: -0.04em; }
+.pagehead h1 { font-size: clamp(32px, 5vw, 60px); line-height: 0.98; letter-spacing: -0.035em; }
 
 /* ── Filtririba ───────────────────────────────────────────────────────────── */
 
@@ -437,10 +602,10 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   justify-content: center;
   font-family: var(--font);
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 500;
   font-variant-numeric: tabular-nums;
   border: 1px solid var(--rule-strong);
-  background: var(--paper);
+  background: var(--card);
   color: var(--ink);
   transition: background 0.1s, color 0.1s, border-color 0.1s;
 }
@@ -454,24 +619,24 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 /* Valitud lahter on ainus roosa — riba pikkus ütleb hinde, roosa ütleb täpselt kus */
 .rb.on {
-  background: var(--accent);
+  background: var(--pink);
   color: var(--ink);
-  border-color: var(--ink);
-  box-shadow: inset 0 0 0 2px var(--paper);
+  border-color: var(--line);
+  box-shadow: inset 0 0 0 2px var(--card);
 }
 
 .rb:active { transform: translateY(1px); }
 
 /* ── Koondhinde plaat ─────────────────────────────────────────────────────── */
 
-.plate { border: 2px solid var(--ink); position: relative; overflow: hidden; }
+.plate { border: 1px solid var(--line); position: relative; overflow: hidden; background: var(--card); }
 .plate__inner { position: relative; z-index: 2; padding: 12px; }
 
-.plate__card { background: var(--paper); border: 1px solid var(--ink); padding: 10px 12px; }
+.plate__card { background: var(--card); border: 1px solid var(--line); padding: 10px 12px; }
 /* Kitsas veerus murraks 2.6px tähevahe sildid kahele reale */
 .plate__card .mono { letter-spacing: 1.4px; }
 
-.plate__value { font-size: 44px; font-weight: 800; letter-spacing: -0.04em; line-height: 1; }
+.plate__value { font-size: 44px; font-weight: 400; letter-spacing: -0.04em; line-height: 1; }
 .plate__value--empty { color: rgba(21, 21, 21, 0.4); }
 .plate__votes { margin-top: 8px; border-top: 1px solid rgba(21, 21, 21, 0.3); padding-top: 6px; }
 
@@ -487,7 +652,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   padding-top: 7px;
 }
 
-.plate__row b { font-size: 22px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+.plate__row b { font-size: 22px; font-weight: 500; letter-spacing: -0.03em; line-height: 1; }
 .plate__mine { color: var(--ink); }
 .plate__critics { color: var(--accent-ink); }
 .plate__delta { margin-left: auto; font-variant-numeric: tabular-nums; }
@@ -549,7 +714,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 /* ── Mängija ──────────────────────────────────────────────────────────────── */
 
-.player { border: 2px solid var(--ink); padding: 16px; }
+.player { border: 1px solid var(--line); background: var(--card); padding: 16px; }
 .player__tabs { display: flex; margin: 10px 0 12px; border: 1px solid var(--rule-strong); }
 
 .player__tabs button {
@@ -577,7 +742,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   z-index: 50;
   background: var(--ink);
   color: var(--paper);
-  border-top: 2px solid var(--ink);
+  border-top: 1px solid var(--line);
   padding: 10px 0 calc(10px + env(safe-area-inset-bottom));
 }
 
@@ -629,19 +794,19 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .chart-row:hover .chart-row__title { color: var(--accent-ink); }
 .chart-row:hover .go { color: var(--accent-ink); transform: translateX(5px); }
 
-.chart-row__rank { font-size: 26px; font-weight: 800; letter-spacing: -0.05em; line-height: 1; color: rgba(21, 21, 21, 0.4); font-variant-numeric: tabular-nums; }
+.chart-row__rank { font-size: 26px; font-weight: 400; letter-spacing: -0.05em; line-height: 1; color: rgba(21, 21, 21, 0.4); font-variant-numeric: tabular-nums; }
 /* Esikolmik saab punase ja kasvava numbri — edetabel, mitte andmetabel */
 .chart-row__rank.top { color: var(--accent-ink); }
 .chart-row__rank.top1 { font-size: 44px; }
 .chart-row__rank.top2 { font-size: 40px; }
 .chart-row__rank.top3 { font-size: 36px; }
 
-.chart-row__title { display: block; font-size: 20px; font-weight: 800; letter-spacing: -0.02em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; transition: color 0.18s; }
+.chart-row__title { display: block; font-size: 19px; font-weight: 500; letter-spacing: -0.02em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; transition: color 0.18s; }
 .chart-row__sub { display: block; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-.chart-row__mine { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+.chart-row__mine { font-size: 20px; font-weight: 500; letter-spacing: -0.02em; }
 .chart-row__score { display: flex; align-items: baseline; gap: 8px; }
-.chart-row__score b { font-size: 30px; font-weight: 800; letter-spacing: -0.03em; }
+.chart-row__score b { font-size: 28px; font-weight: 400; letter-spacing: -0.03em; }
 
 .chart-row .go { color: rgba(21, 21, 21, 0.45); font-size: 15px; transition: transform 0.18s, color 0.18s; }
 
@@ -649,7 +814,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 .stat-row { display: flex; flex-wrap: wrap; gap: 36px; padding-block: 24px; border-top: 1px solid var(--rule); max-width: var(--page); margin: 0 auto; }
 .stat-row div { display: flex; flex-direction: column; gap: 4px; }
-.stat-row b { font-size: 34px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+.stat-row b { font-size: 32px; font-weight: 400; letter-spacing: -0.03em; line-height: 1; }
 
 .empty { padding: 44px 0; border-top: 1px dashed var(--rule-dash); }
 .empty p { margin: 0 0 18px; }
@@ -663,9 +828,9 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   top: 61px;
   z-index: 30;
   padding: 12px var(--pad);
-  background: var(--accent);
+  background: var(--pink);
   color: var(--ink);
-  border-bottom: 1px solid var(--ink);
+  border-bottom: 1px solid var(--line);
   font-family: var(--mono);
   font-size: 11px;
   letter-spacing: 1.6px;
@@ -788,7 +953,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 /* ── Nimeküsimine ─────────────────────────────────────────────────────────── */
 
-.namebox { border: 2px solid var(--ink); padding: 16px; margin-top: 18px; max-width: 68ch; }
+.namebox { border: 1px solid var(--line); background: var(--card); padding: 16px; margin-top: 18px; max-width: 68ch; }
 .namebox__note { margin: 8px 0 14px; line-height: 1.8; max-width: 60ch; }
 .namebox__row { display: flex; gap: 10px; flex-wrap: wrap; }
 .namebox__row .search-input { min-width: 200px; }
@@ -798,6 +963,63 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   .songpage { grid-template-columns: 1fr; gap: 24px; }
   .songpage .plate { max-width: 200px; }
 }
+
+
+/* ── Avalehe bento ────────────────────────────────────────────────────────── */
+
+.pad-block { padding-block: var(--gap) 40px; }
+
+.hero-panel { display: flex; flex-direction: column; min-height: 340px; }
+.hero-panel__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+.hero-panel__title {
+  font-size: clamp(34px, 5.4vw, 74px);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  max-width: 15ch;
+  margin-top: auto;
+  padding-top: 40px;
+}
+.hero-panel__cta { margin-top: 26px; align-self: flex-start; }
+
+.scale-panel { display: flex; flex-direction: column; min-height: 340px; }
+.scale-panel__head { display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+.ruler { display: block; width: 100%; margin-top: auto; }
+.scale-panel__ticks { display: flex; justify-content: space-between; margin-top: 6px; }
+
+.trace { stroke-dasharray: 6 6; animation: drift 14s linear infinite; }
+@keyframes drift { to { stroke-dashoffset: -240; } }
+
+.lead { margin: 22px 0 26px; font-size: 16px; line-height: 1.65; max-width: 46ch; }
+
+.dither-panel { min-height: 240px; }
+
+/* Külgriba istub bento paremas servas ja on sama kõrge kui vasak pool */
+.rail.span-3 { grid-column: span 3; }
+
+@media (max-width: 1100px) {
+  .span-8, .span-7, .span-9 { grid-column: span 12; }
+  .span-5, .span-4, .rail.span-3 { grid-column: span 6; }
+}
+
+@media (max-width: 700px) {
+  .span-4, .span-5, .span-6, .rail.span-3 { grid-column: span 12; }
+  .hero-panel, .scale-panel { min-height: 0; }
+  .hero-panel__title { padding-top: 24px; }
+}
+
+/* ── Sektsioonipäis ───────────────────────────────────────────────────────── */
+
+.shead {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-block: 18px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--line);
+}
+
+.shead .note { margin-left: auto; }
+
 
 /* ── Kitsas ekraan ────────────────────────────────────────────────────────── */
 
@@ -829,8 +1051,9 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   .site-header__inner > .logo { grid-area: logo; justify-self: start; }
   .site-header__inner > .account,
   .site-header__inner > .account__action { grid-area: konto; justify-self: end; }
-  .site-nav { grid-area: nav; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
-  .navl { text-align: center; padding: 11px 2px; font-size: 9.5px; letter-spacing: 1px; }
+  /* Tähemärgis + nimi ei mahu neljale veerule 375px sees — kaks rida kahest */
+  .site-nav { grid-area: nav; display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; }
+  .navl { padding: 9px 8px; font-size: 11px; letter-spacing: 0.8px; border-color: var(--rule); }
   .account__name { max-width: 90px; }
 
   /* 44px puutesihtmärk ei mahu kümnesse veergu — kaks rida viiest */

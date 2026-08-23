@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
+import { SectionTag } from '../components/SectionTag';
 import { useEpisodesFile } from '../useData';
 import { PageState } from '../components/PageState';
 import { ScorePlate } from '../components/ScoreBadge';
@@ -107,8 +108,7 @@ export function SongPage() {
       </div>
 
       <div className="shead">
-        <span className="idx">02</span>
-        <h2>Kust see lugu tuli</h2>
+        <SectionTag num="02" label="Kust see lugu tuli" />
       </div>
 
       <Link className="disp disp--last" to={`/saade/${episode.guid}`}>

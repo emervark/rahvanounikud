@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { SectionTag } from '../components/SectionTag';
 import { Link, useParams } from 'react-router-dom';
 import { useEpisodesFile } from '../useData';
 import { PageState } from '../components/PageState';
@@ -72,8 +73,7 @@ export function EpisodePage() {
       </div>
 
       <div className="shead" style={{ marginTop: 26 }}>
-        <span className="idx">01</span>
-        <h2>Hinnatud lood</h2>
+        <SectionTag num="02" label="Hinnatud lood" />
         <span className="mono note">Skaala 1—10 · sinu hinne salvestub kohe</span>
       </div>
 

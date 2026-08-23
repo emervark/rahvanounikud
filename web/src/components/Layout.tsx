@@ -2,10 +2,12 @@ import { NavLink, Link, Outlet } from 'react-router-dom';
 import { useRatings } from '../ratings';
 import { StickyPlayer, usePlayer } from '../player';
 
+/* Iga navipunkt kannab värvilist tähemärgist — sama süsteem mis nuppude
+   klahvivihjetel, nii et märgis loeb kui otsetee, mitte kui kaunistus. */
 const NAV = [
-  { to: '/', label: 'Avaleht', end: true },
-  { to: '/saated', label: 'Saated' },
-  { to: '/edetabel', label: 'Edetabel' },
+  { to: '/', label: 'Avaleht', chip: 'A', colour: 'var(--pink)', end: true },
+  { to: '/saated', label: 'Saated', chip: 'S', colour: 'var(--sage)' },
+  { to: '/edetabel', label: 'Edetabel', chip: 'E', colour: 'var(--gold)' },
 ];
 
 /**
@@ -48,6 +50,7 @@ export function Layout() {
                 end={item.end}
                 className={({ isActive }) => (isActive ? 'navl on' : 'navl')}
               >
+                <span className="navl__chip" style={{ background: item.colour }}>{item.chip}</span>
                 {item.label}
               </NavLink>
             ))}
@@ -55,6 +58,7 @@ export function Layout() {
               to="/minu-hinded"
               className={({ isActive }) => (isActive ? 'navl on' : 'navl')}
             >
+              <span className="navl__chip" style={{ background: 'var(--lav)' }}>M</span>
               Minu hinded{ratedCount > 0 && ` · ${ratedCount}`}
             </NavLink>
           </nav>
