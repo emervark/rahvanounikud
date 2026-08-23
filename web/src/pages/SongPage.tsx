@@ -111,7 +111,7 @@ export function SongPage() {
       </div>
 
       <div className="shead">
-        <SectionTag label="Kust see lugu tuli" />
+        <SectionTag label="Kust see lugu tuli" tone="lav" />
       </div>
 
       <Link className="disp disp--last" to={`/saade/${episode.guid}`}>

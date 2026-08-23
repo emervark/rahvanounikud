@@ -74,7 +74,7 @@ export function Home() {
         {/* Kangelane: roosa paneel, kerge suur kiri, klahvinupp */}
         <section className="panel panel--pink hero-panel">
           <div className="hero-panel__top">
-            <SectionTag label="Rahva hinnang" />
+            <SectionTag label="Rahva hinnang" tone="pink" />
           </div>
           <h1 className="hero-panel__title">
             Maitse üle ei vaielda. Sellele pannakse number!
@@ -95,7 +95,7 @@ export function Home() {
         {/* Top 10 püsti parempoolses veerus, kogu bento kõrguses */}
         <aside className="toprail">
           <div className="toprail__head">
-            <SectionTag label="Rahva top" />
+            <SectionTag label="Rahva top" tone="gold" />
             <span className="mono">{top.length > 0 ? 'koondhinne' : '—'}</span>
           </div>
 
@@ -161,7 +161,7 @@ export function Home() {
       </div>
 
       <div className="shead">
-        <SectionTag label="Värsked saated" />
+        <SectionTag label="Värsked saated" tone="sage" />
         <span className="mono note">Uuemad enne</span>
       </div>
 

@@ -119,7 +119,7 @@ export function Comments({
     <section>
       {heading && (
         <div className="shead">
-          <SectionTag label="Kommentaarid" />
+          <SectionTag label="Kommentaarid" tone="gold" />
           <span className="mono note">
             {comments === null ? 'Laen…' : `${comments.length} tk`}
           </span>

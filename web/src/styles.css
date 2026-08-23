@@ -133,14 +133,18 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   gap: 10px;
 }
 
-/* Ekvalaiser sektsioonimärgisena. Ribad on eri kõrgusega ka seistes, nii et
-   liikumise väljalülitamisel jääb alles ekvalaiser, mitte neli ühesugust pulka. */
+/* Ekvalaiser sektsioonimärgisena. Ruudukujuline värviline kast, iga sektsioon
+   oma tooni ja oma ribamustriga — nii ei ole märgis korduv tempel, vaid
+   eristab plokke. Ribad on eri kõrgusega ka seistes, nii et liikumise
+   väljalülitamisel jääb alles ekvalaiser, mitte neli ühesugust pulka. */
 .tag__mark {
   display: inline-flex;
   align-items: flex-end;
+  justify-content: center;
   gap: 2px;
-  height: 20px;
-  padding: 0 4px 4px;
+  width: 24px;
+  height: 24px;
+  padding-bottom: 5px;
   border: 1px solid var(--line);
   background: var(--card);
   flex: none;
@@ -150,18 +154,43 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   display: block;
   width: 2px;
   background: var(--ink);
-  animation: eq 1.15s ease-in-out infinite;
+  animation-name: eq;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
-
-.tag__mark i:nth-child(1) { height: 5px;  animation-delay: 0s;     }
-.tag__mark i:nth-child(2) { height: 10px; animation-delay: 0.22s;  }
-.tag__mark i:nth-child(3) { height: 3px;  animation-delay: 0.44s;  }
-.tag__mark i:nth-child(4) { height: 8px;  animation-delay: 0.66s;  }
 
 @keyframes eq {
   0%, 100% { height: 3px; }
-  50%      { height: 11px; }
+  50%      { height: 12px; }
 }
+
+/* Roosa: madalast tõusev */
+.tag__mark--pink { background: var(--pink); }
+.tag__mark--pink i:nth-child(1) { height: 4px;  animation-duration: 1.1s; animation-delay: 0s; }
+.tag__mark--pink i:nth-child(2) { height: 8px;  animation-duration: 1.1s; animation-delay: 0.18s; }
+.tag__mark--pink i:nth-child(3) { height: 11px; animation-duration: 1.1s; animation-delay: 0.36s; }
+.tag__mark--pink i:nth-child(4) { height: 6px;  animation-duration: 1.1s; animation-delay: 0.54s; }
+
+/* Salvei: keskelt lai, aeglasem */
+.tag__mark--sage { background: var(--sage); }
+.tag__mark--sage i:nth-child(1) { height: 9px;  animation-duration: 1.45s; animation-delay: 0.3s; }
+.tag__mark--sage i:nth-child(2) { height: 3px;  animation-duration: 1.45s; animation-delay: 0s; }
+.tag__mark--sage i:nth-child(3) { height: 12px; animation-duration: 1.45s; animation-delay: 0.5s; }
+.tag__mark--sage i:nth-child(4) { height: 5px;  animation-duration: 1.45s; animation-delay: 0.15s; }
+
+/* Ooker: kiire ja hüplik */
+.tag__mark--gold { background: var(--gold); }
+.tag__mark--gold i:nth-child(1) { height: 11px; animation-duration: 0.85s; animation-delay: 0.4s; }
+.tag__mark--gold i:nth-child(2) { height: 5px;  animation-duration: 0.85s; animation-delay: 0.1s; }
+.tag__mark--gold i:nth-child(3) { height: 7px;  animation-duration: 0.85s; animation-delay: 0.55s; }
+.tag__mark--gold i:nth-child(4) { height: 12px; animation-duration: 0.85s; animation-delay: 0.25s; }
+
+/* Lavendel: ühtlane laine */
+.tag__mark--lav { background: var(--lav); }
+.tag__mark--lav i:nth-child(1) { height: 6px;  animation-duration: 1.7s; animation-delay: 0s; }
+.tag__mark--lav i:nth-child(2) { height: 11px; animation-duration: 1.7s; animation-delay: 0.42s; }
+.tag__mark--lav i:nth-child(3) { height: 4px;  animation-duration: 1.7s; animation-delay: 0.84s; }
+.tag__mark--lav i:nth-child(4) { height: 9px;  animation-duration: 1.7s; animation-delay: 1.26s; }
 
 .tag__label {
   font-family: var(--mono);
@@ -944,8 +973,10 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   text-transform: uppercase;
 }
 
+/* Jalus oli mono-suurtähtedega ja mahtus seetõttu kuuele kitsale reale.
+   Tavakirjas ja lugemislaiuses mahub sama tekst kolmele-neljale. */
 .site-footer { border-top: 1px dashed var(--rule-dash); padding: 28px 0 44px; }
-.site-footer p { margin: 0 0 8px; max-width: 68ch; line-height: 1.8; }
+.site-footer p { margin: 0 0 10px; max-width: 92ch; line-height: 1.65; }
 .site-footer a { text-decoration: underline; text-underline-offset: 3px; }
 
 .result-count { padding-bottom: 10px; }

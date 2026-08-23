@@ -75,14 +75,14 @@ export function Layout() {
       </main>
 
       <footer className="site-footer">
-        <p className="mono">
+        <p className="note-text">
           „Muusikanõunikud” on{' '}
           <a href="https://www.delfi.ee/" target="_blank" rel="noreferrer">Delfi Meedia</a>{' '}
           saade — saatejuht Raul Saaremets, püsikriitikud Valner Valme, Siim Nestor
           ja Merit Maarits. Rahvanõunikud on fännide tehtud hindamisleht ega ole
           Delfiga seotud.
         </p>
-        <p className="mono">
+        <p className="note-text">
           Kuula{' '}
           <a href="https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861" target="_blank" rel="noreferrer">
             Delfi Taskus
