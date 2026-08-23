@@ -10,7 +10,7 @@ dist/
 .DS_Store
 Thumbs.db
 
-web/public/
+web/public/episodes.json
 web/.wrangler/
 
 # Päris võtmed — ainult .secrets.example.json käib repos kaasa

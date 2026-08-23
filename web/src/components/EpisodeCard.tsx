@@ -1,31 +1,40 @@
 import { Link } from 'react-router-dom';
 import type { Episode } from '../types';
-import { formatDate, formatDuration } from '../data';
+import { formatDuration } from '../data';
 
-export function EpisodeCard({ episode }: { episode: Episode }) {
+/** Kirjerida saadete nimekirjas — kataloogi rida, mitte kaart. */
+export function EpisodeCard({
+  episode,
+  number,
+  last,
+}: {
+  episode: Episode;
+  number: number;
+  last?: boolean;
+}) {
+  const date = new Date(episode.publishedAt);
+  const short = [
+    String(date.getDate()).padStart(2, '0'),
+    String(date.getMonth() + 1).padStart(2, '0'),
+    date.getFullYear(),
+  ].join('.');
+
+  const meta = [
+    `Saade nr ${number}`,
+    episode.durationSeconds && formatDuration(episode.durationSeconds),
+  ].filter(Boolean).join(' · ');
+
   return (
-    <Link className="episode-card" to={`/saade/${episode.guid}`}>
-      <div className="episode-card__meta">
-        <span>{formatDate(episode.publishedAt)}</span>
-        {episode.durationSeconds && (
-          <>
-            <span className="dot">·</span>
-            <span>{formatDuration(episode.durationSeconds)}</span>
-          </>
-        )}
-        <span className="dot">·</span>
-        <span>{episode.songs.length} lugu</span>
+    <Link className={`disp${last ? ' disp--last' : ''}`} to={`/saade/${episode.guid}`}>
+      <div className="mono dt">{short}</div>
+      <div>
+        <div className="mono" style={{ marginBottom: 7 }}>{meta}</div>
+        <h3 className="disp__title">{episode.title}</h3>
+        <p className="disp__songs">
+          {episode.songs.map((s) => s.artistsRaw).join(' · ')}
+        </p>
       </div>
-
-      <h3>{episode.title}</h3>
-
-      <ul className="episode-card__songs">
-        {episode.songs.map((song) => (
-          <li key={song.id}>
-            <b>{song.title}</b> — {song.artistsRaw}
-          </li>
-        ))}
-      </ul>
+      <div className="go">→</div>
     </Link>
   );
 }

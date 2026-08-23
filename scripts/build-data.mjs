@@ -158,6 +158,8 @@ async function main() {
 
       song.spotifyId = fix.spotifyId ?? spotify[song.id]?.id ?? null;
       song.youtubeId = fix.youtubeId ?? youtube[song.id]?.id ?? null;
+      // Kriitikute hinne tuleb ainult käsitsi — feedis seda ei ole.
+      song.criticScore = typeof fix.criticScore === 'number' ? fix.criticScore : null;
 
       const q = encodeURIComponent(searchQuery(song));
       song.searchUrls = {

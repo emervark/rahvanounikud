@@ -18,67 +18,72 @@ export function EpisodePage() {
   const episode = findEpisode(data, guid);
   if (!episode) {
     return (
-      <div className="page">
-        <div className="empty" style={{ marginTop: 60 }}>
-          Sellist saadet ei leitud. <Link to="/saated">Vaata kõiki saateid</Link>.
-        </div>
+      <div className="empty">
+        <p className="mono">
+          Sellist saadet ei leitud. <Link to="/saated">Vaata kõiki saateid →</Link>
+        </p>
       </div>
     );
   }
 
-  const index = data.episodes.indexOf(episode);
+  const number = data.episodes.length - data.episodes.indexOf(episode);
   const isLong = episode.description.length > DESCRIPTION_CLAMP;
   const description = expanded || !isLong
     ? episode.description
     : `${episode.description.slice(0, DESCRIPTION_CLAMP).trimEnd()}…`;
 
+  const meta = [
+    `Saade nr ${number}`,
+    formatDate(episode.publishedAt),
+    episode.durationSeconds && formatDuration(episode.durationSeconds),
+    `${episode.songs.length} hinnatavat lugu`,
+    episode.guests.length > 0 && `külas ${episode.guests.join(', ')}`,
+  ].filter(Boolean).join(' · ');
+
   return (
-    <div className="page">
-      <section className="episode-head">
-        <Link className="back-link" to="/saated">← Kõik saated</Link>
-        <h1>{episode.title}</h1>
-        <div className="episode-head__meta">
-          <span>{formatDate(episode.publishedAt)}</span>
-          {episode.durationSeconds && <span>· {formatDuration(episode.durationSeconds)}</span>}
-          <span>· {episode.songs.length} hinnatavat lugu</span>
-          <span>· saade nr {data.episodes.length - index}</span>
-          {episode.guests.length > 0 && <span>· külas {episode.guests.join(', ')}</span>}
-        </div>
+    <>
+      <div className="episode-head">
+        <Link className="mono" to="/saated" style={{ display: 'inline-block', marginBottom: 20 }}>
+          ← Kõik saated
+        </Link>
 
-        <PodcastPlayer episode={episode} podcast={data.podcast} />
-
-        {episode.description && (
-          <div className="episode-description">
-            {description}
-            {isLong && (
-              <button
-                type="button"
-                className="episode-description__toggle"
-                onClick={() => setExpanded((v) => !v)}
-              >
-                {expanded ? 'Näita vähem' : 'Loe edasi'}
-              </button>
+        <div className="episode-grid">
+          <div>
+            <div className="mono" style={{ marginBottom: 14 }}>{meta}</div>
+            <h1>{episode.title}</h1>
+            {episode.description && (
+              <div className="episode-desc">
+                {description}
+                {isLong && (
+                  <button
+                    type="button"
+                    className="episode-desc__toggle"
+                    onClick={() => setExpanded((v) => !v)}
+                  >
+                    {expanded ? 'Näita vähem ↑' : 'Loe edasi ↓'}
+                  </button>
+                )}
+              </div>
             )}
           </div>
-        )}
-      </section>
 
-      <section style={{ paddingTop: 28 }}>
-        <div className="section-head">
-          <h2>Hinnatud lood</h2>
-          <span className="result-count">Skaala 1–10</span>
+          <PodcastPlayer episode={episode} podcast={data.podcast} />
         </div>
+      </div>
 
-        {episode.songs.length === 0 ? (
-          <div className="empty">Selle saate lugusid pole veel sisestatud.</div>
-        ) : (
-          <div className="song-list">
-            {episode.songs.map((song) => (
-              <SongCard key={song.id} song={song} />
-            ))}
-          </div>
-        )}
-      </section>
-    </div>
+      <div className="shead" style={{ marginTop: 26 }}>
+        <span className="idx">01</span>
+        <h2>Hinnatud lood</h2>
+        <span className="mono note">Skaala 1—10 · sinu hinne salvestub kohe</span>
+      </div>
+
+      {episode.songs.length === 0 ? (
+        <div className="empty">
+          <p className="mono">Selle saate lugusid pole veel sisestatud.</p>
+        </div>
+      ) : (
+        episode.songs.map((song, i) => <SongCard key={song.id} song={song} index={i} />)
+      )}
+    </>
   );
 }

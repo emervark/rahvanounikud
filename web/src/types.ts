@@ -9,6 +9,13 @@ export interface Song {
   note: string | null;
   spotifyId: string | null;
   youtubeId: string | null;
+  /**
+   * Kriitikute antud koondhinne saates. Podcasti kirjeldustes numbrilisi
+   * hindeid EI ole — kirjas on ainult „Milline lugu võitis?”. Seepärast saab
+   * selle ainult käsitsi data/overrides.json kaudu lisada, ja UI näitab
+   * võrdlust „Nõunike skoor vs Rahva hääl” alles siis, kui väärtus on olemas.
+   */
+  criticScore: number | null;
   searchUrls: {
     spotify: string;
     youtube: string;

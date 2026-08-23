@@ -7,32 +7,37 @@ import { normalize, searchHaystack } from '../data';
 export function Episodes() {
   const { data, error } = useEpisodesFile();
   const [query, setQuery] = useState('');
-  const [year, setYear] = useState<string>('koik');
+  const [year, setYear] = useState('koik');
 
   const years = useMemo(() => {
     if (!data) return [];
-    const set = new Set(data.episodes.map((e) => e.publishedAt.slice(0, 4)));
-    return [...set].sort((a, b) => b.localeCompare(a));
+    return [...new Set(data.episodes.map((e) => e.publishedAt.slice(0, 4)))]
+      .sort((a, b) => b.localeCompare(a));
   }, [data]);
 
   const filtered = useMemo(() => {
     if (!data) return [];
     const q = normalize(query);
-    return data.episodes.filter((e) => {
-      if (year !== 'koik' && !e.publishedAt.startsWith(year)) return false;
-      if (!q) return true;
-      return searchHaystack(e).includes(q);
-    });
+    return data.episodes
+      .map((episode, i) => ({ episode, number: data.episodes.length - i }))
+      .filter(({ episode }) => {
+        if (year !== 'koik' && !episode.publishedAt.startsWith(year)) return false;
+        return !q || searchHaystack(episode).includes(q);
+      });
   }, [data, query, year]);
 
   if (!data) return <PageState error={error} />;
 
   return (
-    <div className="page">
-      <section className="hero" style={{ paddingBottom: 0, borderBottom: 'none' }}>
-        <p className="eyebrow">Kõik saated</p>
-        <h1 style={{ fontSize: 34 }}>{data.stats.episodes} saadet, {data.stats.songs} lugu</h1>
-      </section>
+    <>
+      <div className="pagehead">
+        <div>
+          <div className="mono" style={{ marginBottom: 14 }}>
+            Kõik saated · {data.stats.songs} hinnatavat lugu
+          </div>
+          <h1>{data.stats.episodes} saadet</h1>
+        </div>
+      </div>
 
       <div className="toolbar">
         <input
@@ -43,44 +48,38 @@ export function Episodes() {
           onChange={(e) => setQuery(e.target.value)}
           aria-label="Otsi saadete seast"
         />
-        <div className="chip-row">
-          <button
-            type="button"
-            className={`chip${year === 'koik' ? ' is-active' : ''}`}
-            onClick={() => setYear('koik')}
-          >
+        <div className="seg">
+          <button type="button" className={year === 'koik' ? 'on' : ''} onClick={() => setYear('koik')}>
             Kõik
           </button>
           {years.map((y) => (
-            <button
-              key={y}
-              type="button"
-              className={`chip${year === y ? ' is-active' : ''}`}
-              onClick={() => setYear(y)}
-            >
+            <button key={y} type="button" className={year === y ? 'on' : ''} onClick={() => setYear(y)}>
               {y}
             </button>
           ))}
         </div>
       </div>
 
-      <p className="result-count">
+      <p className="result-count mono">
         {filtered.length === data.episodes.length
           ? `${filtered.length} saadet`
           : `${filtered.length} saadet ${data.episodes.length}-st`}
       </p>
 
       {filtered.length === 0 ? (
-        <div className="empty" style={{ marginTop: 20 }}>
-          Otsingule „{query}” ei vastanud ükski saade.
+        <div className="empty">
+          <p className="mono">Otsingule „{query}” ei vastanud ükski saade.</p>
         </div>
       ) : (
-        <div className="episode-grid" style={{ marginTop: 18 }}>
-          {filtered.map((episode) => (
-            <EpisodeCard key={episode.guid} episode={episode} />
-          ))}
-        </div>
+        filtered.map(({ episode, number }, i) => (
+          <EpisodeCard
+            key={episode.guid}
+            episode={episode}
+            number={number}
+            last={i === filtered.length - 1}
+          />
+        ))
       )}
-    </div>
+    </>
   );
 }

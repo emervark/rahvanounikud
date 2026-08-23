@@ -4,8 +4,11 @@ import { MAX_SCORE, MIN_SCORE, useRatings } from '../ratings';
 const SCORES = Array.from({ length: MAX_SCORE - MIN_SCORE + 1 }, (_, i) => MIN_SCORE + i);
 
 /**
- * 1–10 skaala. Nupud täituvad valitud hindeni, nii et hinne on loetav
- * ka ilma numbrit lugemata — riba pikkus ongi hinne.
+ * 1–10 skaala.
+ *
+ * Nupud täituvad valitud hindeni ditheritud mustriga, nii et hinne on loetav
+ * ka numbrit lugemata — riba pikkus ongi hinne. Muster on sama, mis lehe
+ * taustaväljal, nii et skaala kuulub visuaalselt sinnasamma.
  */
 export function RatingBar({ songId, label }: { songId: string; label: string }) {
   const { mine, rate, clearRating } = useRatings();
@@ -16,10 +19,10 @@ export function RatingBar({ songId, label }: { songId: string; label: string }) 
 
   return (
     <div className="rating">
-      <div className="rating__label">
+      <div className="rating__label mono">
         <span>{current ? `Sinu hinne: ${current}/10` : 'Anna oma hinne'}</span>
         {current && (
-          <button type="button" className="rating__clear" onClick={() => clearRating(songId)}>
+          <button type="button" className="rating__clear mono" onClick={() => clearRating(songId)}>
             eemalda
           </button>
         )}
@@ -39,9 +42,9 @@ export function RatingBar({ songId, label }: { songId: string; label: string }) 
             aria-checked={current === score}
             aria-label={`${score} / 10`}
             className={
-              'rating__button'
-              + (shown !== undefined && score <= shown ? ' is-filled' : '')
-              + (current === score ? ' is-selected' : '')
+              'rb'
+              + (shown !== undefined && score <= shown ? ' fill' : '')
+              + (current === score ? ' on' : '')
             }
             onMouseEnter={() => setHovered(score)}
             onFocus={() => setHovered(score)}

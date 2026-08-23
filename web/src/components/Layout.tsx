@@ -10,7 +10,7 @@ const NAV = [
 
 /**
  * Sisselogimine on valikuline ja jääb meelega tagaplaanile: hindamine töötab
- * kohe ja ilma. Nupp on selleks, et hinded ei jääks ühe brauseri küljes kinni.
+ * kohe ja ilma. Nupp on selleks, et hinded ei jääks ühe brauseri külge kinni.
  */
 function AccountButton() {
   const { isLoggedIn, displayName, loginAvailable } = useRatings();
@@ -28,11 +28,7 @@ function AccountButton() {
     );
   }
 
-  return (
-    <a className="account__action account__action--in" href="/api/auth/google">
-      Logi sisse
-    </a>
-  );
+  return <a className="account__action" href="/api/auth/google">Logi sisse ↗</a>;
 }
 
 export function Layout() {
@@ -42,30 +38,29 @@ export function Layout() {
   return (
     <div className="app" style={current ? { ['--player-space' as string]: '76px' } : undefined}>
       <header className="site-header">
-        <div className="page site-header__inner">
-          <Link className="brand" to="/">
-            Rahva<span>nõunikud</span>
-          </Link>
+        <div className="site-header__inner">
+          <div className="site-header__row">
+            <Link className="logo" to="/">Rahvanõunikud</Link>
+            <AccountButton />
+          </div>
           <nav className="site-nav">
             {NAV.map((item) => (
               <NavLink
                 key={item.to}
                 to={item.to}
                 end={item.end}
-                className={({ isActive }) => (isActive ? 'is-active' : undefined)}
+                className={({ isActive }) => (isActive ? 'navl on' : 'navl')}
               >
                 {item.label}
               </NavLink>
             ))}
             <NavLink
               to="/minu-hinded"
-              className={({ isActive }) => (isActive ? 'is-active' : undefined)}
+              className={({ isActive }) => (isActive ? 'navl on' : 'navl')}
             >
-              Minu hinded
-              {ratedCount > 0 && <span className="nav-count">{ratedCount}</span>}
+              Minu hinded{ratedCount > 0 && ` · ${ratedCount}`}
             </NavLink>
           </nav>
-          <AccountButton />
         </div>
       </header>
 
@@ -78,24 +73,23 @@ export function Layout() {
       </main>
 
       <footer className="site-footer">
-        <div className="page">
-          <p>
-            „Muusikanõunikud” on <a href="https://www.delfi.ee/" target="_blank" rel="noreferrer">Delfi Meedia</a>{' '}
-            saade, mille saatejuht on Raul Saaremets ning püsikriitikud Valner Valme,
-            Siim Nestor ja Merit Maarits. Rahvanõunikud on fännide tehtud hindamisleht
-            ega ole Delfiga seotud.
-          </p>
-          <p>
-            Kuula saadet{' '}
-            <a href="https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861" target="_blank" rel="noreferrer">
-              Delfi Taskus
-            </a>{' '}
-            või{' '}
-            <a href="https://open.spotify.com/show/3BS7aVziqgxzDXuaiM6wQZ" target="_blank" rel="noreferrer">
-              Spotifys
-            </a>.
-          </p>
-        </div>
+        <p className="mono">
+          „Muusikanõunikud” on{' '}
+          <a href="https://www.delfi.ee/" target="_blank" rel="noreferrer">Delfi Meedia</a>{' '}
+          saade — saatejuht Raul Saaremets, püsikriitikud Valner Valme, Siim Nestor
+          ja Merit Maarits. Rahvanõunikud on fännide tehtud hindamisleht ega ole
+          Delfiga seotud.
+        </p>
+        <p className="mono">
+          Kuula{' '}
+          <a href="https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861" target="_blank" rel="noreferrer">
+            Delfi Taskus
+          </a>{' '}
+          või{' '}
+          <a href="https://open.spotify.com/show/3BS7aVziqgxzDXuaiM6wQZ" target="_blank" rel="noreferrer">
+            Spotifys
+          </a>
+        </p>
       </footer>
 
       <StickyPlayer />

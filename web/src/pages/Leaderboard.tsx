@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useEpisodesFile } from '../useData';
 import { PageState } from '../components/PageState';
-import { CommunityScore, MyScore } from '../components/ScoreBadge';
+import { CommunityScore } from '../components/ScoreBadge';
 import { allSongs, normalize } from '../data';
 import { useRatings } from '../ratings';
 import type { SongWithEpisode } from '../types';
@@ -10,8 +10,8 @@ import type { SongWithEpisode } from '../types';
 type Sort = 'top' | 'bottom' | 'uued' | 'minu';
 
 const SORTS: { key: Sort; label: string }[] = [
-  { key: 'top', label: 'Kõrgeim koondhinne' },
-  { key: 'bottom', label: 'Madalaim koondhinne' },
+  { key: 'top', label: 'Kõrgeim' },
+  { key: 'bottom', label: 'Madalaim' },
   { key: 'uued', label: 'Uuemad enne' },
   { key: 'minu', label: 'Minu hinnatud' },
 ];
@@ -19,8 +19,14 @@ const SORTS: { key: Sort; label: string }[] = [
 export function Leaderboard() {
   const { data, error } = useEpisodesFile();
   const { stats, mine, hasCommunityScores } = useRatings();
-  const [sort, setSort] = useState<Sort>(hasCommunityScores ? 'top' : 'uued');
+  const [sort, setSort] = useState<Sort>('top');
   const [query, setQuery] = useState('');
+
+  const episodeNumber = useMemo(() => {
+    const map = new Map<string, number>();
+    if (data) data.episodes.forEach((e, i) => map.set(e.guid, data.episodes.length - i));
+    return map;
+  }, [data]);
 
   const rows = useMemo(() => {
     if (!data) return [];
@@ -28,28 +34,20 @@ export function Leaderboard() {
 
     let list: SongWithEpisode[] = allSongs(data);
     if (q) {
-      list = list.filter(({ song }) =>
-        normalize(`${song.artistsRaw} ${song.title}`).includes(q));
+      list = list.filter(({ song }) => normalize(`${song.artistsRaw} ${song.title}`).includes(q));
     }
-    if (sort === 'minu') {
-      list = list.filter(({ song }) => mine[song.id] !== undefined);
-    }
+    if (sort === 'minu') list = list.filter(({ song }) => mine[song.id] !== undefined);
 
     const score = (id: string) => stats[id]?.average ?? null;
 
     return [...list].sort((a, b) => {
-      if (sort === 'uued') {
-        return b.episode.publishedAt.localeCompare(a.episode.publishedAt);
-      }
-      if (sort === 'minu') {
-        return (mine[b.song.id] ?? 0) - (mine[a.song.id] ?? 0);
-      }
+      if (sort === 'uued') return b.episode.publishedAt.localeCompare(a.episode.publishedAt);
+      if (sort === 'minu') return (mine[b.song.id] ?? 0) - (mine[a.song.id] ?? 0);
+
       const sa = score(a.song.id);
       const sb = score(b.song.id);
       // Hindamata lood lõppu, mõlemat pidi sorteerides
-      if (sa === null && sb === null) {
-        return b.episode.publishedAt.localeCompare(a.episode.publishedAt);
-      }
+      if (sa === null && sb === null) return b.episode.publishedAt.localeCompare(a.episode.publishedAt);
       if (sa === null) return 1;
       if (sb === null) return -1;
       return sort === 'top' ? sb - sa : sa - sb;
@@ -58,19 +56,22 @@ export function Leaderboard() {
 
   if (!data) return <PageState error={error} />;
 
-  return (
-    <div className="page">
-      <section className="hero" style={{ paddingBottom: 0, borderBottom: 'none' }}>
-        <p className="eyebrow">Edetabel</p>
-        <h1 style={{ fontSize: 34 }}>Kõik {data.stats.songs} lugu</h1>
-      </section>
+  const totalVotes = Object.values(stats).reduce((n, s) => n + s.count, 0);
+  const ranked = sort === 'top' || sort === 'bottom';
 
-      {!hasCommunityScores && (
-        <p className="player-hint" style={{ marginTop: 16 }}>
-          Koondhinded ilmuvad siia, kui hindamine läheb ühiskasutusse. Praegu hoiab
-          leht sinu hindeid ainult selles brauseris.
-        </p>
-      )}
+  return (
+    <>
+      <div className="pagehead">
+        <div>
+          <div className="mono" style={{ marginBottom: 14 }}>Edetabel · kõik hinnatavad lood</div>
+          <h1>Kõik {data.stats.songs} lugu</h1>
+        </div>
+        {hasCommunityScores && totalVotes > 0 && (
+          <div className="mono live" style={{ paddingBottom: 6 }}>
+            {totalVotes.toLocaleString('et-EE')} häält antud
+          </div>
+        )}
+      </div>
 
       <div className="toolbar">
         <input
@@ -81,47 +82,52 @@ export function Leaderboard() {
           onChange={(e) => setQuery(e.target.value)}
           aria-label="Otsi lugude seast"
         />
-        <div className="chip-row">
+        <div className="seg">
           {SORTS.map((s) => (
-            <button
-              key={s.key}
-              type="button"
-              className={`chip${sort === s.key ? ' is-active' : ''}`}
-              onClick={() => setSort(s.key)}
-            >
+            <button key={s.key} type="button" className={sort === s.key ? 'on' : ''} onClick={() => setSort(s.key)}>
               {s.label}
             </button>
           ))}
         </div>
       </div>
 
-      <p className="result-count">{rows.length} lugu</p>
+      <div className="chart-head mono">
+        <span>Koht</span>
+        <span>Lugu / artist</span>
+        <span>Sinu</span>
+        <span>Rahva hääl</span>
+        <span />
+      </div>
 
       {rows.length === 0 ? (
-        <div className="empty" style={{ marginTop: 20 }}>
-          {sort === 'minu'
-            ? 'Sa pole veel ühtegi lugu hinnanud. Ava mõni saade ja alusta.'
-            : `Otsingule „${query}” ei vastanud ükski lugu.`}
+        <div className="empty">
+          <p className="mono">
+            {sort === 'minu'
+              ? 'Sa pole veel ühtegi lugu hinnanud. Ava mõni saade ja alusta.'
+              : `Otsingule „${query}” ei vastanud ükski lugu.`}
+          </p>
         </div>
       ) : (
-        <div className="chart-list" style={{ marginTop: 14 }}>
-          {rows.map(({ song, episode }, i) => (
+        rows.map(({ song, episode }, i) => {
+          // Esikolmik saab punase ja kasvava numbri — edetabel, mitte andmetabel.
+          const rankClass = ranked && i < 3 ? ` top top${i + 1}` : '';
+          return (
             <Link className="chart-row" key={song.id} to={`/saade/${episode.guid}`}>
-              <span className="chart-row__rank">{i + 1}</span>
-              <span className="chart-row__main">
+              <span className={`chart-row__rank${rankClass}`}>{i + 1}</span>
+              <span style={{ minWidth: 0 }}>
                 <span className="chart-row__title">{song.title}</span>
-                <span className="chart-row__sub">
-                  {song.artistsRaw} · {episode.publishedAt.slice(0, 10)}
+                <span className="chart-row__sub mono">
+                  {song.artistsRaw} · saade nr {episodeNumber.get(episode.guid)} ·{' '}
+                  {episode.publishedAt.slice(0, 4)}
                 </span>
               </span>
-              <span className="chart-row__scores">
-                <MyScore score={mine[song.id]} />
-                <CommunityScore stats={stats[song.id]} />
-              </span>
+              <span className="chart-row__mine">{mine[song.id] ?? ''}</span>
+              <CommunityScore stats={stats[song.id]} />
+              <span className="go">→</span>
             </Link>
-          ))}
-        </div>
+          );
+        })
       )}
-    </div>
+    </>
   );
 }

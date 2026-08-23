@@ -15,34 +15,24 @@ export function PodcastPlayer({ episode, podcast }: { episode: Episode; podcast:
 
   const isPlayingHere = current?.guid === episode.guid;
   const spotifySrc = episode.spotifyEpisodeId
-    ? `https://open.spotify.com/embed/episode/${episode.spotifyEpisodeId}?theme=0`
-    : `https://open.spotify.com/embed/show/${podcast.spotifyShowId}?theme=0`;
+    ? `https://open.spotify.com/embed/episode/${episode.spotifyEpisodeId}`
+    : `https://open.spotify.com/embed/show/${podcast.spotifyShowId}`;
 
   return (
-    <section className="player-panel">
-      <div className="player-tabs">
-        <button
-          type="button"
-          className={`player-tab${tab === 'spotify' ? ' is-active' : ''}`}
-          onClick={() => setTab('spotify')}
-        >
+    <section className="player">
+      <div className="mono">Kuula saadet</div>
+
+      <div className="player__tabs">
+        <button type="button" className={tab === 'spotify' ? 'on' : ''} onClick={() => setTab('spotify')}>
           Spotify
         </button>
         {episode.audioUrl && (
-          <button
-            type="button"
-            className={`player-tab${tab === 'otse' ? ' is-active' : ''}`}
-            onClick={() => setTab('otse')}
-          >
+          <button type="button" className={tab === 'otse' ? 'on' : ''} onClick={() => setTab('otse')}>
             Kuula siin
           </button>
         )}
-        <button
-          type="button"
-          className={`player-tab${tab === 'delfi' ? ' is-active' : ''}`}
-          onClick={() => setTab('delfi')}
-        >
-          Delfi Tasku
+        <button type="button" className={tab === 'delfi' ? 'on' : ''} onClick={() => setTab('delfi')}>
+          Tasku
         </button>
       </div>
 
@@ -50,15 +40,15 @@ export function PodcastPlayer({ episode, podcast }: { episode: Episode; podcast:
         <>
           <iframe
             className="embed-frame"
-            style={{ height: episode.spotifyEpisodeId ? 180 : 352 }}
+            style={{ height: episode.spotifyEpisodeId ? 180 : 352, marginTop: 0 }}
             src={spotifySrc}
             title={`Spotify: ${episode.title}`}
             loading="lazy"
             allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           />
           {!episode.spotifyEpisodeId && (
-            <p className="player-hint">
-              Otse selle episoodi mängijat pole veel seotud — vali saade ülalt nimekirjast.
+            <p className="mono player__hint">
+              Selle episoodi otsemängijat Spotify API ei anna — vali saade ülalt nimekirjast.
             </p>
           )}
         </>
@@ -66,29 +56,34 @@ export function PodcastPlayer({ episode, podcast }: { episode: Episode; podcast:
 
       {tab === 'otse' && episode.audioUrl && (
         <>
-          {isPlayingHere ? (
-            <button type="button" className="button button--ghost" onClick={stop}>
-              Peata kuulamine
-            </button>
-          ) : (
-            <button type="button" className="button button--primary" onClick={() => play(episode)}>
-              Kuula saadet siin
-            </button>
-          )}
-          <p className="player-hint">
+          <button
+            type="button"
+            className={`btn${isPlayingHere ? '' : ' solid'}`}
+            style={{ width: '100%', justifyContent: 'space-between', marginTop: 4 }}
+            onClick={() => (isPlayingHere ? stop() : play(episode))}
+          >
+            {isPlayingHere ? 'Peata kuulamine' : 'Kuula saadet siin'}
+            {!isPlayingHere && <span className="arw">→</span>}
+          </button>
+          <p className="mono player__hint">
             Mängija jääb lehe alla kinni, nii et saad saadet kuulates lugusid hinnata.
-            Heli tuleb otse Delfi serverist ega jõua nende kuulamisstatistikasse —
-            kui tahad saadet arvesse lugeda, kasuta Spotify või Delfi Tasku vahekaarti.
+            Heli tuleb otse Delfi serverist ega jõua nende kuulamisstatistikasse.
           </p>
         </>
       )}
 
       {tab === 'delfi' && (
         <>
-          <a className="button button--primary" href={episode.delfiUrl} target="_blank" rel="noreferrer">
-            Ava Delfi Taskus
+          <a
+            className="btn"
+            style={{ width: '100%', justifyContent: 'space-between', marginTop: 4 }}
+            href={episode.delfiUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ava Delfi Taskus <span className="arw">↗</span>
           </a>
-          <p className="player-hint">
+          <p className="mono player__hint">
             „Muusikanõunikud” on Delfi Meedia saade. See leht ei ole Delfiga seotud.
           </p>
         </>
