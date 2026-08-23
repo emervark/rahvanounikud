@@ -13,6 +13,33 @@ export function loadEpisodes(): Promise<EpisodesFile> {
   return cache;
 }
 
+/**
+ * Kõik esitajanimed, mida saadetes on kuulatud.
+ *
+ * Hoitakse moodulis, et lehevahetuse animatsioon saaks nimed kohe kätte ka
+ * enne, kui komponendid andmed laadinud on — animatsioon ei tohi andmete
+ * laadimist oodata.
+ */
+let artistNames: string[] = [];
+
+export function setArtistNames(file: EpisodesFile): void {
+  if (artistNames.length) return;
+  const seen = new Set<string>();
+  for (const ep of file.episodes) {
+    for (const song of ep.songs) {
+      for (const a of song.artists) {
+        const name = a.trim();
+        if (name.length > 1 && name.length < 26) seen.add(name);
+      }
+    }
+  }
+  artistNames = [...seen];
+}
+
+export function getArtistNames(): string[] {
+  return artistNames;
+}
+
 export function allSongs(file: EpisodesFile): SongWithEpisode[] {
   return file.episodes.flatMap((episode) => episode.songs.map((song) => ({ song, episode })));
 }

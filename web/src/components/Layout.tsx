@@ -1,6 +1,8 @@
 import { NavLink, Link, Outlet } from 'react-router-dom';
 import { useRatings } from '../ratings';
 import { StickyPlayer, usePlayer } from '../player';
+import { PageTransition } from './PageTransition';
+import { useScrollReveal } from '../useReveal';
 
 /* Iga navipunkt kannab värvilist tähemärgist — sama süsteem mis nuppude
    klahvivihjetel, nii et märgis loeb kui otsetee, mitte kui kaunistus. */
@@ -36,6 +38,8 @@ function AccountButton() {
 export function Layout() {
   const { ratedCount, error } = useRatings();
   const { current } = usePlayer();
+
+  useScrollReveal();
 
   return (
     <div className="app" style={current ? { ['--player-space' as string]: '76px' } : undefined}>
@@ -95,6 +99,7 @@ export function Layout() {
       </footer>
 
       <StickyPlayer />
+      <PageTransition />
     </div>
   );
 }

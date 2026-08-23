@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { loadEpisodes } from './data';
+import { loadEpisodes, setArtistNames } from './data';
 import type { EpisodesFile } from './types';
 
 interface DataState {
@@ -14,7 +14,7 @@ export function useEpisodesFile(): DataState {
   useEffect(() => {
     let cancelled = false;
     loadEpisodes().then(
-      (data) => !cancelled && setState({ data, error: null }),
+      (data) => { if (cancelled) return; setArtistNames(data); setState({ data, error: null }); },
       (err: unknown) => !cancelled && setState({
         data: null,
         error: err instanceof Error ? err.message : 'Tundmatu viga',
