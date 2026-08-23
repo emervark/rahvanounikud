@@ -30,7 +30,9 @@
   --accent-ink: #a1256b;
 
   --font: 'Archivo', system-ui, -apple-system, sans-serif;
-  --mono: 'Space Mono', ui-monospace, Menlo, monospace;
+  /* Siltide kiri. NB: Nova Round EI ole monospace ega oma paksu kaalu —
+     tabular-nums ja font-weight:700 siin ei tööta, rõhk tuleb värvist. */
+  --label: 'Nova Round', 'Trebuchet MS', system-ui, sans-serif;
 
   --pad: 32px;
   --page: 1400px;
@@ -193,7 +195,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .tag__mark--lav i:nth-child(4) { height: 9px;  animation-duration: 1.7s; animation-delay: 1.26s; }
 
 .tag__label {
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 11px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
@@ -211,7 +213,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   background: var(--card);
   color: var(--ink);
   padding: 10px 10px 10px 16px;
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 12px;
   letter-spacing: 1.2px;
   transition: background 0.15s, color 0.15s;
@@ -262,13 +264,13 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   height: 20px;
   flex: none;
   border: 1px solid var(--line);
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 10px;
   line-height: 1;
 }
 
 .railcard__body { min-width: 0; flex: 1; }
-.railcard__title { display: block; font-family: var(--mono); font-size: 12px; letter-spacing: 1px; }
+.railcard__title { display: block; font-family: var(--label); font-size: 12px; letter-spacing: 1px; }
 .railcard__note { display: block; font-size: 12.5px; color: var(--ink-60); margin-top: 3px; line-height: 1.45; }
 .railcard__go { font-size: 13px; color: var(--ink-60); }
 .railcard:hover .railcard__go { color: var(--accent-ink); }
@@ -281,15 +283,15 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 /* ── Korduvad märgid ──────────────────────────────────────────────────────── */
 
 .mono {
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: 2.6px;
+  font-family: var(--label);
+  font-size: 11px;
+  letter-spacing: 1.8px;
   text-transform: uppercase;
   color: var(--ink-60);
 }
 
 .idx {
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 10px;
   letter-spacing: 2px;
   color: rgba(21, 21, 21, 0.55);
@@ -363,7 +365,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   background: var(--ink);
   color: var(--paper);
   padding: 9px 13px;
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 12px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
@@ -379,7 +381,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 12px;
   letter-spacing: 1.1px;
   padding: 7px 10px;
@@ -407,7 +409,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .account { display: flex; align-items: center; gap: 10px; margin: 0; }
 
 .account__name {
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 10px;
   letter-spacing: 1.6px;
   text-transform: uppercase;
@@ -422,7 +424,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 12px;
   letter-spacing: 1.1px;
   padding: 7px 8px 7px 12px;
@@ -445,7 +447,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   background: var(--card);
   color: var(--ink);
   padding: 12px 17px;
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 12px;
   letter-spacing: 1.2px;
   transition: background 0.18s, color 0.18s;
@@ -543,7 +545,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   max-width: 100%;
 }
 
-.hero__stats b { font-weight: 700; color: var(--ink); }
+.hero__stats b { font-weight: 400; color: var(--ink); }
 
 .hero__actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 30px; }
 .hero__actions .btn:not(.solid) { background: var(--paper); }
@@ -585,7 +587,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   border: 1px solid var(--rule-strong);
   background: transparent;
   padding: 12px 14px;
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 12px;
   letter-spacing: 1.4px;
   color: var(--ink);
@@ -598,7 +600,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .seg { display: flex; border: 1px solid var(--rule-strong); flex-wrap: wrap; }
 
 .seg button {
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 10px;
   letter-spacing: 1.6px;
   text-transform: uppercase;
@@ -706,7 +708,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   padding-top: 7px;
 }
 
-.plate__breakdown b { color: var(--ink); font-weight: 700; }
+.plate__breakdown b { color: var(--ink); font-weight: 400; }
 
 /* ── Loo kirje saate lehel ────────────────────────────────────────────────── */
 
@@ -735,7 +737,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .listen-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
 
 .listen-link {
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 10px;
   letter-spacing: 2.6px;
   text-transform: uppercase;
@@ -758,7 +760,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .episode-grid h1 { font-size: clamp(28px, 4.4vw, 52px); line-height: 1; letter-spacing: -0.035em; max-width: 24ch; }
 
 .episode-desc { margin: 20px 0 0; font-size: 16px; line-height: 1.7; max-width: 64ch; color: var(--ink-80); white-space: pre-line; }
-.episode-desc__toggle { display: block; margin-top: 10px; color: var(--accent-ink); font-family: var(--mono); font-size: 10px; letter-spacing: 2.6px; text-transform: uppercase; }
+.episode-desc__toggle { display: block; margin-top: 10px; color: var(--accent-ink); font-family: var(--label); font-size: 10px; letter-spacing: 2.6px; text-transform: uppercase; }
 
 /* ── Mängija ──────────────────────────────────────────────────────────────── */
 
@@ -767,7 +769,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 .player__tabs button {
   flex: 1;
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 10px;
   letter-spacing: 1.6px;
   text-transform: uppercase;
@@ -803,7 +805,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   padding: 0 var(--pad);
 }
 
-.sticky-player__title { min-width: 0; font-family: var(--mono); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: rgba(246, 240, 228, 0.7); }
+.sticky-player__title { min-width: 0; font-family: var(--label); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: rgba(246, 240, 228, 0.7); }
 .sticky-player__title b { display: block; font-family: var(--font); font-size: 14px; letter-spacing: normal; text-transform: none; color: var(--paper); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 .sticky-player audio { flex: 1; min-width: 0; height: 36px; }
@@ -878,7 +880,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   flex: none;
   border: 1px solid var(--line);
   background: var(--card);
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 10px;
   line-height: 1;
   font-variant-numeric: tabular-nums;
@@ -961,7 +963,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   background: var(--pink);
   color: var(--ink);
   border-bottom: 1px solid var(--line);
-  font-family: var(--mono);
+  font-family: var(--label);
   font-size: 11px;
   letter-spacing: 1.6px;
   text-transform: uppercase;
@@ -1024,7 +1026,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
   margin-bottom: 8px;
 }
 
-.comment__author { color: var(--ink); font-weight: 700; }
+.comment__author { color: var(--ink); font-weight: 400; }
 
 .comment__actions { margin-left: auto; display: flex; gap: 12px; }
 
