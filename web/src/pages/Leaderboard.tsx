@@ -61,7 +61,6 @@ export function Leaderboard() {
   const totalVotes = Object.values(stats).reduce((n, s) => n + s.count, 0);
   // Nõunike veerg on alati nähtav, ka enne kui skoorid sisestatud on: veerg
   // näitab, et see võrdlus on osa tabelist. Ilma skoorita lahtris on kriips.
-  const criticsFilled = data.stats.withCriticScore;
   const ranked = sort === 'top' || sort === 'bottom';
 
   return (
@@ -104,13 +103,6 @@ export function Leaderboard() {
         <span>Nõunikud</span>
         <span />
       </div>
-
-      {criticsFilled === 0 && (
-        <p className="note-text critics-note">
-          Nõunike skoore ei ole podcasti kirjeldustes — need sisestatakse käsitsi
-          saateid kuulates. Veerg täitub sedamööda, kuidas hindeid lisandub.
-        </p>
-      )}
 
       {rows.length === 0 ? (
         <div className="empty">
