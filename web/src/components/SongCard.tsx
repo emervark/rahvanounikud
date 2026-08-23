@@ -1,16 +1,18 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import type { Song } from '../types';
 import { useRatings } from '../ratings';
 import { RatingBar } from './RatingBar';
 import { ScorePlate } from './ScoreBadge';
 import { songLabel } from '../data';
+import { useCommentCounts } from '../comments';
 
 /**
  * Kuulamisvõimalused. Kui build-ajal on Spotify/YouTube ID juba lahendatud,
  * saab loo siinsamas ära kuulata; kui mitte, viivad lingid otsingusse.
  * Nii on leht kasutatav ka enne, kui kõik lood on lahendatud.
  */
-function ListenOptions({ song }: { song: Song }) {
+function ListenOptions({ song, comments }: { song: Song; comments: number }) {
   const [showYoutube, setShowYoutube] = useState(false);
 
   return (
@@ -34,6 +36,9 @@ function ListenOptions({ song }: { song: Song }) {
         <a className="listen-link" href={song.searchUrls.bandcamp} target="_blank" rel="noreferrer">
           Otsi Bandcampist ↗
         </a>
+        <Link className="listen-link" to={`/lugu/${song.id}`}>
+          {comments > 0 ? `Kommentaarid · ${comments}` : 'Kommenteeri'}
+        </Link>
       </div>
 
       {song.spotifyId && (
@@ -64,6 +69,8 @@ function ListenOptions({ song }: { song: Song }) {
 
 export function SongCard({ song, index }: { song: Song; index: number }) {
   const { stats } = useRatings();
+  const commentCounts = useCommentCounts();
+  const comments = commentCounts[song.id] ?? 0;
 
   const meta = [
     `Lugu ${String(index + 1).padStart(2, '0')}`,
@@ -75,10 +82,10 @@ export function SongCard({ song, index }: { song: Song; index: number }) {
     <article className="song">
       <div>
         <div className="mono" style={{ marginBottom: 8 }}>{meta}</div>
-        <h3>{song.title}</h3>
+        <h3><Link to={`/lugu/${song.id}`}>{song.title}</Link></h3>
         <div className="song__artist">{song.artistsRaw}</div>
 
-        <ListenOptions song={song} />
+        <ListenOptions song={song} comments={comments} />
 
         <RatingBar songId={song.id} label={songLabel(song)} />
       </div>

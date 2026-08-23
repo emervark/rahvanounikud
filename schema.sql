@@ -45,3 +45,20 @@ CREATE TABLE IF NOT EXISTS song_stats (
   cnt     INTEGER NOT NULL DEFAULT 0,
   total   INTEGER NOT NULL DEFAULT 0
 );
+
+-- Kommentaarid lugude juures.
+--
+-- Kustutamine on pehme (deleted_at), et vestluse lõim ei laguneks ja et
+-- kogemata kustutatu oleks taastatav. Päringud filtreerivad selle välja.
+CREATE TABLE IF NOT EXISTS comments (
+  id         TEXT PRIMARY KEY,
+  song_id    TEXT NOT NULL REFERENCES songs(id) ON DELETE CASCADE,
+  user_id    TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  body       TEXT NOT NULL,
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL,
+  deleted_at INTEGER
+);
+
+CREATE INDEX IF NOT EXISTS idx_comments_song ON comments(song_id, created_at);
+CREATE INDEX IF NOT EXISTS idx_comments_user ON comments(user_id, created_at);

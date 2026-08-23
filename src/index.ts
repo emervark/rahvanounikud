@@ -6,6 +6,10 @@ import {
   validateScore, validateSongId, writeRating,
 } from './ratings';
 import { finishGoogleLogin, googleConfig, logout, startGoogleLogin } from './google-auth';
+import {
+  deleteComment, editComment, readCommentCounts, readComments,
+  setDisplayName, validateBody, validateName, writeComment,
+} from './comments';
 
 export interface Env {
   DB: D1Database;
@@ -131,6 +135,50 @@ async function handleApi(
     }
     const imported = await importRatings(env.DB, userId, body.ratings as Record<string, unknown>);
     return json({ imported });
+  }
+
+  if (path === '/api/comments' && method === 'GET') {
+    const songId = validateSongId(new URL(request.url).searchParams.get('songId'));
+    return json({ comments: await readComments(env.DB, songId, userId) });
+  }
+
+  if (path === '/api/comments/counts' && method === 'GET') {
+    // Avalik ja aeglaselt muutuv — lühike vahemälu serva peal.
+    return json(
+      { counts: await readCommentCounts(env.DB) },
+      { headers: { 'cache-control': 'public, max-age=30' } },
+    );
+  }
+
+  if (path === '/api/comments' && method === 'POST') {
+    assertSameOrigin(request);
+    const body = await readJsonBody(request);
+    const songId = validateSongId(body.songId);
+    const text = validateBody(body.body);
+    return json({ comments: await writeComment(env.DB, userId, songId, text) });
+  }
+
+  if (path === '/api/comments' && method === 'PATCH') {
+    assertSameOrigin(request);
+    const body = await readJsonBody(request);
+    if (typeof body.id !== 'string') throw new ApiError(400, 'Puudub kommentaari ID.');
+    const text = validateBody(body.body);
+    return json({ comments: await editComment(env.DB, userId, body.id, text) });
+  }
+
+  if (path === '/api/comments' && method === 'DELETE') {
+    assertSameOrigin(request);
+    const body = await readJsonBody(request);
+    if (typeof body.id !== 'string') throw new ApiError(400, 'Puudub kommentaari ID.');
+    return json({ comments: await deleteComment(env.DB, userId, body.id) });
+  }
+
+  if (path === '/api/name' && method === 'POST') {
+    assertSameOrigin(request);
+    const body = await readJsonBody(request);
+    const name = validateName(body.name);
+    await setDisplayName(env.DB, userId, name);
+    return json({ displayName: name });
   }
 
   throw new ApiError(404, 'Tundmatu API otspunkt.');

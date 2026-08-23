@@ -79,7 +79,7 @@ export function MyRatings() {
           </div>
 
           {rated.map(({ song, episode }) => (
-            <Link className="chart-row" key={song.id} to={`/saade/${episode.guid}`}>
+            <Link className="chart-row" key={song.id} to={`/lugu/${song.id}`}>
               <span className="chart-row__rank top">{mine[song.id]}</span>
               <span style={{ minWidth: 0 }}>
                 <span className="chart-row__title">{song.title}</span>

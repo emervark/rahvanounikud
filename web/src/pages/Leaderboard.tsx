@@ -4,6 +4,7 @@ import { useEpisodesFile } from '../useData';
 import { PageState } from '../components/PageState';
 import { CommunityScore } from '../components/ScoreBadge';
 import { allSongs, normalize } from '../data';
+import { useCommentCounts } from '../comments';
 import { useRatings } from '../ratings';
 import type { SongWithEpisode } from '../types';
 
@@ -21,6 +22,7 @@ export function Leaderboard() {
   const { stats, mine, hasCommunityScores } = useRatings();
   const [sort, setSort] = useState<Sort>('top');
   const [query, setQuery] = useState('');
+  const commentCounts = useCommentCounts();
 
   const episodeNumber = useMemo(() => {
     const map = new Map<string, number>();
@@ -112,13 +114,14 @@ export function Leaderboard() {
           // Esikolmik saab punase ja kasvava numbri — edetabel, mitte andmetabel.
           const rankClass = ranked && i < 3 ? ` top top${i + 1}` : '';
           return (
-            <Link className="chart-row" key={song.id} to={`/saade/${episode.guid}`}>
+            <Link className="chart-row" key={song.id} to={`/lugu/${song.id}`}>
               <span className={`chart-row__rank${rankClass}`}>{i + 1}</span>
               <span style={{ minWidth: 0 }}>
                 <span className="chart-row__title">{song.title}</span>
                 <span className="chart-row__sub mono">
                   {song.artistsRaw} · saade nr {episodeNumber.get(episode.guid)} ·{' '}
                   {episode.publishedAt.slice(0, 4)}
+                  {commentCounts[song.id] > 0 && ` · ${commentCounts[song.id]} kommentaari`}
                 </span>
               </span>
               <span className="chart-row__mine">{mine[song.id] ?? ''}</span>

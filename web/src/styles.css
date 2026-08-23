@@ -410,7 +410,7 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 /* ── Hindamisriba ─────────────────────────────────────────────────────────── */
 
-.rating { margin-top: 22px; border-top: 1px dashed var(--rule-dash); padding-top: 16px; }
+.rating { margin: 22px 0 30px; border-top: 1px dashed var(--rule-dash); padding-top: 16px; }
 
 .rating__label {
   display: flex;
@@ -421,47 +421,46 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 .rating__clear { text-decoration: underline; text-underline-offset: 3px; }
 
-.rating__scale { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; }
+.rating__scale { display: grid; grid-template-columns: repeat(10, 1fr); gap: 4px; }
 
-/* Hindamisnupp. Täidetud osa on ditheritud muster, mitte ühtlane pind —
-   sama keel mis hero taustal, ja skaala on loetav ka ilma numbrita. */
+/* Hindamisnupp on mõõteriba lahter, mitte ruut.
+   Ruudukujuline nupp (aspect-ratio:1) kasvas laias veerus 65px suureks ja
+   ditheritud täide muutis numbri loetamatuks. Nüüd on kõrgus fikseeritud
+   44px (puutesihtmärk) ja täidetud osa on täisvärvi tint, number paberivärvi
+   välja lõigatud — sama loogika mis navis ja segmentnuppudel: valitud asi
+   pöörab värvid ümber. */
 .rb {
-  aspect-ratio: 1;
-  min-width: 44px;
+  height: 44px;
+  min-width: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--font);
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 800;
+  font-variant-numeric: tabular-nums;
   border: 1px solid var(--rule-strong);
-  background: transparent;
+  background: var(--paper);
   color: var(--ink);
-  transition: background 0.1s, color 0.1s, transform 0.09s;
+  transition: background 0.1s, color 0.1s, border-color 0.1s;
 }
 
-.rb:hover { background: var(--ink); color: var(--paper); transform: translateY(-2px); }
-.rb:active { transform: translateY(1px); }
-
+/* Täide tuleb ka hoveril, nii et riba näitab ette, mis hinne tuleb */
 .rb.fill {
-  background-image: repeating-conic-gradient(var(--ink) 0 25%, transparent 0 50%);
-  background-size: 4px 4px;
-  /* Number peab mustri pealt loetav olema — paberivärvi halo lööb ta lahti,
-     ilma et mustri tihedust muutma peaks. */
-  text-shadow:
-    0 0 2px var(--paper), 0 0 2px var(--paper),
-    0 0 4px var(--paper), 0 0 4px var(--paper);
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
 }
 
-.rb.fill:hover { text-shadow: none; }
-
+/* Valitud lahter on ainus roosa — riba pikkus ütleb hinde, roosa ütleb täpselt kus */
 .rb.on {
   background: var(--accent);
-  background-image: none;
   color: var(--ink);
   border-color: var(--ink);
   box-shadow: inset 0 0 0 2px var(--paper);
 }
+
+.rb:active { transform: translateY(1px); }
 
 /* ── Koondhinde plaat ─────────────────────────────────────────────────────── */
 
@@ -647,6 +646,118 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 .site-footer a { text-decoration: underline; text-underline-offset: 3px; }
 
 .result-count { padding-bottom: 10px; }
+
+
+/* ── Loo leht ─────────────────────────────────────────────────────────────── */
+
+.songpage { display: grid; grid-template-columns: 1fr 220px; gap: 44px; align-items: start; }
+.songpage__title { font-size: clamp(30px, 5vw, 56px); line-height: 1; letter-spacing: -0.04em; }
+.songpage__artist { font-size: 20px; margin-top: 6px; color: var(--ink-80); }
+
+/* ── Kommentaarid ─────────────────────────────────────────────────────────── */
+
+.comments { padding-bottom: 48px; }
+
+.comment { border-top: 1px solid var(--rule); padding: 18px 0; }
+
+.comment__head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.comment__author { color: var(--ink); font-weight: 700; }
+
+.comment__actions { margin-left: auto; display: flex; gap: 12px; }
+
+.comment__actions button {
+  font: inherit;
+  color: var(--ink-60);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.comment__actions button:hover { color: var(--accent-ink); }
+
+/* Kasutaja kirjutatud tekst: reavahetused säilivad, pikad sõnad murduvad,
+   sest keegi kleebib varem või hiljem katkematu URL-i. */
+.comment__body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-width: 68ch;
+}
+
+/* Selgitav lause ei ole mikrosilt: Space Mono suurtähtedega lõik on tehniliselt
+   ilus ja praktiliselt loetamatu. Sildid jäävad monosse, laused mitte. */
+.note-text {
+  font-family: var(--font);
+  font-size: 14px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--ink-60);
+  line-height: 1.7;
+}
+
+.comments__empty, .comments__hint, .comments__error {
+  border-top: 1px solid var(--rule);
+  padding: 18px 0 0;
+  line-height: 1.7;
+  max-width: 68ch;
+}
+
+.comments__error { color: var(--accent-ink); }
+.comments__hint a { text-decoration: underline; text-underline-offset: 3px; color: var(--accent-ink); }
+
+/* ── Kommentaari vorm ─────────────────────────────────────────────────────── */
+
+.cform { border-top: 1px solid var(--rule); padding-top: 18px; margin-top: 4px; }
+
+.cform__field {
+  width: 100%;
+  border: 1px solid var(--rule-strong);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 12px 14px;
+  resize: vertical;
+}
+
+.cform__field:focus { outline: none; border-color: var(--ink); }
+.cform__field::placeholder { color: rgba(21, 21, 21, 0.45); }
+
+.cform__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.cform .btn { padding: 11px 16px; }
+.cform .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.cform .btn:disabled:hover { background: var(--accent); color: var(--ink); }
+.cform .btn:not(.solid):disabled:hover { background: transparent; color: var(--ink); }
+
+/* ── Nimeküsimine ─────────────────────────────────────────────────────────── */
+
+.namebox { border: 2px solid var(--ink); padding: 18px; margin-top: 18px; }
+.namebox__note { margin: 8px 0 14px; line-height: 1.8; max-width: 60ch; }
+.namebox__row { display: flex; gap: 10px; flex-wrap: wrap; }
+.namebox__row .search-input { min-width: 200px; }
+.namebox__error { color: var(--accent-ink); margin: 10px 0 0; }
+
+@media (max-width: 900px) {
+  .songpage { grid-template-columns: 1fr; gap: 24px; }
+  .songpage .plate { max-width: 200px; }
+}
 
 /* ── Kitsas ekraan ────────────────────────────────────────────────────────── */
 
