@@ -29,6 +29,11 @@
   },
 
   "songs": {
+    "51067548-anna-himma-get-summer": {
+      "_note": "Automaatne otsing pakkus täiesti võõrast lugu (Tommy Cash, kindlus 0,12). Link käsitsi kontrollitud.",
+      "youtubeId": "tE86shz0GwI"
+    },
+
     "a84e0286-valge-tudruk-mul-krdi-suva": {
       "_note": "Spotifys esineb artist ingliskeelse nimega White Girl, nii et automaatne sobitamine ei tundnud teda ära. Lugu ise on sama, pealkiri klapib täht-tähelt.",
       "spotifyId": "3XakzcEu3QIALuRdiCzqku"

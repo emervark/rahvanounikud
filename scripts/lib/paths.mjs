@@ -16,6 +16,8 @@ export const paths = {
   spotifyEpisodes: path.join(DATA_DIR, 'spotify-episodes.json'),
   youtubeCache: path.join(DATA_DIR, 'youtube-cache.json'),
   episodes:     path.join(DATA_DIR, 'episodes.json'),
+  reviewList:   path.join(DATA_DIR, 'review-list.md'),
+  reviewPage:   path.join(DATA_DIR, 'review-list.html'),
   // Sama fail frontendile serveerimiseks. Genereeritud, seepärast .gitignore's.
   webEpisodes:  path.join(ROOT, 'web', 'public', 'episodes.json'),
 };

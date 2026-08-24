@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:41:15.981Z",
+  "generatedAt": "2026-08-24T13:50:21.259Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -18,8 +18,8 @@
   "stats": {
     "episodes": 91,
     "songs": 376,
-    "withSpotify": 339,
-    "withYoutube": 148,
+    "withSpotify": 338,
+    "withYoutube": 149,
     "withCriticScore": 0
   },
   "episodes": [
@@ -86,8 +86,9 @@
           "chooser": "Merit Maarits",
           "note": null,
           "id": "51067548-anna-himma-get-summer",
+          "_note": "Automaatne otsing pakkus täiesti võõrast lugu (Tommy Cash, kindlus 0,12). Link käsitsi kontrollitud.",
+          "youtubeId": "tE86shz0GwI",
           "spotifyId": "6T437bIxhd3FXZq3CJRRzw",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2844,22 +2845,21 @@
         },
         {
           "artists": [
-            "Tyler",
-            "the Creator"
+            "Tyler, the Creator"
           ],
           "artistsRaw": "Tyler, the Creator",
           "title": "Up All Night",
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3bc11027-tyler-up-all-night",
-          "spotifyId": "4AkqBKanjlSKMmNLGW4oSk",
+          "spotifyId": null,
           "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
-            "spotify": "https://open.spotify.com/search/Tyler%20the%20Creator%20Up%20All%20Night",
-            "youtube": "https://www.youtube.com/results?search_query=Tyler%20the%20Creator%20Up%20All%20Night",
-            "bandcamp": "https://bandcamp.com/search?q=Tyler%20the%20Creator%20Up%20All%20Night"
+            "spotify": "https://open.spotify.com/search/Tyler%2C%20the%20Creator%20Up%20All%20Night",
+            "youtube": "https://www.youtube.com/results?search_query=Tyler%2C%20the%20Creator%20Up%20All%20Night",
+            "bandcamp": "https://bandcamp.com/search?q=Tyler%2C%20the%20Creator%20Up%20All%20Night"
           }
         }
       ]
@@ -6520,8 +6520,7 @@
         },
         {
           "artists": [
-            "Tyler",
-            "the Creator"
+            "Tyler, the Creator"
           ],
           "artistsRaw": "Tyler, the Creator",
           "title": "I Hope You Find Your Way Home",
@@ -6533,9 +6532,9 @@
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
-            "spotify": "https://open.spotify.com/search/Tyler%20the%20Creator%20I%20Hope%20You%20Find%20Your%20Way%20Home",
-            "youtube": "https://www.youtube.com/results?search_query=Tyler%20the%20Creator%20I%20Hope%20You%20Find%20Your%20Way%20Home",
-            "bandcamp": "https://bandcamp.com/search?q=Tyler%20the%20Creator%20I%20Hope%20You%20Find%20Your%20Way%20Home"
+            "spotify": "https://open.spotify.com/search/Tyler%2C%20the%20Creator%20I%20Hope%20You%20Find%20Your%20Way%20Home",
+            "youtube": "https://www.youtube.com/results?search_query=Tyler%2C%20the%20Creator%20I%20Hope%20You%20Find%20Your%20Way%20Home",
+            "bandcamp": "https://bandcamp.com/search?q=Tyler%2C%20the%20Creator%20I%20Hope%20You%20Find%20Your%20Way%20Home"
           }
         },
         {

@@ -22,7 +22,8 @@
     "resolve:spotify": "node scripts/resolve-spotify.mjs",
     "resolve:youtube": "node scripts/resolve-youtube.mjs",
     "revalidate": "node scripts/revalidate-matches.mjs",
-    "critics": "node scripts/critic-scores.mjs"
+    "critics": "node scripts/critic-scores.mjs",
+    "review": "node scripts/review-list.mjs"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.53.1",

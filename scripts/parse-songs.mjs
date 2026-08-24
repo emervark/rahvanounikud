@@ -47,6 +47,34 @@ const MAX_LIST_LINES = 20;
  * Artistiväli, mis on pigem lause kui esitajanimi → rida tuli proosast, mitte nimekirjast.
  * Nt "Kriitik Siim Nestor on teistele hindamiseks kaasa võtnud Eesti päris uue artisti iiori loo".
  */
+
+/* Koma esitajate vahel, aga mitte esitaja nime sees. „Tyler, the Creator" on
+   üks esitaja; „ONYX, pluuto" on kaks. Vahe on selles, mis komale järgneb:
+   grammatiline jätkusõna väiketähega ei alusta uut nime. Eesnimi võib ka
+   väiketähega olla (nublu, boipepperoni), seega väiketäht üksi ei piisa —
+   loeb sõnaloend.
+
+   Vale tükeldamine ei riku kuvatavat nime (selleks on artistsRaw), aga saadab
+   otsingu valele jäljele: „Tyler" leidis Spotifyst „Kris Tyleri" ja lehele
+   läks vale lugu. */
+const CONTINUATION = /^(the|and|of|de|du|da|di|la|le|el|van|von|dos|das)\s/;
+
+export function splitArtists(raw) {
+  const parts = raw.split(/\s*,\s*/);
+  const merged = [];
+  for (const part of parts) {
+    if (merged.length > 0 && CONTINUATION.test(part)) {
+      merged[merged.length - 1] += `, ${part}`;
+    } else {
+      merged.push(part);
+    }
+  }
+  return merged
+    .flatMap((a) => a.split(/\s+(?:ja|feat\.?|&)\s+/i))
+    .map((a) => a.trim())
+    .filter(Boolean);
+}
+
 function looksLikeProse(song) {
   // Artistiväli on terve lause. Lävendid on meelega lõdvad: pikad feat-nimekirjad
   // nagu "The Avalanches ft Nikki Nair, Jessy Lanza & Prentiss" on päris artistiväljad.
@@ -87,7 +115,7 @@ export function parseSongLine(raw) {
   if (!artists || !title) return null;
 
   return {
-    artists: artists.split(/\s*,\s*|\s+(?:ja|feat\.?|&)\s+/i).map((a) => a.trim()).filter(Boolean),
+    artists: splitArtists(artists),
     artistsRaw: artists,
     title,
     note: note || null,

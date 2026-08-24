@@ -15,3 +15,5 @@ web/.wrangler/
 
 # Päris võtmed — ainult .secrets.example.json käib repos kaasa
 .secrets.json
+
+data/review-list.html
