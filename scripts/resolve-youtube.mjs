@@ -72,7 +72,7 @@ function toCandidates(item) {
   return out;
 }
 
-async function search(apiKey, song) {
+async function search(apiKey, song, attempt = 0) {
   const q = `${song.artists.join(' ')} ${song.title}`;
   const url = 'https://www.googleapis.com/youtube/v3/search?'
     + new URLSearchParams({
@@ -87,8 +87,19 @@ async function search(apiKey, song) {
       maxResults: '10',
     });
 
-  // Ajapiirang: vastuseta päring ei tohi kogu käiku kinni panna.
-  const res = await fetch(url, { signal: AbortSignal.timeout(20_000) });
+  // Ajapiirang: vastuseta päring ei tohi kogu käiku kinni panna. Aegumine
+  // ise ei tohi aga käiku lõpetada — üks aeglane vastus jätab muidu ülejäänud
+  // kaheksakümmend otsingut tegemata ja päevakvoot kulub asjata ära.
+  let res;
+  try {
+    res = await fetch(url, { signal: AbortSignal.timeout(20_000) });
+  } catch (err) {
+    if (attempt >= 3) throw new Error(`YouTube ei vastanud: ${err.message}`);
+    console.log(`    (päring aegus, proovin uuesti ${attempt + 1}/3)`);
+    await sleep(1000 * (attempt + 1));
+    return search(apiKey, song, attempt + 1);
+  }
+
   if (res.status === 403) {
     const body = await res.json().catch(() => ({}));
     const reason = body?.error?.errors?.[0]?.reason ?? '';
