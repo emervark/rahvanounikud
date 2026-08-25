@@ -29,15 +29,17 @@ const SP_SEARCH = 'https://open.spotify.com/search/';
 /**
  * Varem lehele tehtud kinnitused.
  *
- * Neid hoiab avaldatud leht ise, aga kohalik fail on see, millest järgmine
- * versioon sünnib. Ilma selleta pühiks iga `npm run review` kellegi töö ära —
- * nimekiri läheks uuemaks ja kinnitused kaoksid.
+ * Neid hoiab avaldatud leht ise, aga kohalik pool peab neist teadma: ilma
+ * selleta genereeriks `npm run review` HTML-i tühja otsuste plokiga ja
+ * järgmine avaldamine pühiks kellegi töö ära.
+ *
+ * Allikas on pärisfail, mitte eelmine HTML. HTML kirjutatakse iga käiguga
+ * üle, nii et tema küljest lugemine tähendaks, et üks vale järjekord kustutab
+ * kõik. JSON-fail elab omaette ja läheb ka versioonihaldusse.
  */
 async function loeOtsused() {
   try {
-    const html = await fs.readFile(paths.reviewPage, 'utf8');
-    const m = html.match(/<script type="application\/json" id="otsused">([\s\S]*?)<\/script>/);
-    return m ? JSON.parse(m[1].replace(/\\u003c/g, '<')) : {};
+    return JSON.parse(await fs.readFile(paths.reviewOtsused, 'utf8'));
   } catch {
     return {};
   }

@@ -152,6 +152,21 @@ function dokument(uuedOtsused) {
      olek, mitte lähtekood, ja nad joonistatakse laadimisel andmetest uuesti. */
   const koopia = document.getElementById('kest').cloneNode(true);
   koopia.querySelectorAll('[data-list]').forEach((el) => { el.innerHTML = ''; });
+  /* Sama kehtib riba ja teate kohta: kui nad lähevad kaasa selles seisus,
+     milles nad salvestamise hetkel olid, näeb järgmine avaja korraks
+     „20 muudatust / salvestan..." enne kui joonista() selle ära parandab. */
+  const riba = koopia.querySelector('#riba');
+  if (riba) {
+    riba.setAttribute('hidden', '');
+    riba.querySelector('#riba__n').textContent = '';
+    const n = riba.querySelector('#salvesta');
+    n.removeAttribute('disabled');
+    n.textContent = 'Salvesta lehele';
+  }
+  const plokk = koopia.querySelector('#jsonplokk');
+  if (plokk) { plokk.setAttribute('hidden', ''); plokk.querySelector('#json').textContent = ''; }
+  const teade = koopia.querySelector('#teade');
+  if (teade) { teade.setAttribute('hidden', ''); teade.textContent = ''; }
   const kest = koopia.innerHTML;
   const j = (o) => JSON.stringify(o).replace(/</g, '\\u003c');
   return '<!doctype html>\n<html lang="et">\n<head>\n<meta charset="utf-8">\n'
