@@ -4,7 +4,7 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 
 | Korv | Lugusid |
 |---|---|
-| Kahtlane link üleval | 9 |
+| Kahtlane link üleval | 0 |
 | Pakkumine olemas, link puudub | 24 |
 | Kumbki link puudub | 12 |
 | YouTube veel otsimata | 40 |
@@ -19,60 +19,7 @@ kirjutatud („I LUV BEING MYSELF"). Nimekiri on madalaimast kindlusest ülespoo
 nii et tõelised vead on eespool — allapoole jõudes muutub üle vaatamine kiiresti
 mõttetuks.
 
-### Inger feat Genka — Tirib mind kuuma
-`92971a74-inger-tirib-mind-kuuma` · saade 46 · 2025-04-25
-- **YouTube 0,74** → Tirib mind kuuma feat. Genka (album "Armastatuna")
-  https://www.youtube.com/watch?v=2QhiOFUbWHQ
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Inger%20feat%20Genka%20Tirib%20mind%20kuuma) · [Spotify](https://open.spotify.com/search/Inger%20feat%20Genka%20Tirib%20mind%20kuuma)
-
-### Kantri Guidu Bänd feat Donna Kihoote — MeesNaine
-`127c756b-kantri-guidu-band-meesnaine` · saade 40 · 2025-03-07
-- **YouTube 0,81** → MeesNaine (feat. Donna Kihoote)
-  https://www.youtube.com/watch?v=TCxYPCFFGe0
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Kantri%20Guidu%20B%C3%A4nd%20feat%20Donna%20Kihoote%20MeesNaine) · [Spotify](https://open.spotify.com/search/Kantri%20Guidu%20B%C3%A4nd%20feat%20Donna%20Kihoote%20MeesNaine)
-
-### Fuzzolini — Beauty Exist In Every One
-`68d262e1-fuzzolini-beauty-exist-in-every-one` · saade 36 · 2025-02-07
-- **YouTube 0,81** → Beauty Exists in Everyone
-  https://www.youtube.com/watch?v=vMCyByeHjl4
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Fuzzolini%20Beauty%20Exist%20In%20Every%20One) · [Spotify](https://open.spotify.com/search/Fuzzolini%20Beauty%20Exist%20In%20Every%20One)
-
-### Ariel Pink, Devin Lynn — Spin Cycle
-`8311c8b9-ariel-pink-spin-cycle` · saade 47 · 2025-05-10
-- **YouTube 0,82** → Spin Cycle
-  https://www.youtube.com/watch?v=atsBqzkbSSQ
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Ariel%20Pink%2C%20Devin%20Lynn%20Spin%20Cycle) · [Spotify](https://open.spotify.com/search/Ariel%20Pink%2C%20Devin%20Lynn%20Spin%20Cycle)
-
-### Jennie ft Kali Uchis, Childish Gambino — Damn Right
-`13e8f612-jennie-ft-kali-uchis-damn-right` · saade 43 · 2025-03-28
-- **YouTube 0,82** → Damn Right
-  https://www.youtube.com/watch?v=PICpEtPHyZI
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Jennie%20ft%20Kali%20Uchis%2C%20Childish%20Gambino%20Damn%20Right) · [Spotify](https://open.spotify.com/search/Jennie%20ft%20Kali%20Uchis%2C%20Childish%20Gambino%20Damn%20Right)
-
-### Meisterjaan, Riste — Tõde ja tegu
-`de1c611f-meisterjaan-tode-ja-tegu` · saade 42 · 2025-03-21
-- **YouTube 0,82** → Tõde Ja Tegu
-  https://www.youtube.com/watch?v=4vyWnVaPMVw
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Meisterjaan%2C%20Riste%20T%C3%B5de%20ja%20tegu) · [Spotify](https://open.spotify.com/search/Meisterjaan%2C%20Riste%20T%C3%B5de%20ja%20tegu)
-
-### Fred Frith, Shelly Burgon — Your Sweet Time
-`de1c611f-fred-frith-your-sweet-time` · saade 42 · 2025-03-21
-- **YouTube 0,82** → Your Sweet Time
-  https://www.youtube.com/watch?v=lHiemXT2xtA
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Fred%20Frith%2C%20Shelly%20Burgon%20Your%20Sweet%20Time) · [Spotify](https://open.spotify.com/search/Fred%20Frith%2C%20Shelly%20Burgon%20Your%20Sweet%20Time)
-
-### Sonic Boom & Sinner DC — Ask For the Moon
-`03333d5e-sonic-boom-ask-for-the-moon` · saade 41 · 2025-03-14
-- **YouTube 0,82** → Ask For The Moon
-  https://www.youtube.com/watch?v=HDt4aqwnKqo
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Sonic%20Boom%20%26%20Sinner%20DC%20Ask%20For%20the%20Moon) · [Spotify](https://open.spotify.com/search/Sonic%20Boom%20%26%20Sinner%20DC%20Ask%20For%20the%20Moon)
-
-### Dean Blunt, Elias Ronnenfelt — 2
-`127c756b-dean-blunt-2` · saade 40 · 2025-03-07
-- **YouTube 0,82** → 2
-  https://www.youtube.com/watch?v=iJ30RG1iOJI
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Dean%20Blunt%2C%20Elias%20Ronnenfelt%202) · [Spotify](https://open.spotify.com/search/Dean%20Blunt%2C%20Elias%20Ronnenfelt%202)
-
+_Puhas._
 ## 2. Pakkumine olemas, aga jäi läve alla
 
 Otsing leidis midagi, kindlus jäi väikseks. Osa on õiged (pealkirjas lisasõna),

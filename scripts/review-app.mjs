@@ -12,10 +12,44 @@ export const APP = String.raw`
 const andmed = JSON.parse(document.getElementById('andmed').textContent);
 let otsused = JSON.parse(document.getElementById('otsused').textContent);
 
-/* Ootel muudatused elavad ainult mälus, kuni keegi vajutab Salvesta. Iga
-   klahvivajutuse peale avaldamine mindaks kiiresti kvoodi vastu ja iga
-   avaldamine on uus versioon. */
-let ootel = {};
+/* Ootel muudatused ootavad Salvesta-nuppu — iga klahvivajutuse peale
+   avaldamine mindaks kiiresti kvoodi vastu ja iga avaldamine on uus versioon.
+   Aga nad ei tohi elada ainult mälus.
+
+   Kui keegi teine sama artefakti uuesti avaldab, laeb see kõik lahtised
+   vaated ümber — ka selle, kus parajasti keegi kirjutab. Mälus olev sisestus
+   kaob siis jäljetult ja inimene ei saa isegi teada, et ta töö kadus. Sama
+   kehtib lehe värskendamise ja brauseri sulgemise kohta.
+
+   Seepärast peegeldame ootel muudatused sessionStorage'i ja loeme nad
+   laadimisel tagasi. */
+const OOTEL_VOTI = 'rn-ootel';
+
+function loeOotel() {
+  try {
+    return JSON.parse(sessionStorage.getItem(OOTEL_VOTI) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+function salvestaOotel() {
+  try {
+    sessionStorage.setItem(OOTEL_VOTI, JSON.stringify(ootel));
+  } catch { /* privaatrežiim või täis mälu — siis lihtsalt ei peegeldu */ }
+}
+
+let ootel = loeOotel();
+
+/* Salvestatuks saanud muudatused ei ole enam ootel. Nii tühjeneb hulk ise
+   pärast õnnestunud avaldamist (mis vaate samuti ümber laeb) ja alles jäävad
+   ainult need, mis päriselt salvestamata on. */
+for (const id of Object.keys(ootel)) {
+  if (JSON.stringify(otsused[id] ?? null) === JSON.stringify(ootel[id] ?? null)) {
+    delete ootel[id];
+  }
+}
+salvestaOotel();
 let kirjutamine = 'teadmata';   // teadmata | jah | ei
 
 /* Tehtud lood lähevad korvist peitu — muidu kasvab nimekiri töö käigus
@@ -54,6 +88,7 @@ function pane(id, v) {
      ei ole see muudatus vaid tühistamine — ootel-hulgast välja. */
   if (JSON.stringify(salvestatud) === JSON.stringify(uus)) delete ootel[id];
   else ootel[id] = uus;
+  salvestaOotel();
   joonista();
 }
 
@@ -340,6 +375,12 @@ function leia(id) {
 /* Kirjutusõigust ei saa enne esimest kutset teada — võimekuse olemasolu
    ei tähenda veel õigust. Küsime vaikselt ette, et Salvesta-nuppu mitte
    näidata seal, kus ta kunagi ei tööta. */
+/* Kui laadimisel oli salvestamata sisestusi, ütleme seda välja — vaikselt
+   taastatud töö on sama segane kui vaikselt kadunud töö. */
+if (muudatusi() > 0) {
+  teade(muudatusi() + ' salvestamata muudatust taastati. Vajuta Salvesta, et nad püsima jääksid.');
+}
+
 window.claude && window.claude.use('artifact').then((a) => {
   kirjutamine = a ? 'jah' : 'ei';
   joonista();
