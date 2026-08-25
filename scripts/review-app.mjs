@@ -18,6 +18,12 @@ let otsused = JSON.parse(document.getElementById('otsused').textContent);
 let ootel = {};
 let kirjutamine = 'teadmata';   // teadmata | jah | ei
 
+/* Tehtud lood lähevad korvist peitu — muidu kasvab nimekiri töö käigus
+   ainult tihedamaks ja juba lahendatu segab veel lahendamata vahelt otsimist.
+   Peidus, mitte kustutatud: kinnitust peab saama tagasi võtta, seega saab
+   need loenduri juurest korraks nähtavale tõmmata. */
+const naitaTehtuid = {};
+
 const $ = (s, r) => (r || document).querySelector(s);
 const esc = (s) => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -235,17 +241,27 @@ function joonista() {
     const kirjed = andmed[võti];
     const konteiner = document.getElementById('list-' + võti);
     if (!konteiner) continue;
+    /* Otsustatud lugu kaob korvist ära, kui teda just nähtavale ei tõmmata. */
+    const nähtavad = naitaTehtuid[võti] ? kirjed : kirjed.filter((k) => !seis(k));
     konteiner.innerHTML = võti === 'wrong'
-      ? kirjed.map(kaart).join('')
-      : kirjed.map((k) => rida(k, võti === 'guess')).join('');
+      ? nähtavad.map(kaart).join('')
+      : nähtavad.map((k) => rida(k, võti === 'guess')).join('');
 
-    const tehtud = kirjed.filter((k) => seis(k)).length;
+    /* Tehtute arv tuleb otsustest, mitte nähtavate ridade arvust — muidu
+       läheb ta näitamise ajal nulli ja peitmisnupp kaob ära. */
+    const tehtudArv = kirjed.filter((k) => seis(k)).length;
+    const ootelArv = kirjed.length - tehtudArv;
     const loendur = document.getElementById('count-' + võti);
     if (loendur) {
-      loendur.textContent = tehtud > 0
-        ? (kirjed.length - tehtud) + ' ootel · ' + tehtud + ' tehtud'
-        : kirjed.length + ' lugu';
+      if (tehtudArv > 0) {
+        loendur.innerHTML = ootelArv + ' ootel · '
+          + '<button class="linknupp" data-naita="' + võti + '">'
+          + tehtudArv + ' tehtud' + (naitaTehtuid[võti] ? ' — peida' : '') + '</button>';
+      } else {
+        loendur.textContent = kirjed.length + ' lugu';
+      }
     }
+    const tehtud = tehtudArv;
     const number = document.getElementById('n-' + võti);
     if (number) number.textContent = String(kirjed.length - tehtud);
   }
@@ -282,6 +298,13 @@ document.addEventListener('click', (e) => {
       pane(id, (praegu && praegu.laad === 'vale') ? null
         : { laad: 'vale', mis: k.olemasYt ? 'yt' : (k.olemasSp ? 'sp' : 'mõlemad') });
     }
+    return;
+  }
+  const t = e.target.closest('button[data-naita]');
+  if (t) {
+    const v = t.dataset.naita;
+    naitaTehtuid[v] = !naitaTehtuid[v];
+    joonista();
     return;
   }
   if (e.target.id === 'kopeeri') {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T18:25:09.260Z",
+  "generatedAt": "2026-08-25T18:31:14.270Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -19,7 +19,7 @@
     "episodes": 91,
     "songs": 376,
     "withSpotify": 339,
-    "withYoutube": 289,
+    "withYoutube": 298,
     "withCriticScore": 0
   },
   "episodes": [
@@ -214,8 +214,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c71831ba-romare-computer-blue",
+          "youtubeId": "-M69D8wwh-0",
           "spotifyId": null,
-          "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -374,8 +374,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "d06dc046-the-durutti-kolumn-liars",
+          "youtubeId": "FmKW0_UYSqk",
           "spotifyId": "5s8skf66FzZK9dxASx3QZS",
-          "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -812,8 +812,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "37bb174f-cold-cunts-doll",
+          "youtubeId": "ziKaRtoIAy0",
           "spotifyId": null,
-          "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -1344,8 +1344,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "04293800-brotherkrupa-rip-riky",
+          "youtubeId": "mHDRL0ouFXk",
           "spotifyId": null,
-          "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -7103,8 +7103,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e833fac2-loits-toelised-kuningad-kutse-sugavikust",
+          "youtubeId": "Xeq48yjMNfw",
           "spotifyId": "4ajnkpGMDpMYeUrcAs6kKt",
-          "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -7888,8 +7888,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "764f7f83-jack-white-archbishop-harold-holmes",
+          "youtubeId": "ru5afNNSPeU",
           "spotifyId": "0hIYrRFTLlG8pRjAn9tW4P",
-          "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -7909,8 +7909,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "764f7f83-florian-wahl-viimane-hetero",
+          "youtubeId": "i_R9gmJW9qk",
           "spotifyId": "1OIr0YFq7vIKLhRosSkeiR",
-          "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -7940,32 +7940,32 @@
       "songs": [
         {
           "artists": [
-            "Siim Nestor: Sabrina Carpenter"
+            "Sabrina Carpenter"
           ],
-          "artistsRaw": "Siim Nestor: Sabrina Carpenter",
+          "artistsRaw": "Sabrina Carpenter",
           "title": "Espresso",
-          "chooser": null,
+          "chooser": "Siim Nestor",
           "note": null,
           "id": "d99cdf2c-siim-nestor-sabrina-carpenter-espresso",
+          "youtubeId": "hY0EIX_E918",
           "spotifyId": "2qSkIjg1o9h3YT9RAgYN75",
-          "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
-            "spotify": "https://open.spotify.com/search/Siim%20Nestor%3A%20Sabrina%20Carpenter%20Espresso",
-            "youtube": "https://www.youtube.com/results?search_query=Siim%20Nestor%3A%20Sabrina%20Carpenter%20Espresso",
-            "bandcamp": "https://bandcamp.com/search?q=Siim%20Nestor%3A%20Sabrina%20Carpenter%20Espresso"
+            "spotify": "https://open.spotify.com/search/Sabrina%20Carpenter%20Espresso",
+            "youtube": "https://www.youtube.com/results?search_query=Sabrina%20Carpenter%20Espresso",
+            "bandcamp": "https://bandcamp.com/search?q=Sabrina%20Carpenter%20Espresso"
           }
         },
         {
           "artists": [
-            "Merit Maarits: Valge Tüdruk"
+            "Valge Tüdruk"
           ],
-          "artistsRaw": "Merit Maarits: Valge Tüdruk",
+          "artistsRaw": "Valge Tüdruk",
           "title": "Tere, päevik!",
-          "chooser": null,
+          "chooser": "Merit Maarits",
           "note": null,
           "id": "d99cdf2c-merit-maarits-valge-tudruk-tere-paevik",
           "spotifyId": null,
@@ -7975,18 +7975,18 @@
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
-            "spotify": "https://open.spotify.com/search/Merit%20Maarits%3A%20Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!",
-            "youtube": "https://www.youtube.com/results?search_query=Merit%20Maarits%3A%20Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!",
-            "bandcamp": "https://bandcamp.com/search?q=Merit%20Maarits%3A%20Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!"
+            "spotify": "https://open.spotify.com/search/Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!",
+            "youtube": "https://www.youtube.com/results?search_query=Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!",
+            "bandcamp": "https://bandcamp.com/search?q=Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!"
           }
         },
         {
           "artists": [
-            "Raul Saaremets: Avemaria"
+            "Avemaria"
           ],
-          "artistsRaw": "Raul Saaremets: Avemaria",
+          "artistsRaw": "Avemaria",
           "title": "Diskoteek",
-          "chooser": null,
+          "chooser": "Raul Saaremets",
           "note": null,
           "id": "d99cdf2c-raul-saaremets-avemaria-diskoteek",
           "spotifyId": null,
@@ -7996,18 +7996,18 @@
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
-            "spotify": "https://open.spotify.com/search/Raul%20Saaremets%3A%20Avemaria%20Diskoteek",
-            "youtube": "https://www.youtube.com/results?search_query=Raul%20Saaremets%3A%20Avemaria%20Diskoteek",
-            "bandcamp": "https://bandcamp.com/search?q=Raul%20Saaremets%3A%20Avemaria%20Diskoteek"
+            "spotify": "https://open.spotify.com/search/Avemaria%20Diskoteek",
+            "youtube": "https://www.youtube.com/results?search_query=Avemaria%20Diskoteek",
+            "bandcamp": "https://bandcamp.com/search?q=Avemaria%20Diskoteek"
           }
         },
         {
           "artists": [
-            "Valner Valme: Nondi_"
+            "Nondi_"
           ],
-          "artistsRaw": "Valner Valme: Nondi_",
+          "artistsRaw": "Nondi_",
           "title": "pls just shut the fuck up",
-          "chooser": null,
+          "chooser": "Valner Valme",
           "note": null,
           "id": "d99cdf2c-valner-valme-nondi-pls-just-shut-the-fuck-up",
           "spotifyId": null,
@@ -8017,9 +8017,9 @@
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
-            "spotify": "https://open.spotify.com/search/Valner%20Valme%3A%20Nondi_%20pls%20just%20shut%20the%20fuck%20up",
-            "youtube": "https://www.youtube.com/results?search_query=Valner%20Valme%3A%20Nondi_%20pls%20just%20shut%20the%20fuck%20up",
-            "bandcamp": "https://bandcamp.com/search?q=Valner%20Valme%3A%20Nondi_%20pls%20just%20shut%20the%20fuck%20up"
+            "spotify": "https://open.spotify.com/search/Nondi_%20pls%20just%20shut%20the%20fuck%20up",
+            "youtube": "https://www.youtube.com/results?search_query=Nondi_%20pls%20just%20shut%20the%20fuck%20up",
+            "bandcamp": "https://bandcamp.com/search?q=Nondi_%20pls%20just%20shut%20the%20fuck%20up"
           }
         }
       ]
@@ -8048,8 +8048,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "91b12664-gram-of-fun-complicated-plant-jafunk-remix",
+          "youtubeId": "q549BCif4yI",
           "spotifyId": "7FsXlMpVd3pfQ1bRmTO9Ky",
-          "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,

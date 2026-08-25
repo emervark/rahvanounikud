@@ -5,9 +5,9 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 9 |
-| Pakkumine olemas, link puudub | 28 |
+| Pakkumine olemas, link puudub | 24 |
 | Kumbki link puudub | 12 |
-| YouTube veel otsimata | 45 |
+| YouTube veel otsimata | 40 |
 
 ## 1. Kahtlane link on üleval
 
@@ -120,18 +120,6 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 - **0,02** Shelton San — Funky Old Fella — saade 47 · 2025-05-10
   - pakub: blake shelton, Whiskey & Willows — ol’ red → https://www.youtube.com/watch?v=J2tsR3hC4QQ
   - `8311c8b9-shelton-san-funky-old-fella` · [otsi](https://www.youtube.com/results?search_query=Shelton%20San%20Funky%20Old%20Fella)
-- **0,00** Romare — Computer Blue — saade 90 · 2026-06-11
-  - pakub: Computer Love → https://www.youtube.com/watch?v=-M69D8wwh-0
-  - `c71831ba-romare-computer-blue` · [otsi](https://www.youtube.com/results?search_query=Romare%20Computer%20Blue)
-- **0,00** The Durutti Kolumn — Liars — saade 88 · 2026-05-29
-  - pakub: —
-  - `d06dc046-the-durutti-kolumn-liars` · [otsi](https://www.youtube.com/results?search_query=The%20Durutti%20Kolumn%20Liars)
-- **0,00** Cold Cunts — Doll — saade 84 · 2026-05-01
-  - pakub: —
-  - `37bb174f-cold-cunts-doll` · [otsi](https://www.youtube.com/results?search_query=Cold%20Cunts%20Doll)
-- **0,00** Brotherkrupa — RIP RIKY — saade 79 · 2026-03-27
-  - pakub: —
-  - `04293800-brotherkrupa-rip-riky` · [otsi](https://www.youtube.com/results?search_query=Brotherkrupa%20RIP%20RIKY)
 - **0,00** C.C. — Haudvaikne — saade 70 · 2025-12-23
   - pakub: —
   - `16e70f0c-c-c-haudvaikne` · [otsi](https://www.youtube.com/results?search_query=C.C.%20Haudvaikne)
@@ -177,12 +165,12 @@ Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
   - `9f28ab5f-kalli-talonpoika-kaua` · [YouTube](https://www.youtube.com/results?search_query=Kalli%20Talonpoika%20Kaua) · [Spotify](https://open.spotify.com/search/Kalli%20Talonpoika%20Kaua)
 - Tont — Päevalill kuuvalgel — saade 18 · 2024-09-13
   - `ac3547be-tont-paevalill-kuuvalgel` · [YouTube](https://www.youtube.com/results?search_query=Tont%20P%C3%A4evalill%20kuuvalgel) · [Spotify](https://open.spotify.com/search/Tont%20P%C3%A4evalill%20kuuvalgel)
-- Merit Maarits: Valge Tüdruk — Tere, päevik! — saade 16 · 2024-06-21
-  - `d99cdf2c-merit-maarits-valge-tudruk-tere-paevik` · [YouTube](https://www.youtube.com/results?search_query=Merit%20Maarits%3A%20Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!) · [Spotify](https://open.spotify.com/search/Merit%20Maarits%3A%20Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!)
-- Raul Saaremets: Avemaria — Diskoteek — saade 16 · 2024-06-21
-  - `d99cdf2c-raul-saaremets-avemaria-diskoteek` · [YouTube](https://www.youtube.com/results?search_query=Raul%20Saaremets%3A%20Avemaria%20Diskoteek) · [Spotify](https://open.spotify.com/search/Raul%20Saaremets%3A%20Avemaria%20Diskoteek)
-- Valner Valme: Nondi_ — pls just shut the fuck up — saade 16 · 2024-06-21
-  - `d99cdf2c-valner-valme-nondi-pls-just-shut-the-fuck-up` · [YouTube](https://www.youtube.com/results?search_query=Valner%20Valme%3A%20Nondi_%20pls%20just%20shut%20the%20fuck%20up) · [Spotify](https://open.spotify.com/search/Valner%20Valme%3A%20Nondi_%20pls%20just%20shut%20the%20fuck%20up)
+- Valge Tüdruk — Tere, päevik! — saade 16 · 2024-06-21
+  - `d99cdf2c-merit-maarits-valge-tudruk-tere-paevik` · [YouTube](https://www.youtube.com/results?search_query=Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!) · [Spotify](https://open.spotify.com/search/Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!)
+- Avemaria — Diskoteek — saade 16 · 2024-06-21
+  - `d99cdf2c-raul-saaremets-avemaria-diskoteek` · [YouTube](https://www.youtube.com/results?search_query=Avemaria%20Diskoteek) · [Spotify](https://open.spotify.com/search/Avemaria%20Diskoteek)
+- Nondi_ — pls just shut the fuck up — saade 16 · 2024-06-21
+  - `d99cdf2c-valner-valme-nondi-pls-just-shut-the-fuck-up` · [YouTube](https://www.youtube.com/results?search_query=Nondi_%20pls%20just%20shut%20the%20fuck%20up) · [Spotify](https://open.spotify.com/search/Nondi_%20pls%20just%20shut%20the%20fuck%20up)
 - Saaremets — Kõik saab korda — saade 10 · 2024-05-10
   - `32d48ca9-saaremets-koik-saab-korda` · [YouTube](https://www.youtube.com/results?search_query=Saaremets%20K%C3%B5ik%20saab%20korda) · [Spotify](https://open.spotify.com/search/Saaremets%20K%C3%B5ik%20saab%20korda)
 - Mari Liis x Rhei x Caater — II Dimensioon — saade 9 · 2024-05-03
@@ -194,7 +182,7 @@ Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
 ## 4. YouTube veel otsimata
 
-45 lugu, päevakvoot 90 → ~1 päeva.
+40 lugu, päevakvoot 90 → ~1 päeva.
 Spotify link on neil olemas, nii et lehel on lugu kuulatav.
 
 ```bash
@@ -209,7 +197,6 @@ npm run resolve:youtube && npm run build:data && npm run deploy
 - Lola Young, Lil Yachty — Charlie — saade 26 · 2024-11-08
 - motonormal — cocacolastic — saade 25 · 2024-11-01
 - Tyler, the Creator — I Hope You Find Your Way Home — saade 25 · 2024-11-01
-- Loits feat FAAM — Tõelised kuningad (Kutse sügavikust) — saade 25 · 2024-11-01
 - Mk.gee — Rockman — saade 24 · 2024-10-25
 - Jarek Kasar — Und mina n2gin — saade 24 · 2024-10-25
 - FKA twigs — Perfect — saade 24 · 2024-10-25
@@ -222,10 +209,6 @@ npm run resolve:youtube && npm run build:data && npm run deploy
 - ASAP Rocky & Jessica Pratt — Highjack — saade 18 · 2024-09-13
 - Fat Dog — Closer to God — saade 18 · 2024-09-13
 - Maris Pihlap & villemdrillem — Midagi head — saade 17 · 2024-09-06
-- Jack White — Archbishop Harold Holmes — saade 17 · 2024-09-06
-- Florian Wahl — Viimane hetero — saade 17 · 2024-09-06
-- Siim Nestor: Sabrina Carpenter — Espresso — saade 16 · 2024-06-21
-- Gram-Of-Fun — Complicated Plant (Jafunk Remix) — saade 15 · 2024-06-14
 - Eminem — Houdini — saade 15 · 2024-06-14
 - Lotey — Rohkem raha — saade 15 · 2024-06-14
 - Kaytranada — More Than a Little Bit — saade 15 · 2024-06-14

@@ -261,6 +261,11 @@ h2 {
   display: flex; align-items: center; gap: 10px;
 }
 .count { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.linknupp {
+  font: inherit; color: var(--accent); background: none; border: 0;
+  padding: 0; cursor: pointer; border-bottom: 1px solid currentColor;
+}
+.linknupp:hover { color: var(--ink); }
 .note { margin: 0; color: var(--muted); font-size: 14px; max-width: 64ch; }
 
 .cards { display: flex; flex-direction: column; gap: 12px; }
