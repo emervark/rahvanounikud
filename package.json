@@ -24,7 +24,9 @@
     "revalidate": "node scripts/revalidate-matches.mjs",
     "critics": "node scripts/critic-scores.mjs",
     "review": "node scripts/review-list.mjs",
-    "review:apply": "node scripts/apply-review.mjs"
+    "review:apply": "node scripts/apply-review.mjs",
+    "sheet": "node scripts/critic-sheet.mjs",
+    "critics:apply": "node scripts/apply-critics.mjs"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.53.1",

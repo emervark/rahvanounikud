@@ -1,0 +1,250 @@
+{
+  "_kirjeldus": [
+    "Külaliskriitikud saadete kaupa, saate guid → nimi.",
+    "",
+    "Nimed on käsitsi loetud saate kirjelduse esimesest lausest. Automaatne",
+    "väljanoppimine ei kõlvanud: kirjeldus tutvustab külalist ametinimetuse",
+    "kaudu (\"plaadifirma Kurvad Uudised üks asutajaid ja omanikke Margus Varusk\"),",
+    "nii et nii esimene kui viimane suurtäheline fraas oli sageli vale.",
+    "",
+    "Kasutatakse hindelehel veeru pealkirjana: scripts/critic-sheet.mjs"
+  ],
+  "saated": {
+    "c71831ba-7c50-4ab3-8ffa-88d51b99679d": {
+      "nr": 90,
+      "nimi": "Kadri Voorand"
+    },
+    "4d543f2a-133d-4707-bb7b-10ca990b7522": {
+      "nr": 87,
+      "nimi": "Säde Semper"
+    },
+    "3b8b51d7-cd4d-4c43-8e74-febd2c54bd1b": {
+      "nr": 86,
+      "nimi": "Markus Palo"
+    },
+    "19717d8f-4ac6-4dfc-911f-7f730a7f862c": {
+      "nr": 85,
+      "nimi": "Ken Saan"
+    },
+    "37bb174f-2687-4e45-b6fe-ed915b444c48": {
+      "nr": 84,
+      "nimi": "Maria Kallastu"
+    },
+    "d73035d0-462e-4994-aedf-0474be2244b3": {
+      "nr": 83,
+      "nimi": "Olev Muska"
+    },
+    "762d405c-b889-453b-90be-495fecefd2b4": {
+      "nr": 81,
+      "nimi": "Ingrid Kohtla"
+    },
+    "32820b14-fcf6-48bc-b5b6-fad5381809e5": {
+      "nr": 80,
+      "nimi": "Hannaliisa Uusma"
+    },
+    "04293800-3b03-4491-854f-171a3ed8563f": {
+      "nr": 79,
+      "nimi": "Ekke"
+    },
+    "9ff7f5d7-2da0-4bc1-90b1-dbdc8d22bc9f": {
+      "nr": 78,
+      "nimi": "Tiia Teder"
+    },
+    "a30b7b2f-9ca6-492f-9849-155d40389d7d": {
+      "nr": 77,
+      "nimi": "Piret Järvis-Milder"
+    },
+    "40f1de08-ed32-4917-b4d8-a52f61ae705c": {
+      "nr": 76,
+      "nimi": "Eva Palm"
+    },
+    "2d7441fe-531e-4e48-9d43-555c680add28": {
+      "nr": 75,
+      "nimi": "Rauno Otsepp"
+    },
+    "27eae26f-89b6-4deb-ba4c-7f242eebbc09": {
+      "nr": 74,
+      "nimi": "Gregor Kulla"
+    },
+    "4015a542-f0c8-4056-b372-318ae354b50f": {
+      "nr": 73,
+      "nimi": "Lauri Saatpalu"
+    },
+    "e505c599-9e3e-46e1-846a-b35e7948a389": {
+      "nr": 72,
+      "nimi": "Anton Corbijn"
+    },
+    "4b8b3c35-0adb-4510-91d2-4608c396dc4b": {
+      "nr": 71,
+      "nimi": "Aleksander Leetmaa"
+    },
+    "263c8fbc-4f46-45b9-819f-836ff6f1905f": {
+      "nr": 69,
+      "nimi": "Sven Grünberg"
+    },
+    "28a618cf-df98-4fd5-b453-efec1e11e8a0": {
+      "nr": 68,
+      "nimi": "Janar Ala"
+    },
+    "cae25c7a-5904-4742-a78f-ce6214802fde": {
+      "nr": 65,
+      "nimi": "Dali Kask"
+    },
+    "d3af9788-4a4d-48ce-8191-4a8d04a8665f": {
+      "nr": 64,
+      "nimi": "Margus Varusk"
+    },
+    "3bc11027-a2bd-46cf-b7fb-0acdf4914632": {
+      "nr": 63,
+      "nimi": "Sandra Sillamaa"
+    },
+    "4998e33a-ccac-42a9-a0c1-82b887849d8b": {
+      "nr": 59,
+      "nimi": "Taavet Kase"
+    },
+    "df1c87e3-89ca-4408-98d6-0495d6244a8c": {
+      "nr": 56,
+      "nimi": "King Jayy Lordd"
+    },
+    "7ae27574-0da4-4d8b-8b6a-29274818896c": {
+      "nr": 55,
+      "nimi": "Linnar Priimägi"
+    },
+    "f00dce8b-41f3-4a0e-82de-ebede45970fd": {
+      "nr": 54,
+      "nimi": "Eliann Tulve-Ojavee"
+    },
+    "c0b8424d-41d3-494d-8f07-6937bfa4bc11": {
+      "nr": 52,
+      "nimi": "Robert Linna"
+    },
+    "1f4d07b9-2119-41aa-bb1c-78da969b416a": {
+      "nr": 50,
+      "nimi": "Helina The Artist"
+    },
+    "2cbcfe43-38f2-4c2a-95e8-9b07dac82ab5": {
+      "nr": 49,
+      "nimi": "Siiri Sisask"
+    },
+    "3e638468-b59c-4ad5-a250-72683f9ca073": {
+      "nr": 48,
+      "nimi": "Peeter Oja"
+    },
+    "92971a74-9d58-4872-a03b-78102feac44f": {
+      "nr": 46,
+      "nimi": "An-Marlen"
+    },
+    "e86c4137-49e5-45b7-ba1c-9aa865e35bad": {
+      "nr": 45,
+      "nimi": "Triibupasta"
+    },
+    "6df8fc6e-4beb-43f7-8045-655f9a3aba2e": {
+      "nr": 44,
+      "nimi": "Anett Tamm"
+    },
+    "13e8f612-244f-4161-a99a-807e55d5e0b5": {
+      "nr": 43,
+      "nimi": "Emily J"
+    },
+    "de1c611f-ea8c-48d4-b9f2-b2bd0cbdb18e": {
+      "nr": 42,
+      "nimi": "Tõnu Trubetsky"
+    },
+    "03333d5e-897c-40fc-8527-dcddf232e559": {
+      "nr": 41,
+      "nimi": "Brigitta Davidjants"
+    },
+    "58a9212a-391a-4379-92ed-433a6a941a8d": {
+      "nr": 39,
+      "nimi": "Ramo Teder"
+    },
+    "35994776-f67c-4607-a017-302847940bb8": {
+      "nr": 38,
+      "nimi": "Väike PD"
+    },
+    "575fdbf7-157f-4d08-92cc-fad61b00f387": {
+      "nr": 37,
+      "nimi": "Tõnu Naissoo"
+    },
+    "68d262e1-7601-4e83-bd91-12ad8b4750dc": {
+      "nr": 36,
+      "nimi": "Mari Jürjens"
+    },
+    "c4d6132b-4f85-41c1-8be2-353c4377b421": {
+      "nr": 33,
+      "nimi": "Rain Tolk"
+    },
+    "d5b62c3c-7d97-4c78-b919-e4445ca0f724": {
+      "nr": 31,
+      "nimi": "Taavi Eelmaa"
+    },
+    "c2cbc0e2-e7b7-4bc7-b8e3-3450e66f8477": {
+      "nr": 29,
+      "nimi": "Maris Pihlap"
+    },
+    "5a8ce01b-4f1b-4998-8a79-4a64c7c02091": {
+      "nr": 28,
+      "nimi": "Karl Killing"
+    },
+    "ad1528cf-4d5e-4a37-b89d-db951cad705f": {
+      "nr": 26,
+      "nimi": "Anton Must"
+    },
+    "e833fac2-f2ce-40a3-a804-1aaebbe4f473": {
+      "nr": 25,
+      "nimi": "Sip€lga"
+    },
+    "c9f6f00c-0dac-4950-b20b-a1743545f422": {
+      "nr": 22,
+      "nimi": "Ats Luik"
+    },
+    "9f28ab5f-2d9e-4b52-81ea-7629b16df728": {
+      "nr": 21,
+      "nimi": "Mari Kalkun"
+    },
+    "2a917cbf-49e5-4004-bac8-30bdfe62ebb3": {
+      "nr": 20,
+      "nimi": "Tuulikki Bartosik"
+    },
+    "3c94eb93-121d-4851-8023-07c621162dc5": {
+      "nr": 19,
+      "nimi": "Henry „Genka” Kõrvits"
+    },
+    "ac3547be-0153-43d8-a416-ed4b60c77235": {
+      "nr": 18,
+      "nimi": "Villu Tamme"
+    },
+    "764f7f83-2209-48ff-8a3d-ef68165547fb": {
+      "nr": 17,
+      "nimi": "Riste Sofie Käär"
+    },
+    "6fee00c7-2180-4379-9612-3c11e42424b7": {
+      "nr": 12,
+      "nimi": "Korea (5MIINUST)"
+    },
+    "32d48ca9-5c03-4793-981f-35a4c286e754": {
+      "nr": 10,
+      "nimi": "Heidy Purga"
+    },
+    "afee239a-8e2a-4313-b733-e64c26af7be5": {
+      "nr": 6,
+      "nimi": "Manna"
+    },
+    "bf14f06b-6bfb-4c52-be05-ef0a06ba856c": {
+      "nr": 5,
+      "nimi": "Helen Sildna"
+    },
+    "3fe878b0-75f7-4b03-942d-7008cbe3f296": {
+      "nr": 4,
+      "nimi": "Kirke Karja"
+    },
+    "325504f8-177f-450b-9a08-97c7f0b65f88": {
+      "nr": 3,
+      "nimi": "Allan Roosileht"
+    },
+    "93ad6a77-70e6-442c-8548-797ae9f860a0": {
+      "nr": 2,
+      "nimi": "Elina Masing"
+    }
+  }
+}
