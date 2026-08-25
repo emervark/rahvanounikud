@@ -5,9 +5,9 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 0 |
-| Pakkumine olemas, link puudub | 14 |
-| Kumbki link puudub | 12 |
-| YouTube veel otsimata | 40 |
+| Pakkumine olemas, link puudub | 11 |
+| Kumbki link puudub | 6 |
+| YouTube veel otsimata | 35 |
 
 ## 1. Kahtlane link on üleval
 
@@ -25,15 +25,6 @@ _Puhas._
 Otsing leidis midagi, kindlus jäi väikseks. Osa on õiged (pealkirjas lisasõna),
 osa on täiesti mööda, osa on õige lugu vales versioonis.
 
-- **0,37** Sõpruse Puiestee — Hullimaja hoovis — saade 46 · 2025-04-25
-  - pakub: Sõpruse Puiestee — Kaotaja-2 → https://www.youtube.com/watch?v=Lte0--sbHSY
-  - `92971a74-sopruse-puiestee-hullimaja-hoovis` · [otsi](https://www.youtube.com/results?search_query=S%C3%B5pruse%20Puiestee%20Hullimaja%20hoovis)
-- **0,10** Clicherik ft Karl Killing, Maria Kallastu — Duširuumi muusik — saade 76 · 2026-03-06
-  - pakub: villemdrillem — villemdrillem, Karl Killing - kõik need ööd → https://www.youtube.com/watch?v=-queQoyHC-s
-  - `40f1de08-clicherik-ft-karl-killing-dusiruumi-muusik` · [otsi](https://www.youtube.com/results?search_query=Clicherik%20ft%20Karl%20Killing%2C%20Maria%20Kallastu%20Du%C5%A1iruumi%20muusik)
-- **0,05** Yasmyn ft Sno — Like That — saade 52 · 2025-06-17
-  - pakub: Melanie — Melanie Martinez - I Scream 2.0 [Feat. Snow Tha Product] → https://www.youtube.com/watch?v=j9R13PzvjNM
-  - `c0b8424d-yasmyn-ft-sno-like-that` · [otsi](https://www.youtube.com/results?search_query=Yasmyn%20ft%20Sno%20Like%20That)
 - **0,02** Freak Street — Päikese all — saade 49 · 2025-05-24
   - pakub: reket, motorcade — Võit @ Eesti TOP7 → https://www.youtube.com/watch?v=St-YxuL227Y
   - `2cbcfe43-freak-street-paikese-all` · [otsi](https://www.youtube.com/results?search_query=Freak%20Street%20P%C3%A4ikese%20all)
@@ -72,10 +63,6 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 
 Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
-- Underworld — Hilo Sky — saade 25 · 2024-11-01
-  - `e833fac2-underworld-hilo-sku` · [YouTube](https://www.youtube.com/results?search_query=Underworld%20Hilo%20Sky) · [Spotify](https://open.spotify.com/search/Underworld%20Hilo%20Sky)
-- Kitty Florentine ft. Aid Kid — Balance — saade 24 · 2024-10-25
-  - `d95612df-kitty-florentine-ft-aid-kid-balance` · [YouTube](https://www.youtube.com/results?search_query=Kitty%20Florentine%20ft.%20Aid%20Kid%20Balance) · [Spotify](https://open.spotify.com/search/Kitty%20Florentine%20ft.%20Aid%20Kid%20Balance)
 - Smilers — Räägi mis sa teed (LV remix) — saade 22 · 2024-10-11
   - `c9f6f00c-smilers-raagi-mis-sa-teed-lv-remix` · [YouTube](https://www.youtube.com/results?search_query=Smilers%20R%C3%A4%C3%A4gi%20mis%20sa%20teed%20(LV%20remix)) · [Spotify](https://open.spotify.com/search/Smilers%20R%C3%A4%C3%A4gi%20mis%20sa%20teed%20(LV%20remix))
 - Kalli Talonpoika — Kaua — saade 21 · 2024-10-04
@@ -84,33 +71,20 @@ Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
   - `ac3547be-tont-paevalill-kuuvalgel` · [YouTube](https://www.youtube.com/results?search_query=Tont%20P%C3%A4evalill%20kuuvalgel) · [Spotify](https://open.spotify.com/search/Tont%20P%C3%A4evalill%20kuuvalgel)
 - Valge Tüdruk — Tere, päevik! — saade 16 · 2024-06-21
   - `d99cdf2c-merit-maarits-valge-tudruk-tere-paevik` · [YouTube](https://www.youtube.com/results?search_query=Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!) · [Spotify](https://open.spotify.com/search/Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!)
-- Avemaria — Diskoteek — saade 16 · 2024-06-21
-  - `d99cdf2c-raul-saaremets-avemaria-diskoteek` · [YouTube](https://www.youtube.com/results?search_query=Avemaria%20Diskoteek) · [Spotify](https://open.spotify.com/search/Avemaria%20Diskoteek)
 - Nondi_ — pls just shut the fuck up — saade 16 · 2024-06-21
   - `d99cdf2c-valner-valme-nondi-pls-just-shut-the-fuck-up` · [YouTube](https://www.youtube.com/results?search_query=Nondi_%20pls%20just%20shut%20the%20fuck%20up) · [Spotify](https://open.spotify.com/search/Nondi_%20pls%20just%20shut%20the%20fuck%20up)
-- Saaremets — Kõik saab korda — saade 10 · 2024-05-10
-  - `32d48ca9-saaremets-koik-saab-korda` · [YouTube](https://www.youtube.com/results?search_query=Saaremets%20K%C3%B5ik%20saab%20korda) · [Spotify](https://open.spotify.com/search/Saaremets%20K%C3%B5ik%20saab%20korda)
-- Mari Liis x Rhei x Caater — II Dimensioon — saade 9 · 2024-05-03
-  - `80e27b14-mari-liis-x-rhei-x-caater-ii-dimensioon` · [YouTube](https://www.youtube.com/results?search_query=Mari%20Liis%20x%20Rhei%20x%20Caater%20II%20Dimensioon) · [Spotify](https://open.spotify.com/search/Mari%20Liis%20x%20Rhei%20x%20Caater%20II%20Dimensioon)
 - Kergo Klubi — Kergo Klubi räpp — saade 5 · 2024-04-05
   - `bf14f06b-kergo-klubi-kergo-klubi-rapp` · [YouTube](https://www.youtube.com/results?search_query=Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp) · [Spotify](https://open.spotify.com/search/Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp)
-- Vimka — Kevadpäike — saade 1 · 2024-03-08
-  - `18b69b06-vimka-kevadpaike` · [YouTube](https://www.youtube.com/results?search_query=Vimka%20Kevadp%C3%A4ike) · [Spotify](https://open.spotify.com/search/Vimka%20Kevadp%C3%A4ike)
 
 ## 4. YouTube veel otsimata
 
-40 lugu, päevakvoot 90 → ~1 päeva.
+35 lugu, päevakvoot 90 → ~1 päeva.
 Spotify link on neil olemas, nii et lehel on lugu kuulatav.
 
 ```bash
 npm run resolve:youtube && npm run build:data && npm run deploy
 ```
 
-- Heleenyum ft. Mcandthat — Disappear — saade 27 · 2024-11-15
-- Central Cee — One By One — saade 27 · 2024-11-15
-- villemdrillem, pluuto — goyard — saade 26 · 2024-11-08
-- LCD Soundsystem — X-Ray Eyes — saade 26 · 2024-11-08
-- Põhja Konn — Hingedepäev — saade 26 · 2024-11-08
 - Lola Young, Lil Yachty — Charlie — saade 26 · 2024-11-08
 - motonormal — cocacolastic — saade 25 · 2024-11-01
 - Tyler, the Creator — I Hope You Find Your Way Home — saade 25 · 2024-11-01
