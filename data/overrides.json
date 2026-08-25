@@ -7,7 +7,7 @@
   ],
   "episodes": {
     "51067548-b2d2-4c49-b3db-e445a68c3a05": {
-      "_note": "Proosavormis hooaja viimane saade — igal kriitikul oma lemmik, nimekirja pole. Sisestatud kirjelduse põhjal.",
+      "_note": "Delfi nimetas esitajaks Perfectionisti — lugu on Ratkilleri oma. Sama nimi seisis ka saate pealkirjas ja kirjelduses.",
       "songs": [
         {
           "artists": [
@@ -39,6 +39,16 @@
           "title": "Blood Victory",
           "chooser": "Raul Saaremets"
         }
+      ],
+      "textFixes": [
+        [
+          "Perfectionisti",
+          "Ratkilleri"
+        ],
+        [
+          "Perfectionist",
+          "Ratkiller"
+        ]
       ]
     },
     "a84e0286-f21b-49d1-bc9f-240683eff0c4": {

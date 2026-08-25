@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:16:48.996Z",
+  "generatedAt": "2026-08-25T19:29:23.642Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -25,11 +25,11 @@
   "episodes": [
     {
       "guid": "51067548-b2d2-4c49-b3db-e445a68c3a05",
-      "title": "Aasta seni parimad lood on teinud An-Marlen ja Kermo Murel, SKIZØ, Anna Himma ja Perfectionist",
+      "title": "Aasta seni parimad lood on teinud An-Marlen ja Kermo Murel, SKIZØ, Anna Himma ja Ratkiller",
       "publishedAt": "2026-06-17T20:00:00.000Z",
       "duration": "01:17:17",
       "durationSeconds": 4637,
-      "description": "Hooaja viimases „Muusikanõunikes“ vaadeldakse popmuusika aasta 2026 esimesi kuid ning saateosalised on toonud kuulamiseks kaasa oma poolaasta lemmikpalad Eesti muusikast.\n\nKriitik Siim Nestor mängib kolleegidele An-Marleni ja Kermo Mureli ühist pop-elektroonika singlit „Tähtede eest”.\n\nValner Valme paneb hindamisele aga Pärnu räppari SKIZØ pala „2kätt” artisti maikuus ilmunud albumilt „Neetud Ühiskond vol 2”\n\nPüsikriitik Merit Maarit pakub saatekaaslastele arvustamiseks alles selle nädala alguses ilmunud videolavastaja Anna Himma debüütpala „Get Summer!”.\n\nSaatejuht Raul Saaremets paneb aga lauale Perfectionisti pala „Blood Victory”, mis on muusiku Mihkel Kleisi uus projekt ning mida Saaremets nägi mõned päevad tagasi live’is.\n\nMilline lugu võitis? Kuula podcastist!\n\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\n\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "description": "Hooaja viimases „Muusikanõunikes“ vaadeldakse popmuusika aasta 2026 esimesi kuid ning saateosalised on toonud kuulamiseks kaasa oma poolaasta lemmikpalad Eesti muusikast.\n\nKriitik Siim Nestor mängib kolleegidele An-Marleni ja Kermo Mureli ühist pop-elektroonika singlit „Tähtede eest”.\n\nValner Valme paneb hindamisele aga Pärnu räppari SKIZØ pala „2kätt” artisti maikuus ilmunud albumilt „Neetud Ühiskond vol 2”\n\nPüsikriitik Merit Maarit pakub saatekaaslastele arvustamiseks alles selle nädala alguses ilmunud videolavastaja Anna Himma debüütpala „Get Summer!”.\n\nSaatejuht Raul Saaremets paneb aga lauale Ratkilleri pala „Blood Victory”, mis on muusiku Mihkel Kleisi uus projekt ning mida Saaremets nägi mõned päevad tagasi live’is.\n\nMilline lugu võitis? Kuula podcastist!\n\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\n\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/51067548-b2d2-4c49-b3db-e445a68c3a05/file/42463d36-9aba-477f-86df-7064b1ee4aea.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/51067548-b2d2-4c49-b3db-e445a68c3a05",
