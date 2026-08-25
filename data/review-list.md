@@ -7,7 +7,7 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Kahtlane link üleval | 9 |
 | Pakkumine olemas, link puudub | 38 |
 | Kumbki link puudub | 12 |
-| YouTube veel otsimata | 61 |
+| YouTube veel otsimata | 45 |
 
 ## 1. Kahtlane link on üleval
 
@@ -224,7 +224,7 @@ Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
 ## 4. YouTube veel otsimata
 
-61 lugu, päevakvoot 90 → ~1 päeva.
+45 lugu, päevakvoot 90 → ~1 päeva.
 Spotify link on neil olemas, nii et lehel on lugu kuulatav.
 
 ```bash
@@ -275,23 +275,7 @@ npm run resolve:youtube && npm run build:data && npm run deploy
 - beebi, jonts — broken hearts — saade 9 · 2024-05-03
 - Mark Knopfler — Before My Train Comes — saade 9 · 2024-05-03
 - RAIN X INGRA — Seek and You Shall Find — saade 8 · 2024-04-26
-- Artemas — i like the way you kiss me — saade 8 · 2024-04-26
-- lepin, Yshiroma — kalkuleeritudrynnak — saade 8 · 2024-04-26
-- Darkthrone — Black Dawn Affiliation — saade 8 · 2024-04-26
-- EiK & boipepperoni — Armastatud — saade 7 · 2024-04-19
-- Vegyn & John Glacier — The Dream Goes On Forever — saade 7 · 2024-04-19
-- NM Barramundi & Coffin-Dodger — Mitsubishi Freestyle — saade 7 · 2024-04-19
-- The Libertines — Merry Old England — saade 7 · 2024-04-19
 - Skuuba — Kuidas sul on läind? — saade 6 · 2024-04-12
-- Jessica Pratt — World on a String — saade 6 · 2024-04-12
-- Liis Lemsalu — Silmad lahti — saade 6 · 2024-04-12
-- Charli XCX — Club Classics — saade 6 · 2024-04-12
-- Buzhold — Morlort — saade 5 · 2024-04-05
-- Tyla feat. Tems — No.1 — saade 5 · 2024-04-05
-- Lolina — Rules of the Game — saade 5 · 2024-04-05
-- Florian Wahl — Jõusaal — saade 4 · 2024-03-29
-- Arop — Aamen — saade 2 · 2024-03-15
-- Ariana Grande — The Boy Is Mine — saade 2 · 2024-03-15
 
 ---
 
