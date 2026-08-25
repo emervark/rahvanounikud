@@ -7,7 +7,7 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Kahtlane link üleval | 9 |
 | Pakkumine olemas, link puudub | 38 |
 | Kumbki link puudub | 12 |
-| YouTube veel otsimata | 70 |
+| YouTube veel otsimata | 61 |
 
 ## 1. Kahtlane link on üleval
 
@@ -224,7 +224,7 @@ Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
 ## 4. YouTube veel otsimata
 
-70 lugu, päevakvoot 90 → ~1 päeva.
+61 lugu, päevakvoot 90 → ~1 päeva.
 Spotify link on neil olemas, nii et lehel on lugu kuulatav.
 
 ```bash
@@ -290,15 +290,6 @@ npm run resolve:youtube && npm run build:data && npm run deploy
 - Tyla feat. Tems — No.1 — saade 5 · 2024-04-05
 - Lolina — Rules of the Game — saade 5 · 2024-04-05
 - Florian Wahl — Jõusaal — saade 4 · 2024-03-29
-- Four Tet — So Blue — saade 4 · 2024-03-29
-- Marmormaze feat Rara Blue — Underdog — saade 4 · 2024-03-29
-- Future, Metro Boomin, Travis Scott, Playboi Carti — Type Shit — saade 4 · 2024-03-29
-- Kosmikud — Berber — saade 4 · 2024-03-29
-- Manna — Mosaic — saade 3 · 2024-03-22
-- Justin Timberlake — Conditions — saade 3 · 2024-03-22
-- Lil Till & Chillin — Epp Kärsin — saade 3 · 2024-03-22
-- Nick Cave & The Bad Seeds — Wild God — saade 3 · 2024-03-22
-- Night Tapes — Every Day is a Game — saade 3 · 2024-03-22
 - Arop — Aamen — saade 2 · 2024-03-15
 - Ariana Grande — The Boy Is Mine — saade 2 · 2024-03-15
 

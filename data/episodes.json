@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:47:14.700Z",
+  "generatedAt": "2026-08-25T17:50:15.830Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -19,7 +19,7 @@
     "episodes": 91,
     "songs": 376,
     "withSpotify": 338,
-    "withYoutube": 256,
+    "withYoutube": 265,
     "withCriticScore": 0
   },
   "episodes": [
@@ -8519,8 +8519,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3fe878b0-four-tet-so-blue",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "4er2skfzyzc",
           "spotifyId": "0oLurbsZupVj0mUCiWJx2Z",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8539,8 +8540,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3fe878b0-marmormaze-underdog",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "KAlTUQrBqwM",
           "spotifyId": "6i0KanD2X6pQ1hYSe8x70t",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8561,8 +8563,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3fe878b0-future-type-shit",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "I0fgkcTbBoI",
           "spotifyId": "28drn6tQo95MRvO0jQEo5C",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8580,8 +8583,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "3fe878b0-kosmikud-berber",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "eGsNdOhF8gY",
           "spotifyId": "7JQKpKEQXzcqcXSEllXkQ2",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8618,8 +8622,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-manna-mosaic",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "yNiZew_hp_w",
           "spotifyId": "5OG2DLzwji5vogOiPuJjom",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8637,8 +8642,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-justin-timberlake-conditions",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "hPG3x_g2Hro",
           "spotifyId": "7BQdqre9lvLM3HmZ7QPgjU",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8657,8 +8663,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-lil-till-epp-karsin",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "hUQZMhMvRWU",
           "spotifyId": "7urKGFq3ay0988ZIg2jVIS",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8677,8 +8684,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-nick-cave-wild-god",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "uAgsn7la3jg",
           "spotifyId": "1dkZqdTUVdLaPKAO62TT0g",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8696,8 +8704,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "325504f8-night-tapes-every-day-is-a-game",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "XoUvuIx4Bcs",
           "spotifyId": "64ircYoqL31h8dhGPpiUYO",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
