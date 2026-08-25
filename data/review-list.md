@@ -7,7 +7,7 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Kahtlane link üleval | 9 |
 | Pakkumine olemas, link puudub | 38 |
 | Kumbki link puudub | 12 |
-| YouTube veel otsimata | 76 |
+| YouTube veel otsimata | 70 |
 
 ## 1. Kahtlane link on üleval
 
@@ -224,7 +224,7 @@ Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
 ## 4. YouTube veel otsimata
 
-76 lugu, päevakvoot 90 → ~1 päeva.
+70 lugu, päevakvoot 90 → ~1 päeva.
 Spotify link on neil olemas, nii et lehel on lugu kuulatav.
 
 ```bash
@@ -301,12 +301,6 @@ npm run resolve:youtube && npm run build:data && npm run deploy
 - Night Tapes — Every Day is a Game — saade 3 · 2024-03-22
 - Arop — Aamen — saade 2 · 2024-03-15
 - Ariana Grande — The Boy Is Mine — saade 2 · 2024-03-15
-- Winny Puhh — Suusasõit — saade 2 · 2024-03-15
-- Kim Gordon — I’m a Man — saade 2 · 2024-03-15
-- Karl Killing — vastased — saade 1 · 2024-03-08
-- DJ Arana — Mini Game dos Taliba — saade 1 · 2024-03-08
-- Beyoncé — TEXAS HOLD’EM — saade 1 · 2024-03-08
-- maria kallastu, boipepperoni — säran — saade 1 · 2024-03-08
 
 ---
 

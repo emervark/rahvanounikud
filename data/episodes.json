@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:31:17.059Z",
+  "generatedAt": "2026-08-25T17:32:28.912Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -19,7 +19,7 @@
     "episodes": 91,
     "songs": 376,
     "withSpotify": 338,
-    "withYoutube": 250,
+    "withYoutube": 256,
     "withCriticScore": 0
   },
   "episodes": [
@@ -8772,8 +8772,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "93ad6a77-winny-puhh-suusasoit",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "EEaemiPyWRk",
           "spotifyId": "4dXD60j0LR6JcKCSElOIFz",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8791,8 +8792,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "93ad6a77-kim-gordon-i-m-a-man",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "ioKP3ORu0QY",
           "spotifyId": "53f8auncprn9sIQjlkgd45",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8827,8 +8829,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "18b69b06-karl-killing-vastased",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "kIxuqfwPgFU",
           "spotifyId": "36IWOSMfnVUa0hhKfPpHwi",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8846,8 +8849,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "18b69b06-dj-arana-mini-game-dos-taliba",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "ZiZZbj29Qcg",
           "spotifyId": "4et7ZTuT9TespQC3LbXulm",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8884,8 +8888,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "18b69b06-beyonce-texas-hold-em",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "238Z4YaAr1g",
           "spotifyId": "0Z7nGFVCLfixWctgePsRk9",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8904,8 +8909,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "18b69b06-maria-kallastu-saran",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "v0ZkqYXQFz8",
           "spotifyId": "7Bb8pvrG3NSGdyteD2g7iX",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
