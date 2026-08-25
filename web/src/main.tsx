@@ -11,6 +11,7 @@ import { Episodes } from './pages/Episodes';
 import { EpisodePage } from './pages/EpisodePage';
 import { SongPage } from './pages/SongPage';
 import { Leaderboard } from './pages/Leaderboard';
+import { Stats } from './pages/Stats';
 import { MyRatings } from './pages/MyRatings';
 import { ScrollToTop } from './components/ScrollToTop';
 
@@ -28,6 +29,8 @@ createRoot(document.getElementById('root')!).render(
               <Route path="lugu/:songId" element={<SongPage />} />
               <Route path="edetabel" element={<Leaderboard />} />
               <Route path="minu-hinded" element={<MyRatings />} />
+              {/* Sisemine vaade, võtme taga ja kuskilt lingitud ei ole. */}
+              <Route path="statistika" element={<Stats />} />
               <Route path="*" element={<Home />} />
             </Route>
           </Routes>

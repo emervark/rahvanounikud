@@ -4,6 +4,7 @@ import { EpisodeCard } from '../components/EpisodeCard';
 import { PageState } from '../components/PageState';
 import { DitherField } from '../components/DitherField';
 import { SectionTag } from '../components/SectionTag';
+import { LatestComments } from '../components/LatestComments';
 import { allSongs } from '../data';
 import { useRatings } from '../ratings';
 
@@ -158,6 +159,9 @@ export function Home() {
         <section className="panel panel--ink panel--flat dither-panel">
           <DitherField strength={0.55} speed={0.035} pixel={5} colorNum={2} />
         </section>
+
+        {/* Vestlus üle bento laiuse. Tühjana ei renderdu. */}
+        <LatestComments data={data} />
       </div>
 
       <div className="shead">
