@@ -759,8 +759,51 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
    kumbki mängija teadma, kas tal on naaber. */
 .embeds { display: flex; flex-direction: column; gap: 16px; }
 
-/* Kompaktne hinne on ainult kitsal ekraanil; laual on plaat loo kõrval. */
+/* Kompaktne hinne on ainult kitsal ekraanil; laual on plaat loo kõrval.
+   Raam on sama malelaud mis plaadil, aga CSS-i muster, mitte WebGL — plaat
+   jääb mobiilis peitu koos oma lõuendiga ja teine lõuend iga loo kohta oleks
+   saate lehel juba brauseri WebGL-piiri lähedal. */
 .scoretag { display: none; }
+
+.scoretag {
+  width: 104px;
+  flex: none;
+  padding: 6px;
+  border: 1px solid var(--line);
+  background:
+    repeating-conic-gradient(var(--ink) 0% 25%, var(--paper) 0% 50%) 0 0 / 5px 5px;
+}
+
+.scoretag__card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  padding: 8px 8px 9px;
+}
+
+.scoretag__value { font-size: 30px; font-weight: 400; letter-spacing: -0.04em; line-height: 1; }
+.scoretag__value--empty { color: rgba(21, 21, 21, 0.4); }
+.scoretag__label { font-size: 9px; letter-spacing: 1.4px; margin-top: 5px; }
+.scoretag__votes {
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  margin-top: 5px;
+  border-top: 1px solid rgba(21, 21, 21, 0.3);
+  padding-top: 4px;
+}
+
+.scoretag__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px;
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  margin-top: 5px;
+  border-top: 1px solid rgba(21, 21, 21, 0.3);
+  padding-top: 4px;
+}
+.scoretag__row b { font-size: 15px; font-weight: 500; letter-spacing: -0.02em; }
+.scoretag__critics { color: var(--accent-ink); }
 .embed-frame { border: none; width: 100%; display: block; }
 
 /* ── Saate lehe päis ──────────────────────────────────────────────────────── */
@@ -1251,20 +1294,17 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
      korda. */
   .song__body .plate { display: none; }
 
-  .scoretag {
-    display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 6px 16px;
-    margin-top: 11px;
-    border-top: 1px solid var(--rule-dash);
-    padding-top: 10px;
+  /* Pealkirjaplokk vasakule, hinderuut paremale. Kolmas rida (kuulamislingid)
+     läheb yle mõlema veeru. */
+  .song__head, .songpage__head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 14px;
+    align-items: start;
   }
-  .scoretag__cell { display: flex; align-items: baseline; gap: 5px; }
-  .scoretag__cell b { font-size: 21px; font-weight: 500; letter-spacing: -0.03em; line-height: 1; }
-  .scoretag__cell .mono { font-size: 9px; letter-spacing: 1.4px; }
-  .scoretag__none { color: rgba(21, 21, 21, 0.4); }
-  .scoretag__critics { color: var(--accent-ink); }
+  .song__headmain { grid-column: 1; min-width: 0; }
+  .scoretag { display: block; grid-column: 2; grid-row: 1; }
+  .song__head .listen-row, .songpage__head .listen-row { grid-column: 1 / -1; }
   .chart-head, .chart-row { grid-template-columns: 54px 1fr 92px 34px; }
   .chart-head span:nth-child(3), .chart-row__mine { display: none; }
   /* Kitsas ekraanis ei mahu kolm arvu kõrvuti — nõunike skoor on loo lehel */

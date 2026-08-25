@@ -52,9 +52,11 @@ export function SongPage() {
         </Link>
 
         <div className="songpage__head">
-          <div className="mono" style={{ marginBottom: 12 }}>{meta}</div>
-          <h1 className="songpage__title">{song.title}</h1>
-          <div className="songpage__artist">{song.artistsRaw}</div>
+          <div className="song__headmain">
+            <div className="mono" style={{ marginBottom: 12 }}>{meta}</div>
+            <h1 className="songpage__title">{song.title}</h1>
+            <div className="songpage__artist">{song.artistsRaw}</div>
+          </div>
           <ScoreTag
             stats={stats[song.id]}
             criticScore={song.criticScore}

@@ -85,13 +85,17 @@ export function ScorePlate({
 }
 
 /**
- * Kompaktne hinne pealkirja juures, ainult kitsale ekraanile.
+ * Kompaktne hinne pealkirja kõrval, ainult kitsale ekraanile.
  *
  * Laual istub plaat loo kõrval ja on kohe näha. Mobiilis lükkasid mängijad ta
- * pealkirjast ligi 700 pikslit allapoole — hinnet ei näinud enne, kui olid
- * kaks mängijat läbi kerinud. Siin on samad arvud ühel real, seal kus loo
- * nimi on. Plaat ise on kitsal ekraanil peidus, et sama arv ei seisaks kaks
- * korda.
+ * lehe lõppu — hinnet ei näinud enne, kui olid mõlemad mängijad läbi
+ * kerinud. Siin on sama asi väiksena, pealkirja kõrval.
+ *
+ * Raam on sama motiiv mis plaadil, aga CSS-i malelaud, mitte WebGL. Plaat on
+ * mobiilis peidus, mitte eemaldatud, ja tema dither-lõuend jookseb edasi;
+ * teine lõuend iga loo kohta tähendaks saate lehel kaheksat WebGL-konteksti,
+ * mis on juba brauseri piiri lähedal. Staatiline muster näeb selles suuruses
+ * niikuinii sama välja.
  */
 export function ScoreTag({
   stats,
@@ -106,26 +110,27 @@ export function ScoreTag({
 
   return (
     <div className="scoretag">
-      <span className="scoretag__cell">
-        <b className={hasVotes ? undefined : 'scoretag__none'}>
+      <div className="scoretag__card">
+        <div className={`scoretag__value${hasVotes ? '' : ' scoretag__value--empty'}`}>
           {hasVotes ? fmt(stats.average) : '—'}
-        </b>
-        <span className="mono">{hasVotes ? votes(stats.count) : 'hindamata'}</span>
-      </span>
+        </div>
+        <div className="mono scoretag__label">Rahvas</div>
+        <div className="mono scoretag__votes">
+          {hasVotes ? votes(stats.count) : 'hindamata'}
+        </div>
 
-      {myScore !== undefined && (
-        <span className="scoretag__cell">
-          <b>{myScore}</b>
-          <span className="mono">sina</span>
-        </span>
-      )}
+        {myScore !== undefined && (
+          <div className="mono scoretag__row">
+            <span>Sina</span><b>{myScore}</b>
+          </div>
+        )}
 
-      {criticScore != null && (
-        <span className="scoretag__cell">
-          <b className="scoretag__critics">{fmt(criticScore)}</b>
-          <span className="mono">nõunikud</span>
-        </span>
-      )}
+        {criticScore != null && (
+          <div className="mono scoretag__row">
+            <span>Nõun.</span><b className="scoretag__critics">{fmt(criticScore)}</b>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

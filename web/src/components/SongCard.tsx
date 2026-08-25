@@ -66,9 +66,11 @@ export function SongCard({ song, index }: { song: Song; index: number }) {
   return (
     <article className="song">
       <div className="song__head">
-        <div className="mono" style={{ marginBottom: 8 }}>{meta}</div>
-        <h3><Link to={`/lugu/${song.id}`}>{song.title}</Link></h3>
-        <div className="song__artist">{song.artistsRaw}</div>
+        <div className="song__headmain">
+          <div className="mono" style={{ marginBottom: 8 }}>{meta}</div>
+          <h3><Link to={`/lugu/${song.id}`}>{song.title}</Link></h3>
+          <div className="song__artist">{song.artistsRaw}</div>
+        </div>
         <ScoreTag
           stats={stats[song.id]}
           criticScore={song.criticScore}
