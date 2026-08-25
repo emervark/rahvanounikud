@@ -149,7 +149,7 @@ const KEST = (a) => `
       Keskmine arvutatakse kohe ise.
     </p>
     <p class="note">
-      Skaala on 1–10, pool palli lubatud. Kes saates ei osalenud või kelle
+      Skaala on 1–10, ainult täisnumbrid. Kes saates ei osalenud või kelle
       hinne jäi kuulmata, jäta tühjaks — keskmine arvestab ainult täidetud
       lahtreid. Enter viib järgmisse lahtrisse.
     </p>

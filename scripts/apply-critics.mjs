@@ -22,11 +22,11 @@ async function readJson(file, fallback) {
   return JSON.parse(await fs.readFile(file, 'utf8'));
 }
 
-/** Ainult 1–10 vahemikus arvud pääsevad läbi. */
+/** Ainult täisnumbrid 1–10 pääsevad läbi. */
 function puhasta(rida) {
   const välja = {};
   for (const [nimi, v] of Object.entries(rida ?? {})) {
-    if (typeof v === 'number' && Number.isFinite(v) && v >= 1 && v <= 10) välja[nimi] = v;
+    if (Number.isInteger(v) && v >= 1 && v <= 10) välja[nimi] = v;
   }
   return välja;
 }

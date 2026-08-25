@@ -157,7 +157,7 @@ function tabel(saade) {
          teaks keegi, kelle hinnet ta parajasti kirjutab. */
       h += '<span class="veerg" role="cell" data-silt="' + esc(lühike(nimi)) + '">'
         + '<input class="hinne" type="number" min="1" max="10"'
-        + ' step="0.5" inputmode="decimal" aria-label="' + esc(nimi + ': ' + lugu.pealkiri) + '"'
+        + ' step="1" inputmode="numeric" aria-label="' + esc(nimi + ': ' + lugu.pealkiri) + '"'
         + ' data-lugu="' + esc(lugu.id) + '" data-nimi="' + esc(nimi) + '"'
         + ' value="' + (typeof v === 'number' ? v : '') + '"></span>';
     }
@@ -233,9 +233,19 @@ document.addEventListener('input', (e) => {
   if (!el) return;
   const tekst = el.value.trim();
   let v = null;
+  /* Number-välja value on tühi ka siis, kui brauser sisestust ei suutnud
+     lugeda — nii juhtub näiteks „7,5" kleepimisel. Ilma selle kontrollita
+     kustutaks selline kleepimine vaikselt lahtris juba olnud hinde. */
+  if (tekst === '' && el.validity && el.validity.badInput) {
+    el.classList.add('vigane');
+    return;
+  }
   if (tekst !== '') {
-    const n = Number(tekst.replace(',', '.'));
-    if (!Number.isFinite(n) || n < 1 || n > 10) { el.classList.add('vigane'); return; }
+    /* Ainult täisnumbrid 1–10 — nõunikud annavad täispalle. Poolik väärtus
+       jääb lahtrisse punasena seisma, mitte ei kao: nii näeb sisestaja, et see
+       arv sisse ei läinud. */
+    const n = Number(tekst);
+    if (!Number.isInteger(n) || n < 1 || n > 10) { el.classList.add('vigane'); return; }
     v = n;
   }
   el.classList.remove('vigane');
