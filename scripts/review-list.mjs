@@ -26,6 +26,23 @@ function searchUrl(base, song) {
 const YT_SEARCH = 'https://www.youtube.com/results?search_query=';
 const SP_SEARCH = 'https://open.spotify.com/search/';
 
+/**
+ * Varem lehele tehtud kinnitused.
+ *
+ * Neid hoiab avaldatud leht ise, aga kohalik fail on see, millest järgmine
+ * versioon sünnib. Ilma selleta pühiks iga `npm run review` kellegi töö ära —
+ * nimekiri läheks uuemaks ja kinnitused kaoksid.
+ */
+async function loeOtsused() {
+  try {
+    const html = await fs.readFile(paths.reviewPage, 'utf8');
+    const m = html.match(/<script type="application\/json" id="otsused">([\s\S]*?)<\/script>/);
+    return m ? JSON.parse(m[1].replace(/\\u003c/g, '<')) : {};
+  } catch {
+    return {};
+  }
+}
+
 function fmt(n) {
   return n === undefined || n === null ? '—' : n.toFixed(2).replace('.', ',');
 }
@@ -191,6 +208,7 @@ async function main() {
       threshold: String(CONFIDENCE_THRESHOLD).replace('.', ','),
       shaky: String(SHAKY).replace('.', ','),
       naidisId: wrong[0]?.song.id ?? guess[0]?.song.id ?? 'loo-id-siia',
+      otsused: await loeOtsused(),
     },
   }), 'utf8');
 

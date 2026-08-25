@@ -157,8 +157,11 @@ async function main() {
       const fix = overrides.songs?.[song.id] ?? {};
       Object.assign(song, fix);
 
-      song.spotifyId = fix.spotifyId ?? spotify[song.id]?.id ?? null;
-      song.youtubeId = fix.youtubeId ?? youtube[song.id]?.id ?? null;
+      // Selgesõnaline null tähendab „see link on vale, ära näita" — seepärast
+      // vaatame võtme olemasolu, mitte väärtuse tõesust. `??` laseks nulli
+      // läbi vahemälu juurde tagasi ja vale link tuleks kohe uuesti üles.
+      song.spotifyId = 'spotifyId' in fix ? fix.spotifyId : (spotify[song.id]?.id ?? null);
+      song.youtubeId = 'youtubeId' in fix ? fix.youtubeId : (youtube[song.id]?.id ?? null);
       // Kriitikute hinne tuleb ainult käsitsi — feedis seda ei ole.
       // Lubatud on üks number või kriitikute kaupa; viimasest arvutame keskmise
       // ja jätame ka üksikhinded alles, et lehel saaks näidata, kes mida arvas.
