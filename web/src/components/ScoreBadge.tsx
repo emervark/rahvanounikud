@@ -84,6 +84,52 @@ export function ScorePlate({
   );
 }
 
+/**
+ * Kompaktne hinne pealkirja juures, ainult kitsale ekraanile.
+ *
+ * Laual istub plaat loo kõrval ja on kohe näha. Mobiilis lükkasid mängijad ta
+ * pealkirjast ligi 700 pikslit allapoole — hinnet ei näinud enne, kui olid
+ * kaks mängijat läbi kerinud. Siin on samad arvud ühel real, seal kus loo
+ * nimi on. Plaat ise on kitsal ekraanil peidus, et sama arv ei seisaks kaks
+ * korda.
+ */
+export function ScoreTag({
+  stats,
+  criticScore,
+  myScore,
+}: {
+  stats: SongStats | undefined;
+  criticScore?: number | null;
+  myScore?: number;
+}) {
+  const hasVotes = stats !== undefined && stats.count > 0;
+
+  return (
+    <div className="scoretag">
+      <span className="scoretag__cell">
+        <b className={hasVotes ? undefined : 'scoretag__none'}>
+          {hasVotes ? fmt(stats.average) : '—'}
+        </b>
+        <span className="mono">{hasVotes ? votes(stats.count) : 'hindamata'}</span>
+      </span>
+
+      {myScore !== undefined && (
+        <span className="scoretag__cell">
+          <b>{myScore}</b>
+          <span className="mono">sina</span>
+        </span>
+      )}
+
+      {criticScore != null && (
+        <span className="scoretag__cell">
+          <b className="scoretag__critics">{fmt(criticScore)}</b>
+          <span className="mono">nõunikud</span>
+        </span>
+      )}
+    </div>
+  );
+}
+
 /** Kompaktne koondhinne edetabelis, kus dither-plaat oleks liiga lärmakas. */
 export function CommunityScore({ stats }: { stats: SongStats | undefined }) {
   const hasVotes = stats !== undefined && stats.count > 0;

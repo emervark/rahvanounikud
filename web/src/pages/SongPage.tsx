@@ -7,6 +7,7 @@ import { RatingBar } from '../components/RatingBar';
 import { Comments } from '../components/Comments';
 import { useRatings } from '../ratings';
 import { allSongs, formatDate, songLabel } from '../data';
+import { SongEmbeds } from '../components/SongEmbeds';
 
 /**
  * Ühe loo leht.
@@ -75,28 +76,7 @@ export function SongPage() {
         {/* Mängija, hindamisriba ja hindeplaat algavad ühelt jooneltt */}
         <div className="songpage__body">
           <div className="songpage__player">
-            {song.spotifyId && (
-              <iframe
-                className="embed-frame"
-                style={{ height: 152, marginTop: 0 }}
-                src={`https://open.spotify.com/embed/track/${song.spotifyId}?utm_source=generator`}
-                title={`Spotify: ${songLabel(song)}`}
-                loading="lazy"
-                allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              />
-            )}
-
-            {song.youtubeId && (
-              <iframe
-                className="embed-frame"
-                style={{ aspectRatio: '16 / 9' }}
-                src={`https://www.youtube-nocookie.com/embed/${song.youtubeId}`}
-                title={`YouTube: ${songLabel(song)}`}
-                loading="lazy"
-                allow="accelerometer; encrypted-media; picture-in-picture"
-                allowFullScreen
-              />
-            )}
+            <SongEmbeds song={song} />
 
             <RatingBar songId={song.id} label={songLabel(song)} />
           </div>

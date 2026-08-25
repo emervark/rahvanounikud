@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import type { Song } from '../types';
 import { useRatings } from '../ratings';
 import { RatingBar } from './RatingBar';
-import { ScorePlate } from './ScoreBadge';
+import { ScorePlate, ScoreTag } from './ScoreBadge';
 import { Comments } from './Comments';
+import { SongEmbeds } from './SongEmbeds';
 import { songLabel } from '../data';
 import { useCommentCounts } from '../comments';
 
@@ -50,45 +51,6 @@ function ListenOptions({
   );
 }
 
-/** Mängijad eraldi, sest need istuvad hindeplaadiga samas reas. */
-function SongEmbeds({ song }: { song: Song }) {
-  const [showYoutube, setShowYoutube] = useState(false);
-
-  return (
-    <>
-      {song.spotifyId && (
-        <iframe
-          className="embed-frame"
-          style={{ height: 152, marginTop: 0 }}
-          src={`https://open.spotify.com/embed/track/${song.spotifyId}?utm_source=generator`}
-          title={`Spotify: ${songLabel(song)}`}
-          loading="lazy"
-          allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        />
-      )}
-
-      {song.youtubeId && !showYoutube && song.spotifyId && (
-        <button type="button" className="listen-link" style={{ marginTop: 10 }}
-                onClick={() => setShowYoutube(true)}>
-          Näita YouTube'i videot
-        </button>
-      )}
-
-      {song.youtubeId && (showYoutube || !song.spotifyId) && (
-        <iframe
-          className="embed-frame"
-          style={{ aspectRatio: '16 / 9' }}
-          src={`https://www.youtube-nocookie.com/embed/${song.youtubeId}`}
-          title={`YouTube: ${songLabel(song)}`}
-          loading="lazy"
-          allow="accelerometer; encrypted-media; picture-in-picture"
-          allowFullScreen
-        />
-      )}
-    </>
-  );
-}
-
 export function SongCard({ song, index }: { song: Song; index: number }) {
   const { stats, mine } = useRatings();
   const commentCounts = useCommentCounts();
@@ -107,6 +69,11 @@ export function SongCard({ song, index }: { song: Song; index: number }) {
         <div className="mono" style={{ marginBottom: 8 }}>{meta}</div>
         <h3><Link to={`/lugu/${song.id}`}>{song.title}</Link></h3>
         <div className="song__artist">{song.artistsRaw}</div>
+        <ScoreTag
+          stats={stats[song.id]}
+          criticScore={song.criticScore}
+          myScore={mine[song.id]}
+        />
         <ListenOptions
           song={song}
           comments={comments}

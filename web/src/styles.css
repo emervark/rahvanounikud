@@ -755,7 +755,13 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 .listen-link:hover { background: var(--ink); color: var(--paper); }
 
-.embed-frame { border: none; width: 100%; display: block; margin-top: 16px; }
+/* Mängijad virnas. Vahe tuleb gap'ist, mitte margin'ist — nii ei pea
+   kumbki mängija teadma, kas tal on naaber. */
+.embeds { display: flex; flex-direction: column; gap: 16px; }
+
+/* Kompaktne hinne on ainult kitsal ekraanil; laual on plaat loo kõrval. */
+.scoretag { display: none; }
+.embed-frame { border: none; width: 100%; display: block; }
 
 /* ── Saate lehe päis ──────────────────────────────────────────────────────── */
 
@@ -1233,7 +1239,30 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 @media (max-width: 900px) {
   .episode-grid { grid-template-columns: 1fr; gap: 24px; }
   .song__body { grid-template-columns: 1fr; gap: 20px; }
-  .song__body .plate { max-width: 200px; }
+  /* Kitsal ekraanil on video see, mida päriselt vaadatakse — Spotify riba
+     on seal pigem link kui mängija, seega tuleb YouTube ette. */
+  .embeds__yt { order: -1; }
+
+  /* Hinne pealkirja juurde. Mängijad lükkasid plaadi pealkirjast ligi 700
+     pikslit allapoole, ehk hinnet ei näinud enne, kui olid mõlemad mängijad
+     läbi kerinud. Plaat ise läheb siin peitu, et sama arv ei seisaks kaks
+     korda. */
+  .song__body .plate { display: none; }
+
+  .scoretag {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    margin-top: 11px;
+    border-top: 1px solid var(--rule-dash);
+    padding-top: 10px;
+  }
+  .scoretag__cell { display: flex; align-items: baseline; gap: 5px; }
+  .scoretag__cell b { font-size: 21px; font-weight: 500; letter-spacing: -0.03em; line-height: 1; }
+  .scoretag__cell .mono { font-size: 9px; letter-spacing: 1.4px; }
+  .scoretag__none { color: rgba(21, 21, 21, 0.4); }
+  .scoretag__critics { color: var(--accent-ink); }
   .chart-head, .chart-row { grid-template-columns: 54px 1fr 92px 34px; }
   .chart-head span:nth-child(3), .chart-row__mine { display: none; }
   /* Kitsas ekraanis ei mahu kolm arvu kõrvuti — nõunike skoor on loo lehel */
