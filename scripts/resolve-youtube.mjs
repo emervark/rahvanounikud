@@ -145,6 +145,11 @@ async function main() {
   const songs = data.episodes.flatMap((ep) => ep.songs);
   const todo = songs
     .filter((s) => {
+      /* Käsitsi lisatud link ei jäta vahemällu jälge, seega ei tea vahemälu
+         temast midagi. Ilma selle kontrollita otsiks resolver need lood homme
+         uuesti üle ja kuluks kvooti loo peale, mis on juba lahendatud —
+         praegu oleks see 19 otsingut ehk viiendik päevast. */
+      if (s.youtubeId) return false;
       const c = cache[s.id];
       if (!c) return true;
       return retryFailed && !c.id;
