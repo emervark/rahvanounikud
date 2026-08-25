@@ -12,6 +12,8 @@ import { ApiError } from './ratings';
 
 export interface Insights {
   generatedAt: number;
+  /** Mitu häält oli edetabelisse pääsemiseks vaja. */
+  lävi: number;
   kokku: {
     hindeid: number;
     hindajaid: number;
@@ -29,22 +31,36 @@ export interface Insights {
 }
 
 /**
- * Ajaloendurid tahavad kuupäeva SQLite'i kujul. created_at on sekundites, sest
- * nii kirjutab teda ratings.ts — millisekundites tuleks jagada, ja vaikiv
- * ühikuviga oleks siin eriti salakaval: graafik näeks õige välja, aga näitaks
- * 1970. aastat.
+ * created_at on MILLISEKUNDITES — ratings.ts kirjutab sinna Date.now().
+ * SQLite'i unixepoch ootab sekundeid, seega tuleb jagada. Ühikuviga on siin
+ * eriti salakaval: graafik näeb täiesti õige välja, aga rühmitab kõik read
+ * aastasse 58611. Täpselt nii see esimene kord katki oligi.
  */
-const PÄEV = "date(created_at, 'unixepoch')";
-
-/** Vähem kui nii mitu häält ja edetabel räägiks müra, mitte maitse. */
-const LÄVI = 3;
+const PÄEV = "date(created_at / 1000, 'unixepoch')";
 
 async function all<T>(db: D1Database, sql: string, ...bind: unknown[]): Promise<T[]> {
   const r = await db.prepare(sql).bind(...bind).all<T>();
   return r.results ?? [];
 }
 
+/**
+ * Mitu häält peab lool olema, et ta edetabelisse pääseks.
+ *
+ * Kolm on hea lävi, kui hääli on palju — alla selle räägib edetabel müra,
+ * mitte maitse. Aga uuel lehel ei ülata ükski lugu kolmeni ja kõik kolm
+ * edetabelit oleksid tühjad: leht näeks katki, kuigi andmed on olemas.
+ * Seepärast langeb lävi seni, kuni midagi näidata on, ja kasutatud lävi
+ * läheb vastusega kaasa, et lehel saaks seda ausalt välja öelda.
+ */
+async function häälteLävi(db: D1Database): Promise<number> {
+  const r = await db.prepare(`
+    SELECT MAX(n) AS suurim FROM (SELECT COUNT(*) AS n FROM ratings GROUP BY song_id)
+  `).first<{ suurim: number | null }>();
+  return Math.max(1, Math.min(3, r?.suurim ?? 1));
+}
+
 export async function readInsights(db: D1Database, päevi = 30): Promise<Insights> {
+  const LÄVI = await häälteLävi(db);
   const [kokku, päevad, jaotus, top, põhi, vaieldud, aktiivsus] = await Promise.all([
     db.prepare(`
       SELECT
@@ -59,7 +75,7 @@ export async function readInsights(db: D1Database, päevi = 30): Promise<Insight
     all<{ päev: string; hindeid: number; hindajaid: number }>(db, `
       SELECT ${PÄEV} AS päev, COUNT(*) AS hindeid, COUNT(DISTINCT user_id) AS hindajaid
       FROM ratings
-      WHERE created_at >= unixepoch('now', ?)
+      WHERE created_at >= unixepoch('now', ?) * 1000
       GROUP BY päev
       ORDER BY päev
     `, `-${päevi} days`),
@@ -91,7 +107,7 @@ export async function readInsights(db: D1Database, päevi = 30): Promise<Insight
              ROUND(SQRT(MAX(AVG(score * score) - AVG(score) * AVG(score), 0)), 2) AS hajuvus
       FROM ratings GROUP BY song_id HAVING hääli >= ?
       ORDER BY hajuvus DESC, hääli DESC LIMIT 10
-    `, LÄVI + 1),
+    `, LÄVI),
 
     /* Kui palju inimesi on hinnanud mitut lugu — kas rahvas jääb pidama või
        annab ühe hinde ja lahkub. */
@@ -104,6 +120,7 @@ export async function readInsights(db: D1Database, päevi = 30): Promise<Insight
 
   return {
     generatedAt: Date.now(),
+    lävi: LÄVI,
     kokku: kokku ?? {
       hindeid: 0, hindajaid: 0, hinnatudLugusid: 0,
       kommentaare: 0, kontoga: 0, keskmine: null,

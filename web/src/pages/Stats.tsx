@@ -20,6 +20,7 @@ const VÕTI = 'rn-stats-key';
 
 interface Insights {
   generatedAt: number;
+  lävi: number;
   kokku: {
     hindeid: number; hindajaid: number; hinnatudLugusid: number;
     kommentaare: number; kontoga: number; keskmine: number | null;
@@ -109,7 +110,12 @@ export function Stats() {
     );
   }
 
-  const { kokku, päevad, jaotus, top, põhi, vaieldud, aktiivsus } = insights;
+  const { kokku, jaotus, top, põhi, vaieldud, aktiivsus, lävi } = insights;
+  const läviAbi = `vähemalt ${lävi} ${lävi === 1 ? 'hääl' : 'häält'}`;
+  /* Server saadab ainult need päevad, mil midagi juhtus. Graafikule tuleb
+     vahelejäänud päevad nülli peale tagasi panna — muidu seisavad 23. ja 25.
+     kõrvuti, 24. kaob ära ja rida näeb välja nagu katkematu tegevus. */
+  const päevad = täidaPäevad(insights.päevad, 30);
   const suurimPäev = Math.max(1, ...päevad.map((p) => p.hindeid));
   const suurimHinne = Math.max(1, ...jaotus.map((j) => j.mitu));
   const ühekordsed = aktiivsus.find((a) => a.hindeid === 1)?.hindajaid ?? 0;
@@ -144,10 +150,13 @@ export function Stats() {
       <Plokk pealkiri="Hindeid päevas" abi="viimased 30 päeva">
         {päevad.length === 0 ? <Tühi /> : (
           <div className="tulbad">
-            {päevad.map((p) => (
+            {päevad.map((p, i) => (
               <div className="tulp" key={p.päev} title={`${p.päev}: ${p.hindeid} hinnet, ${p.hindajaid} hindajat`}>
                 <span className="tulp__joon" style={{ height: `${(p.hindeid / suurimPäev) * 100}%` }} />
-                <span className="tulp__silt mono">{p.päev.slice(8)}</span>
+                {/* Iga viies kuupäev sildiks — 30 numbrit kõrvuti oleks loetamatu. */}
+                <span className="tulp__silt mono">
+                  {i % 5 === 0 || i === päevad.length - 1 ? p.päev.slice(8) : ''}
+                </span>
               </div>
             ))}
           </div>
@@ -175,16 +184,23 @@ export function Stats() {
       <Plokk pealkiri="Kui palju keegi hindab" abi="hindajad hinnete arvu järgi">
         {aktiivsus.length === 0 ? <Tühi /> : (
           <p className="note">
-            <b>{arv(ühekordsed)}</b> hindajat on andnud täpselt ühe hinde.{' '}
+            <b>{arv(ühekordsed)}</b> {ühekordsed === 1 ? 'hindaja' : 'hindajat'} on andnud
+            täpselt ühe hinde.{' '}
             Kõige agaram on andnud <b>{arv(Math.max(...aktiivsus.map((a) => a.hindeid)))}</b>.{' '}
             Mediaan on <b>{arv(mediaan(aktiivsus))}</b> hinnet hindaja kohta.
           </p>
         )}
       </Plokk>
 
-      <Edetabel pealkiri="Rahva lemmikud" read={top} nimed={nimed} />
-      <Edetabel pealkiri="Kõige madalamad" read={põhi} nimed={nimed} />
-      <Edetabel pealkiri="Kõige vaieldavamad" abi="suurim hajuvus hinnetes" read={vaieldud} nimed={nimed} hajuvus />
+      <Edetabel pealkiri="Rahva lemmikud" abi={läviAbi} read={top} nimed={nimed} />
+      <Edetabel pealkiri="Kõige madalamad" abi={läviAbi} read={põhi} nimed={nimed} />
+      <Edetabel
+        pealkiri="Kõige vaieldavamad"
+        abi={`suurim hajuvus, ${läviAbi}`}
+        read={vaieldud}
+        nimed={nimed}
+        hajuvus
+      />
 
       <div className="stat-row">
         <button
@@ -197,6 +213,30 @@ export function Stats() {
       </div>
     </>
   );
+}
+
+/**
+ * Täidab vahelejäänud päevad nüllidega, et ajarida oleks ühtlase sammuga.
+ *
+ * Kuupäevad tulevad serverist YYYY-MM-DD kujul UTC järgi, seega tuleb ka siin
+ * UTC-s liikuda. Kohaliku aja kasutamine nihutaks suveajal kogu rea ühe päeva
+ * võrra paigast — vaikselt ja ainult pool aastat.
+ */
+function täidaPäevad(
+  read: { päev: string; hindeid: number; hindajaid: number }[],
+  päevi: number,
+): { päev: string; hindeid: number; hindajaid: number }[] {
+  const kaart = new Map(read.map((r) => [r.päev, r]));
+  const täna = new Date();
+  const välja = [];
+  for (let i = päevi - 1; i >= 0; i--) {
+    const d = new Date(Date.UTC(
+      täna.getUTCFullYear(), täna.getUTCMonth(), täna.getUTCDate() - i,
+    ));
+    const võti = d.toISOString().slice(0, 10);
+    välja.push(kaart.get(võti) ?? { päev: võti, hindeid: 0, hindajaid: 0 });
+  }
+  return välja;
 }
 
 /** Mediaan täisarvude loendist, mis on juba hinnete arvu järgi järjestatud. */
