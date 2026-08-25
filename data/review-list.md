@@ -7,7 +7,7 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Kahtlane link üleval | 0 |
 | Pakkumine olemas, link puudub | 24 |
 | Kumbki link puudub | 20 |
-| YouTube veel otsimata | 175 |
+| YouTube veel otsimata | 164 |
 
 ## 1. Kahtlane link on üleval
 
@@ -145,7 +145,7 @@ Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
 ## 4. YouTube veel otsimata
 
-175 lugu, päevakvoot 90 → ~2 päeva.
+164 lugu, päevakvoot 90 → ~2 päeva.
 Spotify link on neil olemas, nii et lehel on lugu kuulatav.
 
 ```bash
@@ -249,17 +249,6 @@ npm run resolve:youtube && npm run build:data && npm run deploy
 - Charli XCX ft Bladee — Rewind — saade 23 · 2024-10-18
 - heleza — Armastaks? — saade 23 · 2024-10-18
 - Milan W — Face to Face — saade 23 · 2024-10-18
-- Metronomy, Porij — Petit Boy — saade 22 · 2024-10-11
-- Kylie Minogue — Lights Camera Action — saade 22 · 2024-10-11
-- Zetod — Sita maitse suuh — saade 21 · 2024-10-04
-- The Cure — Alone — saade 21 · 2024-10-04
-- villemdrillem — klepto — saade 20 · 2024-09-27
-- The Smile — Zero Sum — saade 20 · 2024-09-27
-- Vaiko Eplik & Eliit — Oh jeerum — saade 20 · 2024-09-27
-- Jamie xx feat Kelsey Ly, Panda Bear John Glacier — Dafodil — saade 20 · 2024-09-27
-- Luurel Varas — Sleeper — saade 19 · 2024-09-20
-- Playboi Carti — All Red — saade 19 · 2024-09-20
-- Maria Kallastu — Varahommik — saade 19 · 2024-09-20
 - Playboi Carti — 2024 — saade 19 · 2024-09-20
 - DND — Viimane kustutab tule — saade 18 · 2024-09-13
 - ASAP Rocky & Jessica Pratt — Highjack — saade 18 · 2024-09-13
