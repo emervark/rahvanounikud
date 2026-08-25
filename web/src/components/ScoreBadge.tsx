@@ -14,27 +14,25 @@ function delta(a: number, b: number): string {
 }
 
 /**
- * Koondhinde plaat: rahvas, sina, nõunikud.
+ * Koondhinde plaat: rahvas ja sina.
  *
- * Kolm arvu kõrvuti on kogu lehe mõte — kas rahvas ja kriitikud on ühel nõul ja
- * kummale poole sina jääd. Puuduv arv ei jäta auku: rida lihtsalt puudub.
+ * Algne plaan oli kolm arvu kõrvuti — rahvas, sina, nõunikud. Nõunike
+ * hinded jäid siit välja, sest neid ei ole kusagilt võtta: podcasti
+ * kirjeldustes on ainult „Milline lugu võitis? Kuula podcastist!” ja
+ * kriitikud ise numbreid ei talletanud. Kõrvuti seisis seega alaline
+ * kriips, mis lübas välja midagi, mida ei tulnud.
  *
- * Nõunike skoori podcasti kirjeldustes EI ole, see tuleb käsitsi failist
- * data/critic-scores.json. Kuni seda pole, on plaat kahene.
+ * Andmemudelis on criticScore alles, nii et võrdluse saab tagasi tuua, kui
+ * numbrid kunagi tekivad.
  */
 export function ScorePlate({
   stats,
-  criticScore,
-  criticScores,
   myScore,
 }: {
   stats: SongStats | undefined;
-  criticScore?: number | null;
-  criticScores?: Record<string, number> | null;
   myScore?: number;
 }) {
   const hasVotes = stats !== undefined && stats.count > 0;
-  const hasCritics = criticScore != null;
 
   return (
     <div className="plate">
@@ -58,26 +56,6 @@ export function ScorePlate({
               )}
             </div>
           )}
-
-          {hasCritics && (
-            <div className="plate__row">
-              <b className="plate__critics">{fmt(criticScore)}</b>
-              <span className="mono">Nõunikud</span>
-              {hasVotes && (
-                <span className="mono plate__delta">{delta(stats.average, criticScore)}</span>
-              )}
-            </div>
-          )}
-
-          {hasCritics && criticScores && (
-            <div className="plate__breakdown mono">
-              {Object.entries(criticScores).map(([name, score]) => (
-                <span key={name}>
-                  {name.split(' ')[0]} <b>{score}</b>
-                </span>
-              ))}
-            </div>
-          )}
         </div>
       </div>
     </div>
@@ -99,11 +77,9 @@ export function ScorePlate({
  */
 export function ScoreTag({
   stats,
-  criticScore,
   myScore,
 }: {
   stats: SongStats | undefined;
-  criticScore?: number | null;
   myScore?: number;
 }) {
   const hasVotes = stats !== undefined && stats.count > 0;
@@ -122,12 +98,6 @@ export function ScoreTag({
         {myScore !== undefined && (
           <div className="mono scoretag__row">
             <span>Sina</span><b>{myScore}</b>
-          </div>
-        )}
-
-        {criticScore != null && (
-          <div className="mono scoretag__row">
-            <span>Nõun.</span><b className="scoretag__critics">{fmt(criticScore)}</b>
           </div>
         )}
       </div>
@@ -149,30 +119,6 @@ export function CommunityScore({ stats }: { stats: SongStats | undefined }) {
     <span className="chart-row__score">
       <b>{fmt(stats.average)}</b>
       <span className="mono">{stats.count} h</span>
-    </span>
-  );
-}
-
-/** Nõunike skoor edetabelis koos vahega rahva hinnest. */
-export function CriticScore({
-  criticScore,
-  stats,
-}: {
-  criticScore: number | null;
-  stats: SongStats | undefined;
-}) {
-  if (criticScore == null) {
-    return (
-      <span className="chart-row__score chart-row__score--critic">
-        <b style={{ color: 'rgba(21,21,21,.28)' }}>—</b>
-      </span>
-    );
-  }
-  const hasVotes = stats !== undefined && stats.count > 0;
-  return (
-    <span className="chart-row__score chart-row__score--critic">
-      <b>{fmt(criticScore)}</b>
-      {hasVotes && <span className="mono">{delta(stats.average, criticScore)}</span>}
     </span>
   );
 }
