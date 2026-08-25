@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T12:09:08.707Z",
+  "generatedAt": "2026-08-25T17:28:06.410Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -19,7 +19,7 @@
     "episodes": 91,
     "songs": 376,
     "withSpotify": 338,
-    "withYoutube": 168,
+    "withYoutube": 250,
     "withCriticScore": 0
   },
   "episodes": [
@@ -4290,7 +4290,7 @@
           "note": null,
           "id": "3e638468-ed-sheeran-old-phone",
           "spotifyId": "2QxviKpVdEXKDWs706MUZB",
-          "youtubeId": null,
+          "youtubeId": "rj5dxoMY-dE",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4346,7 +4346,7 @@
           "note": null,
           "id": "8311c8b9-ariel-pink-spin-cycle",
           "spotifyId": "1nHzQOjJCw3LI94Q6XTlI9",
-          "youtubeId": null,
+          "youtubeId": "atsBqzkbSSQ",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4365,7 +4365,7 @@
           "note": null,
           "id": "8311c8b9-slam-sigma-boy",
           "spotifyId": "0n1zV0r5qhQegYV47Tcd3P",
-          "youtubeId": null,
+          "youtubeId": "6lHUL7PVSUI",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4385,7 +4385,7 @@
           "note": null,
           "id": "8311c8b9-billy-idol-77",
           "spotifyId": "6cEG5stzTtXrrCLgWKYV6j",
-          "youtubeId": null,
+          "youtubeId": "_lx6D5HY9Ms",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4424,7 +4424,7 @@
           "note": null,
           "id": "92971a74-inger-tirib-mind-kuuma",
           "spotifyId": "5usxsKpGaLc3FaOKnkrybZ",
-          "youtubeId": null,
+          "youtubeId": "2QhiOFUbWHQ",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4444,7 +4444,7 @@
           "note": null,
           "id": "92971a74-mark-pritchard-gangsters",
           "spotifyId": "4cug7RkMB0SCoYkYrXYN4y",
-          "youtubeId": null,
+          "youtubeId": "m32xZaxzadw",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4482,7 +4482,7 @@
           "note": null,
           "id": "92971a74-lana-del-rey-henry-come-on",
           "spotifyId": "6CYldrsUPBsiPtfLW4xZCl",
-          "youtubeId": null,
+          "youtubeId": "nDYY3nJ7a0s",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4518,7 +4518,7 @@
           "note": null,
           "id": "e86c4137-sammalhabe-lotus-elise",
           "spotifyId": "1HLdzzXicDWPpTZlulj2df",
-          "youtubeId": null,
+          "youtubeId": "UfZP-pUiwvU",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4537,7 +4537,7 @@
           "note": null,
           "id": "e86c4137-pink-pantheress-tonight",
           "spotifyId": "5QCfOMH5K7bS4dH7H7PNeI",
-          "youtubeId": null,
+          "youtubeId": "IrEFKJnl1H8",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4556,7 +4556,7 @@
           "note": null,
           "id": "e86c4137-luurel-varas-lab-grown-black-hole",
           "spotifyId": "2SaQK8PNCXgeIDS1YsaU6A",
-          "youtubeId": null,
+          "youtubeId": "jhX4koxfy9k",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4575,7 +4575,7 @@
           "note": null,
           "id": "e86c4137-barker-stochastic-drift",
           "spotifyId": "71WOzqtJI1CNFC38454Aih",
-          "youtubeId": null,
+          "youtubeId": "cawfMFKweSo",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4613,7 +4613,7 @@
           "note": null,
           "id": "6df8fc6e-margiiela-ilus-paev",
           "spotifyId": "5DRuLCH2Kh044yHkVDgGP1",
-          "youtubeId": null,
+          "youtubeId": "oDp5PVod09s",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4633,7 +4633,7 @@
           "note": null,
           "id": "6df8fc6e-black-country-happy-birthday",
           "spotifyId": "56Vk4WrIrTr3Jg7hReNZVb",
-          "youtubeId": null,
+          "youtubeId": "_fOdb4STQow",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4652,7 +4652,7 @@
           "note": null,
           "id": "6df8fc6e-eik-roomus",
           "spotifyId": "7FoD3KPnflrVWVDGrpgOab",
-          "youtubeId": null,
+          "youtubeId": "ufmOTdTt7lE",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4671,7 +4671,7 @@
           "note": null,
           "id": "6df8fc6e-yukimi-rules-of-school",
           "spotifyId": "1vVIHMFCuwc6FGRPmBvSIV",
-          "youtubeId": null,
+          "youtubeId": "_oP_QQDZK_c",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4726,7 +4726,7 @@
           "note": null,
           "id": "13e8f612-lady-gaga-abracadabra",
           "spotifyId": "2LHNTC9QZxsL3nWpt8iaSR",
-          "youtubeId": null,
+          "youtubeId": "vBynw9Isr28",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4745,7 +4745,7 @@
           "note": null,
           "id": "13e8f612-alonette-true-north",
           "spotifyId": "23yDVhmBr6iROYRIudhXWT",
-          "youtubeId": null,
+          "youtubeId": "EKkGcEwDO0g",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4765,7 +4765,7 @@
           "note": null,
           "id": "13e8f612-jennie-ft-kali-uchis-damn-right",
           "spotifyId": "1e7VWi3ThY7t1F4vkfNfde",
-          "youtubeId": null,
+          "youtubeId": "PICpEtPHyZI",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4802,7 +4802,7 @@
           "note": null,
           "id": "de1c611f-meisterjaan-tode-ja-tegu",
           "spotifyId": "7s50LqIPG7FsjZGfa9tQ0e",
-          "youtubeId": null,
+          "youtubeId": "4vyWnVaPMVw",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4821,7 +4821,7 @@
           "note": null,
           "id": "de1c611f-playboi-carti-pop-out",
           "spotifyId": "3j3SfV4hAcR4XjCvW393Gr",
-          "youtubeId": null,
+          "youtubeId": "-V_GygtBQJo",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4840,7 +4840,7 @@
           "note": null,
           "id": "de1c611f-the-boondocks-jeanette",
           "spotifyId": "6Ygd2uinKRd4MNOElQBZIP",
-          "youtubeId": null,
+          "youtubeId": "BM3qhs1fy_w",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4860,7 +4860,7 @@
           "note": null,
           "id": "de1c611f-fred-frith-your-sweet-time",
           "spotifyId": "5thnuWBYs8onAMtYMRZc78",
-          "youtubeId": null,
+          "youtubeId": "lHiemXT2xtA",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4898,7 +4898,7 @@
           "note": null,
           "id": "03333d5e-ines-daferrari-nr-1",
           "spotifyId": "7HANZHEnkcRu5nS1PSY15f",
-          "youtubeId": null,
+          "youtubeId": "v2X3A-5SztU",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4918,7 +4918,7 @@
           "note": null,
           "id": "03333d5e-sonic-boom-ask-for-the-moon",
           "spotifyId": "3K5wGxcxXe7Ia2d2Q814Kf",
-          "youtubeId": null,
+          "youtubeId": "HDt4aqwnKqo",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4956,7 +4956,7 @@
           "note": null,
           "id": "03333d5e-muni-long-slow-grind",
           "spotifyId": "2TbwCYJSZrDpEz1cTIwTjx",
-          "youtubeId": null,
+          "youtubeId": "atpkDVhQ9es",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4993,7 +4993,7 @@
           "note": null,
           "id": "127c756b-kantri-guidu-band-meesnaine",
           "spotifyId": "6qS5ZmG053Bdas3AxKmXWf",
-          "youtubeId": null,
+          "youtubeId": "TCxYPCFFGe0",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5013,7 +5013,7 @@
           "note": null,
           "id": "127c756b-joy-orbison-bastard",
           "spotifyId": "7wezQzF31IztdsWRiyV0gJ",
-          "youtubeId": null,
+          "youtubeId": "12gTDEXyTeY",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5032,7 +5032,7 @@
           "note": null,
           "id": "127c756b-marmormaze-koeramoodi",
           "spotifyId": null,
-          "youtubeId": null,
+          "youtubeId": "nizUEQ-Szmo",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5052,7 +5052,7 @@
           "note": null,
           "id": "127c756b-dean-blunt-2",
           "spotifyId": "6eLfGGLdhv4x5IPl7N88AS",
-          "youtubeId": null,
+          "youtubeId": "iJ30RG1iOJI",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5090,7 +5090,7 @@
           "note": null,
           "id": "58a9212a-nkn-trakuinice",
           "spotifyId": "7fd1rlPtvDhDMvUR7or7xB",
-          "youtubeId": null,
+          "youtubeId": "RlE4UBEnWf4",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5109,7 +5109,7 @@
           "note": null,
           "id": "58a9212a-bon-iver-everything-is-peaceful-love",
           "spotifyId": "4XosapYiYaXGcxc83p3DD9",
-          "youtubeId": null,
+          "youtubeId": "yaPX-i1TjCc",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5128,7 +5128,7 @@
           "note": null,
           "id": "58a9212a-triibupasta-viinaingel",
           "spotifyId": "3llyYmTWZDBGCZH76jF4ck",
-          "youtubeId": null,
+          "youtubeId": "UVdXBszOpR4",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5147,7 +5147,7 @@
           "note": null,
           "id": "58a9212a-nazar-anticipate",
           "spotifyId": "3cM0gQCC0WuOTXsOxZjvMn",
-          "youtubeId": null,
+          "youtubeId": "7ej1tfpw-0U",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5183,7 +5183,7 @@
           "note": null,
           "id": "35994776-karl-killing-staatus",
           "spotifyId": "4hDBjx4AltTBTNLAMxqSCs",
-          "youtubeId": null,
+          "youtubeId": "vWfKPSP5I5s",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5223,7 +5223,7 @@
           "note": null,
           "id": "35994776-pia-fraus-across-the-street",
           "spotifyId": "17m8UM8gsESJdt8ggH3GRi",
-          "youtubeId": null,
+          "youtubeId": "WxPUADrbBKY",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5242,7 +5242,7 @@
           "note": null,
           "id": "35994776-jpegmafia-what-the-hip-hop-hell-is-this",
           "spotifyId": "6QjdkLo5iUrPV8zEJugGnM",
-          "youtubeId": null,
+          "youtubeId": "qf7eHQU3kOc",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5278,7 +5278,7 @@
           "note": null,
           "id": "575fdbf7-kaschalot-laminar-flow",
           "spotifyId": "6iVI1UWM9No3nMbYdRywIQ",
-          "youtubeId": null,
+          "youtubeId": "vuPRgYZW7GM",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5297,7 +5297,7 @@
           "note": null,
           "id": "575fdbf7-panda-bear-ferry-lady",
           "spotifyId": "387tpks4U8UCaPctPJVR0U",
-          "youtubeId": null,
+          "youtubeId": "g0uc3Ag2yXM",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5316,7 +5316,7 @@
           "note": null,
           "id": "575fdbf7-mari-kalkun-kiri-algab",
           "spotifyId": "2IneQLrCS4jBITNROaF9t1",
-          "youtubeId": null,
+          "youtubeId": "_rQfOMCXE5E",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5335,7 +5335,7 @@
           "note": null,
           "id": "575fdbf7-squid-cro-magnon-man",
           "spotifyId": "4hUuxvpzrWWpucSFrXHTwN",
-          "youtubeId": null,
+          "youtubeId": "Eb3zur0WewU",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5392,7 +5392,7 @@
           "note": null,
           "id": "68d262e1-black-country-besties",
           "spotifyId": "4U9ZjqhaGF9wl56899E4sW",
-          "youtubeId": null,
+          "youtubeId": "Cae57TpoyZg",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5411,7 +5411,7 @@
           "note": null,
           "id": "68d262e1-fuzzolini-beauty-exist-in-every-one",
           "spotifyId": null,
-          "youtubeId": null,
+          "youtubeId": "vMCyByeHjl4",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5431,7 +5431,7 @@
           "note": null,
           "id": "68d262e1-the-weeknd-big-sleep",
           "spotifyId": "4sWQbsLLH2NEbO79DSZCL9",
-          "youtubeId": null,
+          "youtubeId": "1FopqsTIfY0",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5467,7 +5467,7 @@
           "note": null,
           "id": "a68b491a-alonette-costume",
           "spotifyId": "1Q7K5toh45MjxdrmYGlT9W",
-          "youtubeId": null,
+          "youtubeId": "5lGqIwIFTmw",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5486,7 +5486,7 @@
           "note": null,
           "id": "a68b491a-fka-twigs-room-of-fools",
           "spotifyId": "1CqyErlQstROOe9hAn93oI",
-          "youtubeId": null,
+          "youtubeId": "84kJivpNyhc",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5505,7 +5505,7 @@
           "note": null,
           "id": "a68b491a-mario-kaks-silma-kinni",
           "spotifyId": null,
-          "youtubeId": null,
+          "youtubeId": "V5yKWwkKucs",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5525,7 +5525,7 @@
           "note": null,
           "id": "a68b491a-omar-s-something-real",
           "spotifyId": "6OV3OoCZVWHkEq95E5pbwB",
-          "youtubeId": null,
+          "youtubeId": "ZQKcnjWVl6I",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5561,7 +5561,7 @@
           "note": null,
           "id": "4f7d1d5a-tungevaag-liis-lemsalu-solodance",
           "spotifyId": "17YBzqFJYoX3jhzPgP55WD",
-          "youtubeId": null,
+          "youtubeId": "WXt4PXc1TZM",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5580,7 +5580,7 @@
           "note": null,
           "id": "4f7d1d5a-ela-minus-i-want-to-do-better",
           "spotifyId": "6qDUtM6TrV0IFg3nMmXeIQ",
-          "youtubeId": null,
+          "youtubeId": "d3o-Qe2_aKg",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5599,7 +5599,7 @@
           "note": null,
           "id": "4f7d1d5a-merilin-malk-dilemma",
           "spotifyId": "4QZ0oKTKYPbRRpuSy4lnfk",
-          "youtubeId": null,
+          "youtubeId": "nQYGTpFQd3E",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5618,7 +5618,7 @@
           "note": null,
           "id": "4f7d1d5a-bad-bunny-dtmf",
           "spotifyId": "3sK8wGT43QFpWrvNQsrQya",
-          "youtubeId": null,
+          "youtubeId": "w4JXwsSCgBc",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5655,7 +5655,7 @@
           "note": null,
           "id": "c4d6132b-bedwetters-koik-muu-voib-oodata",
           "spotifyId": "22eGFSMNDEm3PDJ6yFxkaz",
-          "youtubeId": null,
+          "youtubeId": "1H_XlReSj_8",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5674,7 +5674,7 @@
           "note": null,
           "id": "c4d6132b-lambrini-girls-bad-apples",
           "spotifyId": "5pWHXtj4OyOLVoQZHpuXBK",
-          "youtubeId": null,
+          "youtubeId": "svttRZ1jL2I",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5713,7 +5713,7 @@
           "note": null,
           "id": "c4d6132b-jungle-keep-me-satisfied",
           "spotifyId": "4OxDppy29ZuxXgQ1kMEjCr",
-          "youtubeId": null,
+          "youtubeId": "fwq5sT-zLLk",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5749,7 +5749,7 @@
           "note": null,
           "id": "59255337-karl-killing-vastased",
           "spotifyId": "36IWOSMfnVUa0hhKfPpHwi",
-          "youtubeId": null,
+          "youtubeId": "kIxuqfwPgFU",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5768,7 +5768,7 @@
           "note": null,
           "id": "59255337-laurel-2-metsa-elf",
           "spotifyId": "1RPMN6Zfhqy1EMdIrtOvyQ",
-          "youtubeId": null,
+          "youtubeId": "Ufc1MPw28NA",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5788,7 +5788,7 @@
           "note": null,
           "id": "59255337-karl-killing-sinust-saati",
           "spotifyId": "7piQz82zo3XvIjJiDBN7QK",
-          "youtubeId": null,
+          "youtubeId": "aGOn4F0k7_c",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5847,7 +5847,7 @@
           "note": null,
           "id": "59255337-oranssi-pazuzu-ikikaarme",
           "spotifyId": "37tqHUSSr3lad6P1TNW05B",
-          "youtubeId": null,
+          "youtubeId": "IM6mKn07lpw",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5886,7 +5886,7 @@
           "note": null,
           "id": "59255337-still-house-plants-pant",
           "spotifyId": null,
-          "youtubeId": null,
+          "youtubeId": "NK4CjEv1xKA",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5905,7 +5905,7 @@
           "note": null,
           "id": "59255337-laryssa-kim-les-amants-d-osmium-76-os",
           "spotifyId": "3aJhSvIH6rE6RpZSX872JA",
-          "youtubeId": null,
+          "youtubeId": "QnHHIDtCtmM",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5924,7 +5924,7 @@
           "note": null,
           "id": "59255337-fontaines-d-c-starburster",
           "spotifyId": "09ttHg3ZNVgDlYBZa1ZBw0",
-          "youtubeId": null,
+          "youtubeId": "KHocVRUlvkk",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5960,7 +5960,7 @@
           "note": null,
           "id": "d5b62c3c-tommy-cash-espresso-macchiato",
           "spotifyId": "4f5sxA4nQywcBlU05Ixdc7",
-          "youtubeId": null,
+          "youtubeId": "o6aJJ6Q5zhg",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5998,7 +5998,7 @@
           "note": null,
           "id": "d5b62c3c-vennaskond-joulusokk",
           "spotifyId": "2OfLnLGqaI029wOuTVDYly",
-          "youtubeId": null,
+          "youtubeId": "05G8dCSvM2w",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6072,7 +6072,7 @@
           "note": null,
           "id": "dc837b32-becky-and-the-birds-london-is-not-the-same",
           "spotifyId": "7ABil3s9BbFathjbfDgCE6",
-          "youtubeId": null,
+          "youtubeId": "IeHxamnme1I",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6091,7 +6091,7 @@
           "note": null,
           "id": "dc837b32-prodigyboys-ratchet",
           "spotifyId": "4c5c6nwTzqPtAtbVSAPRmq",
-          "youtubeId": null,
+          "youtubeId": "xjBzhuS7n94",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6110,7 +6110,7 @@
           "note": null,
           "id": "dc837b32-cyn-the-smiths",
           "spotifyId": "09rxsu6GJPVivSOkRZ5Hc0",
-          "youtubeId": null,
+          "youtubeId": "mWa2OVRK550",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6148,7 +6148,7 @@
           "note": null,
           "id": "c2cbc0e2-inga-do-you-really-want-her",
           "spotifyId": "7iZdIRLS3LQ8OU8C9QqZ0x",
-          "youtubeId": null,
+          "youtubeId": "c8sM2ZULSEg",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6167,7 +6167,7 @@
           "note": null,
           "id": "c2cbc0e2-kim-deal-summerland",
           "spotifyId": "039UNzELUQod4eq1Pve9Av",
-          "youtubeId": null,
+          "youtubeId": "NayNyBshoGA",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6186,7 +6186,7 @@
           "note": null,
           "id": "c2cbc0e2-tommy-cash-hottie",
           "spotifyId": "7aX9ClrRetOsTBwsDlgD27",
-          "youtubeId": null,
+          "youtubeId": "UPCXD1HUnhE",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6205,7 +6205,7 @@
           "note": null,
           "id": "c2cbc0e2-wizkid-soji",
           "spotifyId": "4hH9eVrAzlKR0jbLmHUkPD",
-          "youtubeId": null,
+          "youtubeId": "4qcx3fDRPMY",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6263,7 +6263,7 @@
           "note": null,
           "id": "5a8ce01b-squid-crispy-skin",
           "spotifyId": "6gLaRcJnA7FqyEYpYJ4uPI",
-          "youtubeId": null,
+          "youtubeId": "CqM8hhwNsJA",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6283,7 +6283,7 @@
           "note": null,
           "id": "5a8ce01b-stefan-purjetuul",
           "spotifyId": "6aAeBGMlrSgQXi5CqRegnh",
-          "youtubeId": null,
+          "youtubeId": "5uBkGTloEoE",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6302,7 +6302,7 @@
           "note": null,
           "id": "5a8ce01b-nettspend-f-ck-swag",
           "spotifyId": "1N5ECRUsgd7iBMWdEQ7fp3",
-          "youtubeId": null,
+          "youtubeId": "0ufGZYBbGMU",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6338,7 +6338,7 @@
           "note": null,
           "id": "f043c304-tanel-siimann-to-wait-for",
           "spotifyId": "6ngMgQCFbIjzXJ7kkYgg8p",
-          "youtubeId": null,
+          "youtubeId": "HuQnsehnGHI",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6357,7 +6357,7 @@
           "note": null,
           "id": "f043c304-primal-scream-deep-dark-waters",
           "spotifyId": "5lo9urhtu7echJpFFU1S0n",
-          "youtubeId": null,
+          "youtubeId": "P5SG4pXtRlM",
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7548,8 +7548,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6cd02773-bedwetters-ma-ei-oska-oelda-ei",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "Yg6HsKcVFIE",
           "spotifyId": "1I4WJEDYRx3BA4QCRowFrY",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7567,8 +7568,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6cd02773-imagine-dragons-nice-to-meet-you",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "NeUfmyu5t8Q",
           "spotifyId": "6KmrCHbuNOsdoeDOpwetr7",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7586,8 +7588,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6cd02773-u-l-a-by-your-side",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "ddyelX7Jjhw",
           "spotifyId": "4Mo2JrYmCXIP2OFS9SCYEI",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7606,8 +7609,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "6cd02773-shimza-parachute",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "jvnKJ25Gnbk",
           "spotifyId": "0BlxpYD81CZucSEvCS11Ed",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7643,8 +7647,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a2c53e9d-nublu-push-it",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "ygTdVga871U",
           "spotifyId": "7AleqJvqrVBeQitkWntUUc",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7662,8 +7667,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a2c53e9d-pinkpantheress-turn-it-up",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "HC5oBBQg9q8",
           "spotifyId": "1YhNljrEyPYaYNgBNsWap5",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7682,8 +7688,9 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "a2c53e9d-vaiko-eplik-ekstaas",
+          "_note": "käsitsi üle vaadatud ülevaatuslehel",
+          "youtubeId": "lDV-gRmJuhc",
           "spotifyId": "5umlEmfqgxJkr3ARVIpM1Y",
-          "youtubeId": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
