@@ -2,7 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { SectionTag } from '../components/SectionTag';
 import { useEpisodesFile } from '../useData';
 import { PageState } from '../components/PageState';
-import { ScorePlate } from '../components/ScoreBadge';
+import { ScorePlate, ScoreTag } from '../components/ScoreBadge';
 import { RatingBar } from '../components/RatingBar';
 import { Comments } from '../components/Comments';
 import { useRatings } from '../ratings';
@@ -55,6 +55,11 @@ export function SongPage() {
           <div className="mono" style={{ marginBottom: 12 }}>{meta}</div>
           <h1 className="songpage__title">{song.title}</h1>
           <div className="songpage__artist">{song.artistsRaw}</div>
+          <ScoreTag
+            stats={stats[song.id]}
+            criticScore={song.criticScore}
+            myScore={mine[song.id]}
+          />
 
           <div className="listen-row">
               {!song.spotifyId && (

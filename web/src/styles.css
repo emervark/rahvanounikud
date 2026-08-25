@@ -1133,7 +1133,9 @@ button { font: inherit; color: inherit; border: none; background: none; cursor: 
 
 @media (max-width: 900px) {
   .songpage__body { grid-template-columns: 1fr; gap: 24px; }
-  .songpage__body .plate { max-width: 200px; }
+  /* Sama mis loo kaardil: hinne on pealkirja juures, plaat jääks siia
+     lehe lõppu ja kordaks sama arvu. */
+  .songpage__body .plate { display: none; }
 }
 
 
