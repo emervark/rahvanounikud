@@ -87,6 +87,10 @@ async function main() {
 
       if (kahtlaneSp || kahtlaneYt) {
         wrong.push({ ...row, kahtlaneSp, kahtlaneYt });
+      } else if (song.soundcloudUrl || song.bandcamp) {
+        /* SoundCloud ja Bandcamp on käsitsi lisatud kolmandad allikad. Lugu on kuulatav,
+           seega ta ei oota enam midagi — muidu jääks igavesti nimekirja,
+           sest YouTube'i ja Spotify vaste tal puuduvad ja ei tulegi. */
       } else if (!song.youtubeId && yt) {
         guess.push(row);
       } else if (!song.youtubeId && !song.spotifyId) {

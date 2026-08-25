@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T18:17:49.991Z",
+  "generatedAt": "2026-08-25T18:25:09.260Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -50,6 +50,8 @@
           "id": "51067548-an-marlen-tahtede-eest",
           "spotifyId": "4PtTBY7WI6fLot8TpXhENb",
           "youtubeId": "9LP6jTlkXV8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -69,6 +71,8 @@
           "id": "51067548-skizo-2katt",
           "spotifyId": "7gQn06gUwe4sqVwvWC0ptR",
           "youtubeId": "TXSvekvKUUA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -88,6 +92,8 @@
           "id": "51067548-anna-himma-get-summer",
           "youtubeId": "tE86shz0GwI",
           "spotifyId": "6T437bIxhd3FXZq3CJRRzw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -107,6 +113,8 @@
           "id": "51067548-perfectionist-blood-victory",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -145,6 +153,8 @@
           "id": "c71831ba-bombillaz-saadame-siili-aafrikasse",
           "spotifyId": "6ayjP9f0ECGULixum0wbbS",
           "youtubeId": "9bQ7p2Avk2M",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -164,6 +174,8 @@
           "id": "c71831ba-nomi-sweet-talk",
           "spotifyId": "5stCKPzR4uSF3Sr5aJS60Y",
           "youtubeId": "RvB-vqNVGck",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -183,6 +195,8 @@
           "id": "c71831ba-vera-vice-tell-me-tell-me",
           "youtubeId": "jXWKJBibIZ8",
           "spotifyId": "4dP8AJAXMLPb0EyrSwkKki",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -202,6 +216,8 @@
           "id": "c71831ba-romare-computer-blue",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -238,6 +254,8 @@
           "id": "c319ff35-koit-toome-ma-pogenen",
           "spotifyId": "6orFAHUqnqYW1BcGvZcfhE",
           "youtubeId": "CK7ZQ8i0mJc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -257,6 +275,8 @@
           "id": "c319ff35-drake-janice-stfu",
           "spotifyId": "514joG57v4yKTsfQmz7stz",
           "youtubeId": "SD4yRDY9mek",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -276,6 +296,8 @@
           "id": "c319ff35-liisi-koikson-endaga-vii",
           "spotifyId": "6R0kLdQAfcLHKRZjmneIm2",
           "youtubeId": "GhqSzYIPV1o",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -295,6 +317,8 @@
           "id": "c319ff35-bts-swim",
           "spotifyId": "68lbSrXDORS51pmyjZv712",
           "youtubeId": "q-UL8XyVD2w",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -331,6 +355,8 @@
           "id": "d06dc046-alika-laagna-tee",
           "youtubeId": "E6L4l17F1Ws",
           "spotifyId": "49AUmKtze9rjKQgm9pWNVK",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -350,6 +376,8 @@
           "id": "d06dc046-the-durutti-kolumn-liars",
           "spotifyId": "5s8skf66FzZK9dxASx3QZS",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -370,6 +398,8 @@
           "id": "d06dc046-skizo-etteaste",
           "youtubeId": "EozQPlsLfkg",
           "spotifyId": "0NwTFKAUm1ref1POyxMSOr",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -389,6 +419,8 @@
           "id": "d06dc046-chassol-rude-crude-lude",
           "spotifyId": "63VHIVT2JODmfnGU3rscQ3",
           "youtubeId": "KgEQPko1pJc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -427,6 +459,8 @@
           "id": "4d543f2a-prodigyboys-sport",
           "spotifyId": "3jFujL3krU5lruzpjI0eae",
           "youtubeId": "mCQhzONCQqE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -446,6 +480,8 @@
           "id": "4d543f2a-salem-kin",
           "spotifyId": "7jKrHMjQuqMPj3Nvp9H9i9",
           "youtubeId": "VT9U6IbNm-M",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -465,6 +501,8 @@
           "id": "4d543f2a-simone-minn-tahtsin-ainult-oelda-sul",
           "spotifyId": "2JhE7qSfCBt9hlRn8Bxf4B",
           "youtubeId": "xDKjRKuQrAk",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -486,6 +524,8 @@
           "id": "4d543f2a-the-avalanches-ft-nikki-nair-together",
           "youtubeId": "KSa1zsPcj8w",
           "spotifyId": "0iYNsh3PU3BaRLtijklDM1",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -525,6 +565,8 @@
           "id": "3b8b51d7-onyx-kah-mul-asi",
           "youtubeId": "SgrlP8QCnkA",
           "spotifyId": "6CSyc1n6UH49U4PKbMqevJ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -544,6 +586,8 @@
           "id": "3b8b51d7-boards-of-canada-prophecy-at-1420-mhz",
           "spotifyId": "4CpyZQzwxCzQPiUTvlOBrn",
           "youtubeId": "I2FKjdfQw78",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -565,6 +609,8 @@
           "id": "3b8b51d7-adel-force-be-cool",
           "youtubeId": "WnfT5pwz-Wo",
           "spotifyId": "45tqDLpCKFhqOgS6tcuWVa",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -584,6 +630,8 @@
           "id": "3b8b51d7-cortis-tnt",
           "youtubeId": "kRpaqR5sbf0",
           "spotifyId": "7diH1qnFziArYzynk3vkr6",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -620,6 +668,8 @@
           "id": "19717d8f-florian-wahl-timofei-chalamet",
           "spotifyId": "5zAkutSH0KhOMRiCIf913s",
           "youtubeId": "La0PT9-moNI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -642,6 +692,8 @@
           "id": "19717d8f-skrillex-smoke",
           "spotifyId": "0shd35qg34N2zlEMv1BbhY",
           "youtubeId": "moROwWRsmKU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -661,6 +713,8 @@
           "id": "19717d8f-intrepid-ball-laviin",
           "youtubeId": "0uADnhJHjmw",
           "spotifyId": "51IgVVhxMlIQzQ6H6nbg24",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -680,6 +734,8 @@
           "id": "19717d8f-vince-staples-blackberry-marmelade",
           "spotifyId": "2QOTLNlbpsTJq074uw3yLY",
           "youtubeId": "qdcD99Pd0oo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -716,6 +772,8 @@
           "id": "37bb174f-holy-motors-heavens-night",
           "youtubeId": "sM0oM6LLSME",
           "spotifyId": "1HYTyot9GiIJ1YciTxDGZT",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -735,6 +793,8 @@
           "id": "37bb174f-madonna-i-feel-so-free",
           "spotifyId": "5GNDe5JmNKP3OThhyXgx5S",
           "youtubeId": "Zx83eVfP64A",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -754,6 +814,8 @@
           "id": "37bb174f-cold-cunts-doll",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -773,6 +835,8 @@
           "id": "37bb174f-smerz-spring-summer",
           "spotifyId": "3lKB7OuBglrz7Pjpe0e3sk",
           "youtubeId": "9SicIk_sF7k",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -810,6 +874,8 @@
           "id": "d73035d0-suurell-metafoorid",
           "youtubeId": "um1JHY_zJ-o",
           "spotifyId": "5qTTHQMdiFSFZLaxmvb1HS",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -830,6 +896,8 @@
           "id": "d73035d0-dean-blunt-478-freestyle",
           "youtubeId": "_zlsGKreWsI",
           "spotifyId": "6vzGpryGBxgf4HxFRElj0i",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -849,6 +917,8 @@
           "id": "d73035d0-marco-tasane-eesti-jumalanna",
           "spotifyId": "6bfqwho4fahPe0EDAKEpCj",
           "youtubeId": "XXlMgAqtI-U",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -868,6 +938,8 @@
           "id": "d73035d0-oneohtrix-point-never-dim-stars",
           "spotifyId": "4uXMT0xoObBj422bkwOnXv",
           "youtubeId": "j7pahoxIcOU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -904,6 +976,8 @@
           "id": "2700db98-olev-muska-chastushka-ii",
           "spotifyId": "7lXJ93HDanC6If8OhWcP72",
           "youtubeId": "iA5nYbteOKQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -923,6 +997,8 @@
           "id": "2700db98-the-strokes-going-shopping",
           "spotifyId": "18bHbpAKgsf8dor8F6qXHF",
           "youtubeId": "4u3iI1WuU0k",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -942,6 +1018,8 @@
           "id": "2700db98-raul-go3",
           "spotifyId": "7BJ3hpt4VjdYGPajcJ3RIC",
           "youtubeId": "1JFGU-DZekY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -961,6 +1039,8 @@
           "id": "2700db98-laufey-madwoman",
           "spotifyId": "0UqHzMvRQnaOXEPKgFVhxN",
           "youtubeId": "yNa8jP4zoJo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -999,6 +1079,8 @@
           "id": "762d405c-pitsa-alitalia-sinuga-ta-jaab",
           "spotifyId": "4y4lQrePp3w8ASjXg3x8un",
           "youtubeId": "i88XNNNcPCI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1018,6 +1100,8 @@
           "id": "762d405c-ye-ft-ceelo-green-bully",
           "spotifyId": "6KhDb86ThnlKirRw1UBZGb",
           "youtubeId": "8oIJjFhdCNM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1037,6 +1121,8 @@
           "id": "762d405c-freak-street-pahupidi-ring",
           "spotifyId": "2a50Rj6m0nAxC8pDxAfMQ7",
           "youtubeId": "R-PNb-3_p4A",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1056,6 +1142,8 @@
           "id": "762d405c-funk-tribu-shock",
           "spotifyId": "3YHiBixRDP48H41xjzD8J7",
           "youtubeId": "PrFfhnIlwzQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1094,6 +1182,8 @@
           "id": "32820b14-maria-kallastu-kus-magab-armastus",
           "spotifyId": "4FQcRRELC6cC4Dr3omHjoT",
           "youtubeId": "Kdj9P36eRaw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1113,6 +1203,8 @@
           "id": "32820b14-robyn-sucker-for-love",
           "spotifyId": "5O8GYy3zDYonQno0UWYc9n",
           "youtubeId": "uzf2OP1mvHY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1132,6 +1224,8 @@
           "id": "32820b14-luurel-varas-standoff",
           "spotifyId": "4DohCwlifJ4I2zmZ7VsXzP",
           "youtubeId": "sKiILmobUSI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1151,6 +1245,8 @@
           "id": "32820b14-jessie-ware-automatic",
           "spotifyId": "3rtCZDdLpyeEp556iUzIli",
           "youtubeId": "y35H9XrTpfE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1187,6 +1283,8 @@
           "id": "04293800-tommy-cash-figaro",
           "spotifyId": "2yOEbf5kU9yQ5LtLLPHVGc",
           "youtubeId": "z6ZIrhsuJp8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1206,6 +1304,8 @@
           "id": "04293800-janet-girl-telle-me-about-it",
           "youtubeId": "rekeJ2YfFtk",
           "spotifyId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1225,6 +1325,8 @@
           "id": "04293800-lotey-puhas-valge-sark",
           "spotifyId": "12U4YfKp5sNxjXBNfH0AL9",
           "youtubeId": "lZQkQ3JxZVU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1244,6 +1346,8 @@
           "id": "04293800-brotherkrupa-rip-riky",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1281,6 +1385,8 @@
           "id": "9ff7f5d7-alonette-uneasy",
           "youtubeId": "451HhH-0O2M",
           "spotifyId": "1wiLSyNsjZhfKns7UNJVdc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1300,6 +1406,8 @@
           "id": "9ff7f5d7-james-blake-days-go-by",
           "spotifyId": "1C9GkHC3DzV47cVCvvHlnw",
           "youtubeId": "2ZK4z36p7mQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1319,6 +1427,8 @@
           "id": "9ff7f5d7-leslie-da-bass-viimasena-peol",
           "spotifyId": "48ZU7ywgfvXbbde6c5gr17",
           "youtubeId": "LEkxAPoH8-0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1338,6 +1448,8 @@
           "id": "9ff7f5d7-new-age-doom-we-re-all-the-same",
           "youtubeId": "DNotodH2Kb4",
           "spotifyId": "1E8gfuI7N9TAESRTzqaJBJ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1376,6 +1488,8 @@
           "id": "a30b7b2f-qotid-kus-sa-lahed",
           "spotifyId": "3d2zU6yRwF2mbtUBO5V7Q6",
           "youtubeId": "OFccpKn5448",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1396,6 +1510,8 @@
           "id": "a30b7b2f-juice-wrld-we-don-t-get-along",
           "spotifyId": "2XhatQ5NqfdqZMLCegWnbD",
           "youtubeId": "4qevrSuB70s",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1415,6 +1531,8 @@
           "id": "a30b7b2f-sibyl-vane-can-t-keep-it-together",
           "spotifyId": "4r2SApYMZnlW9c7nKyfQEp",
           "youtubeId": "9kJ76qrmfBE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1434,6 +1552,8 @@
           "id": "a30b7b2f-morrissey-lester-bangs",
           "spotifyId": "2cSM8lDuJo5JmFgOKMV3zO",
           "youtubeId": "Vvzd9G_JX8Y",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1471,6 +1591,8 @@
           "id": "40f1de08-clicherik-ft-karl-killing-dusiruumi-muusik",
           "spotifyId": "1Jq785EA33vBKF62gqpLIW",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1490,6 +1612,8 @@
           "id": "40f1de08-bruno-mars-cha-cha-cha",
           "spotifyId": "6QletrrmpkUpeJkipX9pgf",
           "youtubeId": "l38Aru5jICw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1509,6 +1633,8 @@
           "id": "40f1de08-kadri-voorand-tunnistus",
           "spotifyId": "6owhxfx7tsyMGczOCdDzza",
           "youtubeId": "D2sg18QLhpo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1528,6 +1654,8 @@
           "id": "40f1de08-jill-scott-ft-too-hort-bpty",
           "youtubeId": "PYrz0gymfao",
           "spotifyId": "3VC2OG45kkdykebomK6Eus",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1564,6 +1692,8 @@
           "id": "2d7441fe-florian-wahl-miks-me-hurdime",
           "spotifyId": "7tY6JcCgSEtNjlWBPwwPzb",
           "youtubeId": "s21olRDhYMs",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1583,6 +1713,8 @@
           "id": "2d7441fe-lana-del-rey-white-feather-hawk-tall-deer-hunter",
           "spotifyId": "7IM4xK4W4n06UAV48ZXMup",
           "youtubeId": "S1stZOAIcW4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1602,6 +1734,8 @@
           "id": "2d7441fe-hanakiv-lastele",
           "spotifyId": "2xx1BA81SoPDLd9fPks79j",
           "youtubeId": "VvNpTLMnkmc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1621,6 +1755,8 @@
           "id": "2d7441fe-foo-fighters-your-favourite-toy",
           "spotifyId": "0L9RHQ6I91En6Ic1ILQAEF",
           "youtubeId": "Lgy4a0tXz7M",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1658,6 +1794,8 @@
           "id": "27eae26f-jooseppro-ma-nagu-lol",
           "youtubeId": "mGzQ898iYiM",
           "spotifyId": "3FBVycGAD2XGR2iO86haFn",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1677,6 +1815,8 @@
           "id": "27eae26f-charli-xcx-always-everywhere",
           "spotifyId": "6fGapufucZHPva1kvCqceA",
           "youtubeId": "coCrrHqLQko",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1696,6 +1836,8 @@
           "id": "27eae26f-majaka-mandela-tossud",
           "spotifyId": "2qVEhOtj70CuOqnKT3CdiN",
           "youtubeId": "DagGnNIhlEo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1715,6 +1857,8 @@
           "id": "27eae26f-paul-anka-anytime",
           "spotifyId": "6vFBwtkILLW7FiNGkY9w2t",
           "youtubeId": "pdYDe0NksyE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1751,6 +1895,8 @@
           "id": "4015a542-an-marlen-sudame-jargi",
           "spotifyId": "0Ib0vNZxTbhNJWUukjNNSu",
           "youtubeId": "zPEbNIeDEbI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1770,6 +1916,8 @@
           "id": "4015a542-sombr-homewrecker",
           "spotifyId": "7tICCrK3CcyRFKza7yrR0z",
           "youtubeId": "mQezde_qeXw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1789,6 +1937,8 @@
           "id": "4015a542-oopus-hanemang",
           "spotifyId": "32XFoFdn1znjXrzOhf3vve",
           "youtubeId": "Xz0zQwHzYMo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1808,6 +1958,8 @@
           "id": "4015a542-morrissey-notre-dam",
           "spotifyId": "0M1ZsqJ3tJTbiHKWenjnYM",
           "youtubeId": "Q44JiUwa2Xg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1844,6 +1996,8 @@
           "id": "e505c599-jarek-kasar-olen-terve-elu-s88nud-v6ileiba-valel",
           "spotifyId": "6Wm5UGCtgejcuj8HyDc5LQ",
           "youtubeId": "V082YHtAJfg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1863,6 +2017,8 @@
           "id": "e505c599-harry-styles-aperture",
           "spotifyId": "45Z3m6yazmAi4jZuW0tzW0",
           "youtubeId": "7sxVHYZ_PnA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1882,6 +2038,8 @@
           "id": "e505c599-a-ap-rocky-punk-rocky",
           "spotifyId": "1AXsHbdIYx2OyKmdOcIL5T",
           "youtubeId": "lCp0BmcFPQ8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1921,6 +2079,8 @@
           "id": "4b8b3c35-skizo-narkopoliitika",
           "youtubeId": "r8N1uXls_S0",
           "spotifyId": "7K6ccdK3jFGA5lOZv5OsJH",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1940,6 +2100,8 @@
           "id": "4b8b3c35-bruce-springsteen-streets-of-minneapolis",
           "spotifyId": "6AtgHxdvghUjcjdPX1VhWN",
           "youtubeId": "GDaPdpwA4Iw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1959,6 +2121,8 @@
           "id": "4b8b3c35-fuzzolini-twilight-haze",
           "spotifyId": "5bvxExQplU3c9LYVAwFSCg",
           "youtubeId": "djb1q6JtdW4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -1980,6 +2144,8 @@
           "id": "4b8b3c35-thundercat-i-did-this-to-myself",
           "spotifyId": "7fJM4XjW6m30iPxPxKeGpb",
           "youtubeId": "RFsFfwiRxe0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2014,8 +2180,14 @@
           "chooser": null,
           "note": null,
           "id": "16e70f0c-skoone-suurtukk-ajab-suu-lohki",
+          "bandcamp": {
+            "album": "280732283",
+            "track": "2699527089",
+            "url": "https://skoone.bandcamp.com/album/inimeste-inimene"
+          },
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2035,6 +2207,8 @@
           "id": "16e70f0c-vaiko-eplik-kuningas",
           "spotifyId": "16XLU145WzAE8y0rhQGyGq",
           "youtubeId": "V1t0OIjsBIA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2054,6 +2228,8 @@
           "id": "16e70f0c-c-c-haudvaikne",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2073,6 +2249,8 @@
           "id": "16e70f0c-margiiela-ilus-paev",
           "spotifyId": "5DRuLCH2Kh044yHkVDgGP1",
           "youtubeId": "oDp5PVod09s",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2092,6 +2270,8 @@
           "id": "16e70f0c-roma-vjazemski-royal-brown-philipp-otterbach-ful",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2111,6 +2291,8 @@
           "id": "16e70f0c-turnstile-i-care",
           "spotifyId": "7KVIuHxbV5lvBE5Vyiw8FC",
           "youtubeId": "PnYzk4nsJAo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2130,6 +2312,8 @@
           "id": "16e70f0c-cardiacs-busty-beez",
           "spotifyId": "1Eq0eyg4e5BKZwmhyMVl4H",
           "youtubeId": "sy4XFSjDtHQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2149,6 +2333,8 @@
           "id": "16e70f0c-jjjjjerome-ellis-savannah-sparrow-for-and-after-",
           "spotifyId": "0XOqFA9NwqrJylYJ0MbNAV",
           "youtubeId": "3rAsyNZLZWk",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2168,6 +2354,8 @@
           "id": "16e70f0c-dijon-higher",
           "spotifyId": "0XnD9GJRD01wvXFLWJXiYx",
           "youtubeId": "mrUE3al1XJ8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2187,6 +2375,8 @@
           "id": "16e70f0c-kelman-duran-equinox",
           "spotifyId": "163L7wORqND1nCuFfCwxVR",
           "youtubeId": "TysX_a1IAm8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2224,6 +2414,8 @@
           "id": "263c8fbc-lotte-jurjendal-alien-angel",
           "youtubeId": "ER6BAMJqfmU",
           "spotifyId": "1XCBtrAYCFKhuiR5TIjXRT",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2245,6 +2437,8 @@
           "id": "263c8fbc-gorillaz-damaskus",
           "spotifyId": null,
           "youtubeId": "f-qgU6wnOCE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2264,6 +2458,8 @@
           "id": "263c8fbc-elisabeth-tiffany-jopetaskud",
           "spotifyId": "6UfIb8uTr3Jby9pzsryjdZ",
           "youtubeId": "ug0v6tFDVGA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2283,6 +2479,8 @@
           "id": "263c8fbc-glasser-knave-dj-python-remix",
           "spotifyId": "0ZO93WbuhtzYvUTnhGwPsP",
           "youtubeId": "GJ50go2-eEA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2319,6 +2517,8 @@
           "id": "28a618cf-blix-tallinn-2000-uksi",
           "spotifyId": "74Z5Obf5PRXrTS8eqjQOcj",
           "youtubeId": "xgyCNJ9-S-8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2339,6 +2539,8 @@
           "id": "28a618cf-anika-these-days",
           "youtubeId": "YdorO9ZQz_w",
           "spotifyId": "2zWHeOcp8vv6hHpaQCBJMd",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2358,6 +2560,8 @@
           "id": "28a618cf-marju-kuut-naen-end-su-silmades",
           "spotifyId": "61OQ9radzyW3Q9UJzoc3rV",
           "youtubeId": "g5M4LQmJzjk",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2377,6 +2581,8 @@
           "id": "28a618cf-tul8te-el-hobo-gany",
           "spotifyId": "67yheG887FPQXlPRNmoXqz",
           "youtubeId": "vVSX_Q9zajM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2413,6 +2619,8 @@
           "id": "17d543f7-reket-varjude-maa",
           "spotifyId": "5oRD1pKbWkbUQJy4KfKJVn",
           "youtubeId": "OcQ64ItWgP8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2432,6 +2640,8 @@
           "id": "17d543f7-jimi-tenor-shine-all-night",
           "spotifyId": "0GrSTRsMLy7KnBXAiC8byh",
           "youtubeId": "yg8BOWaoViU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2452,6 +2662,8 @@
           "id": "17d543f7-jooseppro-kaliiber",
           "spotifyId": "3bXOQAMf5pPpNw0ZB2mJ2c",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2471,6 +2683,8 @@
           "id": "17d543f7-headache-the-joy-is-ours",
           "spotifyId": "01LCIX0nhCVR6W1nOmggeC",
           "youtubeId": "R7agC2g70t4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2507,6 +2721,8 @@
           "id": "7d01a2d3-maria-kallastu-ddg",
           "spotifyId": "6BfQ9hufLHgXRM2Wm9RVgt",
           "youtubeId": "0jsiQLliqIo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2528,6 +2744,8 @@
           "id": "7d01a2d3-fred-again-beto-s-horns-fred-remix",
           "spotifyId": "53rDh4kB1LJyLgnxm8K6Np",
           "youtubeId": "wCJ8AqcEn8s",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2547,6 +2765,8 @@
           "id": "7d01a2d3-sadu-uueks-hommikul",
           "spotifyId": "1a7A3FoOogzD0HnViWe1DU",
           "youtubeId": "pPb9DEq4s5s",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2566,6 +2786,8 @@
           "id": "7d01a2d3-portugal-the-man-denali",
           "spotifyId": "1jhgSVa96fjzb1dsJw6kvB",
           "youtubeId": "sxWjiaAJ3ZY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2602,6 +2824,8 @@
           "id": "cae25c7a-maris-pihlap-ara-lopeta",
           "spotifyId": "5q2TP5NbhucRjrpCSUpXpb",
           "youtubeId": "UDX6iutyzWk",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2621,6 +2845,8 @@
           "id": "cae25c7a-charli-xcx-ft-john-cale-house",
           "spotifyId": "15ApEgs3gaAMKOEj2vzH1p",
           "youtubeId": "gN5D3aNbzqw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2640,6 +2866,8 @@
           "id": "cae25c7a-ans-andur-must-pilv",
           "spotifyId": "3vEPlsBFaDELSpZGoq1pCX",
           "youtubeId": "Z4-CYthqag4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2659,6 +2887,8 @@
           "id": "cae25c7a-smerz-imagine-this-new-york-edit",
           "spotifyId": "7aLekIhtPcJC5KsYQlCZy3",
           "youtubeId": "kbQ6xU3GLxQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2696,6 +2926,8 @@
           "id": "d3af9788-siim-pojeng-sules-lilli",
           "youtubeId": "rHwkiBB4G_0",
           "spotifyId": "4OuvXk4CFwVjh1zkLN6dzY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2715,6 +2947,8 @@
           "id": "d3af9788-florence-the-machine-sympathy-magic",
           "spotifyId": "6ExwNwWLXvvKr5hk6lkHUY",
           "youtubeId": "cfjDrutsfRQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2734,6 +2968,8 @@
           "id": "d3af9788-meelik-johker-puss",
           "spotifyId": "4pXhe6gdeg0Sf0GIevliaE",
           "youtubeId": "4VceiOZz1v4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2755,6 +2991,8 @@
           "id": "d3af9788-moore-kismet-blue2th",
           "spotifyId": "3WlZDXyo8jPkHuCAIb3uPR",
           "youtubeId": "e7FPhgci11w",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2793,6 +3031,8 @@
           "id": "3bc11027-gram-of-fun-corolla",
           "spotifyId": "5NE9YDcJ2MWigkPuwO9Mz3",
           "youtubeId": "vzdES_jmOJc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2814,6 +3054,8 @@
           "id": "3bc11027-rosalia-berghain",
           "spotifyId": "6V4ntlX6608rd3Ec5SpVhj",
           "youtubeId": "Wj9qHzz9BJY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2834,6 +3076,8 @@
           "id": "3bc11027-boipepperoni-open-heart",
           "youtubeId": "CehubJ8DPv0",
           "spotifyId": "1BGo1bUgmgHPeiGfTh0ici",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2853,6 +3097,8 @@
           "id": "3bc11027-tyler-up-all-night",
           "youtubeId": "Qer3lwd5hyA",
           "spotifyId": "1YdtGoSYDvVQKoUqSDXX41",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2890,6 +3136,8 @@
           "id": "4cc9e6ed-karl-killing-ara-enam-ella",
           "spotifyId": "1imaHHFvbGAnWMWRb2sHhY",
           "youtubeId": "gciS6Dosi8A",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2909,6 +3157,8 @@
           "id": "4cc9e6ed-daniel-cesar-ft-bon-iver-moon",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2929,6 +3179,8 @@
           "id": "4cc9e6ed-mar-u-kassar",
           "youtubeId": "OUN2mypszcU",
           "spotifyId": "58aJsJiHc4WVdRY5v6FZaC",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2948,6 +3200,8 @@
           "id": "4cc9e6ed-powell-up-all-night",
           "youtubeId": "PBCjKKkgv_M",
           "spotifyId": "2C50KXEH8DPoQXDeOOAC8D",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -2984,6 +3238,8 @@
           "id": "ecacb7c9-randaja-inimeseks-olemine",
           "spotifyId": "7KgpgW9YhR1sTdOnZJDiia",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3004,6 +3260,8 @@
           "id": "ecacb7c9-lojay-memories",
           "spotifyId": "4zMoZEkWSHb5NXuflbLHNI",
           "youtubeId": "fP0XwjYBloE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3024,6 +3282,8 @@
           "id": "ecacb7c9-clicherik-sobralaul",
           "spotifyId": "64hTptTXGZ27m6xgG8DNzN",
           "youtubeId": "B9LGVeFqh38",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3043,6 +3303,8 @@
           "id": "ecacb7c9-t-i-ride-the-plane",
           "spotifyId": "7pX2ih9z26J9Re0mXaVkE2",
           "youtubeId": "2nTqaHoMJCY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3082,6 +3344,8 @@
           "id": "4dfa188b-dew8-kui-kedagi-piinad",
           "spotifyId": "1oIpPfVk2N1o6H4nbvjJkf",
           "youtubeId": "t44G6Lcy22Q",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3101,6 +3365,8 @@
           "id": "4dfa188b-twice-me-you",
           "spotifyId": "0hGWmmZuKyd8sO7RCvF6rH",
           "youtubeId": "Rj1Gl9hAJ0g",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3120,6 +3386,8 @@
           "id": "4dfa188b-meisterjaan-meelehein",
           "spotifyId": "3U2ZCKqsnePyaSVGIgmvVC",
           "youtubeId": "4vqjaG_Y0SU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3141,6 +3409,8 @@
           "id": "4dfa188b-gorillaz-the-manifesto",
           "youtubeId": "6JIv1l96zN0",
           "spotifyId": "1pgl5ntthebzHaqJVI1n6B",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3177,6 +3447,8 @@
           "id": "4998e33a-margiiela-alexandria",
           "spotifyId": "7G5cCPSdWEPQvVpslATvIv",
           "youtubeId": "8GSI_sihMJQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3196,6 +3468,8 @@
           "id": "4998e33a-taylor-swift-the-fate-of-ophelia",
           "spotifyId": "53iuhJlwXhSER5J2IYYv1W",
           "youtubeId": "ko70cExuzZM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3215,6 +3489,8 @@
           "id": "4998e33a-kreemikast-onn-ilma-roomuta",
           "spotifyId": "5YBL01WjkVQreu1doYOd9G",
           "youtubeId": "A_JTKbeaA34",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3234,6 +3510,8 @@
           "id": "4998e33a-dry-cleaning-hit-my-head-all-day",
           "spotifyId": "0quJpknjZo8gMmwzMhiHb3",
           "youtubeId": "Pk7V6zQFU6w",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3270,6 +3548,8 @@
           "id": "f247c45d-white-girl-ma-ei-taha",
           "spotifyId": "2QRCwK0LoB6GrPJBcdQ8KU",
           "youtubeId": "ddaEzPmp4jk",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3289,6 +3569,8 @@
           "id": "f247c45d-danny-brown-stardust",
           "spotifyId": "0tfeN7mf5y5Fyz8xxoNTB9",
           "youtubeId": "wi2TwqjjDHw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3308,6 +3590,8 @@
           "id": "f247c45d-heleenyum-siren-remix",
           "spotifyId": "7nSmzCc8FzGt0CavI3AGqF",
           "youtubeId": "M7Q1l3Iu5og",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3327,6 +3611,8 @@
           "id": "f247c45d-juana-molina-siestas-ahi",
           "spotifyId": "48ZuLtNLHM0I5DdmIo99YZ",
           "youtubeId": "A54wqKoOR8A",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3363,6 +3649,8 @@
           "id": "e9622d5d-daniel-levi-following-the-lost",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3382,6 +3670,8 @@
           "id": "e9622d5d-jonas-f-k-nadal",
           "spotifyId": "2VDPBRBCWwvtt8Xz2Ta8az",
           "youtubeId": "MVww6MEtj5U",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3402,6 +3692,8 @@
           "id": "e9622d5d-villemdrillem-kas-tuled-ka",
           "spotifyId": "6d4Cu5d7wbMmi0EynydKbQ",
           "youtubeId": "JPpEKAL0wsQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3421,6 +3713,8 @@
           "id": "e9622d5d-yshiroma-amends",
           "spotifyId": "78BqNzJoI3SyVTQT9w1GRm",
           "youtubeId": "mZs9J0K6yVI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3459,6 +3753,8 @@
           "id": "df1c87e3-rom-nagun2ff",
           "spotifyId": "4zJnfDP4SdilbKb4HqViNY",
           "youtubeId": "SdFl5dcIbPA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3479,6 +3775,8 @@
           "id": "df1c87e3-odumodublvck-ft-stormzy-pay-me",
           "youtubeId": "tbkyQBR5ZPo",
           "spotifyId": "48olFFX6QTTXB47q4qfPFU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3498,6 +3796,8 @@
           "id": "df1c87e3-lotte-darker-love",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3517,6 +3817,8 @@
           "id": "df1c87e3-lukid-new-river",
           "spotifyId": "3kEWJq127r1qjM68rxjENH",
           "youtubeId": "PyuGqIw-6zA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3553,6 +3855,8 @@
           "id": "7ae27574-jarek-kasar-jt",
           "spotifyId": "6oUnyGUONoqxugxF3nguhX",
           "youtubeId": "txObiaCzRzw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3572,6 +3876,8 @@
           "id": "7ae27574-lady-gaga-the-dead-dance",
           "spotifyId": "3NFs3XUduzBfvc5Bx1gmzh",
           "youtubeId": "xGaZBfJOyAc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3591,6 +3897,8 @@
           "id": "7ae27574-triinu-upkin-ballerina-let-her-dance",
           "spotifyId": "6GzxMekuyvJNrSTrE249vx",
           "youtubeId": "iLK7l0W6ihU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3610,6 +3918,8 @@
           "id": "7ae27574-lizzo-i-love-being-myself",
           "spotifyId": "2htDCWcfX8RAEU5BtKPRm8",
           "youtubeId": "UsnUtQTU0-A",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3646,6 +3956,8 @@
           "id": "f00dce8b-prodigyboys-ft-lotey-come-closer",
           "spotifyId": "2KupIo83cTx4PiHIkDiKJS",
           "youtubeId": "TXcD0DHy51M",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3665,6 +3977,8 @@
           "id": "f00dce8b-ariel-pink-with-you-every-night",
           "spotifyId": "2OnqbuM3s6YPtq6Gjm18H1",
           "youtubeId": "wCtXAvL0dJQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3684,6 +3998,8 @@
           "id": "f00dce8b-night-tapes-storm",
           "spotifyId": "3Jo13MZ9GlmCLcNvJ4LDXb",
           "youtubeId": "Uk7JItajmF0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3703,6 +4019,8 @@
           "id": "f00dce8b-cardi-b-imaginary-playerz",
           "spotifyId": "37tH9V9YK8P9Q2oGfZjJXy",
           "youtubeId": "cg2MY3F2iAk",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3737,8 +4055,10 @@
           "chooser": "Siim Nestor",
           "note": null,
           "id": "a84e0286-iiori-sprint",
+          "soundcloudUrl": "https://soundcloud.com/iorithuggin/sprint-yovoo-jvcxb",
           "spotifyId": null,
           "youtubeId": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3758,6 +4078,8 @@
           "id": "a84e0286-karameel-mul-ei-ole-raha",
           "spotifyId": "2SpnyzeKoWC65FkXu9pRJ7",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3777,6 +4099,8 @@
           "id": "a84e0286-valge-tudruk-mul-krdi-suva",
           "spotifyId": "3XakzcEu3QIALuRdiCzqku",
           "youtubeId": "eh4VN9bibww",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3796,6 +4120,8 @@
           "id": "a84e0286-c-c-haudvaikne",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3834,6 +4160,8 @@
           "id": "c0b8424d-maria-kallastu-amore-tossico",
           "spotifyId": "2nc6nH46GARqaG6dGpEanp",
           "youtubeId": "KVxFyuPMaro",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3853,6 +4181,8 @@
           "id": "c0b8424d-sabrina-carpenter-manchild",
           "spotifyId": "42UBPzRMh5yyz0EDPr6fr1",
           "youtubeId": "aSugSGCC12I",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3872,6 +4202,8 @@
           "id": "c0b8424d-yasmyn-ft-sno-like-that",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3891,6 +4223,8 @@
           "id": "c0b8424d-neil-young-and-the-chrome-hearts-dark-mirage",
           "spotifyId": "2dc6QqdRmzhnbN0rlR6LSN",
           "youtubeId": "95-W85LLhCc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3928,6 +4262,8 @@
           "id": "ec783a5e-nublu-tipus-ulub-tuul",
           "youtubeId": "DAMQQgz30-4",
           "spotifyId": "1uVBbFLDRLGv0LV9sxiw4J",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3947,6 +4283,8 @@
           "id": "ec783a5e-lorde-man-of-the-year",
           "spotifyId": "1gvOEwQbIEjkpLdcZwtBoB",
           "youtubeId": "ynrSkSYirB0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3966,6 +4304,8 @@
           "id": "ec783a5e-leslie-da-bass-ei-keegi-saa-roovida-me-suve",
           "spotifyId": "5cpW22bU3y6B6lV4p0piMp",
           "youtubeId": "jpG4YtA7W2E",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -3986,6 +4326,8 @@
           "id": "ec783a5e-pluto-whim-whamiee-remix",
           "spotifyId": "7pvrkNvlIQMY0hfGcdCr5m",
           "youtubeId": "_wOMUhluYjA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4022,6 +4364,8 @@
           "id": "1f4d07b9-lexsoul-dance-machine-it-s-over",
           "spotifyId": null,
           "youtubeId": "U5vzqZxawmM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4042,6 +4386,8 @@
           "id": "1f4d07b9-burna-boy-tatata",
           "spotifyId": "7iCvoWlfuJ1y7zibnh1EW9",
           "youtubeId": "i95qrIzsuzQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4061,6 +4407,8 @@
           "id": "1f4d07b9-music-four-your-plants-novacyne",
           "spotifyId": "2o8qdUBI1UWZuiswc0vM7J",
           "youtubeId": "kGQyy5bulXc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4080,6 +4428,8 @@
           "id": "1f4d07b9-st-etienne-glad",
           "spotifyId": "1URMqt0roaVHKilmuQ3JoF",
           "youtubeId": "h5fWxY9IHkw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4116,6 +4466,8 @@
           "id": "2cbcfe43-kiki-kellelgi-on-raske",
           "spotifyId": "6ZOmnIcwTQIb7fBzsLl57z",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4135,6 +4487,8 @@
           "id": "2cbcfe43-ye-ww3",
           "spotifyId": null,
           "youtubeId": "xFXIw2oT3vM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4154,6 +4508,8 @@
           "id": "2cbcfe43-freak-street-paikese-all",
           "spotifyId": "1nqna2asncZf1iYDnTdbFd",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4173,6 +4529,8 @@
           "id": "2cbcfe43-andre-3000-spent-all-day-waiting-for-the-night",
           "spotifyId": null,
           "youtubeId": "VIPC3UgscKY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4209,6 +4567,8 @@
           "id": "3e638468-triibupasta-tantsuriik",
           "spotifyId": "6p1WSCHxkK6pGFh7sOt67k",
           "youtubeId": "HDNVPSIBEag",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4229,6 +4589,8 @@
           "id": "3e638468-quavo-dope-boy-phone",
           "spotifyId": "2nvZUnuXYrOUlZXJV5TJwo",
           "youtubeId": "2zPY9HuCNMA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4248,6 +4610,8 @@
           "id": "3e638468-clicherik-nagu-kodus",
           "spotifyId": "3ZpAA0odoSZo1RTczoQmIx",
           "youtubeId": "I19e76tzEm0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4267,6 +4631,8 @@
           "id": "3e638468-ed-sheeran-old-phone",
           "spotifyId": "2QxviKpVdEXKDWs706MUZB",
           "youtubeId": "rj5dxoMY-dE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4303,6 +4669,8 @@
           "id": "8311c8b9-shelton-san-funky-old-fella",
           "spotifyId": "2wdeIbcwf0G81bsoadGlLS",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4323,6 +4691,8 @@
           "id": "8311c8b9-ariel-pink-spin-cycle",
           "spotifyId": "1nHzQOjJCw3LI94Q6XTlI9",
           "youtubeId": "atsBqzkbSSQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4342,6 +4712,8 @@
           "id": "8311c8b9-slam-sigma-boy",
           "spotifyId": "0n1zV0r5qhQegYV47Tcd3P",
           "youtubeId": "6lHUL7PVSUI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4362,6 +4734,8 @@
           "id": "8311c8b9-billy-idol-77",
           "spotifyId": "6cEG5stzTtXrrCLgWKYV6j",
           "youtubeId": "_lx6D5HY9Ms",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4401,6 +4775,8 @@
           "id": "92971a74-inger-tirib-mind-kuuma",
           "spotifyId": "5usxsKpGaLc3FaOKnkrybZ",
           "youtubeId": "2QhiOFUbWHQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4421,6 +4797,8 @@
           "id": "92971a74-mark-pritchard-gangsters",
           "spotifyId": "4cug7RkMB0SCoYkYrXYN4y",
           "youtubeId": "m32xZaxzadw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4440,6 +4818,8 @@
           "id": "92971a74-sopruse-puiestee-hullimaja-hoovis",
           "spotifyId": "3r3CTrdjdxra2S3ZBCjrcO",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4459,6 +4839,8 @@
           "id": "92971a74-lana-del-rey-henry-come-on",
           "spotifyId": "6CYldrsUPBsiPtfLW4xZCl",
           "youtubeId": "nDYY3nJ7a0s",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4495,6 +4877,8 @@
           "id": "e86c4137-sammalhabe-lotus-elise",
           "spotifyId": "1HLdzzXicDWPpTZlulj2df",
           "youtubeId": "UfZP-pUiwvU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4514,6 +4898,8 @@
           "id": "e86c4137-pink-pantheress-tonight",
           "spotifyId": "5QCfOMH5K7bS4dH7H7PNeI",
           "youtubeId": "IrEFKJnl1H8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4533,6 +4919,8 @@
           "id": "e86c4137-luurel-varas-lab-grown-black-hole",
           "spotifyId": "2SaQK8PNCXgeIDS1YsaU6A",
           "youtubeId": "jhX4koxfy9k",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4552,6 +4940,8 @@
           "id": "e86c4137-barker-stochastic-drift",
           "spotifyId": "71WOzqtJI1CNFC38454Aih",
           "youtubeId": "cawfMFKweSo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4590,6 +4980,8 @@
           "id": "6df8fc6e-margiiela-ilus-paev",
           "spotifyId": "5DRuLCH2Kh044yHkVDgGP1",
           "youtubeId": "oDp5PVod09s",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4610,6 +5002,8 @@
           "id": "6df8fc6e-black-country-happy-birthday",
           "spotifyId": "56Vk4WrIrTr3Jg7hReNZVb",
           "youtubeId": "_fOdb4STQow",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4629,6 +5023,8 @@
           "id": "6df8fc6e-eik-roomus",
           "spotifyId": "7FoD3KPnflrVWVDGrpgOab",
           "youtubeId": "ufmOTdTt7lE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4648,6 +5044,8 @@
           "id": "6df8fc6e-yukimi-rules-of-school",
           "spotifyId": "1vVIHMFCuwc6FGRPmBvSIV",
           "youtubeId": "_oP_QQDZK_c",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4684,6 +5082,8 @@
           "id": "13e8f612-florian-wahl-fbsobrad",
           "spotifyId": "6TSGWm65Gnoc5AC7PLVaIK",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4703,6 +5103,8 @@
           "id": "13e8f612-lady-gaga-abracadabra",
           "spotifyId": "2LHNTC9QZxsL3nWpt8iaSR",
           "youtubeId": "vBynw9Isr28",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4722,6 +5124,8 @@
           "id": "13e8f612-alonette-true-north",
           "spotifyId": "23yDVhmBr6iROYRIudhXWT",
           "youtubeId": "EKkGcEwDO0g",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4742,6 +5146,8 @@
           "id": "13e8f612-jennie-ft-kali-uchis-damn-right",
           "spotifyId": "1e7VWi3ThY7t1F4vkfNfde",
           "youtubeId": "PICpEtPHyZI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4779,6 +5185,8 @@
           "id": "de1c611f-meisterjaan-tode-ja-tegu",
           "spotifyId": "7s50LqIPG7FsjZGfa9tQ0e",
           "youtubeId": "4vyWnVaPMVw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4798,6 +5206,8 @@
           "id": "de1c611f-playboi-carti-pop-out",
           "spotifyId": "3j3SfV4hAcR4XjCvW393Gr",
           "youtubeId": "-V_GygtBQJo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4817,6 +5227,8 @@
           "id": "de1c611f-the-boondocks-jeanette",
           "spotifyId": "6Ygd2uinKRd4MNOElQBZIP",
           "youtubeId": "BM3qhs1fy_w",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4837,6 +5249,8 @@
           "id": "de1c611f-fred-frith-your-sweet-time",
           "spotifyId": "5thnuWBYs8onAMtYMRZc78",
           "youtubeId": "lHiemXT2xtA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4875,6 +5289,8 @@
           "id": "03333d5e-ines-daferrari-nr-1",
           "spotifyId": "7HANZHEnkcRu5nS1PSY15f",
           "youtubeId": "v2X3A-5SztU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4895,6 +5311,8 @@
           "id": "03333d5e-sonic-boom-ask-for-the-moon",
           "spotifyId": "3K5wGxcxXe7Ia2d2Q814Kf",
           "youtubeId": "HDt4aqwnKqo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4914,6 +5332,8 @@
           "id": "03333d5e-c-c-haudvaikne",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4933,6 +5353,8 @@
           "id": "03333d5e-muni-long-slow-grind",
           "spotifyId": "2TbwCYJSZrDpEz1cTIwTjx",
           "youtubeId": "atpkDVhQ9es",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4970,6 +5392,8 @@
           "id": "127c756b-kantri-guidu-band-meesnaine",
           "spotifyId": "6qS5ZmG053Bdas3AxKmXWf",
           "youtubeId": "TCxYPCFFGe0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -4990,6 +5414,8 @@
           "id": "127c756b-joy-orbison-bastard",
           "spotifyId": "7wezQzF31IztdsWRiyV0gJ",
           "youtubeId": "12gTDEXyTeY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5009,6 +5435,8 @@
           "id": "127c756b-marmormaze-koeramoodi",
           "spotifyId": null,
           "youtubeId": "nizUEQ-Szmo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5029,6 +5457,8 @@
           "id": "127c756b-dean-blunt-2",
           "spotifyId": "6eLfGGLdhv4x5IPl7N88AS",
           "youtubeId": "iJ30RG1iOJI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5067,6 +5497,8 @@
           "id": "58a9212a-nkn-trakuinice",
           "spotifyId": "7fd1rlPtvDhDMvUR7or7xB",
           "youtubeId": "RlE4UBEnWf4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5086,6 +5518,8 @@
           "id": "58a9212a-bon-iver-everything-is-peaceful-love",
           "spotifyId": "4XosapYiYaXGcxc83p3DD9",
           "youtubeId": "yaPX-i1TjCc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5105,6 +5539,8 @@
           "id": "58a9212a-triibupasta-viinaingel",
           "spotifyId": "3llyYmTWZDBGCZH76jF4ck",
           "youtubeId": "UVdXBszOpR4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5124,6 +5560,8 @@
           "id": "58a9212a-nazar-anticipate",
           "spotifyId": "3cM0gQCC0WuOTXsOxZjvMn",
           "youtubeId": "7ej1tfpw-0U",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5160,6 +5598,8 @@
           "id": "35994776-karl-killing-staatus",
           "spotifyId": "4hDBjx4AltTBTNLAMxqSCs",
           "youtubeId": "vWfKPSP5I5s",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5180,6 +5620,8 @@
           "id": "35994776-drake-nokia",
           "youtubeId": "UWyFj-TD9-M",
           "spotifyId": "2u9S9JJ6hTZS3Vf22HOZKg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5199,6 +5641,8 @@
           "id": "35994776-pia-fraus-across-the-street",
           "spotifyId": "17m8UM8gsESJdt8ggH3GRi",
           "youtubeId": "WxPUADrbBKY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5218,6 +5662,8 @@
           "id": "35994776-jpegmafia-what-the-hip-hop-hell-is-this",
           "spotifyId": "6QjdkLo5iUrPV8zEJugGnM",
           "youtubeId": "qf7eHQU3kOc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5254,6 +5700,8 @@
           "id": "575fdbf7-kaschalot-laminar-flow",
           "spotifyId": "6iVI1UWM9No3nMbYdRywIQ",
           "youtubeId": "vuPRgYZW7GM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5273,6 +5721,8 @@
           "id": "575fdbf7-panda-bear-ferry-lady",
           "spotifyId": "387tpks4U8UCaPctPJVR0U",
           "youtubeId": "g0uc3Ag2yXM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5292,6 +5742,8 @@
           "id": "575fdbf7-mari-kalkun-kiri-algab",
           "spotifyId": "2IneQLrCS4jBITNROaF9t1",
           "youtubeId": "_rQfOMCXE5E",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5311,6 +5763,8 @@
           "id": "575fdbf7-squid-cro-magnon-man",
           "spotifyId": "4hUuxvpzrWWpucSFrXHTwN",
           "youtubeId": "Eb3zur0WewU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5348,6 +5802,8 @@
           "id": "68d262e1-helina-ok3-ok3-ok3-pohjakoristaja",
           "spotifyId": "14dfAppngA71tOk4dBrqs7",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5368,6 +5824,8 @@
           "id": "68d262e1-black-country-besties",
           "spotifyId": "4U9ZjqhaGF9wl56899E4sW",
           "youtubeId": "Cae57TpoyZg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5387,6 +5845,8 @@
           "id": "68d262e1-fuzzolini-beauty-exist-in-every-one",
           "spotifyId": null,
           "youtubeId": "vMCyByeHjl4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5407,6 +5867,8 @@
           "id": "68d262e1-the-weeknd-big-sleep",
           "spotifyId": "4sWQbsLLH2NEbO79DSZCL9",
           "youtubeId": "1FopqsTIfY0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5443,6 +5905,8 @@
           "id": "a68b491a-alonette-costume",
           "spotifyId": "1Q7K5toh45MjxdrmYGlT9W",
           "youtubeId": "5lGqIwIFTmw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5462,6 +5926,8 @@
           "id": "a68b491a-fka-twigs-room-of-fools",
           "spotifyId": "1CqyErlQstROOe9hAn93oI",
           "youtubeId": "84kJivpNyhc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5481,6 +5947,8 @@
           "id": "a68b491a-mario-kaks-silma-kinni",
           "spotifyId": null,
           "youtubeId": "V5yKWwkKucs",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5501,6 +5969,8 @@
           "id": "a68b491a-omar-s-something-real",
           "spotifyId": "6OV3OoCZVWHkEq95E5pbwB",
           "youtubeId": "ZQKcnjWVl6I",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5537,6 +6007,8 @@
           "id": "4f7d1d5a-tungevaag-liis-lemsalu-solodance",
           "spotifyId": "17YBzqFJYoX3jhzPgP55WD",
           "youtubeId": "WXt4PXc1TZM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5556,6 +6028,8 @@
           "id": "4f7d1d5a-ela-minus-i-want-to-do-better",
           "spotifyId": "6qDUtM6TrV0IFg3nMmXeIQ",
           "youtubeId": "d3o-Qe2_aKg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5575,6 +6049,8 @@
           "id": "4f7d1d5a-merilin-malk-dilemma",
           "spotifyId": "4QZ0oKTKYPbRRpuSy4lnfk",
           "youtubeId": "nQYGTpFQd3E",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5594,6 +6070,8 @@
           "id": "4f7d1d5a-bad-bunny-dtmf",
           "spotifyId": "3sK8wGT43QFpWrvNQsrQya",
           "youtubeId": "w4JXwsSCgBc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5631,6 +6109,8 @@
           "id": "c4d6132b-bedwetters-koik-muu-voib-oodata",
           "spotifyId": "22eGFSMNDEm3PDJ6yFxkaz",
           "youtubeId": "1H_XlReSj_8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5650,6 +6130,8 @@
           "id": "c4d6132b-lambrini-girls-bad-apples",
           "spotifyId": "5pWHXtj4OyOLVoQZHpuXBK",
           "youtubeId": "svttRZ1jL2I",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5670,6 +6152,8 @@
           "id": "c4d6132b-jarek-kasar-endrofiin-fagin",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5689,6 +6173,8 @@
           "id": "c4d6132b-jungle-keep-me-satisfied",
           "spotifyId": "4OxDppy29ZuxXgQ1kMEjCr",
           "youtubeId": "fwq5sT-zLLk",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5725,6 +6211,8 @@
           "id": "59255337-karl-killing-vastased",
           "spotifyId": "36IWOSMfnVUa0hhKfPpHwi",
           "youtubeId": "kIxuqfwPgFU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5744,6 +6232,8 @@
           "id": "59255337-laurel-2-metsa-elf",
           "spotifyId": "1RPMN6Zfhqy1EMdIrtOvyQ",
           "youtubeId": "Ufc1MPw28NA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5764,6 +6254,8 @@
           "id": "59255337-karl-killing-sinust-saati",
           "spotifyId": "7piQz82zo3XvIjJiDBN7QK",
           "youtubeId": "aGOn4F0k7_c",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5783,6 +6275,8 @@
           "id": "59255337-valge-tudruk-tere-paevik",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5804,6 +6298,8 @@
           "id": "59255337-karja-foam",
           "spotifyId": "4dlH3wVDmrFerQTtOWlUSa",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5823,6 +6319,8 @@
           "id": "59255337-oranssi-pazuzu-ikikaarme",
           "spotifyId": "37tqHUSSr3lad6P1TNW05B",
           "youtubeId": "IM6mKn07lpw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5843,6 +6341,8 @@
           "id": "59255337-laurie-anderson-india-and-down-to-australia",
           "youtubeId": "nFNhk80aA9s",
           "spotifyId": "1UuJykLvRT9JOUPL1jYgMe",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5862,6 +6362,8 @@
           "id": "59255337-still-house-plants-pant",
           "spotifyId": null,
           "youtubeId": "NK4CjEv1xKA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5881,6 +6383,8 @@
           "id": "59255337-laryssa-kim-les-amants-d-osmium-76-os",
           "spotifyId": "3aJhSvIH6rE6RpZSX872JA",
           "youtubeId": "QnHHIDtCtmM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5900,6 +6404,8 @@
           "id": "59255337-fontaines-d-c-starburster",
           "spotifyId": "09ttHg3ZNVgDlYBZa1ZBw0",
           "youtubeId": "KHocVRUlvkk",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5936,6 +6442,8 @@
           "id": "d5b62c3c-tommy-cash-espresso-macchiato",
           "spotifyId": "4f5sxA4nQywcBlU05Ixdc7",
           "youtubeId": "o6aJJ6Q5zhg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5955,6 +6463,8 @@
           "id": "d5b62c3c-james-messiah-meets-lord-tusk-open-up",
           "spotifyId": "2IWokOAZ8kL13nJ0K6ujb4",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5974,6 +6484,8 @@
           "id": "d5b62c3c-vennaskond-joulusokk",
           "spotifyId": "2OfLnLGqaI029wOuTVDYly",
           "youtubeId": "05G8dCSvM2w",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -5993,6 +6505,8 @@
           "id": "d5b62c3c-angel-olsen-the-takeover",
           "youtubeId": "WneRNOsadks",
           "spotifyId": "776rj4MU1PBrkj8bUB07gq",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6029,6 +6543,8 @@
           "id": "dc837b32-vera-vice-ever-since",
           "youtubeId": "sOao6NA8omc",
           "spotifyId": "4JGRY1CW8hc6yVnFAtq73L",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6048,6 +6564,8 @@
           "id": "dc837b32-becky-and-the-birds-london-is-not-the-same",
           "spotifyId": "7ABil3s9BbFathjbfDgCE6",
           "youtubeId": "IeHxamnme1I",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6067,6 +6585,8 @@
           "id": "dc837b32-prodigyboys-ratchet",
           "spotifyId": "4c5c6nwTzqPtAtbVSAPRmq",
           "youtubeId": "xjBzhuS7n94",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6086,6 +6606,8 @@
           "id": "dc837b32-cyn-the-smiths",
           "spotifyId": "09rxsu6GJPVivSOkRZ5Hc0",
           "youtubeId": "mWa2OVRK550",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6124,6 +6646,8 @@
           "id": "c2cbc0e2-inga-do-you-really-want-her",
           "spotifyId": "7iZdIRLS3LQ8OU8C9QqZ0x",
           "youtubeId": "c8sM2ZULSEg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6143,6 +6667,8 @@
           "id": "c2cbc0e2-kim-deal-summerland",
           "spotifyId": "039UNzELUQod4eq1Pve9Av",
           "youtubeId": "NayNyBshoGA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6162,6 +6688,8 @@
           "id": "c2cbc0e2-tommy-cash-hottie",
           "spotifyId": "7aX9ClrRetOsTBwsDlgD27",
           "youtubeId": "UPCXD1HUnhE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6181,6 +6709,8 @@
           "id": "c2cbc0e2-wizkid-soji",
           "spotifyId": "4hH9eVrAzlKR0jbLmHUkPD",
           "youtubeId": "4qcx3fDRPMY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6220,6 +6750,8 @@
           "id": "5a8ce01b-sip-lga-tere-kaine-eesti",
           "spotifyId": "47HYp6rB3k8OAnQ56Dh6cw",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6239,6 +6771,8 @@
           "id": "5a8ce01b-squid-crispy-skin",
           "spotifyId": "6gLaRcJnA7FqyEYpYJ4uPI",
           "youtubeId": "CqM8hhwNsJA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6259,6 +6793,8 @@
           "id": "5a8ce01b-stefan-purjetuul",
           "spotifyId": "6aAeBGMlrSgQXi5CqRegnh",
           "youtubeId": "5uBkGTloEoE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6278,6 +6814,8 @@
           "id": "5a8ce01b-nettspend-f-ck-swag",
           "spotifyId": "1N5ECRUsgd7iBMWdEQ7fp3",
           "youtubeId": "0ufGZYBbGMU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6314,6 +6852,8 @@
           "id": "f043c304-tanel-siimann-to-wait-for",
           "spotifyId": "6ngMgQCFbIjzXJ7kkYgg8p",
           "youtubeId": "HuQnsehnGHI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6333,6 +6873,8 @@
           "id": "f043c304-primal-scream-deep-dark-waters",
           "spotifyId": "5lo9urhtu7echJpFFU1S0n",
           "youtubeId": "P5SG4pXtRlM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6352,6 +6894,8 @@
           "id": "f043c304-heleenyum-ft-mcandthat-disappear",
           "spotifyId": "2s6VkF2It3GiXrBaj3DUVP",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6371,6 +6915,8 @@
           "id": "f043c304-central-cee-one-by-one",
           "spotifyId": "3desWYUkTBp3imvV6VkdXx",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6412,6 +6958,8 @@
           "id": "ad1528cf-villemdrillem-goyard",
           "spotifyId": "5MTWqOKRLwAZVz4oOh1ETp",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6431,6 +6979,8 @@
           "id": "ad1528cf-lcd-soundsystem-x-ray-eyes",
           "spotifyId": "6vitrLyJKoMUUC87JsgIAY",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6450,6 +7000,8 @@
           "id": "ad1528cf-pohja-konn-hingedepaev",
           "spotifyId": "5R5Ot84lrmCIW31JJqOrEN",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6470,6 +7022,8 @@
           "id": "ad1528cf-lola-young-charlie",
           "spotifyId": "7d25e7sGPoQ0orHhKroTu3",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6508,6 +7062,8 @@
           "id": "e833fac2-motonormal-cocacolastic",
           "spotifyId": "0k5HdNDXru5algGyOy7eIO",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6527,6 +7083,8 @@
           "id": "e833fac2-tyler-i-hope-you-find-your-way-home",
           "spotifyId": "0pvZCv4JOS5WBu7JITYef6",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6547,6 +7105,8 @@
           "id": "e833fac2-loits-toelised-kuningad-kutse-sugavikust",
           "spotifyId": "4ajnkpGMDpMYeUrcAs6kKt",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6566,6 +7126,8 @@
           "id": "e833fac2-underworld-hilo-sku",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6602,6 +7164,8 @@
           "id": "d95612df-kitty-florentine-ft-aid-kid-balance",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6621,6 +7185,8 @@
           "id": "d95612df-mk-gee-rockman",
           "spotifyId": "63ABAnFKJCp28TAyqf2cGL",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6640,6 +7206,8 @@
           "id": "d95612df-jarek-kasar-und-mina-n2gin",
           "spotifyId": "4LEW51UH7nb443Q2GofzEU",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6659,6 +7227,8 @@
           "id": "d95612df-fka-twigs-perfect",
           "spotifyId": "4rXdgnwfuHyWhIFWdzw5cy",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6695,6 +7265,8 @@
           "id": "f6d0a2a1-kaisa-ling-thing-elu-naisteta-on-jant",
           "spotifyId": "25CDbVCJA5FV6b2NobcYhz",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6714,6 +7286,8 @@
           "id": "f6d0a2a1-charli-xcx-ft-bladee-rewind",
           "spotifyId": "0aezkNKaZGeJKMPKBSezlP",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6733,6 +7307,8 @@
           "id": "f6d0a2a1-heleza-armastaks",
           "spotifyId": "1n7CmcjBKAXbrP2753WNt7",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6752,6 +7328,8 @@
           "id": "f6d0a2a1-milan-w-face-to-face",
           "spotifyId": "07KL6pzAHjTbroHRB4R40o",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6790,6 +7368,8 @@
           "id": "c9f6f00c-smilers-raagi-mis-sa-teed-lv-remix",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6810,6 +7390,8 @@
           "id": "c9f6f00c-metronomy-petit-boy",
           "youtubeId": "jmAGCUMUp0k",
           "spotifyId": "0MSN9A0nVONYW8E3Ml7k3E",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6831,6 +7413,8 @@
           "id": "c9f6f00c-margiila-eitohikshiljaksjaada",
           "youtubeId": "UXibtpJ747A",
           "spotifyId": "4fhbnkDMtmABElJYOQLGeD",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6850,6 +7434,8 @@
           "id": "c9f6f00c-kylie-minogue-lights-camera-action",
           "youtubeId": "aAVqr8hwjVY",
           "spotifyId": "1vbhiBKv5Tyfx75BOoTbdU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6888,6 +7474,8 @@
           "id": "9f28ab5f-zetod-sita-maitse-suuh",
           "youtubeId": "upIwlC7lE0E",
           "spotifyId": "1PK0SvYjLuFjRAzvktFUix",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6907,6 +7495,8 @@
           "id": "9f28ab5f-the-cure-alone",
           "youtubeId": "sx9SVAtMkJM",
           "spotifyId": "1FlKUh04wsO7Z2AFmzplCw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6926,6 +7516,8 @@
           "id": "9f28ab5f-kalli-talonpoika-kaua",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6965,6 +7557,8 @@
           "id": "2a917cbf-villemdrillem-klepto",
           "youtubeId": "twxrKKA2xIw",
           "spotifyId": "3OTsXBsaIyUiwrWtKpVfsI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -6984,6 +7578,8 @@
           "id": "2a917cbf-the-smile-zero-sum",
           "youtubeId": "TJ4lG5Szr50",
           "spotifyId": "7tJ2ZPwHRrPTy1OW7jais0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7004,6 +7600,8 @@
           "id": "2a917cbf-vaiko-eplik-oh-jeerum",
           "youtubeId": "pMIL-8hHTc0",
           "spotifyId": "6RDpSZpcbopGzd8iSYVeUJ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7025,6 +7623,8 @@
           "id": "2a917cbf-jamie-xx-dafodil",
           "youtubeId": "chKy6KLeokA",
           "spotifyId": "1gRMKwvMvp6LcQVMpMXQg2",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7063,6 +7663,8 @@
           "id": "3c94eb93-luurel-varas-sleeper",
           "youtubeId": "BGiMriGH-c4",
           "spotifyId": "38Q8w4cl2tOP93LVHGqHJh",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7082,6 +7684,8 @@
           "id": "3c94eb93-playboi-carti-all-red",
           "youtubeId": "F6iYcXynA4s",
           "spotifyId": "2cZOYofOX4d6g0OXxkaIjA",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7101,6 +7705,8 @@
           "id": "3c94eb93-maria-kallastu-varahommik",
           "youtubeId": "xi9cEU2BF70",
           "spotifyId": "0lwsUZHGhwQR87rxa1diTO",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7120,6 +7726,8 @@
           "id": "3c94eb93-playboi-carti-2024",
           "spotifyId": "1bAv1DWUibxCIjAk9SlzRi",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7158,6 +7766,8 @@
           "id": "ac3547be-dnd-viimane-kustutab-tule",
           "spotifyId": "2g4uRj4hskGPYVZGQg5EOm",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7178,6 +7788,8 @@
           "id": "ac3547be-asap-rocky-highjack",
           "spotifyId": "57L5EYzCfHS7Jd58rV33lW",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7197,6 +7809,8 @@
           "id": "ac3547be-tont-paevalill-kuuvalgel",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7216,6 +7830,8 @@
           "id": "ac3547be-fat-dog-closer-to-god",
           "spotifyId": "5zHzofWXEpq1KiYIqTv7s2",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7253,6 +7869,8 @@
           "id": "764f7f83-maris-pihlap-midagi-head",
           "spotifyId": "3HgTiFQD2ZCH2r3CAczUoq",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7272,6 +7890,8 @@
           "id": "764f7f83-jack-white-archbishop-harold-holmes",
           "spotifyId": "0hIYrRFTLlG8pRjAn9tW4P",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7291,6 +7911,8 @@
           "id": "764f7f83-florian-wahl-viimane-hetero",
           "spotifyId": "1OIr0YFq7vIKLhRosSkeiR",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7327,6 +7949,8 @@
           "id": "d99cdf2c-siim-nestor-sabrina-carpenter-espresso",
           "spotifyId": "2qSkIjg1o9h3YT9RAgYN75",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7346,6 +7970,8 @@
           "id": "d99cdf2c-merit-maarits-valge-tudruk-tere-paevik",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7365,6 +7991,8 @@
           "id": "d99cdf2c-raul-saaremets-avemaria-diskoteek",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7384,6 +8012,8 @@
           "id": "d99cdf2c-valner-valme-nondi-pls-just-shut-the-fuck-up",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7420,6 +8050,8 @@
           "id": "91b12664-gram-of-fun-complicated-plant-jafunk-remix",
           "spotifyId": "7FsXlMpVd3pfQ1bRmTO9Ky",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7439,6 +8071,8 @@
           "id": "91b12664-eminem-houdini",
           "spotifyId": "2HYFX63wP3otVIvopRS99Z",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7458,6 +8092,8 @@
           "id": "91b12664-lotey-rohkem-raha",
           "spotifyId": "0uPoscE8OHZq6jrgXmLhub",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7477,6 +8113,8 @@
           "id": "91b12664-kaytranada-more-than-a-little-bit",
           "spotifyId": "5KZJIGQmNlBEcCljJLti9f",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7513,6 +8151,8 @@
           "id": "6cd02773-bedwetters-ma-ei-oska-oelda-ei",
           "youtubeId": "Yg6HsKcVFIE",
           "spotifyId": "1I4WJEDYRx3BA4QCRowFrY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7532,6 +8172,8 @@
           "id": "6cd02773-imagine-dragons-nice-to-meet-you",
           "youtubeId": "NeUfmyu5t8Q",
           "spotifyId": "6KmrCHbuNOsdoeDOpwetr7",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7551,6 +8193,8 @@
           "id": "6cd02773-u-l-a-by-your-side",
           "youtubeId": "ddyelX7Jjhw",
           "spotifyId": "4Mo2JrYmCXIP2OFS9SCYEI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7571,6 +8215,8 @@
           "id": "6cd02773-shimza-parachute",
           "youtubeId": "jvnKJ25Gnbk",
           "spotifyId": "0BlxpYD81CZucSEvCS11Ed",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7608,6 +8254,8 @@
           "id": "a2c53e9d-nublu-push-it",
           "youtubeId": "ygTdVga871U",
           "spotifyId": "7AleqJvqrVBeQitkWntUUc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7627,6 +8275,8 @@
           "id": "a2c53e9d-pinkpantheress-turn-it-up",
           "youtubeId": "HC5oBBQg9q8",
           "spotifyId": "1YhNljrEyPYaYNgBNsWap5",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7647,6 +8297,8 @@
           "id": "a2c53e9d-vaiko-eplik-ekstaas",
           "youtubeId": "lDV-gRmJuhc",
           "spotifyId": "5umlEmfqgxJkr3ARVIpM1Y",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7670,6 +8322,8 @@
           "id": "a2c53e9d-skrillex-push",
           "spotifyId": "3rWIzNYE2tbrJFRUOvWenu",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7706,6 +8360,8 @@
           "id": "6fee00c7-kenors-raha2",
           "spotifyId": "1ow0GduYrttCF5vblG9uSR",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7725,6 +8381,8 @@
           "id": "6fee00c7-billie-eilish-birds-of-a-feather",
           "spotifyId": "6dOtVTDdiauQNBQEDOtlAB",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7744,6 +8402,8 @@
           "id": "6fee00c7-horror-dance-squad-taste-the-doom",
           "spotifyId": "45EWGICjEBpCvY70JocIfp",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7763,6 +8423,8 @@
           "id": "6fee00c7-childish-gambino-to-be-hunted",
           "spotifyId": "7kjL0ldXgBwZ3xOzA0WHMD",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7799,6 +8461,8 @@
           "id": "2381b82b-konts-solka",
           "spotifyId": "76Jn9kpASdbTSy5JNwOsqI",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7818,6 +8482,8 @@
           "id": "2381b82b-kamasi-washington-interstellar-peace-the-last-st",
           "spotifyId": "6m7X9pyvTIBLgS5Jt1ef9x",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7838,6 +8504,8 @@
           "id": "2381b82b-haldi-meile-kahele",
           "spotifyId": "7fQkbTG5X9U6oNKOye1lxl",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7857,6 +8525,8 @@
           "id": "2381b82b-hiatus-kaiyote-telescope",
           "spotifyId": "23OSfYuny7LLnWHtWVV3bs",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7893,6 +8563,8 @@
           "id": "32d48ca9-maris-pihlap-x-reket-kui-sa-vaid-teaks",
           "spotifyId": "4427Wd7vcocRV9kHkBhvNp",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7912,6 +8584,8 @@
           "id": "32d48ca9-dua-lipa-end-of-an-era",
           "spotifyId": "1YrY0vjHWp672gt0crtj5A",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7931,6 +8605,8 @@
           "id": "32d48ca9-saaremets-koik-saab-korda",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7950,6 +8626,8 @@
           "id": "32d48ca9-kendrick-lamar-euphoria",
           "spotifyId": "77DRzu7ERs0TX3roZcre7Q",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -7986,6 +8664,8 @@
           "id": "80e27b14-mari-liis-x-rhei-x-caater-ii-dimensioon",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8006,6 +8686,8 @@
           "id": "80e27b14-taylor-swift-florida",
           "spotifyId": "5ExOm0dh4NyRyAdSAO9hyM",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8026,6 +8708,8 @@
           "id": "80e27b14-beebi-broken-hearts",
           "spotifyId": "1ilF8xMtqcNvUYhHCc8NYg",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8045,6 +8729,8 @@
           "id": "80e27b14-mark-knopfler-before-my-train-comes",
           "spotifyId": "0UogG2UNM2693fECUSNLLq",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8081,6 +8767,8 @@
           "id": "d0450ebc-rain-x-ingra-seek-and-you-shall-find",
           "spotifyId": "0qAsDYYSHQhrDkSsPxbEBA",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8100,6 +8788,8 @@
           "id": "d0450ebc-artemas-i-like-the-way-you-kiss-me",
           "youtubeId": "evJ6gX1lp2o",
           "spotifyId": "2GxrNKugF82CnoRFbQfzPf",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8120,6 +8810,8 @@
           "id": "d0450ebc-lepin-kalkuleeritudrynnak",
           "youtubeId": "_7gbmshlxvM",
           "spotifyId": "2DtPUPvD4u6DqCNgEGcF5K",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8139,6 +8831,8 @@
           "id": "d0450ebc-darkthrone-black-dawn-affiliation",
           "youtubeId": "YqUTjPhCIS0",
           "spotifyId": "1VNqsXsV8piRqmwXBVlzX4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8176,6 +8870,8 @@
           "id": "010c11f6-eik-armastatud",
           "youtubeId": "9FH0Hj5NyWk",
           "spotifyId": "31Xy2EPTJmg2UPz1CudinL",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8196,6 +8892,8 @@
           "id": "010c11f6-vegyn-the-dream-goes-on-forever",
           "youtubeId": "hTlwiSN0QXw",
           "spotifyId": "1CGT5LV74SNzXFnVmTdAE8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8216,6 +8914,8 @@
           "id": "010c11f6-nm-barramundi-mitsubishi-freestyle",
           "youtubeId": "_oTlFfE737Q",
           "spotifyId": "2opJrXfnd0ISIQEqshVjPv",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8235,6 +8935,8 @@
           "id": "010c11f6-the-libertines-merry-old-england",
           "youtubeId": "cpYB_FxB2MA",
           "spotifyId": "0YiTirE9lABJWdTkvH2sii",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8271,6 +8973,8 @@
           "id": "afee239a-skuuba-kuidas-sul-on-laind",
           "spotifyId": "6hDpzwM4LHQdj2y43DXEQO",
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8290,6 +8994,8 @@
           "id": "afee239a-jessica-pratt-world-on-a-string",
           "youtubeId": "MnXYxe1PaMo",
           "spotifyId": "76Cdo2E1HlmlHOHCHKscfy",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8309,6 +9015,8 @@
           "id": "afee239a-liis-lemsalu-silmad-lahti",
           "youtubeId": "g1udZ8iezas",
           "spotifyId": "5nyZUpWwLWzg1XY1DCaVCN",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8328,6 +9036,8 @@
           "id": "afee239a-charli-xcx-club-classics",
           "youtubeId": "rd1AZym4lEY",
           "spotifyId": "0CySZwyRJ0vyUqtSjM9i2k",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8364,6 +9074,8 @@
           "id": "bf14f06b-buzhold-morlort",
           "youtubeId": "vXyiWAtdcfk",
           "spotifyId": "3jqK7ZZiopfGxffIeHfjdM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8384,6 +9096,8 @@
           "id": "bf14f06b-tyla-no-1",
           "youtubeId": "Ts8RGi8V-FM",
           "spotifyId": "3qeMtqV38UWPZfps7mPTUE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8403,6 +9117,8 @@
           "id": "bf14f06b-kergo-klubi-kergo-klubi-rapp",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8422,6 +9138,8 @@
           "id": "bf14f06b-lolina-rules-of-the-game",
           "youtubeId": "rj8q2yJmGYk",
           "spotifyId": "5JcnCsaQZ0wVWquOCpfx0z",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8458,6 +9176,8 @@
           "id": "3fe878b0-florian-wahl-jousaal",
           "youtubeId": "2fRH0n-ZeuM",
           "spotifyId": "25XVO0WaNODosv0hSCpSVL",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8477,6 +9197,8 @@
           "id": "3fe878b0-four-tet-so-blue",
           "youtubeId": "4er2skfzyzc",
           "spotifyId": "0oLurbsZupVj0mUCiWJx2Z",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8497,6 +9219,8 @@
           "id": "3fe878b0-marmormaze-underdog",
           "youtubeId": "KAlTUQrBqwM",
           "spotifyId": "6i0KanD2X6pQ1hYSe8x70t",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8519,6 +9243,8 @@
           "id": "3fe878b0-future-type-shit",
           "youtubeId": "I0fgkcTbBoI",
           "spotifyId": "28drn6tQo95MRvO0jQEo5C",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8538,6 +9264,8 @@
           "id": "3fe878b0-kosmikud-berber",
           "youtubeId": "eGsNdOhF8gY",
           "spotifyId": "7JQKpKEQXzcqcXSEllXkQ2",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8576,6 +9304,8 @@
           "id": "325504f8-manna-mosaic",
           "youtubeId": "yNiZew_hp_w",
           "spotifyId": "5OG2DLzwji5vogOiPuJjom",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8595,6 +9325,8 @@
           "id": "325504f8-justin-timberlake-conditions",
           "youtubeId": "hPG3x_g2Hro",
           "spotifyId": "7BQdqre9lvLM3HmZ7QPgjU",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8615,6 +9347,8 @@
           "id": "325504f8-lil-till-epp-karsin",
           "youtubeId": "hUQZMhMvRWU",
           "spotifyId": "7urKGFq3ay0988ZIg2jVIS",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8635,6 +9369,8 @@
           "id": "325504f8-nick-cave-wild-god",
           "youtubeId": "uAgsn7la3jg",
           "spotifyId": "1dkZqdTUVdLaPKAO62TT0g",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8654,6 +9390,8 @@
           "id": "325504f8-night-tapes-every-day-is-a-game",
           "youtubeId": "XoUvuIx4Bcs",
           "spotifyId": "64ircYoqL31h8dhGPpiUYO",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8692,6 +9430,8 @@
           "id": "93ad6a77-arop-aamen",
           "youtubeId": "TXNkh_tP73c",
           "spotifyId": "2m0OFGIoENfjYRNMZoBXXw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8711,6 +9451,8 @@
           "id": "93ad6a77-ariana-grande-the-boy-is-mine",
           "youtubeId": "KwRxeZ9Ro24",
           "spotifyId": "0Lmbke3KNVFXtoH2mMSHCw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8730,6 +9472,8 @@
           "id": "93ad6a77-winny-puhh-suusasoit",
           "youtubeId": "EEaemiPyWRk",
           "spotifyId": "4dXD60j0LR6JcKCSElOIFz",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8749,6 +9493,8 @@
           "id": "93ad6a77-kim-gordon-i-m-a-man",
           "youtubeId": "ioKP3ORu0QY",
           "spotifyId": "53f8auncprn9sIQjlkgd45",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8785,6 +9531,8 @@
           "id": "18b69b06-karl-killing-vastased",
           "youtubeId": "kIxuqfwPgFU",
           "spotifyId": "36IWOSMfnVUa0hhKfPpHwi",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8804,6 +9552,8 @@
           "id": "18b69b06-dj-arana-mini-game-dos-taliba",
           "youtubeId": "ZiZZbj29Qcg",
           "spotifyId": "4et7ZTuT9TespQC3LbXulm",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8823,6 +9573,8 @@
           "id": "18b69b06-vimka-kevadpaike",
           "spotifyId": null,
           "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8842,6 +9594,8 @@
           "id": "18b69b06-beyonce-texas-hold-em",
           "youtubeId": "238Z4YaAr1g",
           "spotifyId": "0Z7nGFVCLfixWctgePsRk9",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
@@ -8862,6 +9616,8 @@
           "id": "18b69b06-maria-kallastu-saran",
           "youtubeId": "v0ZkqYXQFz8",
           "spotifyId": "7Bb8pvrG3NSGdyteD2g7iX",
+          "soundcloudUrl": null,
+          "bandcamp": null,
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {

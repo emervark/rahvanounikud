@@ -166,6 +166,9 @@ async function main() {
       // läbi vahemälu juurde tagasi ja vale link tuleks kohe uuesti üles.
       song.spotifyId = 'spotifyId' in fix ? fix.spotifyId : (spotify[song.id]?.id ?? null);
       song.youtubeId = 'youtubeId' in fix ? fix.youtubeId : (youtube[song.id]?.id ?? null);
+      // SoundCloudil ja Bandcampil resolverit ei ole — ainult käsitsi.
+      song.soundcloudUrl = fix.soundcloudUrl ?? null;
+      song.bandcamp = fix.bandcamp ?? null;
       // Kriitikute hinne tuleb ainult käsitsi — feedis seda ei ole.
       // Lubatud on üks number või kriitikute kaupa; viimasest arvutame keskmise
       // ja jätame ka üksikhinded alles, et lehel saaks näidata, kes mida arvas.

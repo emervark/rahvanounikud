@@ -422,6 +422,18 @@
     "9ff7f5d7-alonette-uneasy": {
       "_note": "käsitsi üle vaadatud ülevaatuslehel",
       "youtubeId": "451HhH-0O2M"
+    },
+    "a84e0286-iiori-sprint": {
+      "_note": "Lugu on ainult SoundCloudis — Spotifys ega YouTube'is teda ei ole. Automaatne otsing pakkus täiesti võõrast lugu (kindlus 0,28).",
+      "soundcloudUrl": "https://soundcloud.com/iorithuggin/sprint-yovoo-jvcxb"
+    },
+    "16e70f0c-skoone-suurtukk-ajab-suu-lohki": {
+      "_note": "Lugu on ainult Bandcampis, albumilt „Inimeste inimene”. Spotifys ega YouTube'is teda ei ole.",
+      "bandcamp": {
+        "album": "280732283",
+        "track": "2699527089",
+        "url": "https://skoone.bandcamp.com/album/inimeste-inimene"
+      }
     }
   }
 }

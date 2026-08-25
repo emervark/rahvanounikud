@@ -5,7 +5,7 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 9 |
-| Pakkumine olemas, link puudub | 30 |
+| Pakkumine olemas, link puudub | 28 |
 | Kumbki link puudub | 12 |
 | YouTube veel otsimata | 45 |
 
@@ -108,9 +108,6 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 - **0,35** SIP€LGA, Yohan — Tere, kaine Eesti — saade 28 · 2024-11-22
   - pakub: SIP€LGA x YOHAN, Legendaarne Records — MÄLLAR → https://www.youtube.com/watch?v=Ush6jpo1bSA
   - `5a8ce01b-sip-lga-tere-kaine-eesti` · [otsi](https://www.youtube.com/results?search_query=SIP%E2%82%ACLGA%2C%20Yohan%20Tere%2C%20kaine%20Eesti)
-- **0,28** iiori — sprint — saade 53 · 2025-06-20
-  - pakub: New Sprint — New Sprint - ナイトサイドストーリー【 → https://www.youtube.com/watch?v=J1hEDfLpGPY
-  - `a84e0286-iiori-sprint` · [otsi](https://www.youtube.com/results?search_query=iiori%20sprint)
 - **0,10** Clicherik ft Karl Killing, Maria Kallastu — Duširuumi muusik — saade 76 · 2026-03-06
   - pakub: villemdrillem — villemdrillem, Karl Killing - kõik need ööd → https://www.youtube.com/watch?v=-queQoyHC-s
   - `40f1de08-clicherik-ft-karl-killing-dusiruumi-muusik` · [otsi](https://www.youtube.com/results?search_query=Clicherik%20ft%20Karl%20Killing%2C%20Maria%20Kallastu%20Du%C5%A1iruumi%20muusik)
@@ -135,9 +132,6 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 - **0,00** Brotherkrupa — RIP RIKY — saade 79 · 2026-03-27
   - pakub: —
   - `04293800-brotherkrupa-rip-riky` · [otsi](https://www.youtube.com/results?search_query=Brotherkrupa%20RIP%20RIKY)
-- **0,00** Skoone — Suurtükk ajab suu lõhki — saade 70 · 2025-12-23
-  - pakub: —
-  - `16e70f0c-skoone-suurtukk-ajab-suu-lohki` · [otsi](https://www.youtube.com/results?search_query=Skoone%20Suurt%C3%BCkk%20ajab%20suu%20l%C3%B5hki)
 - **0,00** C.C. — Haudvaikne — saade 70 · 2025-12-23
   - pakub: —
   - `16e70f0c-c-c-haudvaikne` · [otsi](https://www.youtube.com/results?search_query=C.C.%20Haudvaikne)

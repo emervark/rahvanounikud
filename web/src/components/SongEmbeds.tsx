@@ -26,8 +26,59 @@ const YT_PARAMS = new URLSearchParams({
   playsinline: '1',
 }).toString();
 
+/**
+ * SoundCloud on kolmas allikas neile lugudele, keda kummaski suures teenuses
+ * ei ole — väiksed Eesti väljalasked satuvad sinna sageli ainsana.
+ *
+ * Sama loogika mis YouTube'il: mängija sisu ei ole kujundatav, aga seotud
+ * lood, kommentaarid ja reklaamriba saab välja lülitada ning aktsentvärvi
+ * lehe omaks seada.
+ */
+const SC_ACCENT = 'a1256b';
+
+function scSrc(url: string): string {
+  const p = new URLSearchParams({
+    url,
+    color: `#${SC_ACCENT}`,
+    auto_play: 'false',
+    hide_related: 'true',
+    show_comments: 'false',
+    show_reposts: 'false',
+    show_teaser: 'false',
+    show_user: 'true',
+  });
+  return `https://w.soundcloud.com/player/?${p}`;
+}
+
+/**
+ * Bandcampi mängija tahab numbrilisi ID-sid, mitte permalinki. Väärtused
+ * tulevad overrides-failist, aga sõelume nad ikkagi — aadressi ehitamine
+ * kontrollimata sisendist on täpselt see koht, kus üks kirjaviga hiljem
+ * millekski muuks muutub.
+ */
+const BC_ACCENT = 'a1256b';
+const numbriline = (v: string | undefined) => (v && /^\d+$/.test(v) ? v : null);
+
+function bcSrc(bc: NonNullable<Song['bandcamp']>): string | null {
+  const album = numbriline(bc.album);
+  if (!album) return null;
+  const track = numbriline(bc.track);
+  const osad = [
+    `album=${album}`,
+    'size=large',
+    'bgcol=ffffff',
+    `linkcol=${BC_ACCENT}`,
+    'tracklist=false',
+    'artwork=small',
+    track ? `track=${track}` : null,
+    'transparent=true',
+  ].filter(Boolean);
+  return `https://bandcamp.com/EmbeddedPlayer/${osad.join('/')}/`;
+}
+
 export function SongEmbeds({ song }: { song: Song }) {
-  if (!song.spotifyId && !song.youtubeId) return null;
+  const bc = song.bandcamp ? bcSrc(song.bandcamp) : null;
+  if (!song.spotifyId && !song.youtubeId && !song.soundcloudUrl && !bc) return null;
 
   return (
     <div className="embeds">
@@ -51,6 +102,27 @@ export function SongEmbeds({ song }: { song: Song }) {
           loading="lazy"
           allow="accelerometer; encrypted-media; picture-in-picture"
           allowFullScreen
+        />
+      )}
+
+      {song.soundcloudUrl && (
+        <iframe
+          className="embed-frame embeds__sc"
+          style={{ height: 166 }}
+          src={scSrc(song.soundcloudUrl)}
+          title={`SoundCloud: ${songLabel(song)}`}
+          loading="lazy"
+          allow="autoplay; encrypted-media"
+        />
+      )}
+
+      {bc && (
+        <iframe
+          className="embed-frame embeds__bc"
+          style={{ height: 120 }}
+          src={bc}
+          title={`Bandcamp: ${songLabel(song)}`}
+          loading="lazy"
         />
       )}
     </div>
