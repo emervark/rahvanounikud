@@ -4,8 +4,8 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 
 | Korv | Lugusid |
 |---|---|
-| Kahtlane link üleval | 19 |
-| Pakkumine olemas, link puudub | 29 |
+| Kahtlane link üleval | 0 |
+| Pakkumine olemas, link puudub | 24 |
 | Kumbki link puudub | 20 |
 | YouTube veel otsimata | 175 |
 
@@ -19,142 +19,12 @@ kirjutatud („I LUV BEING MYSELF"). Nimekiri on madalaimast kindlusest ülespoo
 nii et tõelised vead on eespool — allapoole jõudes muutub üle vaatamine kiiresti
 mõttetuks.
 
-### The Avalanches ft Nikki Nair, Jessy Lanza & Prentiss — Together
-`4d543f2a-the-avalanches-ft-nikki-nair-together` · saade 87 · 2026-05-22
-- **YouTube 0,75** → Together ft. Nikki Nair, Jessy Lanza, Prentiss
-  https://www.youtube.com/watch?v=KSa1zsPcj8w
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=The%20Avalanches%20ft%20Nikki%20Nair%2C%20Jessy%20Lanza%20%26%20Prentiss%20Together) · [Spotify](https://open.spotify.com/search/The%20Avalanches%20ft%20Nikki%20Nair%2C%20Jessy%20Lanza%20%26%20Prentiss%20Together)
-
-### Gorillaz feat Treuno & Proof — The Manifesto
-`4dfa188b-gorillaz-the-manifesto` · saade 60 · 2025-10-17
-- **YouTube 0,75** → The Manifesto ft. Trueno & Proof
-  https://www.youtube.com/watch?v=6JIv1l96zN0
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Gorillaz%20feat%20Treuno%20%26%20Proof%20The%20Manifesto) · [Spotify](https://open.spotify.com/search/Gorillaz%20feat%20Treuno%20%26%20Proof%20The%20Manifesto)
-
-### Powell — Up All Night
-`4cc9e6ed-powell-up-all-night` · saade 62 · 2025-10-31
-- **YouTube 0,75** → All Night
-  https://www.youtube.com/watch?v=otmG-NE-FIo
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Powell%20Up%20All%20Night) · [Spotify](https://open.spotify.com/search/Powell%20Up%20All%20Night)
-
-### Adel Force, Breakfake, Q100 — Be Cool
-`3b8b51d7-adel-force-be-cool` · saade 86 · 2026-05-15
-- **YouTube 0,77** → Be Cool
-  https://www.youtube.com/watch?v=WnfT5pwz-Wo
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Adel%20Force%2C%20Breakfake%2C%20Q100%20Be%20Cool) · [Spotify](https://open.spotify.com/search/Adel%20Force%2C%20Breakfake%2C%20Q100%20Be%20Cool)
-
-### ODUMODUBLVCK ft Stormzy, Zatan — Pay Me
-`df1c87e3-odumodublvck-ft-stormzy-pay-me` · saade 56 · 2025-09-19
-- **Spotify 0,79** → ODUMODUBLVCK, Stormzy, Zlatan — PAY ME (feat. Stormzy and Zlatan)
-  https://open.spotify.com/track/48olFFX6QTTXB47q4qfPFU
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=ODUMODUBLVCK%20ft%20Stormzy%2C%20Zatan%20Pay%20Me) · [Spotify](https://open.spotify.com/search/ODUMODUBLVCK%20ft%20Stormzy%2C%20Zatan%20Pay%20Me)
-
-### Skizo, Benakanister — Etteaste
-`d06dc046-skizo-etteaste` · saade 88 · 2026-05-29
-- **YouTube 0,81** → ETTEASTE FT. BENAKANISTER
-  https://www.youtube.com/watch?v=EozQPlsLfkg
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Skizo%2C%20Benakanister%20Etteaste) · [Spotify](https://open.spotify.com/search/Skizo%2C%20Benakanister%20Etteaste)
-
-### SuurEll feat miauf — Metafoorid
-`d73035d0-suurell-metafoorid` · saade 83 · 2026-04-24
-- **YouTube 0,81** → METAFOORID (feat. miauf)
-  https://www.youtube.com/watch?v=um1JHY_zJ-o
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=SuurEll%20feat%20miauf%20Metafoorid) · [Spotify](https://open.spotify.com/search/SuurEll%20feat%20miauf%20Metafoorid)
-
-### Siim Pojeng, EiK — Süles lilli
-`d3af9788-siim-pojeng-sules-lilli` · saade 64 · 2025-11-14
-- **YouTube 0,81** → süles lilli (feat. EiK 2509)
-  https://www.youtube.com/watch?v=rHwkiBB4G_0
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Siim%20Pojeng%2C%20EiK%20S%C3%BCles%20lilli) · [Spotify](https://open.spotify.com/search/Siim%20Pojeng%2C%20EiK%20S%C3%BCles%20lilli)
-
-### MAR$U, Angeel — Kässar
-`4cc9e6ed-mar-u-kassar` · saade 62 · 2025-10-31
-- **YouTube 0,81** → Kässar (feat. Angeel)
-  https://www.youtube.com/watch?v=OUN2mypszcU
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=MAR%24U%2C%20Angeel%20K%C3%A4ssar) · [Spotify](https://open.spotify.com/search/MAR%24U%2C%20Angeel%20K%C3%A4ssar)
-
-### New Age Doom — We’re All The Same
-`9ff7f5d7-new-age-doom-we-re-all-the-same` · saade 78 · 2026-03-20
-- **YouTube 0,82** → We&#39;re All The Same
-  https://www.youtube.com/watch?v=DNotodH2Kb4
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=New%20Age%20Doom%20We%E2%80%99re%20All%20The%20Same) · [Spotify](https://open.spotify.com/search/New%20Age%20Doom%20We%E2%80%99re%20All%20The%20Same)
-
-### margiila, Chillin, TheoFuego — EiTohiksHiljaksJääda
-`c9f6f00c-margiila-eitohikshiljaksjaada` · saade 22 · 2024-10-11
-- **Spotify 0,82** → margiiela, Chillin, FUGE — EiTohiHiljaksJääda
-  https://open.spotify.com/track/4fhbnkDMtmABElJYOQLGeD
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=margiila%2C%20Chillin%2C%20TheoFuego%20EiTohiksHiljaksJ%C3%A4%C3%A4da) · [Spotify](https://open.spotify.com/search/margiila%2C%20Chillin%2C%20TheoFuego%20EiTohiksHiljaksJ%C3%A4%C3%A4da)
-
-### ONYX, pluuto — Kah mul asi
-`3b8b51d7-onyx-kah-mul-asi` · saade 86 · 2026-05-15
-- **YouTube 0,82** → kah mul asi
-  https://www.youtube.com/watch?v=SgrlP8QCnkA
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=ONYX%2C%20pluuto%20Kah%20mul%20asi) · [Spotify](https://open.spotify.com/search/ONYX%2C%20pluuto%20Kah%20mul%20asi)
-
-### Dean Blunt, Celeste — 478 freestyle
-`d73035d0-dean-blunt-478-freestyle` · saade 83 · 2026-04-24
-- **YouTube 0,82** → 478 freestyle
-  https://www.youtube.com/watch?v=_zlsGKreWsI
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Dean%20Blunt%2C%20Celeste%20478%20freestyle) · [Spotify](https://open.spotify.com/search/Dean%20Blunt%2C%20Celeste%20478%20freestyle)
-
-### Lotte Jürjendal ja Taavi Laatsit — Alien Angel
-`263c8fbc-lotte-jurjendal-alien-angel` · saade 69 · 2025-12-20
-- **YouTube 0,82** → Alien Angel
-  https://www.youtube.com/watch?v=ER6BAMJqfmU
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Lotte%20J%C3%BCrjendal%20ja%20Taavi%20Laatsit%20Alien%20Angel) · [Spotify](https://open.spotify.com/search/Lotte%20J%C3%BCrjendal%20ja%20Taavi%20Laatsit%20Alien%20Angel)
-
-### Anika & Jim Jarmusch — These Days
-`28a618cf-anika-these-days` · saade 68 · 2025-12-12
-- **Spotify 0,82** → Anika — These Days
-  https://open.spotify.com/track/2zWHeOcp8vv6hHpaQCBJMd
-- **YouTube 0,82** → These Days
-  https://www.youtube.com/watch?v=YdorO9ZQz_w
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Anika%20%26%20Jim%20Jarmusch%20These%20Days) · [Spotify](https://open.spotify.com/search/Anika%20%26%20Jim%20Jarmusch%20These%20Days)
-
-### boipepperoni, Malla — Open Heart
-`3bc11027-boipepperoni-open-heart` · saade 63 · 2025-11-07
-- **YouTube 0,82** → open heart
-  https://www.youtube.com/watch?v=CehubJ8DPv0
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=boipepperoni%2C%20Malla%20Open%20Heart) · [Spotify](https://open.spotify.com/search/boipepperoni%2C%20Malla%20Open%20Heart)
-
-### nublu, Vaiko Eplik — Tipus ulub tuul
-`ec783a5e-nublu-tipus-ulub-tuul` · saade 51 · 2025-06-06
-- **YouTube 0,82** → TIPUS ULUB TUUL
-  https://www.youtube.com/watch?v=DAMQQgz30-4
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=nublu%2C%20Vaiko%20Eplik%20Tipus%20ulub%20tuul) · [Spotify](https://open.spotify.com/search/nublu%2C%20Vaiko%20Eplik%20Tipus%20ulub%20tuul)
-
-### Drake, PARTYNEXTDOOR — Nokia
-`35994776-drake-nokia` · saade 38 · 2025-02-21
-- **Spotify 0,82** → Drake — NOKIA
-  https://open.spotify.com/track/2u9S9JJ6hTZS3Vf22HOZKg
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Drake%2C%20PARTYNEXTDOOR%20Nokia) · [Spotify](https://open.spotify.com/search/Drake%2C%20PARTYNEXTDOOR%20Nokia)
-
-### Jill Scott ft Too $hort — BPTY
-`40f1de08-jill-scott-ft-too-hort-bpty` · saade 76 · 2026-03-06
-- **Spotify 0,84** → Jill Scott, Too $hort — BPOTY (feat. Too $hort)
-  https://open.spotify.com/track/3VC2OG45kkdykebomK6Eus
-- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Jill%20Scott%20ft%20Too%20%24hort%20BPTY) · [Spotify](https://open.spotify.com/search/Jill%20Scott%20ft%20Too%20%24hort%20BPTY)
-
+_Puhas._
 ## 2. Pakkumine olemas, aga jäi läve alla
 
 Otsing leidis midagi, kindlus jäi väikseks. Osa on õiged (pealkirjas lisasõna),
 osa on täiesti mööda, osa on õige lugu vales versioonis.
 
-- **0,72** SKIZO, Benakanister, Väike PD, Hanf Kung — Narkopoliitika — saade 71 · 2026-02-06
-  - pakub: SKIZØ, SKIZØ — NARKOPOLIITIKA FT. BENAKANISTER, VÄIKE PD, HANF KUNG → https://www.youtube.com/watch?v=r8N1uXls_S0
-  - `4b8b3c35-skizo-narkopoliitika` · [otsi](https://www.youtube.com/results?search_query=SKIZO%2C%20Benakanister%2C%20V%C3%A4ike%20PD%2C%20Hanf%20Kung%20Narkopoliitika)
-- **0,67** Cortis — TNT — saade 86 · 2026-05-15
-  - pakub: cortis, c l o v d h y — tnt (slowed + reverb) → https://www.youtube.com/watch?v=1MvSc1quR0Y
-  - `3b8b51d7-cortis-tnt` · [otsi](https://www.youtube.com/results?search_query=Cortis%20TNT)
-- **0,65** Vera Vice — Tell Me, Tell Me — saade 90 · 2026-06-11
-  - pakub: Vera Vice, Vera Vice — Give Me Time → https://www.youtube.com/watch?v=KvTwKKrByeA
-  - `c71831ba-vera-vice-tell-me-tell-me` · [otsi](https://www.youtube.com/results?search_query=Vera%20Vice%20Tell%20Me%2C%20Tell%20Me)
-- **0,59** Alika — Laagna tee — saade 88 · 2026-05-29
-  - pakub: ALIKA — ALIKA- Laagna tee (visualiser) → https://www.youtube.com/watch?v=E6L4l17F1Ws
-  - `d06dc046-alika-laagna-tee` · [otsi](https://www.youtube.com/results?search_query=Alika%20Laagna%20tee)
-- **0,57** Holy Motors — Heavens Night — saade 84 · 2026-05-01
-  - pakub: Holy Motors, WHARF CAT RECORDS — &quot;Heaven&#39;s Night&quot; → https://www.youtube.com/watch?v=sM0oM6LLSME
-  - `37bb174f-holy-motors-heavens-night` · [otsi](https://www.youtube.com/results?search_query=Holy%20Motors%20Heavens%20Night)
 - **0,52** Janet — Girl Telle Me About It — saade 79 · 2026-03-27
   - pakub: Janet Jackson — JANET Unbreakable World Tour Auditions → https://www.youtube.com/watch?v=LD2bgqk-FPA
   - `04293800-janet-girl-telle-me-about-it` · [otsi](https://www.youtube.com/results?search_query=Janet%20Girl%20Telle%20Me%20About%20It)

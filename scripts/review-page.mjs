@@ -51,7 +51,7 @@ export function buildPage({ wrong, guess, blank, todo, meta }) {
       saabKinnitada: false, olemasYt: null, olemasSp: r.song.spotifyId ?? null,
     })),
     blank: blank.map((r) => ({ ...kirje(r), saabKinnitada: false, olemasYt: null, olemasSp: null })),
-    todo: todo.map(kirje),
+    todo: todo.map((r) => ({ ...kirje(r), saabKinnitada: false, olemasYt: null, olemasSp: r.song.spotifyId ?? null })),
   };
 
   const sektsioon = (võti, toon, pealkiri, seletus, list) => `
@@ -116,16 +116,17 @@ ${sektsioon('blank', 'gap', 'Kumbki link puudub',
     <div class="shead">
       <div class="shead__top">
         <h2><span class="dot" style="--tone: var(--wait)"></span> YouTube veel otsimata</h2>
-        <span class="count">${todo.length} lugu</span>
+        <span class="count" id="count-todo"></span>
       </div>
       <p class="note">
-        Päevakvoot on 90 otsingut, seega ligi ${Math.ceil(todo.length / 90)} päeva.
-        Spotify link on neil olemas, nii et lehel on lugu juba kuulatav — käsitsi
-        siin midagi teha ei ole.
+        Automaatne otsing jõuab nendeni päevakvoodi jagu korraga, ligi
+        ${Math.ceil(todo.length / 90)} päevaga. Spotify link on olemas, nii et lugu
+        on lehel juba kuulatav — aga kui leiad YouTube'i lingi kiiremini ise,
+        kleebi ta siia ja otsing ei pea seda enam tegema.
       </p>
     </div>
     <pre><code>npm run resolve:youtube &amp;&amp; npm run build:data &amp;&amp; npm run deploy</code></pre>
-    <ul class="todo" id="list-todo" data-list></ul>
+    <ul class="rows" id="list-todo" data-list></ul>
   </section>
 
   <section class="howto" id="jsonplokk" hidden>

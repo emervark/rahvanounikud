@@ -5,38 +5,189 @@
     "songs.<songId>     — parandab üksiku loo välju (nt vale Spotify ID).",
     "Loo ID-d leiab failist data/song-ids.json pärast 'npm run build:data'."
   ],
-
   "episodes": {
     "51067548-b2d2-4c49-b3db-e445a68c3a05": {
       "_note": "Proosavormis hooaja viimane saade — igal kriitikul oma lemmik, nimekirja pole. Sisestatud kirjelduse põhjal.",
       "songs": [
-        { "artists": ["An-Marlen", "Kermo Murel"], "title": "Tähtede eest", "chooser": "Siim Nestor" },
-        { "artists": ["SKIZØ"], "title": "2kätt", "chooser": "Valner Valme", "note": "albumilt „Neetud Ühiskond vol 2”" },
-        { "artists": ["Anna Himma"], "title": "Get Summer!", "chooser": "Merit Maarits" },
-        { "artists": ["Perfectionist"], "title": "Blood Victory", "chooser": "Raul Saaremets" }
+        {
+          "artists": [
+            "An-Marlen",
+            "Kermo Murel"
+          ],
+          "title": "Tähtede eest",
+          "chooser": "Siim Nestor"
+        },
+        {
+          "artists": [
+            "SKIZØ"
+          ],
+          "title": "2kätt",
+          "chooser": "Valner Valme",
+          "note": "albumilt „Neetud Ühiskond vol 2”"
+        },
+        {
+          "artists": [
+            "Anna Himma"
+          ],
+          "title": "Get Summer!",
+          "chooser": "Merit Maarits"
+        },
+        {
+          "artists": [
+            "Perfectionist"
+          ],
+          "title": "Blood Victory",
+          "chooser": "Raul Saaremets"
+        }
       ]
     },
-
     "a84e0286-f21b-49d1-bc9f-240683eff0c4": {
       "_note": "Proosavormis hooaja lõpusaade — kriitikud tõid üksteisele oma poolaasta lemmikud.",
       "songs": [
-        { "artists": ["iiori"], "title": "sprint", "chooser": "Siim Nestor" },
-        { "artists": ["Karameel"], "title": "Mul ei ole raha", "chooser": "Merit Maarits" },
-        { "artists": ["Valge Tüdruk"], "title": "mul krdi suva", "chooser": "Valner Valme" },
-        { "artists": ["C.C."], "title": "Haudvaikne", "chooser": "Raul Saaremets", "note": "albumilt „Siin olema peab”" }
+        {
+          "artists": [
+            "iiori"
+          ],
+          "title": "sprint",
+          "chooser": "Siim Nestor"
+        },
+        {
+          "artists": [
+            "Karameel"
+          ],
+          "title": "Mul ei ole raha",
+          "chooser": "Merit Maarits"
+        },
+        {
+          "artists": [
+            "Valge Tüdruk"
+          ],
+          "title": "mul krdi suva",
+          "chooser": "Valner Valme"
+        },
+        {
+          "artists": [
+            "C.C."
+          ],
+          "title": "Haudvaikne",
+          "chooser": "Raul Saaremets",
+          "note": "albumilt „Siin olema peab”"
+        }
       ]
     }
   },
-
   "songs": {
     "51067548-anna-himma-get-summer": {
       "_note": "Automaatne otsing pakkus täiesti võõrast lugu (Tommy Cash, kindlus 0,12). Link käsitsi kontrollitud.",
       "youtubeId": "tE86shz0GwI"
     },
-
     "a84e0286-valge-tudruk-mul-krdi-suva": {
       "_note": "Spotifys esineb artist ingliskeelse nimega White Girl, nii et automaatne sobitamine ei tundnud teda ära. Lugu ise on sama, pealkiri klapib täht-tähelt.",
       "spotifyId": "3XakzcEu3QIALuRdiCzqku"
+    },
+    "4d543f2a-the-avalanches-ft-nikki-nair-together": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "KSa1zsPcj8w"
+    },
+    "4dfa188b-gorillaz-the-manifesto": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "6JIv1l96zN0"
+    },
+    "4cc9e6ed-powell-up-all-night": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "PBCjKKkgv_M"
+    },
+    "3b8b51d7-adel-force-be-cool": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "WnfT5pwz-Wo"
+    },
+    "df1c87e3-odumodublvck-ft-stormzy-pay-me": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "tbkyQBR5ZPo"
+    },
+    "d06dc046-skizo-etteaste": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "EozQPlsLfkg"
+    },
+    "d73035d0-suurell-metafoorid": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "um1JHY_zJ-o"
+    },
+    "d3af9788-siim-pojeng-sules-lilli": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "rHwkiBB4G_0"
+    },
+    "4cc9e6ed-mar-u-kassar": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "OUN2mypszcU",
+      "spotifyId": "58aJsJiHc4WVdRY5v6FZaC"
+    },
+    "9ff7f5d7-new-age-doom-we-re-all-the-same": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "DNotodH2Kb4",
+      "spotifyId": "1E8gfuI7N9TAESRTzqaJBJ"
+    },
+    "c9f6f00c-margiila-eitohikshiljaksjaada": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "UXibtpJ747A"
+    },
+    "3b8b51d7-onyx-kah-mul-asi": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "SgrlP8QCnkA",
+      "spotifyId": "6CSyc1n6UH49U4PKbMqevJ"
+    },
+    "d73035d0-dean-blunt-478-freestyle": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "_zlsGKreWsI",
+      "spotifyId": "6vzGpryGBxgf4HxFRElj0i"
+    },
+    "263c8fbc-lotte-jurjendal-alien-angel": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ER6BAMJqfmU",
+      "spotifyId": "1XCBtrAYCFKhuiR5TIjXRT"
+    },
+    "28a618cf-anika-these-days": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "YdorO9ZQz_w",
+      "spotifyId": "2zWHeOcp8vv6hHpaQCBJMd"
+    },
+    "3bc11027-boipepperoni-open-heart": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "CehubJ8DPv0",
+      "spotifyId": "1BGo1bUgmgHPeiGfTh0ici"
+    },
+    "ec783a5e-nublu-tipus-ulub-tuul": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "DAMQQgz30-4",
+      "spotifyId": "1uVBbFLDRLGv0LV9sxiw4J"
+    },
+    "35994776-drake-nokia": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "UWyFj-TD9-M"
+    },
+    "40f1de08-jill-scott-ft-too-hort-bpty": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "PYrz0gymfao"
+    },
+    "4b8b3c35-skizo-narkopoliitika": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "r8N1uXls_S0"
+    },
+    "3b8b51d7-cortis-tnt": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "kRpaqR5sbf0"
+    },
+    "c71831ba-vera-vice-tell-me-tell-me": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "jXWKJBibIZ8"
+    },
+    "d06dc046-alika-laagna-tee": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "E6L4l17F1Ws"
+    },
+    "37bb174f-holy-motors-heavens-night": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "sM0oM6LLSME"
     }
   }
 }

@@ -229,35 +229,25 @@ function teade(t) {
 /* ── Joonistamine ────────────────────────────────────────────────── */
 
 function joonista() {
-  const korvid = [
-    { võti: 'wrong', toon: 'warn' },
-    { võti: 'guess', toon: 'guess' },
-    { võti: 'blank', toon: 'gap' },
-  ];
+  const korvid = ['wrong', 'guess', 'blank', 'todo'];
 
-  for (const korv of korvid) {
-    const kirjed = andmed[korv.võti];
-    const konteiner = document.getElementById('list-' + korv.võti);
+  for (const võti of korvid) {
+    const kirjed = andmed[võti];
+    const konteiner = document.getElementById('list-' + võti);
     if (!konteiner) continue;
-    konteiner.innerHTML = korv.võti === 'wrong'
+    konteiner.innerHTML = võti === 'wrong'
       ? kirjed.map(kaart).join('')
-      : kirjed.map((k) => rida(k, korv.võti === 'guess')).join('');
+      : kirjed.map((k) => rida(k, võti === 'guess')).join('');
 
     const tehtud = kirjed.filter((k) => seis(k)).length;
-    const loendur = document.getElementById('count-' + korv.võti);
+    const loendur = document.getElementById('count-' + võti);
     if (loendur) {
       loendur.textContent = tehtud > 0
         ? (kirjed.length - tehtud) + ' ootel · ' + tehtud + ' tehtud'
         : kirjed.length + ' lugu';
     }
-    const number = document.getElementById('n-' + korv.võti);
+    const number = document.getElementById('n-' + võti);
     if (number) number.textContent = String(kirjed.length - tehtud);
-  }
-
-  const todo = document.getElementById('list-todo');
-  if (todo) {
-    todo.innerHTML = andmed.todo.map((k) =>
-      '<li><span>' + nimi(k) + '</span> <span class="todo__ep">' + kust(k) + '</span></li>').join('');
   }
 
   const n = muudatusi();
@@ -317,7 +307,7 @@ document.addEventListener('change', (e) => {
 });
 
 function leia(id) {
-  for (const võti of ['wrong', 'guess', 'blank']) {
+  for (const võti of ['wrong', 'guess', 'blank', 'todo']) {
     const k = andmed[võti].find((x) => x.id === id);
     if (k) return k;
   }
