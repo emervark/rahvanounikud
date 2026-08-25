@@ -7,7 +7,7 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Kahtlane link üleval | 0 |
 | Pakkumine olemas, link puudub | 11 |
 | Kumbki link puudub | 6 |
-| YouTube veel otsimata | 35 |
+| YouTube veel otsimata | 1 |
 
 ## 1. Kahtlane link on üleval
 
@@ -78,47 +78,13 @@ Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
 ## 4. YouTube veel otsimata
 
-35 lugu, päevakvoot 90 → ~1 päeva.
+1 lugu, päevakvoot 90 → ~1 päeva.
 Spotify link on neil olemas, nii et lehel on lugu kuulatav.
 
 ```bash
 npm run resolve:youtube && npm run build:data && npm run deploy
 ```
 
-- Lola Young, Lil Yachty — Charlie — saade 26 · 2024-11-08
-- motonormal — cocacolastic — saade 25 · 2024-11-01
-- Tyler, the Creator — I Hope You Find Your Way Home — saade 25 · 2024-11-01
-- Mk.gee — Rockman — saade 24 · 2024-10-25
-- Jarek Kasar — Und mina n2gin — saade 24 · 2024-10-25
-- FKA twigs — Perfect — saade 24 · 2024-10-25
-- Kaisa Ling Thing — Elu naisteta on jant — saade 23 · 2024-10-18
-- Charli XCX ft Bladee — Rewind — saade 23 · 2024-10-18
-- heleza — Armastaks? — saade 23 · 2024-10-18
-- Milan W — Face to Face — saade 23 · 2024-10-18
-- Playboi Carti — 2024 — saade 19 · 2024-09-20
-- DND — Viimane kustutab tule — saade 18 · 2024-09-13
-- ASAP Rocky & Jessica Pratt — Highjack — saade 18 · 2024-09-13
-- Fat Dog — Closer to God — saade 18 · 2024-09-13
-- Maris Pihlap & villemdrillem — Midagi head — saade 17 · 2024-09-06
-- Eminem — Houdini — saade 15 · 2024-06-14
-- Lotey — Rohkem raha — saade 15 · 2024-06-14
-- Kaytranada — More Than a Little Bit — saade 15 · 2024-06-14
-- Skrillex, Hamdi, TAICHU, contra, OFFAIAH — Push — saade 13 · 2024-05-31
-- Kenors — Raha2 — saade 12 · 2024-05-24
-- Billie Eilish — Birds of a Feather — saade 12 · 2024-05-24
-- Horror Dance Squad — Taste the Doom — saade 12 · 2024-05-24
-- Childish Gambino — To Be Hunted — saade 12 · 2024-05-24
-- Kõnts — Solka — saade 11 · 2024-05-17
-- Kamasi Washington — Interstellar Peace (The Last Stance) — saade 11 · 2024-05-17
-- Haldi & ans Flamingo — Meile kahele — saade 11 · 2024-05-17
-- Hiatus Kaiyote — Telescope — saade 11 · 2024-05-17
-- Maris Pihlap x Reket — Kui sa vaid teaks — saade 10 · 2024-05-10
-- Dua Lipa — End of an Era — saade 10 · 2024-05-10
-- Kendrick Lamar — Euphoria — saade 10 · 2024-05-10
-- Taylor Swift feat. Florence + The Machine — Florida!!! — saade 9 · 2024-05-03
-- beebi, jonts — broken hearts — saade 9 · 2024-05-03
-- Mark Knopfler — Before My Train Comes — saade 9 · 2024-05-03
-- RAIN X INGRA — Seek and You Shall Find — saade 8 · 2024-04-26
 - Skuuba — Kuidas sul on läind? — saade 6 · 2024-04-12
 
 ---
