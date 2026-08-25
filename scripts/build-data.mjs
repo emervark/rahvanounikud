@@ -155,7 +155,11 @@ async function main() {
   for (const ep of episodes) {
     for (const song of ep.songs) {
       const fix = overrides.songs?.[song.id] ?? {};
-      Object.assign(song, fix);
+      /* Alakriipsuga võtmed on hooldaja märkmed, mitte andmed — need jäävad
+         faili, aga ei lähe kliendile kaasa. */
+      for (const [k, v] of Object.entries(fix)) {
+        if (!k.startsWith('_')) song[k] = v;
+      }
 
       // Selgesõnaline null tähendab „see link on vale, ära näita" — seepärast
       // vaatame võtme olemasolu, mitte väärtuse tõesust. `??` laseks nulli

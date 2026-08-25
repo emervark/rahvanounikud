@@ -5,7 +5,7 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 9 |
-| Pakkumine olemas, link puudub | 38 |
+| Pakkumine olemas, link puudub | 30 |
 | Kumbki link puudub | 12 |
 | YouTube veel otsimata | 45 |
 
@@ -78,33 +78,9 @@ mõttetuks.
 Otsing leidis midagi, kindlus jäi väikseks. Osa on õiged (pealkirjas lisasõna),
 osa on täiesti mööda, osa on õige lugu vales versioonis.
 
-- **0,69** Laurie Anderson feat Anohni — India And Down to Australia — saade 32 · 2024-12-20
-  - pakub: Laurie Anderson, Nonesuch Records — India And On Down to Australia feat. ANOHNI → https://www.youtube.com/watch?v=nFNhk80aA9s
-  - `59255337-laurie-anderson-india-and-down-to-australia` · [otsi](https://www.youtube.com/results?search_query=Laurie%20Anderson%20feat%20Anohni%20India%20And%20Down%20to%20Australia)
-- **0,67** Angel Olsen — The Takeover — saade 31 · 2024-12-13
-  - pakub: Angel Olsen, Jagjaguwar — The Takeover (Poppy Jean Crawford Cover) → https://www.youtube.com/watch?v=WneRNOsadks
-  - `d5b62c3c-angel-olsen-the-takeover` · [otsi](https://www.youtube.com/results?search_query=Angel%20Olsen%20The%20Takeover)
-- **0,52** Janet — Girl Telle Me About It — saade 79 · 2026-03-27
-  - pakub: Janet Jackson — JANET Unbreakable World Tour Auditions → https://www.youtube.com/watch?v=LD2bgqk-FPA
-  - `04293800-janet-girl-telle-me-about-it` · [otsi](https://www.youtube.com/results?search_query=Janet%20Girl%20Telle%20Me%20About%20It)
-- **0,51** Jooseppro & Lennu — Ma nagu LOL — saade 74 · 2026-02-20
-  - pakub: jooseppro ft. Lennu, Dope Estonia — BRIGITTA 「 Bass Boosted‌ 」 → https://www.youtube.com/watch?v=X2C6dmeQoAo
-  - `27eae26f-jooseppro-ma-nagu-lol` · [otsi](https://www.youtube.com/results?search_query=Jooseppro%20%26%20Lennu%20Ma%20nagu%20LOL)
-- **0,50** Vera Vice — Ever Since — saade 30 · 2024-12-05
-  - pakub: Vera Vice — Vera Vice - Every Piece of Land → https://www.youtube.com/watch?v=IBSbf8ILxxI
-  - `dc837b32-vera-vice-ever-since` · [otsi](https://www.youtube.com/results?search_query=Vera%20Vice%20Ever%20Since)
 - **0,45** Perfectionist — Blood Victory — saade 91 · 2026-06-17
   - pakub: 06, Didier Andrade® — Blood of Victory - SWITCHTENSE → https://www.youtube.com/watch?v=-2PPxMEaloI
   - `51067548-perfectionist-blood-victory` · [otsi](https://www.youtube.com/results?search_query=Perfectionist%20Blood%20Victory)
-- **0,45** Intrepid — Ball/Laviin — saade 85 · 2026-05-07
-  - pakub: Release — Ball/Laviin → https://www.youtube.com/watch?v=Ps3cWTVQ5Pk
-  - `19717d8f-intrepid-ball-laviin` · [otsi](https://www.youtube.com/results?search_query=Intrepid%20Ball%2FLaviin)
-- **0,45** Alonette ja Anna Kaneelina — Uneasy — saade 78 · 2026-03-20
-  - pakub: Release — Uneasy → https://www.youtube.com/watch?v=hn6uxMNLOXg
-  - `9ff7f5d7-alonette-uneasy` · [otsi](https://www.youtube.com/results?search_query=Alonette%20ja%20Anna%20Kaneelina%20Uneasy)
-- **0,45** Tyler, the Creator — Up All Night — saade 63 · 2025-11-07
-  - pakub: Double B & Laces — Up All Night → https://www.youtube.com/watch?v=zR6nQtukCjo
-  - `3bc11027-tyler-up-all-night` · [otsi](https://www.youtube.com/results?search_query=Tyler%2C%20the%20Creator%20Up%20All%20Night)
 - **0,45** Daniel Cesar ft Bon Iver — Moon — saade 62 · 2025-10-31
   - pakub: Daniel Caesar, Daniel Caesar — Moon feat. Bon Iver → https://www.youtube.com/watch?v=Cz4arkvTXfE
   - `4cc9e6ed-daniel-cesar-ft-bon-iver-moon` · [otsi](https://www.youtube.com/results?search_query=Daniel%20Cesar%20ft%20Bon%20Iver%20Moon)

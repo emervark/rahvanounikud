@@ -77,6 +77,12 @@
     }
   },
   "songs": {
+    "3bc11027-tyler-up-all-night": {
+      "_note": "Delfi kirjelduses on vale pealkiri „Up All Night”. Päriselt mängiti NOID (album CHROMAKOPIA, okt 2024) — sama kirjeldus märgib, et sekka sattus „kogemata üks juba aasta vana lugu”. Pealkiri, YouTube ja Spotify käsitsi. Loo ID jääb vanaks, et olemasolevad hinded püsiks.",
+      "youtubeId": "Qer3lwd5hyA",
+      "title": "NOID",
+      "spotifyId": "1YdtGoSYDvVQKoUqSDXX41"
+    },
     "51067548-anna-himma-get-summer": {
       "_note": "Automaatne otsing pakkus täiesti võõrast lugu (Tommy Cash, kindlus 0,12). Link käsitsi kontrollitud.",
       "youtubeId": "tE86shz0GwI"
@@ -388,6 +394,34 @@
     "d0450ebc-artemas-i-like-the-way-you-kiss-me": {
       "_note": "käsitsi üle vaadatud ülevaatuslehel",
       "youtubeId": "evJ6gX1lp2o"
+    },
+    "59255337-laurie-anderson-india-and-down-to-australia": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "nFNhk80aA9s"
+    },
+    "d5b62c3c-angel-olsen-the-takeover": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "WneRNOsadks"
+    },
+    "04293800-janet-girl-telle-me-about-it": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "rekeJ2YfFtk"
+    },
+    "27eae26f-jooseppro-ma-nagu-lol": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "mGzQ898iYiM"
+    },
+    "dc837b32-vera-vice-ever-since": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "sOao6NA8omc"
+    },
+    "19717d8f-intrepid-ball-laviin": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "0uADnhJHjmw"
+    },
+    "9ff7f5d7-alonette-uneasy": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "451HhH-0O2M"
     }
   }
 }

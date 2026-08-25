@@ -62,18 +62,23 @@ async function main() {
     const uus = override(otsused[id]);
     const vana = overrides.songs[id];
 
+    /* Liidame, mitte ei asenda. Override võib sisaldada välju, millest leht
+       midagi ei tea — käsitsi parandatud pealkiri, kriitikute hinne. Asendav
+       variant pühkis need minema: NOID-i pealkirjaparandus kadus järgmise
+       apply-käiguga ja alles jäi märkus, mis rääkis parandusest, mida enam ei
+       olnud. */
+    const liidetud = { ...(vana ?? {}), ...uus };
+    if (vana?._note) liidetud._note = vana._note;
+
     if (!vana) {
       uusi++;
+    } else if (JSON.stringify(vana) === JSON.stringify(liidetud)) {
+      samad++;
+      continue;
     } else {
-      /* Käsitsi kirjutatud märkust ei taha üle kirjutada, aga ID-d küll —
-         inimene on lehel öelnud, mis on õige. */
-      const { _note, ...vanaVäljad } = vana;
-      const { _note: _uusNote, ...uusVäljad } = uus;
-      if (JSON.stringify(vanaVäljad) === JSON.stringify(uusVäljad)) { samad++; continue; }
       muutunud++;
-      if (_note) uus._note = _note;
     }
-    overrides.songs[id] = uus;
+    overrides.songs[id] = liidetud;
   }
 
   console.log(`Otsuseid lehel:      ${ids.length}`);
