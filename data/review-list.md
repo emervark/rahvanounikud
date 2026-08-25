@@ -5,8 +5,8 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 0 |
-| Pakkumine olemas, link puudub | 11 |
-| Kumbki link puudub | 6 |
+| Pakkumine olemas, link puudub | 1 |
+| Kumbki link puudub | 1 |
 | YouTube veel otsimata | 1 |
 
 ## 1. Kahtlane link on üleval
@@ -25,54 +25,14 @@ _Puhas._
 Otsing leidis midagi, kindlus jäi väikseks. Osa on õiged (pealkirjas lisasõna),
 osa on täiesti mööda, osa on õige lugu vales versioonis.
 
-- **0,02** Freak Street — Päikese all — saade 49 · 2025-05-24
-  - pakub: reket, motorcade — Võit @ Eesti TOP7 → https://www.youtube.com/watch?v=St-YxuL227Y
-  - `2cbcfe43-freak-street-paikese-all` · [otsi](https://www.youtube.com/results?search_query=Freak%20Street%20P%C3%A4ikese%20all)
-- **0,02** Shelton San — Funky Old Fella — saade 47 · 2025-05-10
-  - pakub: blake shelton, Whiskey & Willows — ol’ red → https://www.youtube.com/watch?v=J2tsR3hC4QQ
-  - `8311c8b9-shelton-san-funky-old-fella` · [otsi](https://www.youtube.com/results?search_query=Shelton%20San%20Funky%20Old%20Fella)
-- **0,00** C.C. — Haudvaikne — saade 70 · 2025-12-23
-  - pakub: —
-  - `16e70f0c-c-c-haudvaikne` · [otsi](https://www.youtube.com/results?search_query=C.C.%20Haudvaikne)
 - **0,00** jooseppro ja Lennu — Kaliiber — saade 67 · 2025-12-05
   - pakub: —
   - `17d543f7-jooseppro-kaliiber` · [otsi](https://www.youtube.com/results?search_query=jooseppro%20ja%20Lennu%20Kaliiber)
-- **0,00** Rändaja — Inimeseks olemine — saade 61 · 2025-10-24
-  - pakub: —
-  - `ecacb7c9-randaja-inimeseks-olemine` · [otsi](https://www.youtube.com/results?search_query=R%C3%A4ndaja%20Inimeseks%20olemine)
-- **0,00** Karameel — Mul ei ole raha — saade 53 · 2025-06-20
-  - pakub: —
-  - `a84e0286-karameel-mul-ei-ole-raha` · [otsi](https://www.youtube.com/results?search_query=Karameel%20Mul%20ei%20ole%20raha)
-- **0,00** C.C. — Haudvaikne — saade 53 · 2025-06-20
-  - pakub: —
-  - `a84e0286-c-c-haudvaikne` · [otsi](https://www.youtube.com/results?search_query=C.C.%20Haudvaikne)
-- **0,00** Florian Wahl — FBsõbrad — saade 43 · 2025-03-28
-  - pakub: —
-  - `13e8f612-florian-wahl-fbsobrad` · [otsi](https://www.youtube.com/results?search_query=Florian%20Wahl%20FBs%C3%B5brad)
-- **0,00** C.C. — Haudvaikne — saade 41 · 2025-03-14
-  - pakub: —
-  - `03333d5e-c-c-haudvaikne` · [otsi](https://www.youtube.com/results?search_query=C.C.%20Haudvaikne)
-- **0,00** Helina, September — OK3 OK3 Ok3 (PÕHJAKORISTAJA) — saade 36 · 2025-02-07
-  - pakub: —
-  - `68d262e1-helina-ok3-ok3-ok3-pohjakoristaja` · [otsi](https://www.youtube.com/results?search_query=Helina%2C%20September%20OK3%20OK3%20Ok3%20(P%C3%95HJAKORISTAJA))
-- **0,00** Jarek Kasar feat Jüri Vlassov — Endrofiin (Fagin) — saade 33 · 2025-01-17
-  - pakub: —
-  - `c4d6132b-jarek-kasar-endrofiin-fagin` · [otsi](https://www.youtube.com/results?search_query=Jarek%20Kasar%20feat%20J%C3%BCri%20Vlassov%20Endrofiin%20(Fagin))
 
 ## 3. Kumbki link puudub
 
 Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
-- Smilers — Räägi mis sa teed (LV remix) — saade 22 · 2024-10-11
-  - `c9f6f00c-smilers-raagi-mis-sa-teed-lv-remix` · [YouTube](https://www.youtube.com/results?search_query=Smilers%20R%C3%A4%C3%A4gi%20mis%20sa%20teed%20(LV%20remix)) · [Spotify](https://open.spotify.com/search/Smilers%20R%C3%A4%C3%A4gi%20mis%20sa%20teed%20(LV%20remix))
-- Kalli Talonpoika — Kaua — saade 21 · 2024-10-04
-  - `9f28ab5f-kalli-talonpoika-kaua` · [YouTube](https://www.youtube.com/results?search_query=Kalli%20Talonpoika%20Kaua) · [Spotify](https://open.spotify.com/search/Kalli%20Talonpoika%20Kaua)
-- Tont — Päevalill kuuvalgel — saade 18 · 2024-09-13
-  - `ac3547be-tont-paevalill-kuuvalgel` · [YouTube](https://www.youtube.com/results?search_query=Tont%20P%C3%A4evalill%20kuuvalgel) · [Spotify](https://open.spotify.com/search/Tont%20P%C3%A4evalill%20kuuvalgel)
-- Valge Tüdruk — Tere, päevik! — saade 16 · 2024-06-21
-  - `d99cdf2c-merit-maarits-valge-tudruk-tere-paevik` · [YouTube](https://www.youtube.com/results?search_query=Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!) · [Spotify](https://open.spotify.com/search/Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!)
-- Nondi_ — pls just shut the fuck up — saade 16 · 2024-06-21
-  - `d99cdf2c-valner-valme-nondi-pls-just-shut-the-fuck-up` · [YouTube](https://www.youtube.com/results?search_query=Nondi_%20pls%20just%20shut%20the%20fuck%20up) · [Spotify](https://open.spotify.com/search/Nondi_%20pls%20just%20shut%20the%20fuck%20up)
 - Kergo Klubi — Kergo Klubi räpp — saade 5 · 2024-04-05
   - `bf14f06b-kergo-klubi-kergo-klubi-rapp` · [YouTube](https://www.youtube.com/results?search_query=Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp) · [Spotify](https://open.spotify.com/search/Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp)
 
