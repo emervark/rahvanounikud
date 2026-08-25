@@ -26,6 +26,25 @@ function searchUrl(base, song) {
 const YT_SEARCH = 'https://www.youtube.com/results?search_query=';
 const SP_SEARCH = 'https://open.spotify.com/search/';
 
+/**
+ * Varem lehele tehtud kinnitused.
+ *
+ * Neid hoiab avaldatud leht ise, aga kohalik pool peab neist teadma: ilma
+ * selleta genereeriks `npm run review` HTML-i tühja otsuste plokiga ja
+ * järgmine avaldamine pühiks kellegi töö ära.
+ *
+ * Allikas on pärisfail, mitte eelmine HTML. HTML kirjutatakse iga käiguga
+ * üle, nii et tema küljest lugemine tähendaks, et üks vale järjekord kustutab
+ * kõik. JSON-fail elab omaette ja läheb ka versioonihaldusse.
+ */
+async function loeOtsused() {
+  try {
+    return JSON.parse(await fs.readFile(paths.reviewOtsused, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+
 function fmt(n) {
   return n === undefined || n === null ? '—' : n.toFixed(2).replace('.', ',');
 }
@@ -68,6 +87,10 @@ async function main() {
 
       if (kahtlaneSp || kahtlaneYt) {
         wrong.push({ ...row, kahtlaneSp, kahtlaneYt });
+      } else if (song.soundcloudUrl || song.bandcamp) {
+        /* SoundCloud ja Bandcamp on käsitsi lisatud kolmandad allikad. Lugu on kuulatav,
+           seega ta ei oota enam midagi — muidu jääks igavesti nimekirja,
+           sest YouTube'i ja Spotify vaste tal puuduvad ja ei tulegi. */
       } else if (!song.youtubeId && yt) {
         guess.push(row);
       } else if (!song.youtubeId && !song.spotifyId) {
@@ -191,6 +214,7 @@ async function main() {
       threshold: String(CONFIDENCE_THRESHOLD).replace('.', ','),
       shaky: String(SHAKY).replace('.', ','),
       naidisId: wrong[0]?.song.id ?? guess[0]?.song.id ?? 'loo-id-siia',
+      otsused: await loeOtsused(),
     },
   }), 'utf8');
 

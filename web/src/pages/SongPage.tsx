@@ -2,11 +2,12 @@ import { Link, useParams } from 'react-router-dom';
 import { SectionTag } from '../components/SectionTag';
 import { useEpisodesFile } from '../useData';
 import { PageState } from '../components/PageState';
-import { ScorePlate } from '../components/ScoreBadge';
+import { ScorePlate, ScoreTag } from '../components/ScoreBadge';
 import { RatingBar } from '../components/RatingBar';
 import { Comments } from '../components/Comments';
 import { useRatings } from '../ratings';
 import { allSongs, formatDate, songLabel } from '../data';
+import { SongEmbeds } from '../components/SongEmbeds';
 
 /**
  * Ühe loo leht.
@@ -51,9 +52,16 @@ export function SongPage() {
         </Link>
 
         <div className="songpage__head">
-          <div className="mono" style={{ marginBottom: 12 }}>{meta}</div>
-          <h1 className="songpage__title">{song.title}</h1>
-          <div className="songpage__artist">{song.artistsRaw}</div>
+          <div className="song__headmain">
+            <div className="mono" style={{ marginBottom: 12 }}>{meta}</div>
+            <h1 className="songpage__title">{song.title}</h1>
+            <div className="songpage__artist">{song.artistsRaw}</div>
+          </div>
+          <ScoreTag
+            stats={stats[song.id]}
+            criticScore={song.criticScore}
+            myScore={mine[song.id]}
+          />
 
           <div className="listen-row">
               {!song.spotifyId && (
@@ -75,28 +83,7 @@ export function SongPage() {
         {/* Mängija, hindamisriba ja hindeplaat algavad ühelt jooneltt */}
         <div className="songpage__body">
           <div className="songpage__player">
-            {song.spotifyId && (
-              <iframe
-                className="embed-frame"
-                style={{ height: 152, marginTop: 0 }}
-                src={`https://open.spotify.com/embed/track/${song.spotifyId}?utm_source=generator`}
-                title={`Spotify: ${songLabel(song)}`}
-                loading="lazy"
-                allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              />
-            )}
-
-            {song.youtubeId && (
-              <iframe
-                className="embed-frame"
-                style={{ aspectRatio: '16 / 9' }}
-                src={`https://www.youtube-nocookie.com/embed/${song.youtubeId}`}
-                title={`YouTube: ${songLabel(song)}`}
-                loading="lazy"
-                allow="accelerometer; encrypted-media; picture-in-picture"
-                allowFullScreen
-              />
-            )}
+            <SongEmbeds song={song} />
 
             <RatingBar songId={song.id} label={songLabel(song)} />
           </div>

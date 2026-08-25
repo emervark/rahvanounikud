@@ -18,6 +18,7 @@ export const paths = {
   episodes:     path.join(DATA_DIR, 'episodes.json'),
   reviewList:   path.join(DATA_DIR, 'review-list.md'),
   reviewPage:   path.join(DATA_DIR, 'review-list.html'),
+  reviewOtsused: path.join(DATA_DIR, 'review-decisions.json'),
   // Sama fail frontendile serveerimiseks. Genereeritud, seepärast .gitignore's.
   webEpisodes:  path.join(ROOT, 'web', 'public', 'episodes.json'),
 };

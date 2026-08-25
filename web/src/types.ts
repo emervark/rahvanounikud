@@ -9,6 +9,11 @@ export interface Song {
   note: string | null;
   spotifyId: string | null;
   youtubeId: string | null;
+  /* Kolmandad allikad neile, keda Spotifys ega YouTube'is ei ole — väiksed
+     Eesti väljalasked satuvad sinna sageli ainsana. Mõlemad tulevad ainult
+     käsitsi overrides.json-ist; resolverit neil ei ole. */
+  soundcloudUrl: string | null;
+  bandcamp: { album: string; track?: string; url: string } | null;
   /**
    * Kriitikute antud koondhinne saates. Podcasti kirjeldustes numbrilisi
    * hindeid EI ole — kirjas on ainult „Milline lugu võitis?”. Seepärast saab

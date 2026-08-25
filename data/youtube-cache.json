@@ -55,7 +55,7 @@
     "confidence": 1
   },
   "_kvoot": {
-    "date": "2026-08-24",
+    "date": "2026-08-25",
     "searches": 90
   },
   "c319ff35-liisi-koikson-endaga-vii": {
@@ -928,6 +928,470 @@
   "3e638468-clicherik-nagu-kodus": {
     "id": "I19e76tzEm0",
     "title": "Nagu kodus",
+    "confidence": 1
+  },
+  "3bc11027-tyler-up-all-night": {
+    "id": null,
+    "confidence": 0.45,
+    "bestGuess": "Double B & Laces — Up All Night",
+    "bestGuessId": "zR6nQtukCjo"
+  },
+  "3e638468-ed-sheeran-old-phone": {
+    "id": "rj5dxoMY-dE",
+    "title": "Old Phone",
+    "confidence": 1
+  },
+  "8311c8b9-shelton-san-funky-old-fella": {
+    "id": null,
+    "confidence": 0.017,
+    "bestGuess": "blake shelton, Whiskey & Willows — ol’ red",
+    "bestGuessId": "J2tsR3hC4QQ"
+  },
+  "8311c8b9-ariel-pink-spin-cycle": {
+    "id": "atsBqzkbSSQ",
+    "title": "Spin Cycle",
+    "confidence": 0.825
+  },
+  "8311c8b9-slam-sigma-boy": {
+    "id": "6lHUL7PVSUI",
+    "title": "SIGMA BOY",
+    "confidence": 1
+  },
+  "8311c8b9-billy-idol-77": {
+    "id": "_lx6D5HY9Ms",
+    "title": "77",
+    "confidence": 1
+  },
+  "92971a74-inger-tirib-mind-kuuma": {
+    "id": "2QhiOFUbWHQ",
+    "title": "Tirib mind kuuma feat. Genka (album \"Armastatuna\")",
+    "confidence": 0.745
+  },
+  "92971a74-mark-pritchard-gangsters": {
+    "id": "m32xZaxzadw",
+    "title": "Gangsters",
+    "confidence": 1
+  },
+  "92971a74-sopruse-puiestee-hullimaja-hoovis": {
+    "id": null,
+    "confidence": 0.366,
+    "bestGuess": "Sõpruse Puiestee — Kaotaja-2",
+    "bestGuessId": "Lte0--sbHSY"
+  },
+  "92971a74-lana-del-rey-henry-come-on": {
+    "id": "nDYY3nJ7a0s",
+    "title": "Henry, come on",
+    "confidence": 1
+  },
+  "e86c4137-sammalhabe-lotus-elise": {
+    "id": "UfZP-pUiwvU",
+    "title": "Lotus Elise",
+    "confidence": 1
+  },
+  "e86c4137-pink-pantheress-tonight": {
+    "id": "IrEFKJnl1H8",
+    "title": "Tonight",
+    "confidence": 1
+  },
+  "e86c4137-luurel-varas-lab-grown-black-hole": {
+    "id": "jhX4koxfy9k",
+    "title": "Lab-Grown Black Hole",
+    "confidence": 1
+  },
+  "e86c4137-barker-stochastic-drift": {
+    "id": "cawfMFKweSo",
+    "title": "Stochastic Drift",
+    "confidence": 1
+  },
+  "6df8fc6e-margiiela-ilus-paev": {
+    "id": "oDp5PVod09s",
+    "title": "ilus päev",
+    "confidence": 1
+  },
+  "6df8fc6e-black-country-happy-birthday": {
+    "id": "_fOdb4STQow",
+    "title": "'Happy Birthday'",
+    "confidence": 1
+  },
+  "6df8fc6e-eik-roomus": {
+    "id": "ufmOTdTt7lE",
+    "title": "RÕÕMUS (muusikavideo)",
+    "confidence": 0.967
+  },
+  "6df8fc6e-yukimi-rules-of-school": {
+    "id": "_oP_QQDZK_c",
+    "title": "'Rules of School'",
+    "confidence": 1
+  },
+  "13e8f612-florian-wahl-fbsobrad": {
+    "id": null,
+    "confidence": 0,
+    "bestGuess": null,
+    "bestGuessId": null
+  },
+  "13e8f612-lady-gaga-abracadabra": {
+    "id": "vBynw9Isr28",
+    "title": "Abracadabra",
+    "confidence": 1
+  },
+  "13e8f612-alonette-true-north": {
+    "id": "EKkGcEwDO0g",
+    "title": "True North",
+    "confidence": 1
+  },
+  "13e8f612-jennie-ft-kali-uchis-damn-right": {
+    "id": "PICpEtPHyZI",
+    "title": "Damn Right",
+    "confidence": 0.825
+  },
+  "de1c611f-meisterjaan-tode-ja-tegu": {
+    "id": "4vyWnVaPMVw",
+    "title": "Tõde Ja Tegu",
+    "confidence": 0.825
+  },
+  "de1c611f-playboi-carti-pop-out": {
+    "id": "-V_GygtBQJo",
+    "title": "POP OUT",
+    "confidence": 1
+  },
+  "de1c611f-the-boondocks-jeanette": {
+    "id": "BM3qhs1fy_w",
+    "title": "Jeanette",
+    "confidence": 1
+  },
+  "de1c611f-fred-frith-your-sweet-time": {
+    "id": "lHiemXT2xtA",
+    "title": "Your Sweet Time",
+    "confidence": 0.825
+  },
+  "03333d5e-ines-daferrari-nr-1": {
+    "id": "v2X3A-5SztU",
+    "title": "Nr. 1",
+    "confidence": 1
+  },
+  "03333d5e-sonic-boom-ask-for-the-moon": {
+    "id": "HDt4aqwnKqo",
+    "title": "Ask For The Moon",
+    "confidence": 0.825
+  },
+  "03333d5e-c-c-haudvaikne": {
+    "id": null,
+    "confidence": 0,
+    "bestGuess": null,
+    "bestGuessId": null
+  },
+  "03333d5e-muni-long-slow-grind": {
+    "id": "atpkDVhQ9es",
+    "title": "Slow Grind",
+    "confidence": 1
+  },
+  "127c756b-kantri-guidu-band-meesnaine": {
+    "id": "TCxYPCFFGe0",
+    "title": "MeesNaine (feat. Donna Kihoote)",
+    "confidence": 0.805
+  },
+  "127c756b-joy-orbison-bastard": {
+    "id": "12gTDEXyTeY",
+    "title": "bastard",
+    "confidence": 1
+  },
+  "127c756b-marmormaze-koeramoodi": {
+    "id": "nizUEQ-Szmo",
+    "title": "KOERAMOOD",
+    "confidence": 0.935
+  },
+  "127c756b-dean-blunt-2": {
+    "id": "iJ30RG1iOJI",
+    "title": "2",
+    "confidence": 0.825
+  },
+  "58a9212a-nkn-trakuinice": {
+    "id": "RlE4UBEnWf4",
+    "title": "trakuinice (feat. NKN orjandus & NKN susan)",
+    "confidence": 0.98
+  },
+  "58a9212a-bon-iver-everything-is-peaceful-love": {
+    "id": "yaPX-i1TjCc",
+    "title": "Everything Is Peaceful Love",
+    "confidence": 1
+  },
+  "58a9212a-triibupasta-viinaingel": {
+    "id": "UVdXBszOpR4",
+    "title": "viinaingel",
+    "confidence": 1
+  },
+  "58a9212a-nazar-anticipate": {
+    "id": "7ej1tfpw-0U",
+    "title": "Anticipate",
+    "confidence": 1
+  },
+  "35994776-karl-killing-staatus": {
+    "id": "vWfKPSP5I5s",
+    "title": "STAATUS",
+    "confidence": 1
+  },
+  "35994776-drake-nokia": {
+    "id": "UWyFj-TD9-M",
+    "title": "NOKIA",
+    "confidence": 1
+  },
+  "35994776-pia-fraus-across-the-street": {
+    "id": "WxPUADrbBKY",
+    "title": "Across the Street (tour in the USA, 2024)",
+    "confidence": 0.967
+  },
+  "35994776-jpegmafia-what-the-hip-hop-hell-is-this": {
+    "id": "qf7eHQU3kOc",
+    "title": "what the hip hop hell is this?",
+    "confidence": 1
+  },
+  "575fdbf7-kaschalot-laminar-flow": {
+    "id": "vuPRgYZW7GM",
+    "title": "Laminar Flow",
+    "confidence": 1
+  },
+  "575fdbf7-panda-bear-ferry-lady": {
+    "id": "g0uc3Ag2yXM",
+    "title": "Ferry Lady",
+    "confidence": 1
+  },
+  "575fdbf7-mari-kalkun-kiri-algab": {
+    "id": "_rQfOMCXE5E",
+    "title": "Kiri Algab",
+    "confidence": 1
+  },
+  "575fdbf7-squid-cro-magnon-man": {
+    "id": "Eb3zur0WewU",
+    "title": "Cro-Magnon Man",
+    "confidence": 1
+  },
+  "68d262e1-helina-ok3-ok3-ok3-pohjakoristaja": {
+    "id": null,
+    "confidence": 0,
+    "bestGuess": null,
+    "bestGuessId": null
+  },
+  "68d262e1-black-country-besties": {
+    "id": "Cae57TpoyZg",
+    "title": "'Besties'",
+    "confidence": 1
+  },
+  "68d262e1-fuzzolini-beauty-exist-in-every-one": {
+    "id": "vMCyByeHjl4",
+    "title": "Beauty Exists in Everyone",
+    "confidence": 0.813
+  },
+  "68d262e1-the-weeknd-big-sleep": {
+    "id": "1FopqsTIfY0",
+    "title": "Big Sleep",
+    "confidence": 1
+  },
+  "a68b491a-alonette-costume": {
+    "id": "5lGqIwIFTmw",
+    "title": "Costume",
+    "confidence": 1
+  },
+  "a68b491a-fka-twigs-room-of-fools": {
+    "id": "84kJivpNyhc",
+    "title": "Room of Fools",
+    "confidence": 1
+  },
+  "a68b491a-mario-kaks-silma-kinni": {
+    "id": "V5yKWwkKucs",
+    "title": "KAKS SILMA KINNI",
+    "confidence": 1
+  },
+  "a68b491a-omar-s-something-real": {
+    "id": "ZQKcnjWVl6I",
+    "title": "Something Real",
+    "confidence": 1
+  },
+  "4f7d1d5a-tungevaag-liis-lemsalu-solodance": {
+    "id": "WXt4PXc1TZM",
+    "title": "Solodance",
+    "confidence": 1
+  },
+  "4f7d1d5a-ela-minus-i-want-to-do-better": {
+    "id": "d3o-Qe2_aKg",
+    "title": "I WANT TO BE BETTER",
+    "confidence": 0.87
+  },
+  "4f7d1d5a-merilin-malk-dilemma": {
+    "id": "nQYGTpFQd3E",
+    "title": "Dilemma",
+    "confidence": 1
+  },
+  "4f7d1d5a-bad-bunny-dtmf": {
+    "id": "w4JXwsSCgBc",
+    "title": "DtMF",
+    "confidence": 1
+  },
+  "c4d6132b-bedwetters-koik-muu-voib-oodata": {
+    "id": "1H_XlReSj_8",
+    "title": "Kõik muu võib oodata",
+    "confidence": 1
+  },
+  "c4d6132b-lambrini-girls-bad-apples": {
+    "id": "svttRZ1jL2I",
+    "title": "Bad Apple",
+    "confidence": 0.935
+  },
+  "c4d6132b-jarek-kasar-endrofiin-fagin": {
+    "id": null,
+    "confidence": 0,
+    "bestGuess": null,
+    "bestGuessId": null
+  },
+  "c4d6132b-jungle-keep-me-satisfied": {
+    "id": "fwq5sT-zLLk",
+    "title": "Keep Me Satisfied",
+    "confidence": 1
+  },
+  "59255337-karl-killing-vastased": {
+    "id": "kIxuqfwPgFU",
+    "title": "vastased",
+    "confidence": 1
+  },
+  "59255337-laurel-2-metsa-elf": {
+    "id": "Ufc1MPw28NA",
+    "title": "metsa elf",
+    "confidence": 1
+  },
+  "59255337-karl-killing-sinust-saati": {
+    "id": "aGOn4F0k7_c",
+    "title": "sinust saati",
+    "confidence": 1
+  },
+  "59255337-valge-tudruk-tere-paevik": {
+    "id": null,
+    "confidence": 0.45,
+    "bestGuess": "White Girl — Tere, päevik!",
+    "bestGuessId": "HDt2ur9zLcE"
+  },
+  "59255337-karja-foam": {
+    "id": null,
+    "confidence": 0.45,
+    "bestGuess": "Release — Foam (feat. Ludwig Wandinger, Kirke Karja, Étienne Renard)",
+    "bestGuessId": "xYJ6okFeVDc"
+  },
+  "59255337-oranssi-pazuzu-ikikaarme": {
+    "id": "IM6mKn07lpw",
+    "title": "Ikikäärme",
+    "confidence": 1
+  },
+  "59255337-laurie-anderson-india-and-down-to-australia": {
+    "id": null,
+    "confidence": 0.693,
+    "bestGuess": "Laurie Anderson, Nonesuch Records — India And On Down to Australia feat. ANOHNI",
+    "bestGuessId": "nFNhk80aA9s"
+  },
+  "59255337-still-house-plants-pant": {
+    "id": "NK4CjEv1xKA",
+    "title": "Pant",
+    "confidence": 1
+  },
+  "59255337-laryssa-kim-les-amants-d-osmium-76-os": {
+    "id": "QnHHIDtCtmM",
+    "title": "Les amants d'osmium - 76 os",
+    "confidence": 1
+  },
+  "59255337-fontaines-d-c-starburster": {
+    "id": "KHocVRUlvkk",
+    "title": "Starburster",
+    "confidence": 1
+  },
+  "d5b62c3c-tommy-cash-espresso-macchiato": {
+    "id": "o6aJJ6Q5zhg",
+    "title": "ESPRESSO MACCHIATO (Eurovision 2025 Winner)",
+    "confidence": 0.967
+  },
+  "d5b62c3c-james-messiah-meets-lord-tusk-open-up": {
+    "id": null,
+    "confidence": 0.45,
+    "bestGuess": "Release — Open Up",
+    "bestGuessId": "4zyipfx2WRc"
+  },
+  "d5b62c3c-vennaskond-joulusokk": {
+    "id": "05G8dCSvM2w",
+    "title": "Jõulušokk",
+    "confidence": 1
+  },
+  "d5b62c3c-angel-olsen-the-takeover": {
+    "id": null,
+    "confidence": 0.667,
+    "bestGuess": "Angel Olsen, Jagjaguwar — The Takeover (Poppy Jean Crawford Cover)",
+    "bestGuessId": "WneRNOsadks"
+  },
+  "dc837b32-vera-vice-ever-since": {
+    "id": null,
+    "confidence": 0.501,
+    "bestGuess": "Vera Vice — Vera Vice - Every Piece of Land",
+    "bestGuessId": "IBSbf8ILxxI"
+  },
+  "dc837b32-becky-and-the-birds-london-is-not-the-same": {
+    "id": "IeHxamnme1I",
+    "title": "London is not the same",
+    "confidence": 1
+  },
+  "dc837b32-prodigyboys-ratchet": {
+    "id": "xjBzhuS7n94",
+    "title": "RATCHET",
+    "confidence": 1
+  },
+  "dc837b32-cyn-the-smiths": {
+    "id": "mWa2OVRK550",
+    "title": "The Smiths",
+    "confidence": 1
+  },
+  "c2cbc0e2-inga-do-you-really-want-her": {
+    "id": "c8sM2ZULSEg",
+    "title": "Do You Really Want Her? (rv) 🇪🇪",
+    "confidence": 0.967
+  },
+  "c2cbc0e2-kim-deal-summerland": {
+    "id": "NayNyBshoGA",
+    "title": "Summerland",
+    "confidence": 1
+  },
+  "c2cbc0e2-tommy-cash-hottie": {
+    "id": "UPCXD1HUnhE",
+    "title": "Hottie",
+    "confidence": 1
+  },
+  "c2cbc0e2-wizkid-soji": {
+    "id": "4qcx3fDRPMY",
+    "title": "Soji",
+    "confidence": 1
+  },
+  "5a8ce01b-sip-lga-tere-kaine-eesti": {
+    "id": null,
+    "confidence": 0.354,
+    "bestGuess": "SIP€LGA x YOHAN, Legendaarne Records — MÄLLAR",
+    "bestGuessId": "Ush6jpo1bSA"
+  },
+  "5a8ce01b-squid-crispy-skin": {
+    "id": "CqM8hhwNsJA",
+    "title": "Crispy Skin",
+    "confidence": 1
+  },
+  "5a8ce01b-stefan-purjetuul": {
+    "id": "5uBkGTloEoE",
+    "title": "Purjetuul (VIDEO)",
+    "confidence": 0.967
+  },
+  "5a8ce01b-nettspend-f-ck-swag": {
+    "id": "0ufGZYBbGMU",
+    "title": "F*CK SWAG",
+    "confidence": 1
+  },
+  "f043c304-tanel-siimann-to-wait-for": {
+    "id": "HuQnsehnGHI",
+    "title": "to wait for",
+    "confidence": 1
+  },
+  "f043c304-primal-scream-deep-dark-waters": {
+    "id": "P5SG4pXtRlM",
+    "title": "Deep Dark Waters",
     "confidence": 1
   }
 }

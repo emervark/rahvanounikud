@@ -5,38 +5,847 @@
     "songs.<songId>     — parandab üksiku loo välju (nt vale Spotify ID).",
     "Loo ID-d leiab failist data/song-ids.json pärast 'npm run build:data'."
   ],
-
   "episodes": {
     "51067548-b2d2-4c49-b3db-e445a68c3a05": {
-      "_note": "Proosavormis hooaja viimane saade — igal kriitikul oma lemmik, nimekirja pole. Sisestatud kirjelduse põhjal.",
+      "_note": "Delfi nimetas esitajaks Perfectionisti — lugu on Ratkilleri oma. Sama nimi seisis ka saate pealkirjas ja kirjelduses.",
       "songs": [
-        { "artists": ["An-Marlen", "Kermo Murel"], "title": "Tähtede eest", "chooser": "Siim Nestor" },
-        { "artists": ["SKIZØ"], "title": "2kätt", "chooser": "Valner Valme", "note": "albumilt „Neetud Ühiskond vol 2”" },
-        { "artists": ["Anna Himma"], "title": "Get Summer!", "chooser": "Merit Maarits" },
-        { "artists": ["Perfectionist"], "title": "Blood Victory", "chooser": "Raul Saaremets" }
+        {
+          "artists": [
+            "An-Marlen",
+            "Kermo Murel"
+          ],
+          "title": "Tähtede eest",
+          "chooser": "Siim Nestor"
+        },
+        {
+          "artists": [
+            "SKIZØ"
+          ],
+          "title": "2kätt",
+          "chooser": "Valner Valme",
+          "note": "albumilt „Neetud Ühiskond vol 2”"
+        },
+        {
+          "artists": [
+            "Anna Himma"
+          ],
+          "title": "Get Summer!",
+          "chooser": "Merit Maarits"
+        },
+        {
+          "artists": [
+            "Perfectionist"
+          ],
+          "title": "Blood Victory",
+          "chooser": "Raul Saaremets"
+        }
+      ],
+      "textFixes": [
+        [
+          "Perfectionisti",
+          "Ratkilleri"
+        ],
+        [
+          "Perfectionist",
+          "Ratkiller"
+        ]
       ]
     },
-
     "a84e0286-f21b-49d1-bc9f-240683eff0c4": {
       "_note": "Proosavormis hooaja lõpusaade — kriitikud tõid üksteisele oma poolaasta lemmikud.",
       "songs": [
-        { "artists": ["iiori"], "title": "sprint", "chooser": "Siim Nestor" },
-        { "artists": ["Karameel"], "title": "Mul ei ole raha", "chooser": "Merit Maarits" },
-        { "artists": ["Valge Tüdruk"], "title": "mul krdi suva", "chooser": "Valner Valme" },
-        { "artists": ["C.C."], "title": "Haudvaikne", "chooser": "Raul Saaremets", "note": "albumilt „Siin olema peab”" }
+        {
+          "artists": [
+            "iiori"
+          ],
+          "title": "sprint",
+          "chooser": "Siim Nestor"
+        },
+        {
+          "artists": [
+            "Karameel"
+          ],
+          "title": "Mul ei ole raha",
+          "chooser": "Merit Maarits"
+        },
+        {
+          "artists": [
+            "Valge Tüdruk"
+          ],
+          "title": "mul krdi suva",
+          "chooser": "Valner Valme"
+        },
+        {
+          "artists": [
+            "C.C."
+          ],
+          "title": "Haudvaikne",
+          "chooser": "Raul Saaremets",
+          "note": "albumilt „Siin olema peab”"
+        }
       ]
     }
   },
-
   "songs": {
+    "3bc11027-tyler-up-all-night": {
+      "_note": "Delfi kirjelduses on vale pealkiri „Up All Night”. Päriselt mängiti NOID (album CHROMAKOPIA, okt 2024) — sama kirjeldus märgib, et sekka sattus „kogemata üks juba aasta vana lugu”. Pealkiri, YouTube ja Spotify käsitsi. Loo ID jääb vanaks, et olemasolevad hinded püsiks.",
+      "youtubeId": "Qer3lwd5hyA",
+      "title": "NOID",
+      "spotifyId": "1YdtGoSYDvVQKoUqSDXX41"
+    },
     "51067548-anna-himma-get-summer": {
       "_note": "Automaatne otsing pakkus täiesti võõrast lugu (Tommy Cash, kindlus 0,12). Link käsitsi kontrollitud.",
       "youtubeId": "tE86shz0GwI"
     },
-
     "a84e0286-valge-tudruk-mul-krdi-suva": {
       "_note": "Spotifys esineb artist ingliskeelse nimega White Girl, nii et automaatne sobitamine ei tundnud teda ära. Lugu ise on sama, pealkiri klapib täht-tähelt.",
       "spotifyId": "3XakzcEu3QIALuRdiCzqku"
+    },
+    "4d543f2a-the-avalanches-ft-nikki-nair-together": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "KSa1zsPcj8w"
+    },
+    "4dfa188b-gorillaz-the-manifesto": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "6JIv1l96zN0"
+    },
+    "4cc9e6ed-powell-up-all-night": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "PBCjKKkgv_M"
+    },
+    "3b8b51d7-adel-force-be-cool": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "WnfT5pwz-Wo"
+    },
+    "df1c87e3-odumodublvck-ft-stormzy-pay-me": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "tbkyQBR5ZPo"
+    },
+    "d06dc046-skizo-etteaste": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "EozQPlsLfkg"
+    },
+    "d73035d0-suurell-metafoorid": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "um1JHY_zJ-o"
+    },
+    "d3af9788-siim-pojeng-sules-lilli": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "rHwkiBB4G_0"
+    },
+    "4cc9e6ed-mar-u-kassar": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "OUN2mypszcU",
+      "spotifyId": "58aJsJiHc4WVdRY5v6FZaC"
+    },
+    "9ff7f5d7-new-age-doom-we-re-all-the-same": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "DNotodH2Kb4",
+      "spotifyId": "1E8gfuI7N9TAESRTzqaJBJ"
+    },
+    "c9f6f00c-margiila-eitohikshiljaksjaada": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "UXibtpJ747A"
+    },
+    "3b8b51d7-onyx-kah-mul-asi": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "SgrlP8QCnkA",
+      "spotifyId": "6CSyc1n6UH49U4PKbMqevJ"
+    },
+    "d73035d0-dean-blunt-478-freestyle": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "_zlsGKreWsI",
+      "spotifyId": "6vzGpryGBxgf4HxFRElj0i"
+    },
+    "263c8fbc-lotte-jurjendal-alien-angel": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ER6BAMJqfmU",
+      "spotifyId": "1XCBtrAYCFKhuiR5TIjXRT"
+    },
+    "28a618cf-anika-these-days": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "YdorO9ZQz_w",
+      "spotifyId": "2zWHeOcp8vv6hHpaQCBJMd"
+    },
+    "3bc11027-boipepperoni-open-heart": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "CehubJ8DPv0",
+      "spotifyId": "1BGo1bUgmgHPeiGfTh0ici"
+    },
+    "ec783a5e-nublu-tipus-ulub-tuul": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "DAMQQgz30-4",
+      "spotifyId": "1uVBbFLDRLGv0LV9sxiw4J"
+    },
+    "35994776-drake-nokia": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "UWyFj-TD9-M"
+    },
+    "40f1de08-jill-scott-ft-too-hort-bpty": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "PYrz0gymfao"
+    },
+    "4b8b3c35-skizo-narkopoliitika": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "r8N1uXls_S0"
+    },
+    "3b8b51d7-cortis-tnt": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "kRpaqR5sbf0"
+    },
+    "c71831ba-vera-vice-tell-me-tell-me": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "jXWKJBibIZ8"
+    },
+    "d06dc046-alika-laagna-tee": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "E6L4l17F1Ws"
+    },
+    "37bb174f-holy-motors-heavens-night": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "sM0oM6LLSME"
+    },
+    "c9f6f00c-metronomy-petit-boy": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "jmAGCUMUp0k"
+    },
+    "9f28ab5f-zetod-sita-maitse-suuh": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "upIwlC7lE0E"
+    },
+    "c9f6f00c-kylie-minogue-lights-camera-action": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "aAVqr8hwjVY"
+    },
+    "9f28ab5f-the-cure-alone": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "sx9SVAtMkJM"
+    },
+    "2a917cbf-villemdrillem-klepto": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "twxrKKA2xIw"
+    },
+    "2a917cbf-the-smile-zero-sum": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "TJ4lG5Szr50"
+    },
+    "2a917cbf-vaiko-eplik-oh-jeerum": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "pMIL-8hHTc0"
+    },
+    "2a917cbf-jamie-xx-dafodil": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "chKy6KLeokA"
+    },
+    "3c94eb93-luurel-varas-sleeper": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "BGiMriGH-c4"
+    },
+    "3c94eb93-playboi-carti-all-red": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "F6iYcXynA4s"
+    },
+    "3c94eb93-maria-kallastu-varahommik": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "xi9cEU2BF70"
+    },
+    "6cd02773-bedwetters-ma-ei-oska-oelda-ei": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "Yg6HsKcVFIE"
+    },
+    "6cd02773-imagine-dragons-nice-to-meet-you": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "NeUfmyu5t8Q"
+    },
+    "6cd02773-u-l-a-by-your-side": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ddyelX7Jjhw"
+    },
+    "6cd02773-shimza-parachute": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "jvnKJ25Gnbk"
+    },
+    "a2c53e9d-nublu-push-it": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ygTdVga871U"
+    },
+    "a2c53e9d-pinkpantheress-turn-it-up": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "HC5oBBQg9q8"
+    },
+    "a2c53e9d-vaiko-eplik-ekstaas": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "lDV-gRmJuhc"
+    },
+    "18b69b06-maria-kallastu-saran": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "v0ZkqYXQFz8"
+    },
+    "18b69b06-beyonce-texas-hold-em": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "238Z4YaAr1g"
+    },
+    "18b69b06-dj-arana-mini-game-dos-taliba": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ZiZZbj29Qcg"
+    },
+    "18b69b06-karl-killing-vastased": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "kIxuqfwPgFU"
+    },
+    "93ad6a77-kim-gordon-i-m-a-man": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ioKP3ORu0QY"
+    },
+    "93ad6a77-winny-puhh-suusasoit": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "EEaemiPyWRk"
+    },
+    "325504f8-nick-cave-wild-god": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "uAgsn7la3jg"
+    },
+    "325504f8-night-tapes-every-day-is-a-game": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "XoUvuIx4Bcs"
+    },
+    "325504f8-lil-till-epp-karsin": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "hUQZMhMvRWU"
+    },
+    "325504f8-justin-timberlake-conditions": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "hPG3x_g2Hro"
+    },
+    "325504f8-manna-mosaic": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "yNiZew_hp_w"
+    },
+    "3fe878b0-kosmikud-berber": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "eGsNdOhF8gY"
+    },
+    "3fe878b0-future-type-shit": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "I0fgkcTbBoI"
+    },
+    "3fe878b0-marmormaze-underdog": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "KAlTUQrBqwM"
+    },
+    "3fe878b0-four-tet-so-blue": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "4er2skfzyzc"
+    },
+    "3fe878b0-florian-wahl-jousaal": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "2fRH0n-ZeuM"
+    },
+    "93ad6a77-arop-aamen": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "TXNkh_tP73c"
+    },
+    "93ad6a77-ariana-grande-the-boy-is-mine": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "KwRxeZ9Ro24"
+    },
+    "bf14f06b-lolina-rules-of-the-game": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "rj8q2yJmGYk"
+    },
+    "bf14f06b-tyla-no-1": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "Ts8RGi8V-FM"
+    },
+    "bf14f06b-buzhold-morlort": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "vXyiWAtdcfk"
+    },
+    "afee239a-charli-xcx-club-classics": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "rd1AZym4lEY"
+    },
+    "afee239a-liis-lemsalu-silmad-lahti": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "g1udZ8iezas"
+    },
+    "afee239a-jessica-pratt-world-on-a-string": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "MnXYxe1PaMo"
+    },
+    "afee239a-skuuba-kuidas-sul-on-laind": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "spotifyId": "6hDpzwM4LHQdj2y43DXEQO"
+    },
+    "010c11f6-the-libertines-merry-old-england": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "cpYB_FxB2MA"
+    },
+    "010c11f6-nm-barramundi-mitsubishi-freestyle": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "_oTlFfE737Q"
+    },
+    "010c11f6-vegyn-the-dream-goes-on-forever": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "hTlwiSN0QXw"
+    },
+    "010c11f6-eik-armastatud": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "9FH0Hj5NyWk"
+    },
+    "d0450ebc-darkthrone-black-dawn-affiliation": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "YqUTjPhCIS0"
+    },
+    "d0450ebc-lepin-kalkuleeritudrynnak": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "_7gbmshlxvM"
+    },
+    "d0450ebc-artemas-i-like-the-way-you-kiss-me": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "evJ6gX1lp2o"
+    },
+    "59255337-laurie-anderson-india-and-down-to-australia": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "nFNhk80aA9s"
+    },
+    "d5b62c3c-angel-olsen-the-takeover": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "WneRNOsadks"
+    },
+    "04293800-janet-girl-telle-me-about-it": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "rekeJ2YfFtk"
+    },
+    "27eae26f-jooseppro-ma-nagu-lol": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "mGzQ898iYiM"
+    },
+    "dc837b32-vera-vice-ever-since": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "sOao6NA8omc"
+    },
+    "19717d8f-intrepid-ball-laviin": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "0uADnhJHjmw"
+    },
+    "9ff7f5d7-alonette-uneasy": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "451HhH-0O2M"
+    },
+    "a84e0286-iiori-sprint": {
+      "_note": "Lugu on ainult SoundCloudis — Spotifys ega YouTube'is teda ei ole. Automaatne otsing pakkus täiesti võõrast lugu (kindlus 0,28).",
+      "soundcloudUrl": "https://soundcloud.com/iorithuggin/sprint-yovoo-jvcxb"
+    },
+    "16e70f0c-skoone-suurtukk-ajab-suu-lohki": {
+      "_note": "Lugu on ainult Bandcampis, albumilt „Inimeste inimene”. Spotifys ega YouTube'is teda ei ole.",
+      "bandcamp": {
+        "album": "280732283",
+        "track": "2699527089",
+        "url": "https://skoone.bandcamp.com/album/inimeste-inimene"
+      }
+    },
+    "c71831ba-romare-computer-blue": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "-M69D8wwh-0"
+    },
+    "d06dc046-the-durutti-kolumn-liars": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "FmKW0_UYSqk"
+    },
+    "37bb174f-cold-cunts-doll": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ziKaRtoIAy0"
+    },
+    "04293800-brotherkrupa-rip-riky": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "mHDRL0ouFXk"
+    },
+    "764f7f83-florian-wahl-viimane-hetero": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "i_R9gmJW9qk"
+    },
+    "764f7f83-jack-white-archbishop-harold-holmes": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ru5afNNSPeU"
+    },
+    "91b12664-gram-of-fun-complicated-plant-jafunk-remix": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "q549BCif4yI"
+    },
+    "d99cdf2c-siim-nestor-sabrina-carpenter-espresso": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "hY0EIX_E918"
+    },
+    "e833fac2-loits-toelised-kuningad-kutse-sugavikust": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "Xeq48yjMNfw"
+    },
+    "e833fac2-underworld-hilo-sku": {
+      "_note": "Delfi kirjelduses on kirjaviga „Hilo Sku”, õige pealkiri on Hilo Sky. Loo ID jääb vanaks, et hinded püsiks.",
+      "title": "Hilo Sky",
+      "youtubeId": "T0Jq8BTCm64"
+    },
+    "92971a74-inger-tirib-mind-kuuma": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "2QhiOFUbWHQ",
+      "spotifyId": "5usxsKpGaLc3FaOKnkrybZ"
+    },
+    "127c756b-kantri-guidu-band-meesnaine": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "TCxYPCFFGe0",
+      "spotifyId": "6qS5ZmG053Bdas3AxKmXWf"
+    },
+    "68d262e1-fuzzolini-beauty-exist-in-every-one": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "vMCyByeHjl4"
+    },
+    "8311c8b9-ariel-pink-spin-cycle": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "atsBqzkbSSQ",
+      "spotifyId": "1nHzQOjJCw3LI94Q6XTlI9"
+    },
+    "13e8f612-jennie-ft-kali-uchis-damn-right": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "PICpEtPHyZI",
+      "spotifyId": "1e7VWi3ThY7t1F4vkfNfde"
+    },
+    "de1c611f-meisterjaan-tode-ja-tegu": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "4vyWnVaPMVw",
+      "spotifyId": "7s50LqIPG7FsjZGfa9tQ0e"
+    },
+    "de1c611f-fred-frith-your-sweet-time": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "lHiemXT2xtA",
+      "spotifyId": "5thnuWBYs8onAMtYMRZc78"
+    },
+    "03333d5e-sonic-boom-ask-for-the-moon": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "HDt4aqwnKqo",
+      "spotifyId": "3K5wGxcxXe7Ia2d2Q814Kf"
+    },
+    "127c756b-dean-blunt-2": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "iJ30RG1iOJI",
+      "spotifyId": "6eLfGGLdhv4x5IPl7N88AS"
+    },
+    "16e70f0c-roma-vjazemski-royal-brown-philipp-otterbach-ful": {
+      "_note": "Remiks on ainult SoundCloudis, remiksija enda kontol.",
+      "soundcloudUrl": "https://soundcloud.com/philipp-otterbach/roma-vjazemski-royal-brown-philipp-otterbach-full-nelson-remix"
+    },
+    "4cc9e6ed-daniel-cesar-ft-bon-iver-moon": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "Cz4arkvTXfE"
+    },
+    "59255337-valge-tudruk-tere-paevik": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "HDt2ur9zLcE"
+    },
+    "d5b62c3c-james-messiah-meets-lord-tusk-open-up": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "HnI3oCzOnsw"
+    },
+    "df1c87e3-lotte-darker-love": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "sEARajv28qE"
+    },
+    "59255337-karja-foam": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "xYJ6okFeVDc"
+    },
+    "e9622d5d-daniel-levi-following-the-lost": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "z-utMDKH--E"
+    },
+    "2cbcfe43-kiki-kellelgi-on-raske": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "Tv3hxGwpVy8"
+    },
+    "5a8ce01b-sip-lga-tere-kaine-eesti": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "H2sxZPrJFVM"
+    },
+    "51067548-perfectionist-blood-victory": {
+      "_note": "Delfi kirjelduses oli esitajaks Perfectionist — lugu on tegelikult Ratkilleri oma.",
+      "artists": [
+        "Ratkiller"
+      ],
+      "artistsRaw": "Ratkiller",
+      "youtubeId": "ILGcuSKC8zc"
+    },
+    "f043c304-heleenyum-ft-mcandthat-disappear": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "BWoeuPDXnH0"
+    },
+    "f043c304-central-cee-one-by-one": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "IIRHCfvnUyU"
+    },
+    "ad1528cf-villemdrillem-goyard": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "Rf41KtPp3aE"
+    },
+    "ad1528cf-pohja-konn-hingedepaev": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "6XfUHN91Xrg"
+    },
+    "ad1528cf-lcd-soundsystem-x-ray-eyes": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "_PK1OcXp1t8"
+    },
+    "92971a74-sopruse-puiestee-hullimaja-hoovis": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "xtatf5XonCg"
+    },
+    "c0b8424d-yasmyn-ft-sno-like-that": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "QhkLohjQfsg"
+    },
+    "40f1de08-clicherik-ft-karl-killing-dusiruumi-muusik": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "NA5Av9rQccg"
+    },
+    "d95612df-kitty-florentine-ft-aid-kid-balance": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "7oMZ_iGvVJo"
+    },
+    "18b69b06-vimka-kevadpaike": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "Hp0J_0XB9gc"
+    },
+    "bf14f06b-kergo-klubi-kergo-klubi-rapp": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "spotifyId": null,
+      "youtubeId": null
+    },
+    "80e27b14-mari-liis-x-rhei-x-caater-ii-dimensioon": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "w7Y8zoTCpBY"
+    },
+    "32d48ca9-saaremets-koik-saab-korda": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "mz_GwthVsdg"
+    },
+    "d99cdf2c-raul-saaremets-avemaria-diskoteek": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "QTLe9-cvBJI"
+    },
+    "ad1528cf-lola-young-charlie": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "s4ct0s25FYs"
+    },
+    "e833fac2-motonormal-cocacolastic": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "QXXByTRF3po"
+    },
+    "e833fac2-tyler-i-hope-you-find-your-way-home": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "AUA3_lX6g-s"
+    },
+    "d95612df-mk-gee-rockman": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "0wQ-Wx-4pYw"
+    },
+    "d95612df-jarek-kasar-und-mina-n2gin": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "8nnTM6oLrhM"
+    },
+    "d95612df-fka-twigs-perfect": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "KPpw_580QUU"
+    },
+    "f6d0a2a1-kaisa-ling-thing-elu-naisteta-on-jant": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "CuqjTlssX9I"
+    },
+    "f6d0a2a1-charli-xcx-ft-bladee-rewind": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "cN7he0b0sK8"
+    },
+    "f6d0a2a1-milan-w-face-to-face": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "XdLrOhK-fgo"
+    },
+    "f6d0a2a1-heleza-armastaks": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "2gfu8xXSUbE"
+    },
+    "3c94eb93-playboi-carti-2024": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "YG3EhWlBaoI"
+    },
+    "ac3547be-dnd-viimane-kustutab-tule": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "MoYevosfClM"
+    },
+    "ac3547be-asap-rocky-highjack": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "CdqEe3k1ohc"
+    },
+    "ac3547be-fat-dog-closer-to-god": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "UqYByOL6DV4"
+    },
+    "764f7f83-maris-pihlap-midagi-head": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "NPHZ7OnnYX4"
+    },
+    "91b12664-eminem-houdini": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "22tVWwmTie8"
+    },
+    "91b12664-lotey-rohkem-raha": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "GxM3n1SqgIU"
+    },
+    "91b12664-kaytranada-more-than-a-little-bit": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "kQC0S0VYoio"
+    },
+    "a2c53e9d-skrillex-push": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "E89B5VEp1pg"
+    },
+    "6fee00c7-kenors-raha2": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ZB6kq18tVKE"
+    },
+    "6fee00c7-billie-eilish-birds-of-a-feather": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "V9PVRfjEBTI"
+    },
+    "6fee00c7-horror-dance-squad-taste-the-doom": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "MKn_7WHKDEA"
+    },
+    "6fee00c7-childish-gambino-to-be-hunted": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "cTugYhdMDEY"
+    },
+    "2381b82b-konts-solka": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "wUX-eLPl9FI"
+    },
+    "2381b82b-kamasi-washington-interstellar-peace-the-last-st": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "I7YpePBg-10"
+    },
+    "2381b82b-haldi-meile-kahele": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "1BQaSqo15CM"
+    },
+    "2381b82b-hiatus-kaiyote-telescope": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "oIwZuJullhQ"
+    },
+    "32d48ca9-maris-pihlap-x-reket-kui-sa-vaid-teaks": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "0xPQWGAdmMM"
+    },
+    "32d48ca9-dua-lipa-end-of-an-era": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "hWw3dS2cyLc"
+    },
+    "32d48ca9-kendrick-lamar-euphoria": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "NPqDIwWMtxg"
+    },
+    "80e27b14-taylor-swift-florida": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "uEssK8o3jKg"
+    },
+    "80e27b14-beebi-broken-hearts": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "2Ys8PrDKzjo"
+    },
+    "80e27b14-mark-knopfler-before-my-train-comes": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "AafIB_AWK0Y"
+    },
+    "d0450ebc-rain-x-ingra-seek-and-you-shall-find": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "NOwQwgU1aS0"
+    },
+    "d99cdf2c-merit-maarits-valge-tudruk-tere-paevik": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "HDt2ur9zLcE"
+    },
+    "ac3547be-tont-paevalill-kuuvalgel": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "soundcloudUrl": "https://soundcloud.com/tontjunga/paeevalill-kuuvalgel"
+    },
+    "9f28ab5f-kalli-talonpoika-kaua": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ayZmJYQtGP4"
+    },
+    "c9f6f00c-smilers-raagi-mis-sa-teed-lv-remix": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "QI7LTtq2Beo"
+    },
+    "d99cdf2c-valner-valme-nondi-pls-just-shut-the-fuck-up": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "bandcamp": {
+        "album": "70929754",
+        "track": "3357057753",
+        "url": "https://hrrecordings.bandcamp.com/album/ibiza"
+      }
+    },
+    "c4d6132b-jarek-kasar-endrofiin-fagin": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "nCCly5vceWc"
+    },
+    "68d262e1-helina-ok3-ok3-ok3-pohjakoristaja": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "S4MTduk4D-o"
+    },
+    "03333d5e-c-c-haudvaikne": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "bandcamp": {
+        "album": "727992150",
+        "track": "1273913482",
+        "url": "https://ccest.bandcamp.com/album/siin-olema-peab"
+      }
+    },
+    "13e8f612-florian-wahl-fbsobrad": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "ChsgdjSM-qI"
+    },
+    "a84e0286-c-c-haudvaikne": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "bandcamp": {
+        "album": "727992150",
+        "track": "1273913482",
+        "url": "https://ccest.bandcamp.com/album/siin-olema-peab"
+      }
+    },
+    "a84e0286-karameel-mul-ei-ole-raha": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "-ZUuLlyms6A"
+    },
+    "ecacb7c9-randaja-inimeseks-olemine": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "zi0Oi6uYyHo"
+    },
+    "17d543f7-jooseppro-kaliiber": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "spotifyId": "3bXOQAMf5pPpNw0ZB2mJ2c"
+    },
+    "16e70f0c-c-c-haudvaikne": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "bandcamp": {
+        "album": "727992150",
+        "track": "1273913482",
+        "url": "https://ccest.bandcamp.com/album/siin-olema-peab"
+      }
+    },
+    "8311c8b9-shelton-san-funky-old-fella": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "hxL60UwJ0cI"
+    },
+    "2cbcfe43-freak-street-paikese-all": {
+      "_note": "käsitsi üle vaadatud ülevaatuslehel",
+      "youtubeId": "mq0VBvVRHNM"
     }
   }
 }

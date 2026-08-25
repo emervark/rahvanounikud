@@ -118,6 +118,50 @@ async function main() {
 
   const rawByGuid = Object.fromEntries(rawEpisodes.map((e) => [e.guid, e]));
 
+  /**
+   * Tekstiparandused saate pealkirjas ja kirjelduses.
+   *
+   * Delfi kirjeldus on originaaltekst ja jääb selleks — aga kohati on seal
+   * lugude kohta lihtsalt vale info (vale esitaja, kirjaviga). Kui parandame
+   * ainult loo enda välja, jääb kirjeldusse vana nimi alles ja lugeja näeb
+   * samal lehel kaht erinevat vastust.
+   *
+   * Asendame nimeliselt, mitte ei kirjuta tervet teksti üle: nii on
+   * overrides-failis näha täpselt, mida muudeti, ja ülejäänud tekst püsib
+   * Delfi omana ka siis, kui feed hiljem muutub.
+   */
+  const märkamata = [];
+
+  /**
+   * Annab paranduse, mis käib nii pealkirja kui kirjelduse peale.
+   *
+   * Tabamust loeme saate, mitte üksiku välja kohta: sama nimi seisab
+   * pealkirjas nimetavas ja kirjelduses omastavas („Perfectionist" vs
+   * „Perfectionisti pala"), nii et enamik asendusi haakubki ainult ühes
+   * kohas. Väljade kaupa hoiatades oleks pool teadetest vale häire ja
+   * päris märkamata jäänud parandus kaoks nende sekka ära.
+   */
+  function tekstiparandaja(fixes, guid) {
+    if (!fixes?.length) return (t) => t;
+    const tabas = new Set();
+    const välja = (tekst) => {
+      if (!tekst) return tekst;
+      let t = tekst;
+      for (const [otsi, asenda] of fixes) {
+        if (!t.includes(otsi)) continue;
+        tabas.add(otsi);
+        t = t.split(otsi).join(asenda);
+      }
+      return t;
+    };
+    välja.kokkuvõte = () => {
+      for (const [otsi] of fixes) {
+        if (!tabas.has(otsi)) märkamata.push(`${guid}: "${otsi}"`);
+      }
+    };
+    return välja;
+  }
+
   const episodes = parsed.map((ep) => {
     const raw = rawByGuid[ep.guid] ?? {};
     const override = overrides.episodes?.[ep.guid];
@@ -130,20 +174,25 @@ async function main() {
       note: s.note ?? null,
     }));
 
+    const paranda = tekstiparandaja(override?.textFixes, ep.guid);
+    const title = paranda(ep.title);
+    const description = paranda(raw.description ?? '');
+    paranda.kokkuvõte?.();
+
     return {
       guid: ep.guid,
-      title: ep.title,
+      title,
       publishedAt: ep.publishedAt,
       duration: raw.duration ?? null,
       durationSeconds: durationToSeconds(raw.duration),
-      description: raw.description ?? '',
+      description,
       audioUrl: raw.audioUrl ?? null,
       coverImageUrl: raw.coverImageUrl ?? null,
       delfiUrl: `${DELFI_SHOW_URL}/${ep.guid}`,
       spotifyEpisodeId: spotifyEpisodes[ep.guid]?.id ?? null,
       chooser: ep.chooser ?? null,
       guests: ep.guests ?? [],
-      source: override ? 'kasitsi' : 'automaatne',
+      source: override?.songs ? 'kasitsi' : 'automaatne',
       songs,
     };
   });
@@ -155,10 +204,20 @@ async function main() {
   for (const ep of episodes) {
     for (const song of ep.songs) {
       const fix = overrides.songs?.[song.id] ?? {};
-      Object.assign(song, fix);
+      /* Alakriipsuga võtmed on hooldaja märkmed, mitte andmed — need jäävad
+         faili, aga ei lähe kliendile kaasa. */
+      for (const [k, v] of Object.entries(fix)) {
+        if (!k.startsWith('_')) song[k] = v;
+      }
 
-      song.spotifyId = fix.spotifyId ?? spotify[song.id]?.id ?? null;
-      song.youtubeId = fix.youtubeId ?? youtube[song.id]?.id ?? null;
+      // Selgesõnaline null tähendab „see link on vale, ära näita" — seepärast
+      // vaatame võtme olemasolu, mitte väärtuse tõesust. `??` laseks nulli
+      // läbi vahemälu juurde tagasi ja vale link tuleks kohe uuesti üles.
+      song.spotifyId = 'spotifyId' in fix ? fix.spotifyId : (spotify[song.id]?.id ?? null);
+      song.youtubeId = 'youtubeId' in fix ? fix.youtubeId : (youtube[song.id]?.id ?? null);
+      // SoundCloudil ja Bandcampil resolverit ei ole — ainult käsitsi.
+      song.soundcloudUrl = fix.soundcloudUrl ?? null;
+      song.bandcamp = fix.bandcamp ?? null;
       // Kriitikute hinne tuleb ainult käsitsi — feedis seda ei ole.
       // Lubatud on üks number või kriitikute kaupa; viimasest arvutame keskmise
       // ja jätame ka üksikhinded alles, et lehel saaks näidata, kes mida arvas.
@@ -224,6 +283,13 @@ async function main() {
               `${stats.reusedPosition} taaskasutatud (asukoht), ${stats.minted} uut`);
   console.log(`Kuulamislingid: Spotify ${withSpotify}/${totalSongs}, YouTube ${withYoutube}/${totalSongs}`);
   console.log(`Nõunike skoor: ${out.stats.withCriticScore}/${totalSongs}`);
+
+  if (märkamata.length) {
+    console.log(`
+HOIATUS — ${märkamata.length} tekstiparandust ei leidnud oma otsitavat:`);
+    for (const r of märkamata) console.log(`  - ${r}`);
+    console.log('  Kas tekst muutus feedis või on otsitav kirjaviga.');
+  }
 
   if (emptyEpisodes.length) {
     console.log(`\nHOIATUS — ${emptyEpisodes.length} saadet ilma lugudeta:`);

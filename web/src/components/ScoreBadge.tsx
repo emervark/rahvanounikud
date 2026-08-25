@@ -84,6 +84,57 @@ export function ScorePlate({
   );
 }
 
+/**
+ * Kompaktne hinne pealkirja kõrval, ainult kitsale ekraanile.
+ *
+ * Laual istub plaat loo kõrval ja on kohe näha. Mobiilis lükkasid mängijad ta
+ * lehe lõppu — hinnet ei näinud enne, kui olid mõlemad mängijad läbi
+ * kerinud. Siin on sama asi väiksena, pealkirja kõrval.
+ *
+ * Raam on sama motiiv mis plaadil, aga CSS-i malelaud, mitte WebGL. Plaat on
+ * mobiilis peidus, mitte eemaldatud, ja tema dither-lõuend jookseb edasi;
+ * teine lõuend iga loo kohta tähendaks saate lehel kaheksat WebGL-konteksti,
+ * mis on juba brauseri piiri lähedal. Staatiline muster näeb selles suuruses
+ * niikuinii sama välja.
+ */
+export function ScoreTag({
+  stats,
+  criticScore,
+  myScore,
+}: {
+  stats: SongStats | undefined;
+  criticScore?: number | null;
+  myScore?: number;
+}) {
+  const hasVotes = stats !== undefined && stats.count > 0;
+
+  return (
+    <div className="scoretag">
+      <div className="scoretag__card">
+        <div className={`scoretag__value${hasVotes ? '' : ' scoretag__value--empty'}`}>
+          {hasVotes ? fmt(stats.average) : '—'}
+        </div>
+        <div className="mono scoretag__label">Rahvas</div>
+        <div className="mono scoretag__votes">
+          {hasVotes ? votes(stats.count) : 'hindamata'}
+        </div>
+
+        {myScore !== undefined && (
+          <div className="mono scoretag__row">
+            <span>Sina</span><b>{myScore}</b>
+          </div>
+        )}
+
+        {criticScore != null && (
+          <div className="mono scoretag__row">
+            <span>Nõun.</span><b className="scoretag__critics">{fmt(criticScore)}</b>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 /** Kompaktne koondhinne edetabelis, kus dither-plaat oleks liiga lärmakas. */
 export function CommunityScore({ stats }: { stats: SongStats | undefined }) {
   const hasVotes = stats !== undefined && stats.count > 0;

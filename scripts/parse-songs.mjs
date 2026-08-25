@@ -59,6 +59,15 @@ const MAX_LIST_LINES = 20;
    läks vale lugu. */
 const CONTINUATION = /^(the|and|of|de|du|da|di|la|le|el|van|von|dos|das)\s/;
 
+/* Hooaja kokkuvõttesaadetes toob iga kriitik oma lemmiku ja Delfi kirjutab
+   selle kujul "Merit Maarits: Valge Tüdruk". Kriitiku nimi ei ole esitaja —
+   ta on valija. Ilma selleta jõudis ta esitajana ka edetabelisse.
+
+   Loend on kinnine: saate püsikriitikud. Üldine "midagi: midagi" reegel
+   eksiks esitaja peal, kelle nimes juhtub koolon olema. */
+const KRIITIKUD = ['Raul Saaremets', 'Valner Valme', 'Siim Nestor', 'Merit Maarits'];
+const KRIITIK_EES = new RegExp(`^(${KRIITIKUD.join('|')})\s*:\s*`);
+
 export function splitArtists(raw) {
   const parts = raw.split(/\s*,\s*/);
   const merged = [];
@@ -114,10 +123,20 @@ export function parseSongLine(raw) {
 
   if (!artists || !title) return null;
 
+  /* Kriitiku nimi esitaja eest ära ja õigesse välja. */
+  let esitajad = artists;
+  let chooser = null;
+  const kriitik = esitajad.match(KRIITIK_EES);
+  if (kriitik) {
+    chooser = kriitik[1];
+    esitajad = esitajad.slice(kriitik[0].length).trim();
+  }
+
   return {
-    artists: splitArtists(artists),
-    artistsRaw: artists,
+    artists: splitArtists(esitajad),
+    artistsRaw: esitajad,
     title,
+    chooser,
     note: note || null,
     unclosedQuote: second < 0 || undefined,
   };
