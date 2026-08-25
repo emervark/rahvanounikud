@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T18:31:14.270Z",
+  "generatedAt": "2026-08-25T18:58:25.575Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -7120,7 +7120,7 @@
             "Underworld"
           ],
           "artistsRaw": "Underworld",
-          "title": "Hilo Sku",
+          "title": "Hilo Sky",
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "e833fac2-underworld-hilo-sku",
@@ -7131,9 +7131,9 @@
           "criticScore": null,
           "criticScores": null,
           "searchUrls": {
-            "spotify": "https://open.spotify.com/search/Underworld%20Hilo%20Sku",
-            "youtube": "https://www.youtube.com/results?search_query=Underworld%20Hilo%20Sku",
-            "bandcamp": "https://bandcamp.com/search?q=Underworld%20Hilo%20Sku"
+            "spotify": "https://open.spotify.com/search/Underworld%20Hilo%20Sky",
+            "youtube": "https://www.youtube.com/results?search_query=Underworld%20Hilo%20Sky",
+            "bandcamp": "https://bandcamp.com/search?q=Underworld%20Hilo%20Sky"
           }
         }
       ]
