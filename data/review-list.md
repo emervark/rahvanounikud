@@ -5,7 +5,7 @@ Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 0 |
-| Pakkumine olemas, link puudub | 24 |
+| Pakkumine olemas, link puudub | 14 |
 | Kumbki link puudub | 12 |
 | YouTube veel otsimata | 40 |
 
@@ -25,36 +25,9 @@ _Puhas._
 Otsing leidis midagi, kindlus jäi väikseks. Osa on õiged (pealkirjas lisasõna),
 osa on täiesti mööda, osa on õige lugu vales versioonis.
 
-- **0,45** Perfectionist — Blood Victory — saade 91 · 2026-06-17
-  - pakub: 06, Didier Andrade® — Blood of Victory - SWITCHTENSE → https://www.youtube.com/watch?v=-2PPxMEaloI
-  - `51067548-perfectionist-blood-victory` · [otsi](https://www.youtube.com/results?search_query=Perfectionist%20Blood%20Victory)
-- **0,45** Daniel Cesar ft Bon Iver — Moon — saade 62 · 2025-10-31
-  - pakub: Daniel Caesar, Daniel Caesar — Moon feat. Bon Iver → https://www.youtube.com/watch?v=Cz4arkvTXfE
-  - `4cc9e6ed-daniel-cesar-ft-bon-iver-moon` · [otsi](https://www.youtube.com/results?search_query=Daniel%20Cesar%20ft%20Bon%20Iver%20Moon)
-- **0,45** Valge Tüdruk — Tere, päevik! — saade 32 · 2024-12-20
-  - pakub: White Girl — Tere, päevik! → https://www.youtube.com/watch?v=HDt2ur9zLcE
-  - `59255337-valge-tudruk-tere-paevik` · [otsi](https://www.youtube.com/results?search_query=Valge%20T%C3%BCdruk%20Tere%2C%20p%C3%A4evik!)
-- **0,45** Karja, Renard, Wandinger — Foam — saade 32 · 2024-12-20
-  - pakub: Release — Foam (feat. Ludwig Wandinger, Kirke Karja, Étienne Renard) → https://www.youtube.com/watch?v=xYJ6okFeVDc
-  - `59255337-karja-foam` · [otsi](https://www.youtube.com/results?search_query=Karja%2C%20Renard%2C%20Wandinger%20Foam)
-- **0,45** James Messiah meets Lord Tusk — Open Up — saade 31 · 2024-12-13
-  - pakub: Release — Open Up → https://www.youtube.com/watch?v=4zyipfx2WRc
-  - `d5b62c3c-james-messiah-meets-lord-tusk-open-up` · [otsi](https://www.youtube.com/results?search_query=James%20Messiah%20meets%20Lord%20Tusk%20Open%20Up)
-- **0,37** Lotte — Darker Love — saade 56 · 2025-09-19
-  - pakub: Lotte Mullan, Lotte Mullan — Dear Elvis → https://www.youtube.com/watch?v=LnbpY3vu33M
-  - `df1c87e3-lotte-darker-love` · [otsi](https://www.youtube.com/results?search_query=Lotte%20Darker%20Love)
-- **0,37** Daniel Levi — Following The Lost — saade 57 · 2025-09-26
-  - pakub: Daniel Levi, Daniel Levi — Flowers (@MyHits Awards) → https://www.youtube.com/watch?v=ZTsUToxV7io
-  - `e9622d5d-daniel-levi-following-the-lost` · [otsi](https://www.youtube.com/results?search_query=Daniel%20Levi%20Following%20The%20Lost)
 - **0,37** Sõpruse Puiestee — Hullimaja hoovis — saade 46 · 2025-04-25
   - pakub: Sõpruse Puiestee — Kaotaja-2 → https://www.youtube.com/watch?v=Lte0--sbHSY
   - `92971a74-sopruse-puiestee-hullimaja-hoovis` · [otsi](https://www.youtube.com/results?search_query=S%C3%B5pruse%20Puiestee%20Hullimaja%20hoovis)
-- **0,36** Kiki — Kellelgi on raske — saade 49 · 2025-05-24
-  - pakub: KIKI, Kaiku Entertainment — Veri viiniks (feat. Mikael Gabriel) → https://www.youtube.com/watch?v=a6bqBfl3RFM
-  - `2cbcfe43-kiki-kellelgi-on-raske` · [otsi](https://www.youtube.com/results?search_query=Kiki%20Kellelgi%20on%20raske)
-- **0,35** SIP€LGA, Yohan — Tere, kaine Eesti — saade 28 · 2024-11-22
-  - pakub: SIP€LGA x YOHAN, Legendaarne Records — MÄLLAR → https://www.youtube.com/watch?v=Ush6jpo1bSA
-  - `5a8ce01b-sip-lga-tere-kaine-eesti` · [otsi](https://www.youtube.com/results?search_query=SIP%E2%82%ACLGA%2C%20Yohan%20Tere%2C%20kaine%20Eesti)
 - **0,10** Clicherik ft Karl Killing, Maria Kallastu — Duširuumi muusik — saade 76 · 2026-03-06
   - pakub: villemdrillem — villemdrillem, Karl Killing - kõik need ööd → https://www.youtube.com/watch?v=-queQoyHC-s
   - `40f1de08-clicherik-ft-karl-killing-dusiruumi-muusik` · [otsi](https://www.youtube.com/results?search_query=Clicherik%20ft%20Karl%20Killing%2C%20Maria%20Kallastu%20Du%C5%A1iruumi%20muusik)
@@ -70,9 +43,6 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 - **0,00** C.C. — Haudvaikne — saade 70 · 2025-12-23
   - pakub: —
   - `16e70f0c-c-c-haudvaikne` · [otsi](https://www.youtube.com/results?search_query=C.C.%20Haudvaikne)
-- **0,00** Roma Vjazemski — Royal Brown (Philipp Otterbach Full Nelson Remix) — saade 70 · 2025-12-23
-  - pakub: —
-  - `16e70f0c-roma-vjazemski-royal-brown-philipp-otterbach-ful` · [otsi](https://www.youtube.com/results?search_query=Roma%20Vjazemski%20Royal%20Brown%20(Philipp%20Otterbach%20Full%20Nelson%20Remix))
 - **0,00** jooseppro ja Lennu — Kaliiber — saade 67 · 2025-12-05
   - pakub: —
   - `17d543f7-jooseppro-kaliiber` · [otsi](https://www.youtube.com/results?search_query=jooseppro%20ja%20Lennu%20Kaliiber)

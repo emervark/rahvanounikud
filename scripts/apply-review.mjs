@@ -40,6 +40,10 @@ function override(otsus) {
 
   if (otsus.yt) rida.youtubeId = otsus.yt;
   if (otsus.sp) rida.spotifyId = otsus.sp;
+  /* Kolmandad allikad tulevad lehelt sama teed — SoundCloudil permalink,
+     Bandcampil embed-koodist välja noritud ID-d. */
+  if (otsus.sc) rida.soundcloudUrl = otsus.sc;
+  if (otsus.bc) rida.bandcamp = otsus.bc;
   return rida;
 }
 

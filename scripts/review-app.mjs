@@ -73,6 +73,31 @@ function loeLink(tekst) {
   if ((m = t.match(/youtu\.be\/([\w-]{11})/))) return { liik: 'yt', id: m[1] };
   if ((m = t.match(/\/(?:shorts|embed|live)\/([\w-]{11})/))) return { liik: 'yt', id: m[1] };
   if ((m = t.match(/track[\/:]([A-Za-z0-9]{22})/))) return { liik: 'sp', id: m[1] };
+
+  /* SoundCloud: permalink kõlbab otse, numbrilist ID-d ei ole vaja. */
+  if ((m = t.match(/https?:\/\/(?:www\.|m\.)?soundcloud\.com\/[\w-]+\/[\w-]+/))) {
+    return { liik: 'sc', url: m[0].split('?')[0] };
+  }
+
+  /* Bandcamp: mängija tahab numbrilisi ID-sid, mida permalink ei sisalda.
+     Seepärast ootame embed-koodi — seal on album= ja track= sees. Paljas
+     permalink läheb tagasi omaette teatega, muidu jääks inimene arvama, et
+     link oli vigane. */
+  if (/bandcamp\.com/.test(t)) {
+    const album = t.match(/album=(\d+)/);
+    if (!album) return { liik: 'bc-puudulik' };
+    const track = t.match(/track=(\d+)/);
+    const link = t.match(/https?:\/\/[\w.-]*bandcamp\.com\/(?:album|track)\/[\w-]+/);
+    return {
+      liik: 'bc',
+      bc: {
+        album: album[1],
+        ...(track ? { track: track[1] } : {}),
+        url: link ? link[0] : t,
+      },
+    };
+  }
+
   if (/^[\w-]{11}$/.test(t)) return { liik: 'yt', id: t };
   if (/^[A-Za-z0-9]{22}$/.test(t)) return { liik: 'sp', id: t };
   return null;
@@ -105,10 +130,10 @@ function seis(kirje) {
 function nupurida(kirje) {
   const o = otsus(kirje.id);
   const on = (l) => (o && o.laad === l) ? ' on' : '';
-  const väärtus = o && o.laad === 'link' ? (o.yt || o.sp || '') : '';
+  const väärtus = o && o.laad === 'link' ? (o.yt || o.sp || o.sc || (o.bc ? o.bc.url : '') || '') : '';
   return '<div class="fix">'
     + '<input class="fix__in" type="text" spellcheck="false" data-id="' + esc(kirje.id) + '"'
-    + ' placeholder="kleebi YouTube&#39;i või Spotify link" value="' + esc(väärtus) + '">'
+    + ' placeholder="YouTube, Spotify, SoundCloud või Bandcampi embed-kood" value="' + esc(väärtus) + '">'
     + (kirje.saabKinnitada
         ? '<button class="btn' + on('ok') + '" data-teha="ok" data-id="' + esc(kirje.id) + '">õige</button>'
         : '')
@@ -178,6 +203,8 @@ function overrides() {
     } else {
       if (o.yt) rida.youtubeId = o.yt;
       if (o.sp) rida.spotifyId = o.sp;
+      if (o.sc) rida.soundcloudUrl = o.sc;
+      if (o.bc) rida.bandcamp = o.bc;
     }
     välja[id] = rida;
   }
@@ -357,10 +384,26 @@ document.addEventListener('change', (e) => {
   const id = el.dataset.id;
   const l = loeLink(el.value);
   if (!el.value.trim()) { pane(id, null); return; }
-  if (!l) { el.classList.add('vigane'); teade('Sellest ei tulnud ID-d välja. Oodatud on YouTube\'i või Spotify link.'); return; }
+  /* Bandcampi permalink on omaette juhtum, mitte lihtsalt vigane sisend —
+     link ise on õige, aga mängija ei saa sellest ID-sid kätte. Ütleme, kust
+     need võtta, muidu jääks inimene arvama, et aadress oli katki. */
+  if (l && l.liik === 'bc-puudulik') {
+    el.classList.add('vigane');
+    teade('Bandcampi permalingist ei saa mängijat teha — ID-d on ainult embed-koodis. '
+      + 'Ava loo lehel Share → Embed ja kleebi see <iframe> siia.');
+    return;
+  }
+  if (!l) {
+    el.classList.add('vigane');
+    teade('Sellest ei tulnud linki välja. Oodatud on YouTube\'i, Spotify või SoundCloudi '
+      + 'aadress või Bandcampi embed-kood.');
+    return;
+  }
   el.classList.remove('vigane');
   const v = { laad: 'link' };
-  v[l.liik] = l.id;
+  if (l.liik === 'bc') v.bc = l.bc;
+  else if (l.liik === 'sc') v.sc = l.url;
+  else v[l.liik] = l.id;
   pane(id, v);
 });
 
