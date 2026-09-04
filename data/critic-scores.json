@@ -20,7 +20,11 @@
   },
   "190ec892-heleenyum-heaven-slowed": {
     "_": "heleenyum — Heaven – Slowed · saade 92",
-    "skoor": null
+    "skoor": {
+      "Raul (Parman)": 3,
+      "Merit Maarits": 8,
+      "Siim Nestor": 8
+    }
   },
   "190ec892-turnstile-sunshower-nourished-by-time-version": {
     "_": "Turnstile — Sunshower: Nourished By Time version · saade 92",

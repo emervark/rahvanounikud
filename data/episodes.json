@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:10:49.299Z",
+  "generatedAt": "2026-09-04T20:18:11.564Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -20,7 +20,7 @@
     "songs": 380,
     "withSpotify": 343,
     "withYoutube": 368,
-    "withCriticScore": 1
+    "withCriticScore": 2
   },
   "episodes": [
     {
@@ -93,8 +93,12 @@
           "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
-          "criticScore": null,
-          "criticScores": null,
+          "criticScore": 6.333333333333333,
+          "criticScores": {
+            "Raul (Parman)": 3,
+            "Merit Maarits": 8,
+            "Siim Nestor": 8
+          },
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/heleenyum%20Heaven%20%E2%80%93%20Slowed",
             "youtube": "https://www.youtube.com/results?search_query=heleenyum%20Heaven%20%E2%80%93%20Slowed",
