@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:08:27.638Z",
+  "generatedAt": "2026-09-04T18:29:29.211Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,114 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 91,
-    "songs": 376,
-    "withSpotify": 339,
-    "withYoutube": 365,
+    "episodes": 92,
+    "songs": 380,
+    "withSpotify": 343,
+    "withYoutube": 368,
     "withCriticScore": 0
   },
   "episodes": [
+    {
+      "guid": "190ec892-511a-4aef-b13c-b8e205b42c0c",
+      "title": "Räppar Raul: Anne Veski ütles mu loo kohta „lapsik jura”",
+      "publishedAt": "2026-09-04T11:19:08.000Z",
+      "duration": "01:09:45",
+      "durationSeconds": 4185,
+      "description": "Podcast’i „Muusikanõunikud” esimeses sügishooaja saates on külaliskriitikuks laulja, räppar, provokaator, saatejuht ja elukunstnik Raul (kodanikunimega Johannes Parman).\n\nRaulil ilmus suvel kauamängiv „raulkoor”, millel kõlava muusikaga artist ise, nagu ta saates ütleb, rahul ei ole. „Peamine publik, kellest ma hoolin, olen mina ja mu ema,” kostab Raul, lisades, et emale ei meeldinud, et kasutas plaadi ühes loos sõna „kuramuse”.\nEsimene lugu ilmus Raulil juba aastal 2019. Selleks oli pala „mainäe”, kus tegid kaasa villemdrillem ja marp$.\n„Anne Veski ütles selle loo kohta, et see on lapsik jura, aga vähemalt proovib midagi,” räägib Raul, kes peab Eestis enda eeskujuks kirjanik Lilli Prometit.\nSuvepraktikandina on Raul lõppeval suvel üles astunud Florian Wahli kontsertidel tema DJ ning sidekick’ina.\nRaul osaleb külalisartisina ka peagi ilmuval Florian Wahli uuel albumil. Järgmine kontsert, kus mehed koos lavale lähevad, toimub aga Raplas kultuurifestivalil Särin 12. septembril.\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• Prodigyboys „Bieber”\n• Bullion „Roo”\n• heleenyum „Heaven – Slowed”\n• Turnstile „Sunshower: Nourished By Time version”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/190ec892-511a-4aef-b13c-b8e205b42c0c/file/3d0d30f2-d834-493a-88a9-1b556181875f.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/190ec892-511a-4aef-b13c-b8e205b42c0c",
+      "spotifyEpisodeId": "3Hxnp9nv4lu1XAuUMjVWhN",
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Prodigyboys"
+          ],
+          "artistsRaw": "Prodigyboys",
+          "title": "Bieber",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "190ec892-prodigyboys-bieber",
+          "spotifyId": "4iecaQia9txvsfAtZ1Axvf",
+          "youtubeId": "TtzGUyA0W-c",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Prodigyboys%20Bieber",
+            "youtube": "https://www.youtube.com/results?search_query=Prodigyboys%20Bieber",
+            "bandcamp": "https://bandcamp.com/search?q=Prodigyboys%20Bieber"
+          }
+        },
+        {
+          "artists": [
+            "Bullion"
+          ],
+          "artistsRaw": "Bullion",
+          "title": "Roo",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "190ec892-bullion-roo",
+          "spotifyId": "0Mjs7nEwZmclEppBl2xfSW",
+          "youtubeId": "RRA4I1nyn64",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Bullion%20Roo",
+            "youtube": "https://www.youtube.com/results?search_query=Bullion%20Roo",
+            "bandcamp": "https://bandcamp.com/search?q=Bullion%20Roo"
+          }
+        },
+        {
+          "artists": [
+            "heleenyum"
+          ],
+          "artistsRaw": "heleenyum",
+          "title": "Heaven – Slowed",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "190ec892-heleenyum-heaven-slowed",
+          "spotifyId": "13ErF1pfOEyM3Rs1RiZpt4",
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/heleenyum%20Heaven%20%E2%80%93%20Slowed",
+            "youtube": "https://www.youtube.com/results?search_query=heleenyum%20Heaven%20%E2%80%93%20Slowed",
+            "bandcamp": "https://bandcamp.com/search?q=heleenyum%20Heaven%20%E2%80%93%20Slowed"
+          }
+        },
+        {
+          "artists": [
+            "Turnstile"
+          ],
+          "artistsRaw": "Turnstile",
+          "title": "Sunshower: Nourished By Time version",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "190ec892-turnstile-sunshower-nourished-by-time-version",
+          "spotifyId": "3UCNnP6NmEWo1ORNAuxBCI",
+          "youtubeId": "o9t4xSk7TqQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version",
+            "youtube": "https://www.youtube.com/results?search_query=Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version",
+            "bandcamp": "https://bandcamp.com/search?q=Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version"
+          }
+        }
+      ]
+    },
     {
       "guid": "51067548-b2d2-4c49-b3db-e445a68c3a05",
       "title": "Aasta seni parimad lood on teinud An-Marlen ja Kermo Murel, SKIZØ, Anna Himma ja Ratkiller",

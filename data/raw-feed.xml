@@ -4,7 +4,7 @@
     <atom:link href="https://api.delfi.ee/media-api-podcast-worker/v1/rss-feed/33d58660-ca9f-4b57-bb79-27629e949861.rss" rel="self" type="application/rss+xml"/>
     <title>Muusikanõunikud</title>
     <pubDate>Tue, 05 Mar 2024 09:17:28 GMT</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2026 19:21:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 18:16:31 GMT</lastBuildDate>
     <ttl>60</ttl>
     <language>et</language>
     <copyright>All rights reserved</copyright>
@@ -22,6 +22,18 @@
       <url>https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1</url>
     </image>
     <itunes:category text="Society &amp; Culture"/>
+    <item>
+      <guid isPermaLink="false">190ec892-511a-4aef-b13c-b8e205b42c0c</guid>
+      <title>Räppar Raul: Anne Veski ütles mu loo kohta „lapsik jura”</title>
+      <pubDate>Fri, 04 Sep 2026 11:19:08 GMT</pubDate>
+      <itunes:duration>01:09:45</itunes:duration>
+      <itunes:author>Delfi Meedia</itunes:author>
+      <itunes:summary>Podcast’i „Muusikanõunikud” esimeses sügishooaja saates on külaliskriitikuks laulja, räppar, provokaator, saatejuht ja elukunstnik Raul (kodanikunimega Johannes Parman).Raulil ilmus suvel kauamängiv „raulkoor”, millel kõlava muusikaga artist ise, nagu ta saates ütleb, rahul ei ole. „Peamine publik, kellest ma hoolin, olen mina ja mu ema,” kostab Raul, lisades, et emale ei meeldinud, et kasutas plaadi ühes loos sõna „kuramuse”.Esimene lugu ilmus Raulil juba aastal 2019. Selleks oli pala „mainäe”, kus tegid kaasa villemdrillem ja marp$.„Anne Veski ütles selle loo kohta, et see on lapsik jura, aga vähemalt proovib midagi,” räägib Raul, kes peab Eestis enda eeskujuks kirjanik Lilli Prometit.Suvepraktikandina on Raul lõppeval suvel üles astunud Florian Wahli kontsertidel tema DJ ning sidekick’ina.Raul osaleb külalisartisina ka peagi ilmuval Florian Wahli uuel albumil. Järgmine kontsert, kus mehed koos lavale lähevad, toimub aga Raplas kultuurifestivalil Särin 12. septembril.Saatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:• Prodigyboys „Bieber”• Bullion „Roo”• heleenyum „Heaven – Slowed”• Turnstile „Sunshower: Nourished By Time version”Milline lugu võitis? Kuula podcastist!„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.Jälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud</itunes:summary>
+      <itunes:subtitle>Podcast’i „Muusikanõunikud” esimeses...</itunes:subtitle>
+      <description>&lt;p&gt;Podcast’i „Muusikanõunikud” esimeses sügishooaja saates on külaliskriitikuks laulja, räppar, provokaator, saatejuht ja elukunstnik Raul (kodanikunimega Johannes Parman).&lt;br /&gt;&lt;br /&gt;Raulil ilmus suvel kauamängiv „raulkoor”, millel kõlava muusikaga artist ise, nagu ta saates ütleb, rahul ei ole. „Peamine publik, kellest ma hoolin, olen mina ja mu ema,” kostab Raul, lisades, et emale ei meeldinud, et kasutas plaadi ühes loos sõna „kuramuse”.&lt;/p&gt;&lt;p&gt;Esimene lugu ilmus Raulil juba aastal 2019. Selleks oli pala „mainäe”, kus tegid kaasa villemdrillem ja marp$.&lt;/p&gt;&lt;p&gt;„Anne Veski ütles selle loo kohta, et see on lapsik jura, aga vähemalt proovib midagi,” räägib Raul, kes peab Eestis enda eeskujuks kirjanik Lilli Prometit.&lt;/p&gt;&lt;p&gt;Suvepraktikandina on Raul lõppeval suvel üles astunud Florian Wahli kontsertidel tema DJ ning sidekick’ina.&lt;/p&gt;&lt;p&gt;Raul osaleb külalisartisina ka peagi ilmuval Florian Wahli uuel albumil. Järgmine kontsert, kus mehed koos lavale lähevad, toimub aga Raplas kultuurifestivalil Särin 12. septembril.&lt;/p&gt;&lt;p&gt;Saatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:&lt;/p&gt;&lt;p&gt;• Prodigyboys „Bieber”&lt;/p&gt;&lt;p&gt;• Bullion „Roo”&lt;/p&gt;&lt;p&gt;• heleenyum „Heaven – Slowed”&lt;/p&gt;&lt;p&gt;• Turnstile „Sunshower: Nourished By Time version”&lt;/p&gt;&lt;p&gt;Milline lugu võitis? Kuula podcastist!&lt;/p&gt;&lt;p&gt;„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.&lt;/p&gt;&lt;p&gt;Jälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+      <enclosure url="https://api.delfi.ee/media-api-podcast-worker/v1/media/190ec892-511a-4aef-b13c-b8e205b42c0c/file/3d0d30f2-d834-493a-88a9-1b556181875f.mp3" type="audio/mpeg" length="100441892"/>
+      <itunes:image href="https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"/>
+    </item>
     <item>
       <guid isPermaLink="false">51067548-b2d2-4c49-b3db-e445a68c3a05</guid>
       <title>Aasta seni parimad lood on teinud An-Marlen ja Kermo Murel, SKIZØ, Anna Himma ja Perfectionist</title>

@@ -1,13 +1,13 @@
 # Ülevaatamist vajavad lood
 
-Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
+Koostatud failist `data/episodes.json` (92 saadet, 380 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 0 |
-| Pakkumine olemas, link puudub | 1 |
-| Kumbki link puudub | 1 |
-| YouTube veel otsimata | 1 |
+| Pakkumine olemas, link puudub | 4 |
+| Kumbki link puudub | 0 |
+| YouTube veel otsimata | 0 |
 
 ## 1. Kahtlane link on üleval
 
@@ -25,27 +25,33 @@ _Puhas._
 Otsing leidis midagi, kindlus jäi väikseks. Osa on õiged (pealkirjas lisasõna),
 osa on täiesti mööda, osa on õige lugu vales versioonis.
 
+- **0,67** heleenyum — Heaven – Slowed — saade 92 · 2026-09-04
+  - pakub: heleenyum — Heaven → https://www.youtube.com/watch?v=gQMFQwh_NAg
+  - `190ec892-heleenyum-heaven-slowed` · [otsi](https://www.youtube.com/results?search_query=heleenyum%20Heaven%20%E2%80%93%20Slowed)
+- **0,01** Kergo Klubi — Kergo Klubi räpp — saade 5 · 2024-04-05
+  - pakub: Yung Lord — Yung Lord – ДЕВОЧКА ЛАМБО (Prod. Call Me G) → https://www.youtube.com/watch?v=OMDz9uYw96w
+  - `bf14f06b-kergo-klubi-kergo-klubi-rapp` · [otsi](https://www.youtube.com/results?search_query=Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp)
 - **0,00** jooseppro ja Lennu — Kaliiber — saade 67 · 2025-12-05
   - pakub: —
   - `17d543f7-jooseppro-kaliiber` · [otsi](https://www.youtube.com/results?search_query=jooseppro%20ja%20Lennu%20Kaliiber)
+- **0,00** Skuuba — Kuidas sul on läind? — saade 6 · 2024-04-12
+  - pakub: —
+  - `afee239a-skuuba-kuidas-sul-on-laind` · [otsi](https://www.youtube.com/results?search_query=Skuuba%20Kuidas%20sul%20on%20l%C3%A4ind%3F)
 
 ## 3. Kumbki link puudub
 
 Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
-- Kergo Klubi — Kergo Klubi räpp — saade 5 · 2024-04-05
-  - `bf14f06b-kergo-klubi-kergo-klubi-rapp` · [YouTube](https://www.youtube.com/results?search_query=Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp) · [Spotify](https://open.spotify.com/search/Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp)
 
 ## 4. YouTube veel otsimata
 
-1 lugu, päevakvoot 90 → ~1 päeva.
+0 lugu, päevakvoot 90 → ~0 päeva.
 Spotify link on neil olemas, nii et lehel on lugu kuulatav.
 
 ```bash
 npm run resolve:youtube && npm run build:data && npm run deploy
 ```
 
-- Skuuba — Kuidas sul on läind? — saade 6 · 2024-04-12
 
 ---
 

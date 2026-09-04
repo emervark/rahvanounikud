@@ -1,5 +1,52 @@
 [
   {
+    "guid": "190ec892-511a-4aef-b13c-b8e205b42c0c",
+    "title": "Räppar Raul: Anne Veski ütles mu loo kohta „lapsik jura”",
+    "publishedAt": "2026-09-04T11:19:08.000Z",
+    "chooser": "Raul Saaremets",
+    "guests": [],
+    "songs": [
+      {
+        "artists": [
+          "Prodigyboys"
+        ],
+        "artistsRaw": "Prodigyboys",
+        "title": "Bieber",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Bullion"
+        ],
+        "artistsRaw": "Bullion",
+        "title": "Roo",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "heleenyum"
+        ],
+        "artistsRaw": "heleenyum",
+        "title": "Heaven – Slowed",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Turnstile"
+        ],
+        "artistsRaw": "Turnstile",
+        "title": "Sunshower: Nourished By Time version",
+        "chooser": null,
+        "note": null
+      }
+    ],
+    "unparsedLines": [],
+    "status": "ok"
+  },
+  {
     "guid": "51067548-b2d2-4c49-b3db-e445a68c3a05",
     "title": "Aasta seni parimad lood on teinud An-Marlen ja Kermo Murel, SKIZØ, Anna Himma ja Perfectionist",
     "publishedAt": "2026-06-17T20:00:00.000Z",
