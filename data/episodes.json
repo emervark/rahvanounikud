@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:25:35.465Z",
+  "generatedAt": "2026-09-04T20:32:45.563Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -20,7 +20,7 @@
     "songs": 380,
     "withSpotify": 343,
     "withYoutube": 368,
-    "withCriticScore": 3
+    "withCriticScore": 4
   },
   "episodes": [
     {
@@ -51,8 +51,12 @@
           "youtubeId": "TtzGUyA0W-c",
           "soundcloudUrl": null,
           "bandcamp": null,
-          "criticScore": null,
-          "criticScores": null,
+          "criticScore": 6.333333333333333,
+          "criticScores": {
+            "Raul (Parman)": 5,
+            "Merit Maarits": 7,
+            "Siim Nestor": 7
+          },
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Prodigyboys%20Bieber",
             "youtube": "https://www.youtube.com/results?search_query=Prodigyboys%20Bieber",
@@ -72,10 +76,11 @@
           "youtubeId": "RRA4I1nyn64",
           "soundcloudUrl": null,
           "bandcamp": null,
-          "criticScore": 5.5,
+          "criticScore": 6.333333333333333,
           "criticScores": {
             "Merit Maarits": 7,
-            "Raul (Parman)": 4
+            "Raul (Parman)": 4,
+            "Siim Nestor": 8
           },
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bullion%20Roo",

@@ -12,13 +12,18 @@
   ],
   "190ec892-prodigyboys-bieber": {
     "_": "Prodigyboys — Bieber · saade 92",
-    "skoor": null
+    "skoor": {
+      "Raul (Parman)": 5,
+      "Merit Maarits": 7,
+      "Siim Nestor": 7
+    }
   },
   "190ec892-bullion-roo": {
     "_": "Bullion — Roo · saade 92",
     "skoor": {
       "Merit Maarits": 7,
-      "Raul (Parman)": 4
+      "Raul (Parman)": 4,
+      "Siim Nestor": 8
     }
   },
   "190ec892-heleenyum-heaven-slowed": {
