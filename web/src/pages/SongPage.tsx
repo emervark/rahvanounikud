@@ -59,6 +59,7 @@ export function SongPage() {
           </div>
           <ScoreTag
             stats={stats[song.id]}
+            criticScore={song.criticScore}
             myScore={mine[song.id]}
           />
 
@@ -89,6 +90,8 @@ export function SongPage() {
 
           <ScorePlate
             stats={stats[song.id]}
+            criticScore={song.criticScore}
+            criticScores={song.criticScores}
             myScore={mine[song.id]}
           />
         </div>

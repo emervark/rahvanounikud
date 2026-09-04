@@ -73,6 +73,7 @@ export function SongCard({ song, index }: { song: Song; index: number }) {
         </div>
         <ScoreTag
           stats={stats[song.id]}
+          criticScore={song.criticScore}
           myScore={mine[song.id]}
         />
         <ListenOptions
@@ -93,6 +94,8 @@ export function SongCard({ song, index }: { song: Song; index: number }) {
 
         <ScorePlate
           stats={stats[song.id]}
+          criticScore={song.criticScore}
+          criticScores={song.criticScores}
           myScore={mine[song.id]}
         />
       </div>

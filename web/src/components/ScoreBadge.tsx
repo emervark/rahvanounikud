@@ -14,25 +14,28 @@ function delta(a: number, b: number): string {
 }
 
 /**
- * Koondhinde plaat: rahvas ja sina.
+ * Koondhinde plaat: rahvas, sina, nõunikud.
  *
- * Algne plaan oli kolm arvu kõrvuti — rahvas, sina, nõunikud. Nõunike
- * hinded jäid siit välja, sest neid ei ole kusagilt võtta: podcasti
- * kirjeldustes on ainult „Milline lugu võitis? Kuula podcastist!” ja
- * kriitikud ise numbreid ei talletanud. Kõrvuti seisis seega alaline
- * kriips, mis lübas välja midagi, mida ei tulnud.
+ * Kolm arvu kõrvuti on kogu lehe mõte — kas rahvas ja nõunikud on ühel nõul
+ * ja kummale poole sina jääd. Puuduv arv ei jäta auku: rida lihtsalt puudub.
  *
- * Andmemudelis on criticScore alles, nii et võrdluse saab tagasi tuua, kui
- * numbrid kunagi tekivad.
+ * Nõunike skoori podcastis numbrina välja ei öelda — need kirjutatakse saadet
+ * kuulates käsitsi üles ja tulevad failist data/critic-scores.json. Seepärast
+ * on neid vähestel lugudel ja plaat on enamasti kahene.
  */
 export function ScorePlate({
   stats,
+  criticScore,
+  criticScores,
   myScore,
 }: {
   stats: SongStats | undefined;
+  criticScore?: number | null;
+  criticScores?: Record<string, number> | null;
   myScore?: number;
 }) {
   const hasVotes = stats !== undefined && stats.count > 0;
+  const hasCritics = criticScore != null;
 
   return (
     <div className="plate">
@@ -56,6 +59,32 @@ export function ScorePlate({
               )}
             </div>
           )}
+
+          {hasCritics && (
+            <div className="plate__row">
+              <b className="plate__critics">{fmt(criticScore)}</b>
+              <span className="mono">Nõunikud</span>
+              {hasVotes && (
+                <span className="mono plate__delta">{delta(stats.average, criticScore)}</span>
+              )}
+            </div>
+          )}
+
+          {/* Kes mida andis. Nõunikud vahetuvad saadete kaupa, nii et
+              üksikhinded on siin sama huvitavad kui keskmine.
+
+              Nimi käib täispikalt. Eesnime järgi lõikamine oleks lühem, aga
+              saates 92 on korraga Raul Saaremets ja külaline Raul (Parman) —
+              mõlemast saaks „Raul” ja lugeja omistaks hinde valele inimesele. */}
+          {hasCritics && criticScores && (
+            <div className="plate__breakdown mono">
+              {Object.entries(criticScores).map(([name, score]) => (
+                <span key={name}>
+                  {name} <b>{score}</b>
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -77,9 +106,11 @@ export function ScorePlate({
  */
 export function ScoreTag({
   stats,
+  criticScore,
   myScore,
 }: {
   stats: SongStats | undefined;
+  criticScore?: number | null;
   myScore?: number;
 }) {
   const hasVotes = stats !== undefined && stats.count > 0;
@@ -98,6 +129,12 @@ export function ScoreTag({
         {myScore !== undefined && (
           <div className="mono scoretag__row">
             <span>Sina</span><b>{myScore}</b>
+          </div>
+        )}
+
+        {criticScore != null && (
+          <div className="mono scoretag__row">
+            <span>Nõun.</span><b className="scoretag__critics">{fmt(criticScore)}</b>
           </div>
         )}
       </div>
@@ -119,6 +156,30 @@ export function CommunityScore({ stats }: { stats: SongStats | undefined }) {
     <span className="chart-row__score">
       <b>{fmt(stats.average)}</b>
       <span className="mono">{stats.count} h</span>
+    </span>
+  );
+}
+
+/**
+ * Nõunike skoor edetabelis koos vahega rahva hinnest.
+ *
+ * Skoorita lahter jääb tühjaks, mitte kriipsuks. Kriips tähendaks „siin peaks
+ * midagi olema” ja 380 loost on hinne vähestel — kriipsude veerg loeks
+ * puuduva andmena, mitte tööna, mida keegi alles teeb.
+ */
+export function CriticScore({
+  criticScore,
+  stats,
+}: {
+  criticScore: number | null;
+  stats: SongStats | undefined;
+}) {
+  if (criticScore == null) return <span className="chart-row__score chart-row__score--critic" />;
+  const hasVotes = stats !== undefined && stats.count > 0;
+  return (
+    <span className="chart-row__score chart-row__score--critic">
+      <b>{fmt(criticScore)}</b>
+      {hasVotes && <span className="mono">{delta(stats.average, criticScore)}</span>}
     </span>
   );
 }
