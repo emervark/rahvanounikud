@@ -16,7 +16,10 @@
   },
   "190ec892-bullion-roo": {
     "_": "Bullion — Roo · saade 92",
-    "skoor": null
+    "skoor": {
+      "Merit Maarits": 7,
+      "Raul (Parman)": 4
+    }
   },
   "190ec892-heleenyum-heaven-slowed": {
     "_": "heleenyum — Heaven – Slowed · saade 92",

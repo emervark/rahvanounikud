@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:18:11.564Z",
+  "generatedAt": "2026-09-04T20:25:35.465Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -20,7 +20,7 @@
     "songs": 380,
     "withSpotify": 343,
     "withYoutube": 368,
-    "withCriticScore": 2
+    "withCriticScore": 3
   },
   "episodes": [
     {
@@ -72,8 +72,11 @@
           "youtubeId": "RRA4I1nyn64",
           "soundcloudUrl": null,
           "bandcamp": null,
-          "criticScore": null,
-          "criticScores": null,
+          "criticScore": 5.5,
+          "criticScores": {
+            "Merit Maarits": 7,
+            "Raul (Parman)": 4
+          },
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bullion%20Roo",
             "youtube": "https://www.youtube.com/results?search_query=Bullion%20Roo",
