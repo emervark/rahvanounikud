@@ -10,6 +10,26 @@
     "Pärast täitmist: npm run build:data && npm run deploy",
     "Uute saadete lisandudes: npm run critics (olemasolevad väärtused jäävad alles)"
   ],
+  "190ec892-prodigyboys-bieber": {
+    "_": "Prodigyboys — Bieber · saade 92",
+    "skoor": null
+  },
+  "190ec892-bullion-roo": {
+    "_": "Bullion — Roo · saade 92",
+    "skoor": null
+  },
+  "190ec892-heleenyum-heaven-slowed": {
+    "_": "heleenyum — Heaven – Slowed · saade 92",
+    "skoor": null
+  },
+  "190ec892-turnstile-sunshower-nourished-by-time-version": {
+    "_": "Turnstile — Sunshower: Nourished By Time version · saade 92",
+    "skoor": {
+      "Siim Nestor": 8,
+      "Merit Maarits": 9,
+      "Raul (Parman)": 7
+    }
+  },
   "51067548-an-marlen-tahtede-eest": {
     "_": "An-Marlen, Kermo Murel — Tähtede eest · saade 91",
     "skoor": null
@@ -23,7 +43,7 @@
     "skoor": null
   },
   "51067548-perfectionist-blood-victory": {
-    "_": "Perfectionist — Blood Victory · saade 91",
+    "_": "Ratkiller — Blood Victory · saade 91",
     "skoor": null
   },
   "c71831ba-bombillaz-saadame-siili-aafrikasse": {
@@ -491,7 +511,7 @@
     "skoor": null
   },
   "3bc11027-tyler-up-all-night": {
-    "_": "Tyler, the Creator — Up All Night · saade 63",
+    "_": "Tyler, the Creator — NOID · saade 63",
     "skoor": null
   },
   "4cc9e6ed-karl-killing-ara-enam-ella": {
@@ -1123,7 +1143,7 @@
     "skoor": null
   },
   "e833fac2-underworld-hilo-sku": {
-    "_": "Underworld — Hilo Sku · saade 25",
+    "_": "Underworld — Hilo Sky · saade 25",
     "skoor": null
   },
   "d95612df-kitty-florentine-ft-aid-kid-balance": {
@@ -1247,19 +1267,19 @@
     "skoor": null
   },
   "d99cdf2c-siim-nestor-sabrina-carpenter-espresso": {
-    "_": "Siim Nestor: Sabrina Carpenter — Espresso · saade 16",
+    "_": "Sabrina Carpenter — Espresso · saade 16",
     "skoor": null
   },
   "d99cdf2c-merit-maarits-valge-tudruk-tere-paevik": {
-    "_": "Merit Maarits: Valge Tüdruk — Tere, päevik! · saade 16",
+    "_": "Valge Tüdruk — Tere, päevik! · saade 16",
     "skoor": null
   },
   "d99cdf2c-raul-saaremets-avemaria-diskoteek": {
-    "_": "Raul Saaremets: Avemaria — Diskoteek · saade 16",
+    "_": "Avemaria — Diskoteek · saade 16",
     "skoor": null
   },
   "d99cdf2c-valner-valme-nondi-pls-just-shut-the-fuck-up": {
-    "_": "Valner Valme: Nondi_ — pls just shut the fuck up · saade 16",
+    "_": "Nondi_ — pls just shut the fuck up · saade 16",
     "skoor": null
   },
   "91b12664-gram-of-fun-complicated-plant-jafunk-remix": {

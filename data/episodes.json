@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T18:29:29.211Z",
+  "generatedAt": "2026-09-04T20:10:49.299Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -20,7 +20,7 @@
     "songs": 380,
     "withSpotify": 343,
     "withYoutube": 368,
-    "withCriticScore": 0
+    "withCriticScore": 1
   },
   "episodes": [
     {
@@ -114,8 +114,12 @@
           "youtubeId": "o9t4xSk7TqQ",
           "soundcloudUrl": null,
           "bandcamp": null,
-          "criticScore": null,
-          "criticScores": null,
+          "criticScore": 8,
+          "criticScores": {
+            "Siim Nestor": 8,
+            "Merit Maarits": 9,
+            "Raul (Parman)": 7
+          },
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version",
             "youtube": "https://www.youtube.com/results?search_query=Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version",

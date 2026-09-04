@@ -301,6 +301,11 @@ function dokument(uuedHinded) {
   const riba = koopia.querySelector('#riba');
   if (riba) {
     riba.setAttribute('hidden', '');
+    /* Ka loendur tuleb tühjaks: muidu läheb salvestamise hetke seis kaasa ja
+       avaldatud lähtekoodis seisab „1 salvestamata hinne”, mis ei vasta enam
+       millelegi. Riba on küll peidus ja loendurid() kirjutab teksti laadimisel
+       üle, aga vale arv failis on ikkagi vale arv. */
+    riba.querySelector('#riba__n').textContent = '';
     const n = riba.querySelector('#salvesta');
     n.removeAttribute('disabled');
     n.textContent = 'Salvesta lehele';
