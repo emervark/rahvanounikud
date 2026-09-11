@@ -1,7 +1,11 @@
 -- GENEREERITUD failist data/episodes.json — ära muuda käsitsi.
--- Lugusid: 380. Uuenda käsuga: npm run seed:sql
+-- Lugusid: 384. Uuenda käsuga: npm run seed:sql
 
 INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
+('c2d505ab-taavi-ateljee', 'c2d505ab-acfb-4c57-a808-2e1025e67ba5', 'Taavi', 'Ateljee', '2026-09-11T10:30:09.000Z'),
+('c2d505ab-beyonce-ft-pharrell-williams-can-i-watch', 'c2d505ab-acfb-4c57-a808-2e1025e67ba5', 'Beyoncé ft Pharrell Williams', 'Can I Watch', '2026-09-11T10:30:09.000Z'),
+('c2d505ab-mamu-thao-wing', 'c2d505ab-acfb-4c57-a808-2e1025e67ba5', 'Mamu Thao', 'Wing', '2026-09-11T10:30:09.000Z'),
+('c2d505ab-the-game-40-nights', 'c2d505ab-acfb-4c57-a808-2e1025e67ba5', 'The Game, Kanye West', '40 Nights', '2026-09-11T10:30:09.000Z'),
 ('190ec892-prodigyboys-bieber', '190ec892-511a-4aef-b13c-b8e205b42c0c', 'Prodigyboys', 'Bieber', '2026-09-04T11:19:08.000Z'),
 ('190ec892-bullion-roo', '190ec892-511a-4aef-b13c-b8e205b42c0c', 'Bullion', 'Roo', '2026-09-04T11:19:08.000Z'),
 ('190ec892-heleenyum-heaven-slowed', '190ec892-511a-4aef-b13c-b8e205b42c0c', 'heleenyum', 'Heaven – Slowed', '2026-09-04T11:19:08.000Z'),
@@ -97,13 +101,13 @@ INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('16e70f0c-turnstile-i-care', '16e70f0c-6c76-4d96-809b-8d34790f9e19', 'Turnstile', 'I Care', '2025-12-23T09:56:01.000Z'),
 ('16e70f0c-cardiacs-busty-beez', '16e70f0c-6c76-4d96-809b-8d34790f9e19', 'Cardiacs', 'Busty Beez', '2025-12-23T09:56:01.000Z'),
 ('16e70f0c-jjjjjerome-ellis-savannah-sparrow-for-and-after-', '16e70f0c-6c76-4d96-809b-8d34790f9e19', 'JJJJJerome Ellis', 'Savannah Sparrow (for and after Kenita Miller)', '2025-12-23T09:56:01.000Z'),
-('16e70f0c-dijon-higher', '16e70f0c-6c76-4d96-809b-8d34790f9e19', 'Dijon', 'Higher', '2025-12-23T09:56:01.000Z'),
+('16e70f0c-dijon-higher', '16e70f0c-6c76-4d96-809b-8d34790f9e19', 'Dijon', 'Higher', '2025-12-23T09:56:01.000Z')
+ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
+INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('16e70f0c-kelman-duran-equinox', '16e70f0c-6c76-4d96-809b-8d34790f9e19', 'Kelman Duran', 'Equinox', '2025-12-23T09:56:01.000Z'),
 ('263c8fbc-lotte-jurjendal-alien-angel', '263c8fbc-4f46-45b9-819f-836ff6f1905f', 'Lotte Jürjendal ja Taavi Laatsit', 'Alien Angel', '2025-12-20T13:46:37.000Z'),
 ('263c8fbc-gorillaz-damaskus', '263c8fbc-4f46-45b9-819f-836ff6f1905f', 'Gorillaz feat Omar Souleyman & Yasiin Bey', 'Damaskus', '2025-12-20T13:46:37.000Z'),
-('263c8fbc-elisabeth-tiffany-jopetaskud', '263c8fbc-4f46-45b9-819f-836ff6f1905f', 'Elisabeth Tiffany', 'jopetaskud', '2025-12-20T13:46:37.000Z')
-ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
-INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
+('263c8fbc-elisabeth-tiffany-jopetaskud', '263c8fbc-4f46-45b9-819f-836ff6f1905f', 'Elisabeth Tiffany', 'jopetaskud', '2025-12-20T13:46:37.000Z'),
 ('263c8fbc-glasser-knave-dj-python-remix', '263c8fbc-4f46-45b9-819f-836ff6f1905f', 'Glasser', 'Knave (DJ Python Remix)', '2025-12-20T13:46:37.000Z'),
 ('28a618cf-blix-tallinn-2000-uksi', '28a618cf-df98-4fd5-b453-efec1e11e8a0', 'Blix', 'Tallinn 2000 (üksi)', '2025-12-12T13:03:52.000Z'),
 ('28a618cf-anika-these-days', '28a618cf-df98-4fd5-b453-efec1e11e8a0', 'Anika & Jim Jarmusch', 'These Days', '2025-12-12T13:03:52.000Z'),
@@ -199,13 +203,13 @@ INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('92971a74-lana-del-rey-henry-come-on', '92971a74-9d58-4872-a03b-78102feac44f', 'Lana Del Rey', 'Henry, Come On', '2025-04-25T09:00:00.000Z'),
 ('e86c4137-sammalhabe-lotus-elise', 'e86c4137-49e5-45b7-ba1c-9aa865e35bad', 'Sammalhabe', 'Lotus Elise', '2025-04-11T07:10:08.000Z'),
 ('e86c4137-pink-pantheress-tonight', 'e86c4137-49e5-45b7-ba1c-9aa865e35bad', 'Pink Pantheress', 'Tonight', '2025-04-11T07:10:08.000Z'),
-('e86c4137-luurel-varas-lab-grown-black-hole', 'e86c4137-49e5-45b7-ba1c-9aa865e35bad', 'Luurel Varas', 'Lab-Grown Black Hole', '2025-04-11T07:10:08.000Z'),
+('e86c4137-luurel-varas-lab-grown-black-hole', 'e86c4137-49e5-45b7-ba1c-9aa865e35bad', 'Luurel Varas', 'Lab-Grown Black Hole', '2025-04-11T07:10:08.000Z')
+ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
+INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('e86c4137-barker-stochastic-drift', 'e86c4137-49e5-45b7-ba1c-9aa865e35bad', 'Barker', 'Stochastic Drift', '2025-04-11T07:10:08.000Z'),
 ('6df8fc6e-margiiela-ilus-paev', '6df8fc6e-4beb-43f7-8045-655f9a3aba2e', 'margiiela', 'Ilus päev', '2025-04-04T09:00:00.000Z'),
 ('6df8fc6e-black-country-happy-birthday', '6df8fc6e-4beb-43f7-8045-655f9a3aba2e', 'Black Country, New Road', 'Happy Birthday', '2025-04-04T09:00:00.000Z'),
-('6df8fc6e-eik-roomus', '6df8fc6e-4beb-43f7-8045-655f9a3aba2e', 'Eik', 'Rõõmus', '2025-04-04T09:00:00.000Z')
-ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
-INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
+('6df8fc6e-eik-roomus', '6df8fc6e-4beb-43f7-8045-655f9a3aba2e', 'Eik', 'Rõõmus', '2025-04-04T09:00:00.000Z'),
 ('6df8fc6e-yukimi-rules-of-school', '6df8fc6e-4beb-43f7-8045-655f9a3aba2e', 'Yukimi', 'Rules of School', '2025-04-04T09:00:00.000Z'),
 ('13e8f612-florian-wahl-fbsobrad', '13e8f612-244f-4161-a99a-807e55d5e0b5', 'Florian Wahl', 'FBsõbrad', '2025-03-28T10:00:00.000Z'),
 ('13e8f612-lady-gaga-abracadabra', '13e8f612-244f-4161-a99a-807e55d5e0b5', 'Lady Gaga', 'Abracadabra', '2025-03-28T10:00:00.000Z'),
@@ -301,13 +305,13 @@ INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('c9f6f00c-metronomy-petit-boy', 'c9f6f00c-0dac-4950-b20b-a1743545f422', 'Metronomy, Porij', 'Petit Boy', '2024-10-11T11:00:05.000Z'),
 ('c9f6f00c-margiila-eitohikshiljaksjaada', 'c9f6f00c-0dac-4950-b20b-a1743545f422', 'margiila, Chillin, TheoFuego', 'EiTohiksHiljaksJääda', '2024-10-11T11:00:05.000Z'),
 ('c9f6f00c-kylie-minogue-lights-camera-action', 'c9f6f00c-0dac-4950-b20b-a1743545f422', 'Kylie Minogue', 'Lights Camera Action', '2024-10-11T11:00:05.000Z'),
-('9f28ab5f-zetod-sita-maitse-suuh', '9f28ab5f-2d9e-4b52-81ea-7629b16df728', 'Zetod', 'Sita maitse suuh', '2024-10-04T11:00:05.000Z'),
+('9f28ab5f-zetod-sita-maitse-suuh', '9f28ab5f-2d9e-4b52-81ea-7629b16df728', 'Zetod', 'Sita maitse suuh', '2024-10-04T11:00:05.000Z')
+ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
+INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('9f28ab5f-the-cure-alone', '9f28ab5f-2d9e-4b52-81ea-7629b16df728', 'The Cure', 'Alone', '2024-10-04T11:00:05.000Z'),
 ('9f28ab5f-kalli-talonpoika-kaua', '9f28ab5f-2d9e-4b52-81ea-7629b16df728', 'Kalli Talonpoika', 'Kaua', '2024-10-04T11:00:05.000Z'),
 ('2a917cbf-villemdrillem-klepto', '2a917cbf-49e5-4004-bac8-30bdfe62ebb3', 'villemdrillem', 'klepto', '2024-09-27T11:00:05.000Z'),
-('2a917cbf-the-smile-zero-sum', '2a917cbf-49e5-4004-bac8-30bdfe62ebb3', 'The Smile', 'Zero Sum', '2024-09-27T11:00:05.000Z')
-ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
-INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
+('2a917cbf-the-smile-zero-sum', '2a917cbf-49e5-4004-bac8-30bdfe62ebb3', 'The Smile', 'Zero Sum', '2024-09-27T11:00:05.000Z'),
 ('2a917cbf-vaiko-eplik-oh-jeerum', '2a917cbf-49e5-4004-bac8-30bdfe62ebb3', 'Vaiko Eplik & Eliit', 'Oh jeerum', '2024-09-27T11:00:05.000Z'),
 ('2a917cbf-jamie-xx-dafodil', '2a917cbf-49e5-4004-bac8-30bdfe62ebb3', 'Jamie xx feat Kelsey Ly, Panda Bear John Glacier', 'Dafodil', '2024-09-27T11:00:05.000Z'),
 ('3c94eb93-luurel-varas-sleeper', '3c94eb93-121d-4851-8023-07c621162dc5', 'Luurel Varas', 'Sleeper', '2024-09-20T11:00:06.000Z'),

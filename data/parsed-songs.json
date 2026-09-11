@@ -1,5 +1,55 @@
 [
   {
+    "guid": "c2d505ab-acfb-4c57-a808-2e1025e67ba5",
+    "title": "Helilooja ja muusik Maarja Nuut uue suurteose ettevalmistusest: „Hästi põnev ja hirmus”",
+    "publishedAt": "2026-09-11T10:30:09.000Z",
+    "chooser": "Raul Saaremets",
+    "guests": [
+      "Maarja Nuut"
+    ],
+    "songs": [
+      {
+        "artists": [
+          "Taavi"
+        ],
+        "artistsRaw": "Taavi",
+        "title": "Ateljee",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Beyoncé ft Pharrell Williams"
+        ],
+        "artistsRaw": "Beyoncé ft Pharrell Williams",
+        "title": "Can I Watch",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Mamu Thao"
+        ],
+        "artistsRaw": "Mamu Thao",
+        "title": "Wing",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "The Game",
+          "Kanye West"
+        ],
+        "artistsRaw": "The Game, Kanye West",
+        "title": "40 Nights",
+        "chooser": null,
+        "note": null
+      }
+    ],
+    "unparsedLines": [],
+    "status": "ok"
+  },
+  {
     "guid": "190ec892-511a-4aef-b13c-b8e205b42c0c",
     "title": "Räppar Raul: Anne Veski ütles mu loo kohta „lapsik jura”",
     "publishedAt": "2026-09-04T11:19:08.000Z",

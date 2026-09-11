@@ -1,10 +1,10 @@
 # Ülevaatamist vajavad lood
 
-Koostatud failist `data/episodes.json` (92 saadet, 380 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
+Koostatud failist `data/episodes.json` (93 saadet, 384 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
 
 | Korv | Lugusid |
 |---|---|
-| Kahtlane link üleval | 0 |
+| Kahtlane link üleval | 1 |
 | Pakkumine olemas, link puudub | 4 |
 | Kumbki link puudub | 0 |
 | YouTube veel otsimata | 0 |
@@ -19,7 +19,14 @@ kirjutatud („I LUV BEING MYSELF"). Nimekiri on madalaimast kindlusest ülespoo
 nii et tõelised vead on eespool — allapoole jõudes muutub üle vaatamine kiiresti
 mõttetuks.
 
-_Puhas._
+### Beyoncé ft Pharrell Williams — Can I Watch
+`c2d505ab-beyonce-ft-pharrell-williams-can-i-watch` · saade 93 · 2026-09-11
+- **Spotify 0,75** → Beyoncé, Pharrell Williams — CAN I WATCH YOU (feat. Pharrell Williams)
+  https://open.spotify.com/track/25kqjl0To6q08zgnRkKqE1
+- **YouTube 0,76** → CAN I WATCH YOU
+  https://www.youtube.com/watch?v=k0msRkf1eRE
+- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch) · [Spotify](https://open.spotify.com/search/Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch)
+
 ## 2. Pakkumine olemas, aga jäi läve alla
 
 Otsing leidis midagi, kindlus jäi väikseks. Osa on õiged (pealkirjas lisasõna),

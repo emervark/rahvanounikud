@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:39:35.707Z",
+  "generatedAt": "2026-09-11T12:51:37.840Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,117 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 92,
-    "songs": 380,
-    "withSpotify": 343,
-    "withYoutube": 368,
+    "episodes": 93,
+    "songs": 384,
+    "withSpotify": 347,
+    "withYoutube": 372,
     "withCriticScore": 4
   },
   "episodes": [
+    {
+      "guid": "c2d505ab-acfb-4c57-a808-2e1025e67ba5",
+      "title": "Helilooja ja muusik Maarja Nuut uue suurteose ettevalmistusest: „Hästi põnev ja hirmus”",
+      "publishedAt": "2026-09-11T10:30:09.000Z",
+      "duration": "01:06:28",
+      "durationSeconds": 3988,
+      "description": "„Muusikanõunike” uues jaos on külaliskriitikuks helilooja ja muusik Maarja Nuut.\nMaarja valmistub parasjagu oma uue suurevormilise teose ettekandeks. Oktoobrikuu alguses Tartus (Vanemuise kontserdimaja), Pärnus (Pärnu kontserdimaja) ja Tallinnas (Kumu) esitamisele tulev „Liivast juukseid kammides” on teos vokaalansamblile ja löökpillidele, mida Maarja – viiulil, elektroonikal ja vokaalil – esitab koos Briti vokaalansambliga Shards ja löökpille mängiva Nicolas Stockeriga.\n„Muusikanõunikes” võtab Maarja uudisteose kokku sõnadega „eksperimentaalne koorimuusika”, täpsustades: „Olen ise laval, laulan, mängin viiulit mingil määral, siis elektroonikat ja võtan vokaalansambli hääli enda masinate sisse ning pööran neid kuidagi pahupidi.”\nTeose valmimise protsess algas aastal 2022, kui üks koor tellis Maarjalt suurema teose. Õnnetul kombel jäid tookord ettekanded ära.\nMöödunud aastal käis Maarja residentuuris Max Richteri ja Yulia Mahri kunstitalus Inglismaal, Oxfordshire’i maakonnas, ning seal viisid nad Maarja kokku Londoni vokaalansambliga Shards.\n„Kuidagi sealt sai see täitsa uue hingamise,” märgib ta. „Lauljad saabuvad siia 4. oktoobri õhtuks ja 8. oktoobril on meil esimene kontsert. Tegelikult ongi vaid mõned päevad, kus me selle kõik kokku paneme. Sellised väga intensiivsed proovipäevad.\nNii et hästi põnev ja hirmus.”\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• Taavi „Ateljee”\n• Beyoncé ft Pharrell Williams „Can I Watch”\n• Mamu Thao „Wing”\n• The Game, Kanye West „40 Nights”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/c2d505ab-acfb-4c57-a808-2e1025e67ba5/file/a659cf99-79b3-4d54-a16b-ec03d00c67da.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/c2d505ab-acfb-4c57-a808-2e1025e67ba5",
+      "spotifyEpisodeId": "0BAX10IvBAkuz5OMZ64t9s",
+      "chooser": "Raul Saaremets",
+      "guests": [
+        "Maarja Nuut"
+      ],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Taavi"
+          ],
+          "artistsRaw": "Taavi",
+          "title": "Ateljee",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "c2d505ab-taavi-ateljee",
+          "spotifyId": "3Jq7YjEEFOi11ByN6Dav4Q",
+          "youtubeId": "Zouef-hKsbY",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Taavi%20Ateljee",
+            "youtube": "https://www.youtube.com/results?search_query=Taavi%20Ateljee",
+            "bandcamp": "https://bandcamp.com/search?q=Taavi%20Ateljee"
+          }
+        },
+        {
+          "artists": [
+            "Beyoncé ft Pharrell Williams"
+          ],
+          "artistsRaw": "Beyoncé ft Pharrell Williams",
+          "title": "Can I Watch",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "c2d505ab-beyonce-ft-pharrell-williams-can-i-watch",
+          "spotifyId": "25kqjl0To6q08zgnRkKqE1",
+          "youtubeId": "k0msRkf1eRE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch",
+            "youtube": "https://www.youtube.com/results?search_query=Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch",
+            "bandcamp": "https://bandcamp.com/search?q=Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch"
+          }
+        },
+        {
+          "artists": [
+            "Mamu Thao"
+          ],
+          "artistsRaw": "Mamu Thao",
+          "title": "Wing",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "c2d505ab-mamu-thao-wing",
+          "spotifyId": "207Pfgrcii96Lqmu4lkqtJ",
+          "youtubeId": "SpZ8Kzzs8QE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Mamu%20Thao%20Wing",
+            "youtube": "https://www.youtube.com/results?search_query=Mamu%20Thao%20Wing",
+            "bandcamp": "https://bandcamp.com/search?q=Mamu%20Thao%20Wing"
+          }
+        },
+        {
+          "artists": [
+            "The Game",
+            "Kanye West"
+          ],
+          "artistsRaw": "The Game, Kanye West",
+          "title": "40 Nights",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "c2d505ab-the-game-40-nights",
+          "spotifyId": "2CTwK5KZryhCTxLwv0TAJg",
+          "youtubeId": "kLSoZLzgz-A",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/The%20Game%20Kanye%20West%2040%20Nights",
+            "youtube": "https://www.youtube.com/results?search_query=The%20Game%20Kanye%20West%2040%20Nights",
+            "bandcamp": "https://bandcamp.com/search?q=The%20Game%20Kanye%20West%2040%20Nights"
+          }
+        }
+      ]
+    },
     {
       "guid": "190ec892-511a-4aef-b13c-b8e205b42c0c",
       "title": "Räppar Raul: Anne Veski ütles mu loo kohta „lapsik jura”",
