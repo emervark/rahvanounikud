@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:47:54.082Z",
+  "generatedAt": "2026-09-11T12:35:59.417Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,218 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 91,
-    "songs": 376,
+    "episodes": 93,
+    "songs": 384,
     "withSpotify": 339,
     "withYoutube": 365,
     "withCriticScore": 0
   },
   "episodes": [
+    {
+      "guid": "c2d505ab-acfb-4c57-a808-2e1025e67ba5",
+      "title": "Helilooja ja muusik Maarja Nuut uue suurteose ettevalmistusest: „Hästi põnev ja hirmus”",
+      "publishedAt": "2026-09-11T10:30:09.000Z",
+      "duration": "01:06:28",
+      "durationSeconds": 3988,
+      "description": "„Muusikanõunike” uues jaos on külaliskriitikuks helilooja ja muusik Maarja Nuut.\nMaarja valmistub parasjagu oma uue suurevormilise teose ettekandeks. Oktoobrikuu alguses Tartus (Vanemuise kontserdimaja), Pärnus (Pärnu kontserdimaja) ja Tallinnas (Kumu) esitamisele tulev „Liivast juukseid kammides” on teos vokaalansamblile ja löökpillidele, mida Maarja – viiulil, elektroonikal ja vokaalil – esitab koos Briti vokaalansambliga Shards ja löökpille mängiva Nicolas Stockeriga.\n„Muusikanõunikes” võtab Maarja uudisteose kokku sõnadega „eksperimentaalne koorimuusika”, täpsustades: „Olen ise laval, laulan, mängin viiulit mingil määral, siis elektroonikat ja võtan vokaalansambli hääli enda masinate sisse ning pööran neid kuidagi pahupidi.”\nTeose valmimise protsess algas aastal 2022, kui üks koor tellis Maarjalt suurema teose. Õnnetul kombel jäid tookord ettekanded ära.\nMöödunud aastal käis Maarja residentuuris Max Richteri ja Yulia Mahri kunstitalus Inglismaal, Oxfordshire’i maakonnas, ning seal viisid nad Maarja kokku Londoni vokaalansambliga Shards.\n„Kuidagi sealt sai see täitsa uue hingamise,” märgib ta. „Lauljad saabuvad siia 4. oktoobri õhtuks ja 8. oktoobril on meil esimene kontsert. Tegelikult ongi vaid mõned päevad, kus me selle kõik kokku paneme. Sellised väga intensiivsed proovipäevad.\nNii et hästi põnev ja hirmus.”\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• Taavi „Ateljee”\n• Beyoncé ft Pharrell Williams „Can I Watch”\n• Mamu Thao „Wing”\n• The Game, Kanye West „40 Nights”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/c2d505ab-acfb-4c57-a808-2e1025e67ba5/file/a659cf99-79b3-4d54-a16b-ec03d00c67da.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/c2d505ab-acfb-4c57-a808-2e1025e67ba5",
+      "spotifyEpisodeId": null,
+      "chooser": "Raul Saaremets",
+      "guests": [
+        "Maarja Nuut"
+      ],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Taavi"
+          ],
+          "artistsRaw": "Taavi",
+          "title": "Ateljee",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "c2d505ab-taavi-ateljee",
+          "spotifyId": null,
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Taavi%20Ateljee",
+            "youtube": "https://www.youtube.com/results?search_query=Taavi%20Ateljee",
+            "bandcamp": "https://bandcamp.com/search?q=Taavi%20Ateljee"
+          }
+        },
+        {
+          "artists": [
+            "Beyoncé ft Pharrell Williams"
+          ],
+          "artistsRaw": "Beyoncé ft Pharrell Williams",
+          "title": "Can I Watch",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "c2d505ab-beyonce-ft-pharrell-williams-can-i-watch",
+          "spotifyId": null,
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch",
+            "youtube": "https://www.youtube.com/results?search_query=Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch",
+            "bandcamp": "https://bandcamp.com/search?q=Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch"
+          }
+        },
+        {
+          "artists": [
+            "Mamu Thao"
+          ],
+          "artistsRaw": "Mamu Thao",
+          "title": "Wing",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "c2d505ab-mamu-thao-wing",
+          "spotifyId": null,
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Mamu%20Thao%20Wing",
+            "youtube": "https://www.youtube.com/results?search_query=Mamu%20Thao%20Wing",
+            "bandcamp": "https://bandcamp.com/search?q=Mamu%20Thao%20Wing"
+          }
+        },
+        {
+          "artists": [
+            "The Game",
+            "Kanye West"
+          ],
+          "artistsRaw": "The Game, Kanye West",
+          "title": "40 Nights",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "c2d505ab-the-game-40-nights",
+          "spotifyId": null,
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/The%20Game%20Kanye%20West%2040%20Nights",
+            "youtube": "https://www.youtube.com/results?search_query=The%20Game%20Kanye%20West%2040%20Nights",
+            "bandcamp": "https://bandcamp.com/search?q=The%20Game%20Kanye%20West%2040%20Nights"
+          }
+        }
+      ]
+    },
+    {
+      "guid": "190ec892-511a-4aef-b13c-b8e205b42c0c",
+      "title": "Räppar Raul: Anne Veski ütles mu loo kohta „lapsik jura”",
+      "publishedAt": "2026-09-04T11:19:08.000Z",
+      "duration": "01:09:45",
+      "durationSeconds": 4185,
+      "description": "Podcast’i „Muusikanõunikud” esimeses sügishooaja saates on külaliskriitikuks laulja, räppar, provokaator, saatejuht ja elukunstnik Raul (kodanikunimega Johannes Parman).\n\nRaulil ilmus suvel kauamängiv „raulkoor”, millel kõlava muusikaga artist ise, nagu ta saates ütleb, rahul ei ole. „Peamine publik, kellest ma hoolin, olen mina ja mu ema,” kostab Raul, lisades, et emale ei meeldinud, et kasutas plaadi ühes loos sõna „kuramuse”.\nEsimene lugu ilmus Raulil juba aastal 2019. Selleks oli pala „mainäe”, kus tegid kaasa villemdrillem ja marp$.\n„Anne Veski ütles selle loo kohta, et see on lapsik jura, aga vähemalt proovib midagi,” räägib Raul, kes peab Eestis enda eeskujuks kirjanik Lilli Prometit.\nSuvepraktikandina on Raul lõppeval suvel üles astunud Florian Wahli kontsertidel tema DJ ning sidekick’ina.\nRaul osaleb külalisartisina ka peagi ilmuval Florian Wahli uuel albumil. Järgmine kontsert, kus mehed koos lavale lähevad, toimub aga Raplas kultuurifestivalil Särin 12. septembril.\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• Prodigyboys „Bieber”\n• Bullion „Roo”\n• heleenyum „Heaven – Slowed”\n• Turnstile „Sunshower: Nourished By Time version”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/190ec892-511a-4aef-b13c-b8e205b42c0c/file/3d0d30f2-d834-493a-88a9-1b556181875f.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/190ec892-511a-4aef-b13c-b8e205b42c0c",
+      "spotifyEpisodeId": null,
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Prodigyboys"
+          ],
+          "artistsRaw": "Prodigyboys",
+          "title": "Bieber",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "190ec892-prodigyboys-bieber",
+          "spotifyId": null,
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Prodigyboys%20Bieber",
+            "youtube": "https://www.youtube.com/results?search_query=Prodigyboys%20Bieber",
+            "bandcamp": "https://bandcamp.com/search?q=Prodigyboys%20Bieber"
+          }
+        },
+        {
+          "artists": [
+            "Bullion"
+          ],
+          "artistsRaw": "Bullion",
+          "title": "Roo",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "190ec892-bullion-roo",
+          "spotifyId": null,
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Bullion%20Roo",
+            "youtube": "https://www.youtube.com/results?search_query=Bullion%20Roo",
+            "bandcamp": "https://bandcamp.com/search?q=Bullion%20Roo"
+          }
+        },
+        {
+          "artists": [
+            "heleenyum"
+          ],
+          "artistsRaw": "heleenyum",
+          "title": "Heaven – Slowed",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "190ec892-heleenyum-heaven-slowed",
+          "spotifyId": null,
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/heleenyum%20Heaven%20%E2%80%93%20Slowed",
+            "youtube": "https://www.youtube.com/results?search_query=heleenyum%20Heaven%20%E2%80%93%20Slowed",
+            "bandcamp": "https://bandcamp.com/search?q=heleenyum%20Heaven%20%E2%80%93%20Slowed"
+          }
+        },
+        {
+          "artists": [
+            "Turnstile"
+          ],
+          "artistsRaw": "Turnstile",
+          "title": "Sunshower: Nourished By Time version",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "190ec892-turnstile-sunshower-nourished-by-time-version",
+          "spotifyId": null,
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version",
+            "youtube": "https://www.youtube.com/results?search_query=Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version",
+            "bandcamp": "https://bandcamp.com/search?q=Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version"
+          }
+        }
+      ]
+    },
     {
       "guid": "51067548-b2d2-4c49-b3db-e445a68c3a05",
       "title": "Aasta seni parimad lood on teinud An-Marlen ja Kermo Murel, SKIZØ, Anna Himma ja Ratkiller",

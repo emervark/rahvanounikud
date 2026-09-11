@@ -1,12 +1,12 @@
 # Ülevaatamist vajavad lood
 
-Koostatud failist `data/episodes.json` (91 saadet, 376 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
+Koostatud failist `data/episodes.json` (93 saadet, 384 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 0 |
 | Pakkumine olemas, link puudub | 1 |
-| Kumbki link puudub | 1 |
+| Kumbki link puudub | 9 |
 | YouTube veel otsimata | 1 |
 
 ## 1. Kahtlane link on üleval
@@ -33,6 +33,22 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 
 Ei Spotifys ega YouTube'is. Osa neist ei olegi voogedastuses.
 
+- Taavi — Ateljee — saade 93 · 2026-09-11
+  - `c2d505ab-taavi-ateljee` · [YouTube](https://www.youtube.com/results?search_query=Taavi%20Ateljee) · [Spotify](https://open.spotify.com/search/Taavi%20Ateljee)
+- Beyoncé ft Pharrell Williams — Can I Watch — saade 93 · 2026-09-11
+  - `c2d505ab-beyonce-ft-pharrell-williams-can-i-watch` · [YouTube](https://www.youtube.com/results?search_query=Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch) · [Spotify](https://open.spotify.com/search/Beyonc%C3%A9%20ft%20Pharrell%20Williams%20Can%20I%20Watch)
+- Mamu Thao — Wing — saade 93 · 2026-09-11
+  - `c2d505ab-mamu-thao-wing` · [YouTube](https://www.youtube.com/results?search_query=Mamu%20Thao%20Wing) · [Spotify](https://open.spotify.com/search/Mamu%20Thao%20Wing)
+- The Game, Kanye West — 40 Nights — saade 93 · 2026-09-11
+  - `c2d505ab-the-game-40-nights` · [YouTube](https://www.youtube.com/results?search_query=The%20Game%2C%20Kanye%20West%2040%20Nights) · [Spotify](https://open.spotify.com/search/The%20Game%2C%20Kanye%20West%2040%20Nights)
+- Prodigyboys — Bieber — saade 92 · 2026-09-04
+  - `190ec892-prodigyboys-bieber` · [YouTube](https://www.youtube.com/results?search_query=Prodigyboys%20Bieber) · [Spotify](https://open.spotify.com/search/Prodigyboys%20Bieber)
+- Bullion — Roo — saade 92 · 2026-09-04
+  - `190ec892-bullion-roo` · [YouTube](https://www.youtube.com/results?search_query=Bullion%20Roo) · [Spotify](https://open.spotify.com/search/Bullion%20Roo)
+- heleenyum — Heaven – Slowed — saade 92 · 2026-09-04
+  - `190ec892-heleenyum-heaven-slowed` · [YouTube](https://www.youtube.com/results?search_query=heleenyum%20Heaven%20%E2%80%93%20Slowed) · [Spotify](https://open.spotify.com/search/heleenyum%20Heaven%20%E2%80%93%20Slowed)
+- Turnstile — Sunshower: Nourished By Time version — saade 92 · 2026-09-04
+  - `190ec892-turnstile-sunshower-nourished-by-time-version` · [YouTube](https://www.youtube.com/results?search_query=Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version) · [Spotify](https://open.spotify.com/search/Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version)
 - Kergo Klubi — Kergo Klubi räpp — saade 5 · 2024-04-05
   - `bf14f06b-kergo-klubi-kergo-klubi-rapp` · [YouTube](https://www.youtube.com/results?search_query=Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp) · [Spotify](https://open.spotify.com/search/Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp)
 
