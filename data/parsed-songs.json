@@ -1,5 +1,101 @@
 [
   {
+    "guid": "07a10630-36c8-487e-b211-fb192ceffd31",
+    "title": "Ele Kõlar: otsus pärast õe surma muusika tegemisest loobuda oli loomulik",
+    "publishedAt": "2026-09-26T15:10:00.000Z",
+    "chooser": "Raul Saaremets",
+    "guests": [
+      "Ele Kõlar"
+    ],
+    "songs": [
+      {
+        "artists": [
+          "Ouu"
+        ],
+        "artistsRaw": "Ouu",
+        "title": "Teine tera",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Beck"
+        ],
+        "artistsRaw": "Beck",
+        "title": "Ride Lonesome",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Smilers"
+        ],
+        "artistsRaw": "Smilers",
+        "title": "Ahvatlused",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Wasia Project"
+        ],
+        "artistsRaw": "Wasia Project",
+        "title": "Vogue",
+        "chooser": null,
+        "note": null
+      }
+    ],
+    "unparsedLines": [],
+    "status": "ok"
+  },
+  {
+    "guid": "ab968e52-402a-4c69-ac21-389b13228815",
+    "title": "Elektroonikatäht Heleenyum: minu kohta öeldakse, et ma teen AI-ga muusikat, kuigi tegelikult kasutavad AI-d ülikuulsad produtsendid",
+    "publishedAt": "2026-09-18T11:35:03.000Z",
+    "chooser": "Raul Saaremets",
+    "guests": [],
+    "songs": [
+      {
+        "artists": [
+          "Zebra Island"
+        ],
+        "artistsRaw": "Zebra Island",
+        "title": "Fool’s Gold",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Slayyyter"
+        ],
+        "artistsRaw": "Slayyyter",
+        "title": "Crank 2",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Holy Motors"
+        ],
+        "artistsRaw": "Holy Motors",
+        "title": "God is a Feeling",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Standing on the Corner"
+        ],
+        "artistsRaw": "Standing on the Corner",
+        "title": "Roll Over Beethoven",
+        "chooser": null,
+        "note": null
+      }
+    ],
+    "unparsedLines": [],
+    "status": "ok"
+  },
+  {
     "guid": "c2d505ab-acfb-4c57-a808-2e1025e67ba5",
     "title": "Helilooja ja muusik Maarja Nuut uue suurteose ettevalmistusest: „Hästi põnev ja hirmus”",
     "publishedAt": "2026-09-11T10:30:09.000Z",

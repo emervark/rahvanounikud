@@ -55,8 +55,8 @@
     "confidence": 1
   },
   "_kvoot": {
-    "date": "2026-09-11",
-    "searches": 4
+    "date": "2026-09-28",
+    "searches": 8
   },
   "c319ff35-liisi-koikson-endaga-vii": {
     "id": "GhqSzYIPV1o",
@@ -1457,6 +1457,46 @@
   "c2d505ab-the-game-40-nights": {
     "id": "kLSoZLzgz-A",
     "title": "40 Nights",
+    "confidence": 1
+  },
+  "07a10630-ouu-teine-tera": {
+    "id": "06rMMgaTOMo",
+    "title": "Teine tera",
+    "confidence": 1
+  },
+  "07a10630-beck-ride-lonesome": {
+    "id": "VqQmgHcIHN0",
+    "title": "Ride Lonesome",
+    "confidence": 1
+  },
+  "07a10630-smilers-ahvatlused": {
+    "id": "yw-a0lPb5eM",
+    "title": "Ahvatlused",
+    "confidence": 1
+  },
+  "07a10630-wasia-project-vogue": {
+    "id": "OW75v0zw8ig",
+    "title": "Vogue",
+    "confidence": 1
+  },
+  "ab968e52-zebra-island-fool-s-gold": {
+    "id": "lyg6sufeUo4",
+    "title": "Fool's Gold",
+    "confidence": 1
+  },
+  "ab968e52-slayyyter-crank-2": {
+    "id": "L43gRv9Et2w",
+    "title": "crank 2",
+    "confidence": 1
+  },
+  "ab968e52-holy-motors-god-is-a-feeling": {
+    "id": "NS_yDEeH8N0",
+    "title": "\"God Is A Feeling\"",
+    "confidence": 1
+  },
+  "ab968e52-standing-on-the-corner-roll-over-beethoven": {
+    "id": "O9PxqjF-L9Y",
+    "title": "Roll over beethoven",
     "confidence": 1
   }
 }

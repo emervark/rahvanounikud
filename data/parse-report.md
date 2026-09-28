@@ -1,7 +1,7 @@
 # Parsimise raport
 
-Saateid: **93** · lugusid: **376**
-Automaatselt õnnestus: **91/93**
+Saateid: **95** · lugusid: **384**
+Automaatselt õnnestus: **93/95**
 
 ## Vajavad käsitsi sisestamist → `data/overrides.json`
 
