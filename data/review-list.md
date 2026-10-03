@@ -1,10 +1,10 @@
 # Ülevaatamist vajavad lood
 
-Koostatud failist `data/episodes.json` (95 saadet, 392 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
+Koostatud failist `data/episodes.json` (96 saadet, 396 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
 
 | Korv | Lugusid |
 |---|---|
-| Kahtlane link üleval | 0 |
+| Kahtlane link üleval | 1 |
 | Pakkumine olemas, link puudub | 4 |
 | Kumbki link puudub | 0 |
 | YouTube veel otsimata | 0 |
@@ -19,7 +19,12 @@ kirjutatud („I LUV BEING MYSELF"). Nimekiri on madalaimast kindlusest ülespoo
 nii et tõelised vead on eespool — allapoole jõudes muutub üle vaatamine kiiresti
 mõttetuks.
 
-_Puhas._
+### BICEP, SOARR — Air
+`68047f4d-bicep-air` · saade 96 · 2026-10-02
+- **YouTube 0,82** → Air //
+  https://www.youtube.com/watch?v=7yrUZ0yYm30
+- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=BICEP%2C%20SOARR%20Air) · [Spotify](https://open.spotify.com/search/BICEP%2C%20SOARR%20Air)
+
 ## 2. Pakkumine olemas, aga jäi läve alla
 
 Otsing leidis midagi, kindlus jäi väikseks. Osa on õiged (pealkirjas lisasõna),

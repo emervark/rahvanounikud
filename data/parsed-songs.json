@@ -1,5 +1,54 @@
 [
   {
+    "guid": "68047f4d-9ec4-4720-91ab-0c85ef5baafe",
+    "title": "Eleryn Tiit valmistas uue albumi koos Sten Šeripoviga: sada protsenti kindel, et see on mu parim plaat",
+    "publishedAt": "2026-10-02T08:46:25.000Z",
+    "chooser": "Raul Saaremets",
+    "guests": [],
+    "songs": [
+      {
+        "artists": [
+          "Cecilia",
+          "margiiela"
+        ],
+        "artistsRaw": "Cecilia & margiiela",
+        "title": "Koletis",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Queens of the Stone Age"
+        ],
+        "artistsRaw": "Queens of the Stone Age",
+        "title": "Insignificant Other",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Open Heart Surgery"
+        ],
+        "artistsRaw": "Open Heart Surgery",
+        "title": "Split",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "BICEP",
+          "SOARR"
+        ],
+        "artistsRaw": "BICEP, SOARR",
+        "title": "Air",
+        "chooser": null,
+        "note": null
+      }
+    ],
+    "unparsedLines": [],
+    "status": "ok"
+  },
+  {
     "guid": "07a10630-36c8-487e-b211-fb192ceffd31",
     "title": "Ele Kõlar: otsus pärast õe surma muusika tegemisest loobuda oli loomulik",
     "publishedAt": "2026-09-26T15:10:00.000Z",

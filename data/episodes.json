@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T09:51:52.536Z",
+  "generatedAt": "2026-10-03T10:16:01.296Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,116 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 95,
-    "songs": 392,
-    "withSpotify": 355,
-    "withYoutube": 380,
+    "episodes": 96,
+    "songs": 396,
+    "withSpotify": 359,
+    "withYoutube": 384,
     "withCriticScore": 4
   },
   "episodes": [
+    {
+      "guid": "68047f4d-9ec4-4720-91ab-0c85ef5baafe",
+      "title": "Eleryn Tiit valmistas uue albumi koos Sten Šeripoviga: sada protsenti kindel, et see on mu parim plaat",
+      "publishedAt": "2026-10-02T08:46:25.000Z",
+      "duration": "01:15:28",
+      "durationSeconds": 4528,
+      "description": "„Muusikanõunikel” aitab sel nädalal värskeid lugusid hinnata uue albumi üllitanud Eleryn Tiit. Poptäht Eleryn Tiit andis täna välja kauamängiva „Meil pole aega maa ja ilm”, mis on tema teine pikk stuudioplaat.\nVärske plaadi lood valmisid Eleryni koostöös helilooja, muusiku ja produtsendi Sten Šeripoviga (mängib ka ansamblites Vaiko Eplik & Eliit ja Röövel Ööbik).\nEleryni hinnangul on tema uus plaat parim, mille ta on teinud: „Sada protsenti kindel ja muidugi!”\nKoostööst Sten Šeripoviga rääkides, märgib Eleryn: „See on olnud täiesti uskumatu kogemus. Ma olin alguses väga aukartlik. Esimesel kohtumisel olin ikkagi natuke närvis, aga võtsin hoiaku, et kui ma lähen, siis olen täpselt selline, nagu ma olen, ja räägin täpselt, milline ma tahan, et see album tuleks. See, et iseendaks jäämine alati toimib, jõudis mulle jälle kohale.”\nEleryni sõnul selgus, et nad on ka Steniga väga sarnased inimesed: „Samamoodi saame aru, mis on ilus. Kas mingi kidrakäik on ilus või kas meloodia on ilus.Ja mulle meeldib, et ta võtab ka aega. Oleme mõlemad samas tempos liikujad.”\nUue albumi esitluskontserdid toimuvad 19. novembril Tallinnas klubis D3 ning 20. novembril Tartu Uues Teatris.\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n- Cecilia & margiiela „Koletis”\n- Queens of the Stone Age „Insignificant Other”\n- Open Heart Surgery „Split”\n- BICEP, SOARR „Air”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/68047f4d-9ec4-4720-91ab-0c85ef5baafe/file/8dfb3bd1-e9ec-4485-bae7-5ed64479e18f.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/68047f4d-9ec4-4720-91ab-0c85ef5baafe",
+      "spotifyEpisodeId": "3fd27gtqHJCPzbHFB4FfQ6",
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Cecilia",
+            "margiiela"
+          ],
+          "artistsRaw": "Cecilia & margiiela",
+          "title": "Koletis",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "68047f4d-cecilia-koletis",
+          "spotifyId": "5WuX42vJvcZiQvdMtVrIFC",
+          "youtubeId": "rRP7mBPkPkg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Cecilia%20margiiela%20Koletis",
+            "youtube": "https://www.youtube.com/results?search_query=Cecilia%20margiiela%20Koletis",
+            "bandcamp": "https://bandcamp.com/search?q=Cecilia%20margiiela%20Koletis"
+          }
+        },
+        {
+          "artists": [
+            "Queens of the Stone Age"
+          ],
+          "artistsRaw": "Queens of the Stone Age",
+          "title": "Insignificant Other",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "68047f4d-queens-of-the-stone-age-insignificant-other",
+          "spotifyId": "3NdLNUPkumBUIcacNxPlVE",
+          "youtubeId": "1jGT1UvmBi0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Queens%20of%20the%20Stone%20Age%20Insignificant%20Other",
+            "youtube": "https://www.youtube.com/results?search_query=Queens%20of%20the%20Stone%20Age%20Insignificant%20Other",
+            "bandcamp": "https://bandcamp.com/search?q=Queens%20of%20the%20Stone%20Age%20Insignificant%20Other"
+          }
+        },
+        {
+          "artists": [
+            "Open Heart Surgery"
+          ],
+          "artistsRaw": "Open Heart Surgery",
+          "title": "Split",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "68047f4d-open-heart-surgery-split",
+          "spotifyId": "6gT6EusMz0Zfp0FjNq6H2G",
+          "youtubeId": "0-B59ZodXRM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Open%20Heart%20Surgery%20Split",
+            "youtube": "https://www.youtube.com/results?search_query=Open%20Heart%20Surgery%20Split",
+            "bandcamp": "https://bandcamp.com/search?q=Open%20Heart%20Surgery%20Split"
+          }
+        },
+        {
+          "artists": [
+            "BICEP",
+            "SOARR"
+          ],
+          "artistsRaw": "BICEP, SOARR",
+          "title": "Air",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "68047f4d-bicep-air",
+          "spotifyId": "2infXICqVSUM3bbGSOgFOY",
+          "youtubeId": "7yrUZ0yYm30",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/BICEP%20SOARR%20Air",
+            "youtube": "https://www.youtube.com/results?search_query=BICEP%20SOARR%20Air",
+            "bandcamp": "https://bandcamp.com/search?q=BICEP%20SOARR%20Air"
+          }
+        }
+      ]
+    },
     {
       "guid": "07a10630-36c8-487e-b211-fb192ceffd31",
       "title": "Ele Kõlar: otsus pärast õe surma muusika tegemisest loobuda oli loomulik",
