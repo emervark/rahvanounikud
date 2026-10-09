@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T12:35:59.417Z",
+  "generatedAt": "2026-10-03T10:16:01.296Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,320 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 93,
-    "songs": 384,
-    "withSpotify": 339,
-    "withYoutube": 365,
-    "withCriticScore": 0
+    "episodes": 96,
+    "songs": 396,
+    "withSpotify": 359,
+    "withYoutube": 384,
+    "withCriticScore": 4
   },
   "episodes": [
+    {
+      "guid": "68047f4d-9ec4-4720-91ab-0c85ef5baafe",
+      "title": "Eleryn Tiit valmistas uue albumi koos Sten Šeripoviga: sada protsenti kindel, et see on mu parim plaat",
+      "publishedAt": "2026-10-02T08:46:25.000Z",
+      "duration": "01:15:28",
+      "durationSeconds": 4528,
+      "description": "„Muusikanõunikel” aitab sel nädalal värskeid lugusid hinnata uue albumi üllitanud Eleryn Tiit. Poptäht Eleryn Tiit andis täna välja kauamängiva „Meil pole aega maa ja ilm”, mis on tema teine pikk stuudioplaat.\nVärske plaadi lood valmisid Eleryni koostöös helilooja, muusiku ja produtsendi Sten Šeripoviga (mängib ka ansamblites Vaiko Eplik & Eliit ja Röövel Ööbik).\nEleryni hinnangul on tema uus plaat parim, mille ta on teinud: „Sada protsenti kindel ja muidugi!”\nKoostööst Sten Šeripoviga rääkides, märgib Eleryn: „See on olnud täiesti uskumatu kogemus. Ma olin alguses väga aukartlik. Esimesel kohtumisel olin ikkagi natuke närvis, aga võtsin hoiaku, et kui ma lähen, siis olen täpselt selline, nagu ma olen, ja räägin täpselt, milline ma tahan, et see album tuleks. See, et iseendaks jäämine alati toimib, jõudis mulle jälle kohale.”\nEleryni sõnul selgus, et nad on ka Steniga väga sarnased inimesed: „Samamoodi saame aru, mis on ilus. Kas mingi kidrakäik on ilus või kas meloodia on ilus.Ja mulle meeldib, et ta võtab ka aega. Oleme mõlemad samas tempos liikujad.”\nUue albumi esitluskontserdid toimuvad 19. novembril Tallinnas klubis D3 ning 20. novembril Tartu Uues Teatris.\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n- Cecilia & margiiela „Koletis”\n- Queens of the Stone Age „Insignificant Other”\n- Open Heart Surgery „Split”\n- BICEP, SOARR „Air”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/68047f4d-9ec4-4720-91ab-0c85ef5baafe/file/8dfb3bd1-e9ec-4485-bae7-5ed64479e18f.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/68047f4d-9ec4-4720-91ab-0c85ef5baafe",
+      "spotifyEpisodeId": "3fd27gtqHJCPzbHFB4FfQ6",
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Cecilia",
+            "margiiela"
+          ],
+          "artistsRaw": "Cecilia & margiiela",
+          "title": "Koletis",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "68047f4d-cecilia-koletis",
+          "spotifyId": "5WuX42vJvcZiQvdMtVrIFC",
+          "youtubeId": "rRP7mBPkPkg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Cecilia%20margiiela%20Koletis",
+            "youtube": "https://www.youtube.com/results?search_query=Cecilia%20margiiela%20Koletis",
+            "bandcamp": "https://bandcamp.com/search?q=Cecilia%20margiiela%20Koletis"
+          }
+        },
+        {
+          "artists": [
+            "Queens of the Stone Age"
+          ],
+          "artistsRaw": "Queens of the Stone Age",
+          "title": "Insignificant Other",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "68047f4d-queens-of-the-stone-age-insignificant-other",
+          "spotifyId": "3NdLNUPkumBUIcacNxPlVE",
+          "youtubeId": "1jGT1UvmBi0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Queens%20of%20the%20Stone%20Age%20Insignificant%20Other",
+            "youtube": "https://www.youtube.com/results?search_query=Queens%20of%20the%20Stone%20Age%20Insignificant%20Other",
+            "bandcamp": "https://bandcamp.com/search?q=Queens%20of%20the%20Stone%20Age%20Insignificant%20Other"
+          }
+        },
+        {
+          "artists": [
+            "Open Heart Surgery"
+          ],
+          "artistsRaw": "Open Heart Surgery",
+          "title": "Split",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "68047f4d-open-heart-surgery-split",
+          "spotifyId": "6gT6EusMz0Zfp0FjNq6H2G",
+          "youtubeId": "0-B59ZodXRM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Open%20Heart%20Surgery%20Split",
+            "youtube": "https://www.youtube.com/results?search_query=Open%20Heart%20Surgery%20Split",
+            "bandcamp": "https://bandcamp.com/search?q=Open%20Heart%20Surgery%20Split"
+          }
+        },
+        {
+          "artists": [
+            "BICEP",
+            "SOARR"
+          ],
+          "artistsRaw": "BICEP, SOARR",
+          "title": "Air",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "68047f4d-bicep-air",
+          "spotifyId": "2infXICqVSUM3bbGSOgFOY",
+          "youtubeId": "7yrUZ0yYm30",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/BICEP%20SOARR%20Air",
+            "youtube": "https://www.youtube.com/results?search_query=BICEP%20SOARR%20Air",
+            "bandcamp": "https://bandcamp.com/search?q=BICEP%20SOARR%20Air"
+          }
+        }
+      ]
+    },
+    {
+      "guid": "07a10630-36c8-487e-b211-fb192ceffd31",
+      "title": "Ele Kõlar: otsus pärast õe surma muusika tegemisest loobuda oli loomulik",
+      "publishedAt": "2026-09-26T15:10:00.000Z",
+      "duration": "01:23:25",
+      "durationSeconds": 5005,
+      "description": "„Muusikanõunikes” on sel nädalal külaliskriitikuks laulja Ele Kõlar.\nAastast 2023 isepäi muusikat avaldanud Heleenyum andis paari nädala eest välja omapärase kogumikalbumi „In Slow Motion”.\nKaks nädalat tagasi ilmus õdede Ele ja Kaja Kõlari best-of-kogumik „Mina ise”. See on esmakordne puhk, kus 1970ndatel alustanud lauljate esitatud muusika on jõudnud kauamängiva plaadi formaadis plaadile.\n„Kuulda oli siit ja sealt juba mitu aastat, et võiks olla plaat,” ütleb Ele Kõlar. „Väga paljud meenutasid nüüd, et nad küsisid, miks plaati ei ole. Väga hea ja uhke tunne oli sirge seljaga öelda, et igal asjal on oma aeg.”\nKogumikule jõudnud, 1970ndatel ja 1980ndatel salvestatud lood on digitaalselt taastatud ja tänapäeva tehnikaga korrastatud helirežissöör Priit Kuulbergi poolt.\nEle õde Kaja lahkus raske haiguse järel aastal 1994. Pärast õe kaotamist ei ole ta muusikat enam teinud.\n„See [muusika tegemisest loobumine] oli üsna loomulik,” räägib Ele. „Sest me ikkagi laulsime kahehäälselt. Mina olen alt, täiesti madal alt, ning niisuguseid kõrgeid partiisid ma üleüldse üksi ei laulaks välja. Kõik see koos liikumine ja koos laulmine – see lihtsalt üksi ei tööta.”\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• Ouu „Teine tera”\n• Beck „Ride Lonesome”\n• Smilers „Ahvatlused”\n• Wasia Project „Vogue”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna, Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/07a10630-36c8-487e-b211-fb192ceffd31/file/2b6cfe4a-9756-4892-a9df-ed37a556efa9.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/07a10630-36c8-487e-b211-fb192ceffd31",
+      "spotifyEpisodeId": "3JBbL0EzTnpoyClzMTHRvT",
+      "chooser": "Raul Saaremets",
+      "guests": [
+        "Ele Kõlar"
+      ],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Ouu"
+          ],
+          "artistsRaw": "Ouu",
+          "title": "Teine tera",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "07a10630-ouu-teine-tera",
+          "spotifyId": "6AoXHAGWcdwgUbdkSTsCbq",
+          "youtubeId": "06rMMgaTOMo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Ouu%20Teine%20tera",
+            "youtube": "https://www.youtube.com/results?search_query=Ouu%20Teine%20tera",
+            "bandcamp": "https://bandcamp.com/search?q=Ouu%20Teine%20tera"
+          }
+        },
+        {
+          "artists": [
+            "Beck"
+          ],
+          "artistsRaw": "Beck",
+          "title": "Ride Lonesome",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "07a10630-beck-ride-lonesome",
+          "spotifyId": "7yfonIhwDZltMIihfnnsBV",
+          "youtubeId": "VqQmgHcIHN0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Beck%20Ride%20Lonesome",
+            "youtube": "https://www.youtube.com/results?search_query=Beck%20Ride%20Lonesome",
+            "bandcamp": "https://bandcamp.com/search?q=Beck%20Ride%20Lonesome"
+          }
+        },
+        {
+          "artists": [
+            "Smilers"
+          ],
+          "artistsRaw": "Smilers",
+          "title": "Ahvatlused",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "07a10630-smilers-ahvatlused",
+          "spotifyId": "34goOdm2gZAiHtW294s6DP",
+          "youtubeId": "yw-a0lPb5eM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Smilers%20Ahvatlused",
+            "youtube": "https://www.youtube.com/results?search_query=Smilers%20Ahvatlused",
+            "bandcamp": "https://bandcamp.com/search?q=Smilers%20Ahvatlused"
+          }
+        },
+        {
+          "artists": [
+            "Wasia Project"
+          ],
+          "artistsRaw": "Wasia Project",
+          "title": "Vogue",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "07a10630-wasia-project-vogue",
+          "spotifyId": "7gLPKqoXJue0AJeNVRaDXj",
+          "youtubeId": "OW75v0zw8ig",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Wasia%20Project%20Vogue",
+            "youtube": "https://www.youtube.com/results?search_query=Wasia%20Project%20Vogue",
+            "bandcamp": "https://bandcamp.com/search?q=Wasia%20Project%20Vogue"
+          }
+        }
+      ]
+    },
+    {
+      "guid": "ab968e52-402a-4c69-ac21-389b13228815",
+      "title": "Elektroonikatäht Heleenyum: minu kohta öeldakse, et ma teen AI-ga muusikat, kuigi tegelikult kasutavad AI-d ülikuulsad produtsendid",
+      "publishedAt": "2026-09-18T11:35:03.000Z",
+      "duration": "01:19:00",
+      "durationSeconds": 4740,
+      "description": "„Muusikanõunike” värskes osas on püsikriitikutel abiks laulja ja produtsent Heleenyum.\nAastast 2023 isepäi muusikat avaldanud Heleenyum andis paari nädala eest välja omapärase kogumikalbumi „In Slow Motion”.\nPlaadilt leiab 17 Heleenyumi lugu, mis on enamasti varem ilmunud, kuid selle albumi jaoks on neist tehtud aeglustatud ehk slowed-versioonid.Heleenyum, keda inspireeris elektroonilises tantsumuusikas kätt proovima ööklubides käimine ja seal muusika kuulmine, on täiesti iseseisev artist. Lisaks sellele, et kirjutab ja produtseerib oma muusika ise, tegeleb ta isepäi ka selle väljaandmisega – plaadifirmat tal seni toetuseks pole.\nMuusika valmistamiseks kasutab Heleenyum programmi Ableton, vokaale salvestab stuudios ning ta toonitab, et ei kasuta muusika loomisel tehisaru.\n„Ma teen ikka ise,” räägib ta. „Minu jaoks on ise muusika komponeerimine üks huvitavamaid osasid selle juures.\nOlen suhelnud hästi kuulsate produtsentidega ja nad kasutavad AI-d. Hiljuti just rääkisin ühega ja mulle saadeti AI-sloppi. Ülieduka produtsendi poolt. Naljakas, et minu kohta öeldakse, et ma teen AI-ga, kuigi tegelikult ülikuulsad produtsendid teevad hoopis AI-ga.”\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• Zebra Island „Fool’s Gold”\n• Slayyyter „Crank 2”\n• Holy Motors „God is a Feeling”\n• Standing on the Corner „Roll Over Beethoven”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna, Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/ab968e52-402a-4c69-ac21-389b13228815/file/dc9779a6-222e-47a4-926c-67b929007e44.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/ab968e52-402a-4c69-ac21-389b13228815",
+      "spotifyEpisodeId": "5Uf8wuRlCzyxbgRihx2dqW",
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Zebra Island"
+          ],
+          "artistsRaw": "Zebra Island",
+          "title": "Fool’s Gold",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "ab968e52-zebra-island-fool-s-gold",
+          "spotifyId": "4X0mog6fJ6fs783jR9GMew",
+          "youtubeId": "lyg6sufeUo4",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Zebra%20Island%20Fool%E2%80%99s%20Gold",
+            "youtube": "https://www.youtube.com/results?search_query=Zebra%20Island%20Fool%E2%80%99s%20Gold",
+            "bandcamp": "https://bandcamp.com/search?q=Zebra%20Island%20Fool%E2%80%99s%20Gold"
+          }
+        },
+        {
+          "artists": [
+            "Slayyyter"
+          ],
+          "artistsRaw": "Slayyyter",
+          "title": "Crank 2",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "ab968e52-slayyyter-crank-2",
+          "spotifyId": "6LMdNshhDtSq5pUSlPjTsE",
+          "youtubeId": "L43gRv9Et2w",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Slayyyter%20Crank%202",
+            "youtube": "https://www.youtube.com/results?search_query=Slayyyter%20Crank%202",
+            "bandcamp": "https://bandcamp.com/search?q=Slayyyter%20Crank%202"
+          }
+        },
+        {
+          "artists": [
+            "Holy Motors"
+          ],
+          "artistsRaw": "Holy Motors",
+          "title": "God is a Feeling",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "ab968e52-holy-motors-god-is-a-feeling",
+          "spotifyId": "53lnbjHYClo5lqCG0jyuy7",
+          "youtubeId": "NS_yDEeH8N0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Holy%20Motors%20God%20is%20a%20Feeling",
+            "youtube": "https://www.youtube.com/results?search_query=Holy%20Motors%20God%20is%20a%20Feeling",
+            "bandcamp": "https://bandcamp.com/search?q=Holy%20Motors%20God%20is%20a%20Feeling"
+          }
+        },
+        {
+          "artists": [
+            "Standing on the Corner"
+          ],
+          "artistsRaw": "Standing on the Corner",
+          "title": "Roll Over Beethoven",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "ab968e52-standing-on-the-corner-roll-over-beethoven",
+          "spotifyId": "3qQvAyzHjtPCzmpY7LJFCO",
+          "youtubeId": "O9PxqjF-L9Y",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Standing%20on%20the%20Corner%20Roll%20Over%20Beethoven",
+            "youtube": "https://www.youtube.com/results?search_query=Standing%20on%20the%20Corner%20Roll%20Over%20Beethoven",
+            "bandcamp": "https://bandcamp.com/search?q=Standing%20on%20the%20Corner%20Roll%20Over%20Beethoven"
+          }
+        }
+      ]
+    },
     {
       "guid": "c2d505ab-acfb-4c57-a808-2e1025e67ba5",
       "title": "Helilooja ja muusik Maarja Nuut uue suurteose ettevalmistusest: „Hästi põnev ja hirmus”",
@@ -33,7 +340,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/c2d505ab-acfb-4c57-a808-2e1025e67ba5/file/a659cf99-79b3-4d54-a16b-ec03d00c67da.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/c2d505ab-acfb-4c57-a808-2e1025e67ba5",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "0BAX10IvBAkuz5OMZ64t9s",
       "chooser": "Raul Saaremets",
       "guests": [
         "Maarja Nuut"
@@ -49,8 +356,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c2d505ab-taavi-ateljee",
-          "spotifyId": null,
-          "youtubeId": null,
+          "spotifyId": "3Jq7YjEEFOi11ByN6Dav4Q",
+          "youtubeId": "Zouef-hKsbY",
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -70,8 +377,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c2d505ab-beyonce-ft-pharrell-williams-can-i-watch",
-          "spotifyId": null,
-          "youtubeId": null,
+          "youtubeId": "k0msRkf1eRE",
+          "spotifyId": "25kqjl0To6q08zgnRkKqE1",
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -91,8 +398,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c2d505ab-mamu-thao-wing",
-          "spotifyId": null,
-          "youtubeId": null,
+          "spotifyId": "207Pfgrcii96Lqmu4lkqtJ",
+          "youtubeId": "SpZ8Kzzs8QE",
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -113,8 +420,8 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "c2d505ab-the-game-40-nights",
-          "spotifyId": null,
-          "youtubeId": null,
+          "spotifyId": "2CTwK5KZryhCTxLwv0TAJg",
+          "youtubeId": "kLSoZLzgz-A",
           "soundcloudUrl": null,
           "bandcamp": null,
           "criticScore": null,
@@ -137,7 +444,7 @@
       "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/190ec892-511a-4aef-b13c-b8e205b42c0c/file/3d0d30f2-d834-493a-88a9-1b556181875f.mp3",
       "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
       "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/190ec892-511a-4aef-b13c-b8e205b42c0c",
-      "spotifyEpisodeId": null,
+      "spotifyEpisodeId": "3Hxnp9nv4lu1XAuUMjVWhN",
       "chooser": "Raul Saaremets",
       "guests": [],
       "source": "automaatne",
@@ -151,12 +458,16 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "190ec892-prodigyboys-bieber",
-          "spotifyId": null,
-          "youtubeId": null,
+          "spotifyId": "4iecaQia9txvsfAtZ1Axvf",
+          "youtubeId": "TtzGUyA0W-c",
           "soundcloudUrl": null,
           "bandcamp": null,
-          "criticScore": null,
-          "criticScores": null,
+          "criticScore": 6.333333333333333,
+          "criticScores": {
+            "Raul (Parman)": 5,
+            "Merit Maarits": 7,
+            "Siim Nestor": 7
+          },
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Prodigyboys%20Bieber",
             "youtube": "https://www.youtube.com/results?search_query=Prodigyboys%20Bieber",
@@ -172,12 +483,16 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "190ec892-bullion-roo",
-          "spotifyId": null,
-          "youtubeId": null,
+          "spotifyId": "0Mjs7nEwZmclEppBl2xfSW",
+          "youtubeId": "RRA4I1nyn64",
           "soundcloudUrl": null,
           "bandcamp": null,
-          "criticScore": null,
-          "criticScores": null,
+          "criticScore": 6.333333333333333,
+          "criticScores": {
+            "Merit Maarits": 7,
+            "Raul (Parman)": 4,
+            "Siim Nestor": 8
+          },
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Bullion%20Roo",
             "youtube": "https://www.youtube.com/results?search_query=Bullion%20Roo",
@@ -193,12 +508,16 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "190ec892-heleenyum-heaven-slowed",
-          "spotifyId": null,
+          "spotifyId": "13ErF1pfOEyM3Rs1RiZpt4",
           "youtubeId": null,
           "soundcloudUrl": null,
           "bandcamp": null,
-          "criticScore": null,
-          "criticScores": null,
+          "criticScore": 6.333333333333333,
+          "criticScores": {
+            "Raul (Parman)": 3,
+            "Merit Maarits": 8,
+            "Siim Nestor": 8
+          },
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/heleenyum%20Heaven%20%E2%80%93%20Slowed",
             "youtube": "https://www.youtube.com/results?search_query=heleenyum%20Heaven%20%E2%80%93%20Slowed",
@@ -214,12 +533,16 @@
           "chooser": "Raul Saaremets",
           "note": null,
           "id": "190ec892-turnstile-sunshower-nourished-by-time-version",
-          "spotifyId": null,
-          "youtubeId": null,
+          "spotifyId": "3UCNnP6NmEWo1ORNAuxBCI",
+          "youtubeId": "o9t4xSk7TqQ",
           "soundcloudUrl": null,
           "bandcamp": null,
-          "criticScore": null,
-          "criticScores": null,
+          "criticScore": 8,
+          "criticScores": {
+            "Siim Nestor": 8,
+            "Merit Maarits": 9,
+            "Raul (Parman)": 7
+          },
           "searchUrls": {
             "spotify": "https://open.spotify.com/search/Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version",
             "youtube": "https://www.youtube.com/results?search_query=Turnstile%20Sunshower%3A%20Nourished%20By%20Time%20version",

@@ -8,13 +8,16 @@ import {
 import { finishGoogleLogin, googleConfig, logout, startGoogleLogin } from './google-auth';
 import {
   deleteComment, editComment, readCommentCounts, readComments,
-  setDisplayName, validateBody, validateName, writeComment,
+  readLatestComments, setDisplayName, validateBody, validateName, writeComment,
 } from './comments';
+import { assertStatsKey, readInsights } from './insights';
 
 export interface Env {
   DB: D1Database;
   ASSETS: Fetcher;
   COOKIE_SECRET: string;
+  /* Sisemise statistikalehe võti. Puudumisel on /api/insights lihtsalt kinni. */
+  STATS_KEY?: string;
   GOOGLE_CLIENT_ID?: string;
   GOOGLE_CLIENT_SECRET?: string;
 }
@@ -97,6 +100,17 @@ async function handleApi(
     );
   }
 
+  if (path === '/api/insights' && method === 'GET') {
+    /* Sisemine vaade — võtmega ja vahemäluta. Vastus ei tohi serva peale
+       jääda: seal on ta võtmeta kättesaadav. */
+    assertStatsKey(request, env.STATS_KEY);
+    const päevi = Number(new URL(request.url).searchParams.get('päevi') ?? 30);
+    return json(
+      await readInsights(env.DB, Number.isInteger(päevi) && päevi > 0 && päevi <= 365 ? päevi : 30),
+      { headers: { 'cache-control': 'no-store' } },
+    );
+  }
+
   if (path === '/api/me' && method === 'GET') {
     const account = await env.DB
       .prepare('SELECT google_sub, display_name FROM users WHERE id = ?')
@@ -140,6 +154,16 @@ async function handleApi(
   if (path === '/api/comments' && method === 'GET') {
     const songId = validateSongId(new URL(request.url).searchParams.get('songId'));
     return json({ comments: await readComments(env.DB, songId, userId) });
+  }
+
+  if (path === '/api/comments/latest' && method === 'GET') {
+    /* Avalehe plokk. Avalik ja aeglaselt muutuv — sama lühike vahemälu mis
+       loenduritel, et avaleht ei käiks iga laadimise peale andmebaasi. */
+    const n = Number(new URL(request.url).searchParams.get('n') ?? 6);
+    return json(
+      { comments: await readLatestComments(env.DB, n) },
+      { headers: { 'cache-control': 'public, max-age=30' } },
+    );
   }
 
   if (path === '/api/comments/counts' && method === 'GET') {

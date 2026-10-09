@@ -16,11 +16,12 @@ function delta(a: number, b: number): string {
 /**
  * Koondhinde plaat: rahvas, sina, nõunikud.
  *
- * Kolm arvu kõrvuti on kogu lehe mõte — kas rahvas ja kriitikud on ühel nõul ja
- * kummale poole sina jääd. Puuduv arv ei jäta auku: rida lihtsalt puudub.
+ * Kolm arvu kõrvuti on kogu lehe mõte — kas rahvas ja nõunikud on ühel nõul
+ * ja kummale poole sina jääd. Puuduv arv ei jäta auku: rida lihtsalt puudub.
  *
- * Nõunike skoori podcasti kirjeldustes EI ole, see tuleb käsitsi failist
- * data/critic-scores.json. Kuni seda pole, on plaat kahene.
+ * Nõunike skoori podcastis numbrina välja ei öelda — need kirjutatakse saadet
+ * kuulates käsitsi üles ja tulevad failist data/critic-scores.json. Seepärast
+ * on neid vähestel lugudel ja plaat on enamasti kahene.
  */
 export function ScorePlate({
   stats,
@@ -69,11 +70,17 @@ export function ScorePlate({
             </div>
           )}
 
+          {/* Kes mida andis. Nõunikud vahetuvad saadete kaupa, nii et
+              üksikhinded on siin sama huvitavad kui keskmine.
+
+              Nimi käib täispikalt. Eesnime järgi lõikamine oleks lühem, aga
+              saates 92 on korraga Raul Saaremets ja külaline Raul (Parman) —
+              mõlemast saaks „Raul” ja lugeja omistaks hinde valele inimesele. */}
           {hasCritics && criticScores && (
             <div className="plate__breakdown mono">
               {Object.entries(criticScores).map(([name, score]) => (
                 <span key={name}>
-                  {name.split(' ')[0]} <b>{score}</b>
+                  {name} <b>{score}</b>
                 </span>
               ))}
             </div>
@@ -153,7 +160,13 @@ export function CommunityScore({ stats }: { stats: SongStats | undefined }) {
   );
 }
 
-/** Nõunike skoor edetabelis koos vahega rahva hinnest. */
+/**
+ * Nõunike skoor edetabelis koos vahega rahva hinnest.
+ *
+ * Skoorita lahter jääb tühjaks, mitte kriipsuks. Kriips tähendaks „siin peaks
+ * midagi olema” ja 380 loost on hinne vähestel — kriipsude veerg loeks
+ * puuduva andmena, mitte tööna, mida keegi alles teeb.
+ */
 export function CriticScore({
   criticScore,
   stats,
@@ -161,13 +174,7 @@ export function CriticScore({
   criticScore: number | null;
   stats: SongStats | undefined;
 }) {
-  if (criticScore == null) {
-    return (
-      <span className="chart-row__score chart-row__score--critic">
-        <b style={{ color: 'rgba(21,21,21,.28)' }}>—</b>
-      </span>
-    );
-  }
+  if (criticScore == null) return <span className="chart-row__score chart-row__score--critic" />;
   const hasVotes = stats !== undefined && stats.count > 0;
   return (
     <span className="chart-row__score chart-row__score--critic">

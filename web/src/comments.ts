@@ -156,3 +156,38 @@ export function formatWhen(ms: number): string {
   if (hours < 24) return `${hours} h tagasi`;
   return `${d.getDate()}. ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
 }
+
+/**
+ * Viimased kommentaarid üle kõigi lugude — avalehe plokk.
+ *
+ * Sama vahemälumuster mis loenduritel: avalehel on see üksainus plokk, aga
+ * React StrictMode käivitab effekti arenduses kaks korda ja lehelt tagasi
+ * tulek paneks päringu uuesti käima. Jagatud lubadus hoiab neid ühe päringu
+ * peal koos.
+ */
+export type LatestComment = Omit<Comment, 'isMine'>;
+
+let latestPromise: Promise<LatestComment[]> | null = null;
+
+export function useLatestComments(n = 6): LatestComment[] | null {
+  const [comments, setComments] = useState<LatestComment[] | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    latestPromise ??= api<{ comments: LatestComment[] }>(`/api/comments/latest?n=${n}`)
+      .then(({ comments: c }) => c);
+
+    latestPromise.then(
+      (c) => { if (!cancelled) setComments(c); },
+      () => {
+        /* Plokk on lisa, mitte lehe sisu — vaikime ja jätame ta näitamata.
+           Vahemälu läheb tühjaks, et järgmine katse ei korda sama viga. */
+        latestPromise = null;
+        if (!cancelled) setComments([]);
+      },
+    );
+    return () => { cancelled = true; };
+  }, [n]);
+
+  return comments;
+}

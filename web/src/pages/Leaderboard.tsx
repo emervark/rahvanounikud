@@ -59,9 +59,14 @@ export function Leaderboard() {
   if (!data) return <PageState error={error} />;
 
   const totalVotes = Object.values(stats).reduce((n, s) => n + s.count, 0);
-  // Nõunike veerg on alati nähtav, ka enne kui skoorid sisestatud on: veerg
-  // näitab, et see võrdlus on osa tabelist. Ilma skoorita lahtris on kriips.
   const ranked = sort === 'top' || sort === 'bottom';
+
+  /* Nõunike veerg ilmub alles siis, kui vähemalt ühel lool on hinne olemas.
+     Enne seda oli ta alaline kriipsude veerg, mis lubas võrdlust, mida ei
+     tulnud. Nüüd kasvab tabel koos andmetega ise. */
+  const nõuVeerg = data.episodes.some((e) => e.songs.some((s) => s.criticScore != null));
+  const kriitikuKlass = nõuVeerg ? ' chart-head--critics' : '';
+  const reaKlass = nõuVeerg ? ' chart-row--critics' : '';
 
   return (
     <>
@@ -95,12 +100,12 @@ export function Leaderboard() {
         </div>
       </div>
 
-      <div className="chart-head mono chart-head--critics">
+      <div className={`chart-head mono${kriitikuKlass}`}>
         <span>Koht</span>
         <span>Lugu / artist</span>
         <span>Sinu</span>
         <span>Rahva hääl</span>
-        <span>Nõunikud</span>
+        {nõuVeerg && <span>Nõunikud</span>}
         <span />
       </div>
 
@@ -117,7 +122,7 @@ export function Leaderboard() {
           // Esikolmik saab punase ja kasvava numbri — edetabel, mitte andmetabel.
           const rankClass = ranked && i < 3 ? ` top top${i + 1}` : '';
           return (
-            <Link className="chart-row chart-row--critics" key={song.id} to={`/lugu/${song.id}`}>
+            <Link className={`chart-row${reaKlass}`} key={song.id} to={`/lugu/${song.id}`}>
               <span className={`chart-row__rank${rankClass}`}>{i + 1}</span>
               <span style={{ minWidth: 0 }}>
                 <span className="chart-row__title">{song.title}</span>
@@ -129,7 +134,7 @@ export function Leaderboard() {
               </span>
               <span className="chart-row__mine">{mine[song.id] ?? ''}</span>
               <CommunityScore stats={stats[song.id]} />
-              <CriticScore criticScore={song.criticScore} stats={stats[song.id]} />
+              {nõuVeerg && <CriticScore criticScore={song.criticScore} stats={stats[song.id]} />}
               <span className="go">→</span>
             </Link>
           );

@@ -10,6 +10,54 @@
     "Pärast täitmist: npm run build:data && npm run deploy",
     "Uute saadete lisandudes: npm run critics (olemasolevad väärtused jäävad alles)"
   ],
+  "68047f4d-cecilia-koletis": {
+    "_": "Cecilia & margiiela — Koletis · saade 96",
+    "skoor": null
+  },
+  "68047f4d-queens-of-the-stone-age-insignificant-other": {
+    "_": "Queens of the Stone Age — Insignificant Other · saade 96",
+    "skoor": null
+  },
+  "68047f4d-open-heart-surgery-split": {
+    "_": "Open Heart Surgery — Split · saade 96",
+    "skoor": null
+  },
+  "68047f4d-bicep-air": {
+    "_": "BICEP, SOARR — Air · saade 96",
+    "skoor": null
+  },
+  "07a10630-ouu-teine-tera": {
+    "_": "Ouu — Teine tera · saade 95",
+    "skoor": null
+  },
+  "07a10630-beck-ride-lonesome": {
+    "_": "Beck — Ride Lonesome · saade 95",
+    "skoor": null
+  },
+  "07a10630-smilers-ahvatlused": {
+    "_": "Smilers — Ahvatlused · saade 95",
+    "skoor": null
+  },
+  "07a10630-wasia-project-vogue": {
+    "_": "Wasia Project — Vogue · saade 95",
+    "skoor": null
+  },
+  "ab968e52-zebra-island-fool-s-gold": {
+    "_": "Zebra Island — Fool’s Gold · saade 94",
+    "skoor": null
+  },
+  "ab968e52-slayyyter-crank-2": {
+    "_": "Slayyyter — Crank 2 · saade 94",
+    "skoor": null
+  },
+  "ab968e52-holy-motors-god-is-a-feeling": {
+    "_": "Holy Motors — God is a Feeling · saade 94",
+    "skoor": null
+  },
+  "ab968e52-standing-on-the-corner-roll-over-beethoven": {
+    "_": "Standing on the Corner — Roll Over Beethoven · saade 94",
+    "skoor": null
+  },
   "c2d505ab-taavi-ateljee": {
     "_": "Taavi — Ateljee · saade 93",
     "skoor": null
@@ -28,19 +76,35 @@
   },
   "190ec892-prodigyboys-bieber": {
     "_": "Prodigyboys — Bieber · saade 92",
-    "skoor": null
+    "skoor": {
+      "Raul (Parman)": 5,
+      "Merit Maarits": 7,
+      "Siim Nestor": 7
+    }
   },
   "190ec892-bullion-roo": {
     "_": "Bullion — Roo · saade 92",
-    "skoor": null
+    "skoor": {
+      "Merit Maarits": 7,
+      "Raul (Parman)": 4,
+      "Siim Nestor": 8
+    }
   },
   "190ec892-heleenyum-heaven-slowed": {
     "_": "heleenyum — Heaven – Slowed · saade 92",
-    "skoor": null
+    "skoor": {
+      "Raul (Parman)": 3,
+      "Merit Maarits": 8,
+      "Siim Nestor": 8
+    }
   },
   "190ec892-turnstile-sunshower-nourished-by-time-version": {
     "_": "Turnstile — Sunshower: Nourished By Time version · saade 92",
-    "skoor": null
+    "skoor": {
+      "Siim Nestor": 8,
+      "Merit Maarits": 9,
+      "Raul (Parman)": 7
+    }
   },
   "51067548-an-marlen-tahtede-eest": {
     "_": "An-Marlen, Kermo Murel — Tähtede eest · saade 91",
