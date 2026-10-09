@@ -114,6 +114,22 @@ mida andmed ei kata.
 `npm run critics` lisab uute saadete lood faili juurde ja jätab juba
 sisestatud väärtused puutumata.
 
+### Uued saated lähevad lehele ise
+
+`.github/workflows/uus-saade.yml` kontrollib feedi neljapäevast laupäevani iga
+kahe tunni järel ja muudel päevadel korra. Kui uus saade on olemas, käib see läbi
+sama torustiku, otsib lingid, uuendab D1 ja teeb deploy. Seejärel commit'ib
+andmed `main`-i ja avab kokkuvõttega issue, mis on ühtlasi teade.
+
+Kui parser saatega kindlalt hakkama ei saa (lugusid pole või lugude arv on
+imelik), ei avaldata midagi ja issue palub lood käsitsi `data/overrides.json`-i
+panna. Värav on `scripts/auto-check.mjs`. Nõunike hinded ja leidmata lingid
+jäävad käsitsi tööks.
+
+Saladused (GitHub → Settings → Secrets and variables → Actions):
+`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `SPOTIFY_CLIENT_ID`,
+`SPOTIFY_CLIENT_SECRET`, `YOUTUBE_API_KEY`. Käsitsi käivitus: Actions → Uus saade → Run workflow.
+
 ### Loo ID-de stabiilsus
 
 `data/song-ids.json` on lukustusfail: kord loole antud ID ei muutu kunagi, ka siis mitte,

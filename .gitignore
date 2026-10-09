@@ -17,3 +17,6 @@ web/.wrangler/
 .secrets.json
 
 data/review-list.html
+
+# GitHub Actionsi automaatika ajutine kokkuvõte
+auto-summary.md
