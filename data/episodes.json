@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:16:01.296Z",
+  "generatedAt": "2026-10-13T15:49:10.623Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,114 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 96,
-    "songs": 396,
-    "withSpotify": 359,
-    "withYoutube": 384,
+    "episodes": 97,
+    "songs": 400,
+    "withSpotify": 363,
+    "withYoutube": 387,
     "withCriticScore": 4
   },
   "episodes": [
+    {
+      "guid": "e6451f92-2cb6-4d58-a8b0-ec3c9147137b",
+      "title": "Olav Osolin astus viimati DJ-pulti aastal 1980: saan pakkumisi regulaarselt, aga olen kõik ära öelnud",
+      "publishedAt": "2026-10-09T11:39:59.000Z",
+      "duration": "01:15:09",
+      "durationSeconds": 4509,
+      "description": "„Muusikanõunikes” on külaliskriitikuks disko-, raadio-, tele- ja reklaamilegend Olav Osolin.\nOlav Osolinil tuli just välja romaan „Part läheb poliitikasse”, mis on kolmas raamat temalt, mille peaosaliseks vaneminspektor Samuel Part.\nOlav Osolin on Eesti klubi- ja diskorikultuuri pioneer, alustanuna klubides muusika mängimisega 1970ndate esimeses pooles.\n„Alguses ei nimetatud neid isegi diskodeks,” meenutab ta. „Vaid olid stereoõhtud. Need olid lihtsalt esimesed plaadimuusikaõhtud.\nMul on üks plakat küll kuskil, vist 70ndate keskpaigast, kus ma Tartu klubis teen diskot – aga kuigi seda veel diskoks ei nimetatud – olen enda kohta plakatile kirjutanud „DJ“.”\nViimati astus Osolin DJ-pulti enda mäletamistmööda kuskil 1980. aastal ning võttis siis vastu kindla otsuse, et kui ta pillid kokku paneb, siis rohkem ta seda ei tee „Ükskõik, mis tingimustel, ja ükskõik, mida pakutakse,” ütleb ta. „Pakutud on ise üleeestilist tuuri koos tantsutüdrukutega, kuulsa produtsendi poolt. Ma saan pakkumisi regulaarselt. Olen ära öelnud nii pulmades mängimise kui ka Tartu Ülikooli juubelil ja ma ei tea, mida kõike veel. Lihtsalt see ei paku mulle huvi ega pinget.”\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n- kewin „uni”\n- Stevie Wonder „My Life Story of Love”\n- Oumeen „Külm ja kõle siin meie vahel”\n- Mac Miller „Channel 13”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/e6451f92-2cb6-4d58-a8b0-ec3c9147137b/file/f225c0f4-b5f7-4e2f-9c05-177b4b3cf902.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/e6451f92-2cb6-4d58-a8b0-ec3c9147137b",
+      "spotifyEpisodeId": "4W1CbB317W2kIDCRX1i6yn",
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "kewin"
+          ],
+          "artistsRaw": "kewin",
+          "title": "uni",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "e6451f92-kewin-uni",
+          "spotifyId": "7pwY3nENouRbdhWTe6AjZb",
+          "youtubeId": "G2lKlxYA-vI",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/kewin%20uni",
+            "youtube": "https://www.youtube.com/results?search_query=kewin%20uni",
+            "bandcamp": "https://bandcamp.com/search?q=kewin%20uni"
+          }
+        },
+        {
+          "artists": [
+            "Stevie Wonder"
+          ],
+          "artistsRaw": "Stevie Wonder",
+          "title": "My Life Story of Love",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "e6451f92-stevie-wonder-my-life-story-of-love",
+          "spotifyId": "3fcek9ONujbKm7piCwDBMN",
+          "youtubeId": "GFvLrbEna9E",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Stevie%20Wonder%20My%20Life%20Story%20of%20Love",
+            "youtube": "https://www.youtube.com/results?search_query=Stevie%20Wonder%20My%20Life%20Story%20of%20Love",
+            "bandcamp": "https://bandcamp.com/search?q=Stevie%20Wonder%20My%20Life%20Story%20of%20Love"
+          }
+        },
+        {
+          "artists": [
+            "Oumeen"
+          ],
+          "artistsRaw": "Oumeen",
+          "title": "Külm ja kõle siin meie vahel",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "e6451f92-oumeen-kulm-ja-kole-siin-meie-vahel",
+          "spotifyId": "5y3f9rVn7SDcFEkcAUrDpd",
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Oumeen%20K%C3%BClm%20ja%20k%C3%B5le%20siin%20meie%20vahel",
+            "youtube": "https://www.youtube.com/results?search_query=Oumeen%20K%C3%BClm%20ja%20k%C3%B5le%20siin%20meie%20vahel",
+            "bandcamp": "https://bandcamp.com/search?q=Oumeen%20K%C3%BClm%20ja%20k%C3%B5le%20siin%20meie%20vahel"
+          }
+        },
+        {
+          "artists": [
+            "Mac Miller"
+          ],
+          "artistsRaw": "Mac Miller",
+          "title": "Channel 13",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "e6451f92-mac-miller-channel-13",
+          "spotifyId": "5m7sf4hPlvHByTBbyRNrd1",
+          "youtubeId": "xBkY5QZHo-c",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Mac%20Miller%20Channel%2013",
+            "youtube": "https://www.youtube.com/results?search_query=Mac%20Miller%20Channel%2013",
+            "bandcamp": "https://bandcamp.com/search?q=Mac%20Miller%20Channel%2013"
+          }
+        }
+      ]
+    },
     {
       "guid": "68047f4d-9ec4-4720-91ab-0c85ef5baafe",
       "title": "Eleryn Tiit valmistas uue albumi koos Sten Šeripoviga: sada protsenti kindel, et see on mu parim plaat",

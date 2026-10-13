@@ -4,7 +4,7 @@
     <atom:link href="https://api.delfi.ee/media-api-podcast-worker/v1/rss-feed/33d58660-ca9f-4b57-bb79-27629e949861.rss" rel="self" type="application/rss+xml"/>
     <title>Muusikanõunikud</title>
     <pubDate>Tue, 05 Mar 2024 09:17:28 GMT</pubDate>
-    <lastBuildDate>Sat, 03 Oct 2026 10:06:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 15:41:16 GMT</lastBuildDate>
     <ttl>60</ttl>
     <language>et</language>
     <copyright>All rights reserved</copyright>
@@ -22,6 +22,18 @@
       <url>https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1</url>
     </image>
     <itunes:category text="Society &amp; Culture"/>
+    <item>
+      <guid isPermaLink="false">e6451f92-2cb6-4d58-a8b0-ec3c9147137b</guid>
+      <title>Olav Osolin astus viimati DJ-pulti aastal 1980: saan pakkumisi regulaarselt, aga olen kõik ära öelnud</title>
+      <pubDate>Fri, 09 Oct 2026 11:39:59 GMT</pubDate>
+      <itunes:duration>01:15:09</itunes:duration>
+      <itunes:author>Delfi Meedia</itunes:author>
+      <itunes:summary>„Muusikanõunikes” on külaliskriitikuks disko-, raadio-, tele- ja reklaamilegend Olav Osolin.Olav Osolinil tuli just välja romaan „Part läheb poliitikasse”, mis on kolmas raamat temalt, mille peaosaliseks vaneminspektor Samuel Part.Olav Osolin on Eesti klubi- ja diskorikultuuri pioneer, alustanuna klubides muusika mängimisega 1970ndate esimeses pooles.„Alguses ei nimetatud neid isegi diskodeks,” meenutab ta. „Vaid olid stereoõhtud. Need olid lihtsalt esimesed plaadimuusikaõhtud.Mul on üks plakat küll kuskil, vist 70ndate keskpaigast, kus ma Tartu klubis teen diskot – aga kuigi seda veel diskoks ei nimetatud – olen enda kohta plakatile kirjutanud „DJ“.”Viimati astus Osolin DJ-pulti enda mäletamistmööda kuskil 1980. aastal ning võttis siis vastu kindla otsuse, et kui ta pillid kokku paneb, siis rohkem ta seda ei tee „Ükskõik, mis tingimustel, ja ükskõik, mida pakutakse,” ütleb ta. „Pakutud on ise üleeestilist tuuri koos tantsutüdrukutega, kuulsa produtsendi poolt. Ma saan pakkumisi regulaarselt. Olen ära öelnud nii pulmades mängimise kui ka Tartu Ülikooli juubelil ja ma ei tea, mida kõike veel. Lihtsalt see ei paku mulle huvi ega pinget.”Saatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:- kewin „uni”- Stevie Wonder „My Life Story of Love”- Oumeen „Külm ja kõle siin meie vahel”- Mac Miller „Channel 13”Milline lugu võitis? Kuula podcastist!„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.Jälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud</itunes:summary>
+      <itunes:subtitle>„Muusikanõunikes” on külaliskriitikuks disko-,...</itunes:subtitle>
+      <description>&lt;p&gt;„Muusikanõunikes” on külaliskriitikuks disko-, raadio-, tele- ja reklaamilegend Olav Osolin.&lt;/p&gt;&lt;p&gt;Olav Osolinil tuli just välja romaan „Part läheb poliitikasse”, mis on kolmas raamat temalt, mille peaosaliseks vaneminspektor Samuel Part.&lt;/p&gt;&lt;p&gt;Olav Osolin on Eesti klubi- ja diskorikultuuri pioneer, alustanuna klubides muusika mängimisega 1970ndate esimeses pooles.&lt;/p&gt;&lt;p&gt;„Alguses ei nimetatud neid isegi diskodeks,” meenutab ta. „Vaid olid stereoõhtud. Need olid lihtsalt esimesed plaadimuusikaõhtud.&lt;/p&gt;&lt;p&gt;Mul on üks plakat küll kuskil, vist 70ndate keskpaigast, kus ma Tartu klubis teen diskot – aga kuigi seda veel diskoks ei nimetatud – olen enda kohta plakatile kirjutanud „DJ“.”&lt;/p&gt;&lt;p&gt;Viimati astus Osolin DJ-pulti enda mäletamistmööda kuskil 1980. aastal ning võttis siis vastu kindla otsuse, et kui ta pillid kokku paneb, siis rohkem ta seda ei tee „Ükskõik, mis tingimustel, ja ükskõik, mida pakutakse,” ütleb ta. „Pakutud on ise üleeestilist tuuri koos tantsutüdrukutega, kuulsa produtsendi poolt. Ma saan pakkumisi regulaarselt. Olen ära öelnud nii pulmades mängimise kui ka Tartu Ülikooli juubelil ja ma ei tea, mida kõike veel. Lihtsalt see ei paku mulle huvi ega pinget.”&lt;/p&gt;&lt;p&gt;Saatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:&lt;/p&gt;&lt;p&gt;- kewin „uni”&lt;/p&gt;&lt;p&gt;- Stevie Wonder „My Life Story of Love”&lt;/p&gt;&lt;p&gt;- Oumeen „Külm ja kõle siin meie vahel”&lt;/p&gt;&lt;p&gt;- Mac Miller „Channel 13”&lt;/p&gt;&lt;p&gt;Milline lugu võitis? Kuula podcastist!&lt;/p&gt;&lt;p&gt;„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.&lt;/p&gt;&lt;p&gt;Jälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+      <enclosure url="https://api.delfi.ee/media-api-podcast-worker/v1/media/e6451f92-2cb6-4d58-a8b0-ec3c9147137b/file/f225c0f4-b5f7-4e2f-9c05-177b4b3cf902.mp3" type="audio/mpeg" length="108226591"/>
+      <itunes:image href="https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"/>
+    </item>
     <item>
       <guid isPermaLink="false">68047f4d-9ec4-4720-91ab-0c85ef5baafe</guid>
       <title>Eleryn Tiit valmistas uue albumi koos Sten Šeripoviga: sada protsenti kindel, et see on mu parim plaat</title>

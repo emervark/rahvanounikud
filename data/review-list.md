@@ -1,11 +1,11 @@
 # Ülevaatamist vajavad lood
 
-Koostatud failist `data/episodes.json` (96 saadet, 396 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
+Koostatud failist `data/episodes.json` (97 saadet, 400 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 1 |
-| Pakkumine olemas, link puudub | 4 |
+| Pakkumine olemas, link puudub | 5 |
 | Kumbki link puudub | 0 |
 | YouTube veel otsimata | 0 |
 
@@ -36,6 +36,9 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 - **0,01** Kergo Klubi — Kergo Klubi räpp — saade 5 · 2024-04-05
   - pakub: Yung Lord — Yung Lord – ДЕВОЧКА ЛАМБО (Prod. Call Me G) → https://www.youtube.com/watch?v=OMDz9uYw96w
   - `bf14f06b-kergo-klubi-kergo-klubi-rapp` · [otsi](https://www.youtube.com/results?search_query=Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp)
+- **0,00** Oumeen — Külm ja kõle siin meie vahel — saade 97 · 2026-10-09
+  - pakub: —
+  - `e6451f92-oumeen-kulm-ja-kole-siin-meie-vahel` · [otsi](https://www.youtube.com/results?search_query=Oumeen%20K%C3%BClm%20ja%20k%C3%B5le%20siin%20meie%20vahel)
 - **0,00** jooseppro ja Lennu — Kaliiber — saade 67 · 2025-12-05
   - pakub: —
   - `17d543f7-jooseppro-kaliiber` · [otsi](https://www.youtube.com/results?search_query=jooseppro%20ja%20Lennu%20Kaliiber)
