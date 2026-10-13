@@ -9,6 +9,8 @@ export interface Song {
   note: string | null;
   spotifyId: string | null;
   youtubeId: string | null;
+  /** Sekund, kust video käivitada — kui lugu on osa täispika albumi videost. Ainult käsitsi overrides.json-ist. */
+  youtubeStart?: number | null;
   /* Kolmandad allikad neile, keda Spotifys ega YouTube'is ei ole — väiksed
      Eesti väljalasked satuvad sinna sageli ainsana. Mõlemad tulevad ainult
      käsitsi overrides.json-ist; resolverit neil ei ole. */

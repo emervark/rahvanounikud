@@ -97,7 +97,7 @@ export function SongEmbeds({ song }: { song: Song }) {
         <iframe
           className="embed-frame embeds__yt"
           style={{ aspectRatio: '16 / 9' }}
-          src={`https://www.youtube-nocookie.com/embed/${song.youtubeId}?${YT_PARAMS}`}
+          src={`https://www.youtube-nocookie.com/embed/${song.youtubeId}?${YT_PARAMS}${song.youtubeStart ? `&start=${song.youtubeStart}` : ''}`}
           title={`YouTube: ${songLabel(song)}`}
           loading="lazy"
           allow="accelerometer; encrypted-media; picture-in-picture"
