@@ -1,7 +1,11 @@
 -- GENEREERITUD failist data/episodes.json — ära muuda käsitsi.
--- Lugusid: 400. Uuenda käsuga: npm run seed:sql
+-- Lugusid: 404. Uuenda käsuga: npm run seed:sql
 
 INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
+('d234c6bc-heleza-mis-oleks-voinud-olla', 'd234c6bc-5ce9-4425-a966-6897fbc003a6', 'Heleza, Karl Killing', 'Mis oleks võinud olla', '2026-10-15T21:15:31.000Z'),
+('d234c6bc-the-rolling-stones-mr-charm', 'd234c6bc-5ce9-4425-a966-6897fbc003a6', 'The Rolling Stones', 'Mr. Charm', '2026-10-15T21:15:31.000Z'),
+('d234c6bc-eleryn-tiit-ule-katuste', 'd234c6bc-5ce9-4425-a966-6897fbc003a6', 'Eleryn Tiit', 'Üle katuste', '2026-10-15T21:15:31.000Z'),
+('d234c6bc-twisted-teens-stalks', 'd234c6bc-5ce9-4425-a966-6897fbc003a6', 'Twisted Teens', 'Stalks', '2026-10-15T21:15:31.000Z'),
 ('e6451f92-kewin-uni', 'e6451f92-2cb6-4d58-a8b0-ec3c9147137b', 'kewin', 'uni', '2026-10-09T11:39:59.000Z'),
 ('e6451f92-stevie-wonder-my-life-story-of-love', 'e6451f92-2cb6-4d58-a8b0-ec3c9147137b', 'Stevie Wonder', 'My Life Story of Love', '2026-10-09T11:39:59.000Z'),
 ('e6451f92-oumeen-kulm-ja-kole-siin-meie-vahel', 'e6451f92-2cb6-4d58-a8b0-ec3c9147137b', 'Oumeen', 'Külm ja kõle siin meie vahel', '2026-10-09T11:39:59.000Z'),
@@ -97,13 +101,13 @@ INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('27eae26f-jooseppro-ma-nagu-lol', '27eae26f-89b6-4deb-ba4c-7f242eebbc09', 'Jooseppro & Lennu', 'Ma nagu LOL', '2026-02-20T11:36:40.000Z'),
 ('27eae26f-charli-xcx-always-everywhere', '27eae26f-89b6-4deb-ba4c-7f242eebbc09', 'Charli xcx', 'Always Everywhere', '2026-02-20T11:36:40.000Z'),
 ('27eae26f-majaka-mandela-tossud', '27eae26f-89b6-4deb-ba4c-7f242eebbc09', 'Majaka Mandela', 'Tossud', '2026-02-20T11:36:40.000Z'),
-('27eae26f-paul-anka-anytime', '27eae26f-89b6-4deb-ba4c-7f242eebbc09', 'Paul Anka', 'Anytime', '2026-02-20T11:36:40.000Z'),
+('27eae26f-paul-anka-anytime', '27eae26f-89b6-4deb-ba4c-7f242eebbc09', 'Paul Anka', 'Anytime', '2026-02-20T11:36:40.000Z')
+ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
+INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('4015a542-an-marlen-sudame-jargi', '4015a542-f0c8-4056-b372-318ae354b50f', 'An-Marlen', 'Südame järgi', '2026-02-13T12:00:00.000Z'),
 ('4015a542-sombr-homewrecker', '4015a542-f0c8-4056-b372-318ae354b50f', 'Sombr', 'Homewrecker', '2026-02-13T12:00:00.000Z'),
 ('4015a542-oopus-hanemang', '4015a542-f0c8-4056-b372-318ae354b50f', 'Oopus', 'Hanemäng', '2026-02-13T12:00:00.000Z'),
-('4015a542-morrissey-notre-dam', '4015a542-f0c8-4056-b372-318ae354b50f', 'Morrissey', 'Notre Dam', '2026-02-13T12:00:00.000Z')
-ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
-INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
+('4015a542-morrissey-notre-dam', '4015a542-f0c8-4056-b372-318ae354b50f', 'Morrissey', 'Notre Dam', '2026-02-13T12:00:00.000Z'),
 ('e505c599-jarek-kasar-olen-terve-elu-s88nud-v6ileiba-valel', 'e505c599-9e3e-46e1-846a-b35e7948a389', 'Jarek Kasar', 'Olen terve elu s88nud v6ileiba valelt poolt', '2026-02-11T14:08:41.000Z'),
 ('e505c599-harry-styles-aperture', 'e505c599-9e3e-46e1-846a-b35e7948a389', 'Harry Styles', 'Aperture', '2026-02-11T14:08:41.000Z'),
 ('e505c599-a-ap-rocky-punk-rocky', 'e505c599-9e3e-46e1-846a-b35e7948a389', 'A$AP Rocky', 'Punk Rocky', '2026-02-11T14:08:41.000Z'),
@@ -199,13 +203,13 @@ INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('ec783a5e-pluto-whim-whamiee-remix', 'ec783a5e-6f00-4e50-a26c-b13e5391a3e1', 'PLUTO, Sexyy Red', 'Whim Whamiee (Remix)', '2025-06-06T10:00:00.000Z'),
 ('1f4d07b9-lexsoul-dance-machine-it-s-over', '1f4d07b9-2119-41aa-bb1c-78da969b416a', 'Lexsoul Dance Machine', 'It’s Over', '2025-05-30T12:40:00.000Z'),
 ('1f4d07b9-burna-boy-tatata', '1f4d07b9-2119-41aa-bb1c-78da969b416a', 'Burna Boy, Travis Scott', 'TaTaTa', '2025-05-30T12:40:00.000Z'),
-('1f4d07b9-music-four-your-plants-novacyne', '1f4d07b9-2119-41aa-bb1c-78da969b416a', 'Music Four Your Plants', 'Novacyne', '2025-05-30T12:40:00.000Z'),
+('1f4d07b9-music-four-your-plants-novacyne', '1f4d07b9-2119-41aa-bb1c-78da969b416a', 'Music Four Your Plants', 'Novacyne', '2025-05-30T12:40:00.000Z')
+ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
+INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('1f4d07b9-st-etienne-glad', '1f4d07b9-2119-41aa-bb1c-78da969b416a', 'St Etienne', 'Glad', '2025-05-30T12:40:00.000Z'),
 ('2cbcfe43-kiki-kellelgi-on-raske', '2cbcfe43-38f2-4c2a-95e8-9b07dac82ab5', 'Kiki', 'Kellelgi on raske', '2025-05-24T06:30:00.000Z'),
 ('2cbcfe43-ye-ww3', '2cbcfe43-38f2-4c2a-95e8-9b07dac82ab5', 'Ye', 'WW3', '2025-05-24T06:30:00.000Z'),
-('2cbcfe43-freak-street-paikese-all', '2cbcfe43-38f2-4c2a-95e8-9b07dac82ab5', 'Freak Street', 'Päikese all', '2025-05-24T06:30:00.000Z')
-ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
-INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
+('2cbcfe43-freak-street-paikese-all', '2cbcfe43-38f2-4c2a-95e8-9b07dac82ab5', 'Freak Street', 'Päikese all', '2025-05-24T06:30:00.000Z'),
 ('2cbcfe43-andre-3000-spent-all-day-waiting-for-the-night', '2cbcfe43-38f2-4c2a-95e8-9b07dac82ab5', 'Andre 3000', 'Spent All Day Waiting For the Night', '2025-05-24T06:30:00.000Z'),
 ('3e638468-triibupasta-tantsuriik', '3e638468-b59c-4ad5-a250-72683f9ca073', 'Triibupasta', 'Tantsuriik', '2025-05-16T11:00:00.000Z'),
 ('3e638468-quavo-dope-boy-phone', '3e638468-b59c-4ad5-a250-72683f9ca073', 'Quavo, Takeoff', 'Dope Boy Phone', '2025-05-16T11:00:00.000Z'),
@@ -301,13 +305,13 @@ INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('f043c304-primal-scream-deep-dark-waters', 'f043c304-2599-4701-ac83-fd4c99532345', 'Primal Scream', 'Deep Dark Waters', '2024-11-15T12:00:04.000Z'),
 ('f043c304-heleenyum-ft-mcandthat-disappear', 'f043c304-2599-4701-ac83-fd4c99532345', 'Heleenyum ft. Mcandthat', 'Disappear', '2024-11-15T12:00:04.000Z'),
 ('f043c304-central-cee-one-by-one', 'f043c304-2599-4701-ac83-fd4c99532345', 'Central Cee', 'One By One', '2024-11-15T12:00:04.000Z'),
-('ad1528cf-villemdrillem-goyard', 'ad1528cf-4d5e-4a37-b89d-db951cad705f', 'villemdrillem, pluuto', 'goyard', '2024-11-08T12:25:03.000Z'),
+('ad1528cf-villemdrillem-goyard', 'ad1528cf-4d5e-4a37-b89d-db951cad705f', 'villemdrillem, pluuto', 'goyard', '2024-11-08T12:25:03.000Z')
+ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
+INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('ad1528cf-lcd-soundsystem-x-ray-eyes', 'ad1528cf-4d5e-4a37-b89d-db951cad705f', 'LCD Soundsystem', 'X-Ray Eyes', '2024-11-08T12:25:03.000Z'),
 ('ad1528cf-pohja-konn-hingedepaev', 'ad1528cf-4d5e-4a37-b89d-db951cad705f', 'Põhja Konn', 'Hingedepäev', '2024-11-08T12:25:03.000Z'),
 ('ad1528cf-lola-young-charlie', 'ad1528cf-4d5e-4a37-b89d-db951cad705f', 'Lola Young, Lil Yachty', 'Charlie', '2024-11-08T12:25:03.000Z'),
-('e833fac2-motonormal-cocacolastic', 'e833fac2-f2ce-40a3-a804-1aaebbe4f473', 'motonormal', 'cocacolastic', '2024-11-01T12:00:05.000Z')
-ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
-INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
+('e833fac2-motonormal-cocacolastic', 'e833fac2-f2ce-40a3-a804-1aaebbe4f473', 'motonormal', 'cocacolastic', '2024-11-01T12:00:05.000Z'),
 ('e833fac2-tyler-i-hope-you-find-your-way-home', 'e833fac2-f2ce-40a3-a804-1aaebbe4f473', 'Tyler, the Creator', 'I Hope You Find Your Way Home', '2024-11-01T12:00:05.000Z'),
 ('e833fac2-loits-toelised-kuningad-kutse-sugavikust', 'e833fac2-f2ce-40a3-a804-1aaebbe4f473', 'Loits feat FAAM', 'Tõelised kuningad (Kutse sügavikust)', '2024-11-01T12:00:05.000Z'),
 ('e833fac2-underworld-hilo-sku', 'e833fac2-f2ce-40a3-a804-1aaebbe4f473', 'Underworld', 'Hilo Sky', '2024-11-01T12:00:05.000Z'),
@@ -403,7 +407,9 @@ INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('93ad6a77-ariana-grande-the-boy-is-mine', '93ad6a77-70e6-442c-8548-797ae9f860a0', 'Ariana Grande', 'The Boy Is Mine', '2024-03-15T12:00:09.000Z'),
 ('93ad6a77-winny-puhh-suusasoit', '93ad6a77-70e6-442c-8548-797ae9f860a0', 'Winny Puhh', 'Suusasõit', '2024-03-15T12:00:09.000Z'),
 ('93ad6a77-kim-gordon-i-m-a-man', '93ad6a77-70e6-442c-8548-797ae9f860a0', 'Kim Gordon', 'I’m a Man', '2024-03-15T12:00:09.000Z'),
-('18b69b06-karl-killing-vastased', '18b69b06-b65e-4a63-b085-e19f42af4d23', 'Karl Killing', 'vastased', '2024-03-08T13:39:48.000Z'),
+('18b69b06-karl-killing-vastased', '18b69b06-b65e-4a63-b085-e19f42af4d23', 'Karl Killing', 'vastased', '2024-03-08T13:39:48.000Z')
+ON CONFLICT(id) DO UPDATE SET episode_guid = excluded.episode_guid, artists = excluded.artists, title = excluded.title, published_at = excluded.published_at;
+INSERT INTO songs (id, episode_guid, artists, title, published_at) VALUES
 ('18b69b06-dj-arana-mini-game-dos-taliba', '18b69b06-b65e-4a63-b085-e19f42af4d23', 'DJ Arana', 'Mini Game dos Taliba', '2024-03-08T13:39:48.000Z'),
 ('18b69b06-vimka-kevadpaike', '18b69b06-b65e-4a63-b085-e19f42af4d23', 'Vimka', 'Kevadpäike', '2024-03-08T13:39:48.000Z'),
 ('18b69b06-beyonce-texas-hold-em', '18b69b06-b65e-4a63-b085-e19f42af4d23', 'Beyoncé', 'TEXAS HOLD’EM', '2024-03-08T13:39:48.000Z'),

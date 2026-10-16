@@ -407,7 +407,11 @@
     "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::kewin::uni": "e6451f92-kewin-uni",
     "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::stevie wonder::my life story of love": "e6451f92-stevie-wonder-my-life-story-of-love",
     "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::oumeen::külm ja kõle siin meie vahel": "e6451f92-oumeen-kulm-ja-kole-siin-meie-vahel",
-    "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::mac miller::channel 13": "e6451f92-mac-miller-channel-13"
+    "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::mac miller::channel 13": "e6451f92-mac-miller-channel-13",
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::heleza|karl killing::mis oleks võinud olla": "d234c6bc-heleza-mis-oleks-voinud-olla",
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::the rolling stones::mr. charm": "d234c6bc-the-rolling-stones-mr-charm",
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::eleryn tiit::üle katuste": "d234c6bc-eleryn-tiit-ule-katuste",
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::twisted teens::stalks": "d234c6bc-twisted-teens-stalks"
   },
   "byPosition": {
     "51067548-b2d2-4c49-b3db-e445a68c3a05::0": "51067548-an-marlen-tahtede-eest",
@@ -809,6 +813,10 @@
     "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::0": "e6451f92-kewin-uni",
     "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::1": "e6451f92-stevie-wonder-my-life-story-of-love",
     "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::2": "e6451f92-oumeen-kulm-ja-kole-siin-meie-vahel",
-    "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::3": "e6451f92-mac-miller-channel-13"
+    "e6451f92-2cb6-4d58-a8b0-ec3c9147137b::3": "e6451f92-mac-miller-channel-13",
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::0": "d234c6bc-heleza-mis-oleks-voinud-olla",
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::1": "d234c6bc-the-rolling-stones-mr-charm",
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::2": "d234c6bc-eleryn-tiit-ule-katuste",
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::3": "d234c6bc-twisted-teens-stalks"
   }
 }

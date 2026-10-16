@@ -55,7 +55,7 @@
     "confidence": 1
   },
   "_kvoot": {
-    "date": "2026-10-13",
+    "date": "2026-10-16",
     "searches": 4
   },
   "c319ff35-liisi-koikson-endaga-vii": {
@@ -1538,6 +1538,26 @@
   "e6451f92-mac-miller-channel-13": {
     "id": "xBkY5QZHo-c",
     "title": "Channel 13",
+    "confidence": 1
+  },
+  "d234c6bc-heleza-mis-oleks-voinud-olla": {
+    "id": "IJkJWoVq_bk",
+    "title": "mis oleks võinud olla?",
+    "confidence": 0.825
+  },
+  "d234c6bc-the-rolling-stones-mr-charm": {
+    "id": "3e5LxvRZjVw",
+    "title": "Mr Charm",
+    "confidence": 1
+  },
+  "d234c6bc-eleryn-tiit-ule-katuste": {
+    "id": "uzJdYDt1TCo",
+    "title": "Üle katuste",
+    "confidence": 1
+  },
+  "d234c6bc-twisted-teens-stalks": {
+    "id": "0J6qF477cPc",
+    "title": "stalks",
     "confidence": 1
   }
 }

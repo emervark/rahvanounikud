@@ -1,10 +1,10 @@
 # Ülevaatamist vajavad lood
 
-Koostatud failist `data/episodes.json` (97 saadet, 400 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
+Koostatud failist `data/episodes.json` (98 saadet, 404 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
 
 | Korv | Lugusid |
 |---|---|
-| Kahtlane link üleval | 1 |
+| Kahtlane link üleval | 2 |
 | Pakkumine olemas, link puudub | 4 |
 | Kumbki link puudub | 0 |
 | YouTube veel otsimata | 0 |
@@ -18,6 +18,12 @@ pealkirjas artistit ei ole („kah mul asi") või kui pealkiri on veidi teisiti
 kirjutatud („I LUV BEING MYSELF"). Nimekiri on madalaimast kindlusest ülespoole,
 nii et tõelised vead on eespool — allapoole jõudes muutub üle vaatamine kiiresti
 mõttetuks.
+
+### Heleza, Karl Killing — Mis oleks võinud olla
+`d234c6bc-heleza-mis-oleks-voinud-olla` · saade 98 · 2026-10-15
+- **YouTube 0,82** → mis oleks võinud olla?
+  https://www.youtube.com/watch?v=IJkJWoVq_bk
+- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Heleza%2C%20Karl%20Killing%20Mis%20oleks%20v%C3%B5inud%20olla) · [Spotify](https://open.spotify.com/search/Heleza%2C%20Karl%20Killing%20Mis%20oleks%20v%C3%B5inud%20olla)
 
 ### BICEP, SOARR — Air
 `68047f4d-bicep-air` · saade 96 · 2026-10-02

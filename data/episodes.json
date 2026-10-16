@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:06:49.303Z",
+  "generatedAt": "2026-10-16T15:24:20.604Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,115 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 97,
-    "songs": 400,
-    "withSpotify": 363,
-    "withYoutube": 388,
+    "episodes": 98,
+    "songs": 404,
+    "withSpotify": 367,
+    "withYoutube": 392,
     "withCriticScore": 4
   },
   "episodes": [
+    {
+      "guid": "d234c6bc-5ce9-4425-a966-6897fbc003a6",
+      "title": "Hendrik Sal-Saller: plaan on välja anda Generaator M-i album vinüülil",
+      "publishedAt": "2026-10-15T21:15:31.000Z",
+      "duration": "01:17:04",
+      "durationSeconds": 4624,
+      "description": "„Muusikanõunikes” on sel nädalal külaliskriitikuks Eesi rock-muusika elav legend Hendrik Sal-Saller.\nLaulja, muusik ja laulukirjutaja Hendrik Sal-Saller tähistab 19. detsembril Unibet Arenal oma 60. sünnipäeva.\nSal-Salleri suurel juubelišoul tuleb lavale ka Generaator M – legendaarne ja mõjukas Eesti punk-bänd, üks Hendriku esimesi ansambleid.\n„Tuleme korraks kokku jah,” kostab ta. „Kuigi bassimees Kits ei ole enam meie siinpoolsuses mängimas. Teda asendab Mihkel Raud.\nSee ei ole mitte mingil juhul mingisugune comeback või midagi sellist, nagu arvatakse. Lihtsalt sellepärast, et kuna see on minu sünnipäevakontsert ja Genekal on minu kujunemises hästi suur osa, siis mõtlesin, et kui seda üldse kunagi veel proovida teha, siis see on õige koht.”\nLäbi aastate on Hendriku väitel väga palju küsitud, millal Generaator M kontserti tuleb andma, ja ta on alati vastanud eitavalt.\n„Aga nüüd mul tuli ka selline ketserlik plaan...,” räägib Hendrik. „Et vaata: nüüd, kui on AI ajad saabunud, võtaks selle hästi sita Geneka lindi ja prooviks ära puhastada. Ma olen koos Erksiga seda teinu, õigemini, Erks on seda teinud rohkem kui mina. Ja täitsa selline… Noh, sitt on ikka, aga täitsa selline parem sitt.\nPlaan on anda see kuidagi vinüülil välja, mingi 12-13 lugu.\nVaatasin, et tuleks kokku täitsa okei album.\nJa selle tõttu võiks korraks äkki toimuda selline Geneka üles äratamine ja siis kohe tagasi.”\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• Heleza, Karl Killing „Mis oleks võinud olla”\n• The Rolling Stones „Mr. Charm”\n• Eleryn Tiit „Üle katuste”\n• Twisted Teens „Stalks”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/d234c6bc-5ce9-4425-a966-6897fbc003a6/file/af232ed9-5405-44f5-90cc-5a8be3b71230.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/d234c6bc-5ce9-4425-a966-6897fbc003a6",
+      "spotifyEpisodeId": "1djLC7oqxAbJoy9MaMzlNW",
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Heleza",
+            "Karl Killing"
+          ],
+          "artistsRaw": "Heleza, Karl Killing",
+          "title": "Mis oleks võinud olla",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "d234c6bc-heleza-mis-oleks-voinud-olla",
+          "spotifyId": "1jWQhfNKZolIIOXenuRQ5g",
+          "youtubeId": "IJkJWoVq_bk",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Heleza%20Karl%20Killing%20Mis%20oleks%20v%C3%B5inud%20olla",
+            "youtube": "https://www.youtube.com/results?search_query=Heleza%20Karl%20Killing%20Mis%20oleks%20v%C3%B5inud%20olla",
+            "bandcamp": "https://bandcamp.com/search?q=Heleza%20Karl%20Killing%20Mis%20oleks%20v%C3%B5inud%20olla"
+          }
+        },
+        {
+          "artists": [
+            "The Rolling Stones"
+          ],
+          "artistsRaw": "The Rolling Stones",
+          "title": "Mr. Charm",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "d234c6bc-the-rolling-stones-mr-charm",
+          "spotifyId": "7FNkY47xx3oKTjr5tk5m8k",
+          "youtubeId": "3e5LxvRZjVw",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/The%20Rolling%20Stones%20Mr.%20Charm",
+            "youtube": "https://www.youtube.com/results?search_query=The%20Rolling%20Stones%20Mr.%20Charm",
+            "bandcamp": "https://bandcamp.com/search?q=The%20Rolling%20Stones%20Mr.%20Charm"
+          }
+        },
+        {
+          "artists": [
+            "Eleryn Tiit"
+          ],
+          "artistsRaw": "Eleryn Tiit",
+          "title": "Üle katuste",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "d234c6bc-eleryn-tiit-ule-katuste",
+          "spotifyId": "4CtY8OZ8An5v6SgWB8hNC6",
+          "youtubeId": "uzJdYDt1TCo",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Eleryn%20Tiit%20%C3%9Cle%20katuste",
+            "youtube": "https://www.youtube.com/results?search_query=Eleryn%20Tiit%20%C3%9Cle%20katuste",
+            "bandcamp": "https://bandcamp.com/search?q=Eleryn%20Tiit%20%C3%9Cle%20katuste"
+          }
+        },
+        {
+          "artists": [
+            "Twisted Teens"
+          ],
+          "artistsRaw": "Twisted Teens",
+          "title": "Stalks",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "d234c6bc-twisted-teens-stalks",
+          "spotifyId": "3aoIIvR9CkLUJ5aKpnsy5u",
+          "youtubeId": "0J6qF477cPc",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Twisted%20Teens%20Stalks",
+            "youtube": "https://www.youtube.com/results?search_query=Twisted%20Teens%20Stalks",
+            "bandcamp": "https://bandcamp.com/search?q=Twisted%20Teens%20Stalks"
+          }
+        }
+      ]
+    },
     {
       "guid": "e6451f92-2cb6-4d58-a8b0-ec3c9147137b",
       "title": "Olav Osolin astus viimati DJ-pulti aastal 1980: saan pakkumisi regulaarselt, aga olen kõik ära öelnud",

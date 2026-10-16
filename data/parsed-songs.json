@@ -1,5 +1,53 @@
 [
   {
+    "guid": "d234c6bc-5ce9-4425-a966-6897fbc003a6",
+    "title": "Hendrik Sal-Saller: plaan on välja anda Generaator M-i album vinüülil",
+    "publishedAt": "2026-10-15T21:15:31.000Z",
+    "chooser": "Raul Saaremets",
+    "guests": [],
+    "songs": [
+      {
+        "artists": [
+          "Heleza",
+          "Karl Killing"
+        ],
+        "artistsRaw": "Heleza, Karl Killing",
+        "title": "Mis oleks võinud olla",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "The Rolling Stones"
+        ],
+        "artistsRaw": "The Rolling Stones",
+        "title": "Mr. Charm",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Eleryn Tiit"
+        ],
+        "artistsRaw": "Eleryn Tiit",
+        "title": "Üle katuste",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Twisted Teens"
+        ],
+        "artistsRaw": "Twisted Teens",
+        "title": "Stalks",
+        "chooser": null,
+        "note": null
+      }
+    ],
+    "unparsedLines": [],
+    "status": "ok"
+  },
+  {
     "guid": "e6451f92-2cb6-4d58-a8b0-ec3c9147137b",
     "title": "Olav Osolin astus viimati DJ-pulti aastal 1980: saan pakkumisi regulaarselt, aga olen kõik ära öelnud",
     "publishedAt": "2026-10-09T11:39:59.000Z",

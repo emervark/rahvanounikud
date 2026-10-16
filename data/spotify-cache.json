@@ -3263,5 +3263,38 @@
       "Mac Miller"
     ],
     "confidence": 1
+  },
+  "d234c6bc-heleza-mis-oleks-voinud-olla": {
+    "id": "1jWQhfNKZolIIOXenuRQ5g",
+    "name": "mis oleks võinud olla?",
+    "artists": [
+      "Heleza",
+      "Karl Killing"
+    ],
+    "confidence": 1
+  },
+  "d234c6bc-the-rolling-stones-mr-charm": {
+    "id": "7FNkY47xx3oKTjr5tk5m8k",
+    "name": "Mr Charm",
+    "artists": [
+      "The Rolling Stones"
+    ],
+    "confidence": 1
+  },
+  "d234c6bc-eleryn-tiit-ule-katuste": {
+    "id": "4CtY8OZ8An5v6SgWB8hNC6",
+    "name": "Üle katuste",
+    "artists": [
+      "Eleryn Tiit"
+    ],
+    "confidence": 1
+  },
+  "d234c6bc-twisted-teens-stalks": {
+    "id": "3aoIIvR9CkLUJ5aKpnsy5u",
+    "name": "Stalks",
+    "artists": [
+      "Twisted Teens"
+    ],
+    "confidence": 1
   }
 }
