@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T15:24:20.604Z",
+  "generatedAt": "2026-10-23T15:21:49.643Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,116 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 98,
-    "songs": 404,
-    "withSpotify": 367,
-    "withYoutube": 392,
+    "episodes": 99,
+    "songs": 408,
+    "withSpotify": 371,
+    "withYoutube": 395,
     "withCriticScore": 4
   },
   "episodes": [
+    {
+      "guid": "9a3d8942-5ef9-438a-a0c7-7a1a7c965747",
+      "title": "Leslie Laasner hullumeelselt hästi läinud Hu? tagasitulekukontserdist: „Pisarad voolasid endal ka”",
+      "publishedAt": "2026-10-19T10:54:30.000Z",
+      "duration": "01:15:20",
+      "durationSeconds": 4520,
+      "description": "„Muusikanõunikel” on sel nädalal lugude hindamisel abiks muusik ja laulja Leslie Laasner.\nLeslie Laasneril, artistinimega Leslie Da Bass, ilmus just kümnes sooloalbum „Viimasena peol“. Vinüülil tuli teos välja duubelplaadina, väikeses tiraažis 100 eksemplari.\nTänavu kevadel ja suvel andis pärast kümneaastast pausi kontserte üks Leslie mitmetest bändidest – Hu?. Kontserdid läksid tema sõnul hullumeelselt hästi.\n„Täiesti kreisi lihtsalt,” räägib Da Bass. „Esimesel päeval müüdi 1500 piletit, siis ma sain aru, et vist oli õige lüke. Alul ikka mõtled, et miks me seda kõike teeme, äkki tuleb ainult 50 inimest. Aga huvi oli kordades suurem, kui me üldse ootasime – piletid müüsid kohe välja.\nJa publiku esiread kontserdil olid kõik kahekümnendates eluaastates inimesed. See oli täiesti jabur – see energia, mis sealt tuli!\nKõik teadsid kõiki lugusid ja sõnu peast. Ja sa näed, et nad ka usuvad seda muusikat, mitte lihtsalt nii, et see muusika on relevantne, vaid et see töötab. Varem me ei saanud sellist energiat sisse.”\n„See oli täielik plahvatus,” lisab ta. „Mul pole ammu niimoodi live’il olnud. Pisarad voolasid endal ka – panin päikeseprillid ette.”\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• karjakoer, trapm „MASHA JA KARU”\n• Pet Shop Boys „Other Ranks”\n• Anneli Tambla „Jeesus see on minu soov”\n• Sally Herbert, Jimmy Sommerville „Bade”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/9a3d8942-5ef9-438a-a0c7-7a1a7c965747/file/0e452fb2-bdc2-421d-b414-fda0daff16d6.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/9a3d8942-5ef9-438a-a0c7-7a1a7c965747",
+      "spotifyEpisodeId": "1PoXAatGUUh8QmO4xrHdAA",
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "karjakoer",
+            "trapm"
+          ],
+          "artistsRaw": "karjakoer, trapm",
+          "title": "MASHA JA KARU",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "9a3d8942-karjakoer-masha-ja-karu",
+          "spotifyId": "6oBkmHLRvWMFnupB0lp6HD",
+          "youtubeId": "xTr7zbC5njg",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/karjakoer%20trapm%20MASHA%20JA%20KARU",
+            "youtube": "https://www.youtube.com/results?search_query=karjakoer%20trapm%20MASHA%20JA%20KARU",
+            "bandcamp": "https://bandcamp.com/search?q=karjakoer%20trapm%20MASHA%20JA%20KARU"
+          }
+        },
+        {
+          "artists": [
+            "Pet Shop Boys"
+          ],
+          "artistsRaw": "Pet Shop Boys",
+          "title": "Other Ranks",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "9a3d8942-pet-shop-boys-other-ranks",
+          "spotifyId": "1DWIxfNtL8ZDNz1dd9oASJ",
+          "youtubeId": "5aYur6GDWMQ",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Pet%20Shop%20Boys%20Other%20Ranks",
+            "youtube": "https://www.youtube.com/results?search_query=Pet%20Shop%20Boys%20Other%20Ranks",
+            "bandcamp": "https://bandcamp.com/search?q=Pet%20Shop%20Boys%20Other%20Ranks"
+          }
+        },
+        {
+          "artists": [
+            "Anneli Tambla"
+          ],
+          "artistsRaw": "Anneli Tambla",
+          "title": "Jeesus see on minu soov",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "9a3d8942-anneli-tambla-jeesus-see-on-minu-soov",
+          "spotifyId": "4SoDGuz52dSh06VycXhF8g",
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Anneli%20Tambla%20Jeesus%20see%20on%20minu%20soov",
+            "youtube": "https://www.youtube.com/results?search_query=Anneli%20Tambla%20Jeesus%20see%20on%20minu%20soov",
+            "bandcamp": "https://bandcamp.com/search?q=Anneli%20Tambla%20Jeesus%20see%20on%20minu%20soov"
+          }
+        },
+        {
+          "artists": [
+            "Sally Herbert",
+            "Jimmy Sommerville"
+          ],
+          "artistsRaw": "Sally Herbert, Jimmy Sommerville",
+          "title": "Bade",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "9a3d8942-sally-herbert-bade",
+          "spotifyId": "0vFhabsHGl0861CV4FVS9S",
+          "youtubeId": "eaX4ygPurwE",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Sally%20Herbert%20Jimmy%20Sommerville%20Bade",
+            "youtube": "https://www.youtube.com/results?search_query=Sally%20Herbert%20Jimmy%20Sommerville%20Bade",
+            "bandcamp": "https://bandcamp.com/search?q=Sally%20Herbert%20Jimmy%20Sommerville%20Bade"
+          }
+        }
+      ]
+    },
     {
       "guid": "d234c6bc-5ce9-4425-a966-6897fbc003a6",
       "title": "Hendrik Sal-Saller: plaan on välja anda Generaator M-i album vinüülil",

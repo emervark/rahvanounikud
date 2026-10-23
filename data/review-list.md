@@ -1,11 +1,11 @@
 # Ülevaatamist vajavad lood
 
-Koostatud failist `data/episodes.json` (98 saadet, 404 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
+Koostatud failist `data/episodes.json` (99 saadet, 408 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
 
 | Korv | Lugusid |
 |---|---|
-| Kahtlane link üleval | 2 |
-| Pakkumine olemas, link puudub | 4 |
+| Kahtlane link üleval | 4 |
+| Pakkumine olemas, link puudub | 5 |
 | Kumbki link puudub | 0 |
 | YouTube veel otsimata | 0 |
 
@@ -18,6 +18,18 @@ pealkirjas artistit ei ole („kah mul asi") või kui pealkiri on veidi teisiti
 kirjutatud („I LUV BEING MYSELF"). Nimekiri on madalaimast kindlusest ülespoole,
 nii et tõelised vead on eespool — allapoole jõudes muutub üle vaatamine kiiresti
 mõttetuks.
+
+### Sally Herbert, Jimmy Sommerville — Bade
+`9a3d8942-sally-herbert-bade` · saade 99 · 2026-10-19
+- **YouTube 0,79** → Bade (feat. Jimmy Somerville) -
+  https://www.youtube.com/watch?v=eaX4ygPurwE
+- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=Sally%20Herbert%2C%20Jimmy%20Sommerville%20Bade) · [Spotify](https://open.spotify.com/search/Sally%20Herbert%2C%20Jimmy%20Sommerville%20Bade)
+
+### karjakoer, trapm — MASHA JA KARU
+`9a3d8942-karjakoer-masha-ja-karu` · saade 99 · 2026-10-19
+- **YouTube 0,81** → MASHA JA KARU (feat. trapm)
+  https://www.youtube.com/watch?v=xTr7zbC5njg
+- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=karjakoer%2C%20trapm%20MASHA%20JA%20KARU) · [Spotify](https://open.spotify.com/search/karjakoer%2C%20trapm%20MASHA%20JA%20KARU)
 
 ### Heleza, Karl Killing — Mis oleks võinud olla
 `d234c6bc-heleza-mis-oleks-voinud-olla` · saade 98 · 2026-10-15
@@ -42,6 +54,9 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 - **0,01** Kergo Klubi — Kergo Klubi räpp — saade 5 · 2024-04-05
   - pakub: Yung Lord — Yung Lord – ДЕВОЧКА ЛАМБО (Prod. Call Me G) → https://www.youtube.com/watch?v=OMDz9uYw96w
   - `bf14f06b-kergo-klubi-kergo-klubi-rapp` · [otsi](https://www.youtube.com/results?search_query=Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp)
+- **0,00** Anneli Tambla — Jeesus see on minu soov — saade 99 · 2026-10-19
+  - pakub: —
+  - `9a3d8942-anneli-tambla-jeesus-see-on-minu-soov` · [otsi](https://www.youtube.com/results?search_query=Anneli%20Tambla%20Jeesus%20see%20on%20minu%20soov)
 - **0,00** jooseppro ja Lennu — Kaliiber — saade 67 · 2025-12-05
   - pakub: —
   - `17d543f7-jooseppro-kaliiber` · [otsi](https://www.youtube.com/results?search_query=jooseppro%20ja%20Lennu%20Kaliiber)

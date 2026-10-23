@@ -3296,5 +3296,39 @@
       "Twisted Teens"
     ],
     "confidence": 1
+  },
+  "9a3d8942-karjakoer-masha-ja-karu": {
+    "id": "6oBkmHLRvWMFnupB0lp6HD",
+    "name": "MASHA JA KARU",
+    "artists": [
+      "karjakoer",
+      "trapm"
+    ],
+    "confidence": 1
+  },
+  "9a3d8942-pet-shop-boys-other-ranks": {
+    "id": "1DWIxfNtL8ZDNz1dd9oASJ",
+    "name": "Other ranks",
+    "artists": [
+      "Pet Shop Boys"
+    ],
+    "confidence": 1
+  },
+  "9a3d8942-anneli-tambla-jeesus-see-on-minu-soov": {
+    "id": "4SoDGuz52dSh06VycXhF8g",
+    "name": "Jeesus See on Mu Soov",
+    "artists": [
+      "Anneli Tambla"
+    ],
+    "confidence": 0.881
+  },
+  "9a3d8942-sally-herbert-bade": {
+    "id": "0vFhabsHGl0861CV4FVS9S",
+    "name": "Bade",
+    "artists": [
+      "Sally Herbert",
+      "Jimmy Somerville"
+    ],
+    "confidence": 1
   }
 }

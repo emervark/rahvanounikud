@@ -411,7 +411,11 @@
     "d234c6bc-5ce9-4425-a966-6897fbc003a6::heleza|karl killing::mis oleks võinud olla": "d234c6bc-heleza-mis-oleks-voinud-olla",
     "d234c6bc-5ce9-4425-a966-6897fbc003a6::the rolling stones::mr. charm": "d234c6bc-the-rolling-stones-mr-charm",
     "d234c6bc-5ce9-4425-a966-6897fbc003a6::eleryn tiit::üle katuste": "d234c6bc-eleryn-tiit-ule-katuste",
-    "d234c6bc-5ce9-4425-a966-6897fbc003a6::twisted teens::stalks": "d234c6bc-twisted-teens-stalks"
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::twisted teens::stalks": "d234c6bc-twisted-teens-stalks",
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::karjakoer|trapm::masha ja karu": "9a3d8942-karjakoer-masha-ja-karu",
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::pet shop boys::other ranks": "9a3d8942-pet-shop-boys-other-ranks",
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::anneli tambla::jeesus see on minu soov": "9a3d8942-anneli-tambla-jeesus-see-on-minu-soov",
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::sally herbert|jimmy sommerville::bade": "9a3d8942-sally-herbert-bade"
   },
   "byPosition": {
     "51067548-b2d2-4c49-b3db-e445a68c3a05::0": "51067548-an-marlen-tahtede-eest",
@@ -817,6 +821,10 @@
     "d234c6bc-5ce9-4425-a966-6897fbc003a6::0": "d234c6bc-heleza-mis-oleks-voinud-olla",
     "d234c6bc-5ce9-4425-a966-6897fbc003a6::1": "d234c6bc-the-rolling-stones-mr-charm",
     "d234c6bc-5ce9-4425-a966-6897fbc003a6::2": "d234c6bc-eleryn-tiit-ule-katuste",
-    "d234c6bc-5ce9-4425-a966-6897fbc003a6::3": "d234c6bc-twisted-teens-stalks"
+    "d234c6bc-5ce9-4425-a966-6897fbc003a6::3": "d234c6bc-twisted-teens-stalks",
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::0": "9a3d8942-karjakoer-masha-ja-karu",
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::1": "9a3d8942-pet-shop-boys-other-ranks",
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::2": "9a3d8942-anneli-tambla-jeesus-see-on-minu-soov",
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::3": "9a3d8942-sally-herbert-bade"
   }
 }
