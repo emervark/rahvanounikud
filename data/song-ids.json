@@ -415,7 +415,11 @@
     "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::karjakoer|trapm::masha ja karu": "9a3d8942-karjakoer-masha-ja-karu",
     "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::pet shop boys::other ranks": "9a3d8942-pet-shop-boys-other-ranks",
     "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::anneli tambla::jeesus see on minu soov": "9a3d8942-anneli-tambla-jeesus-see-on-minu-soov",
-    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::sally herbert|jimmy sommerville::bade": "9a3d8942-sally-herbert-bade"
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::sally herbert|jimmy sommerville::bade": "9a3d8942-sally-herbert-bade",
+    "13527f3d-e5fb-467c-84eb-c3223bbe7957::elisabeth tiffany::äftejas": "13527f3d-elisabeth-tiffany-aftejas",
+    "13527f3d-e5fb-467c-84eb-c3223bbe7957::dj tobzy imole giwa|dj amacoz|dj landlord::house of mara jam": "13527f3d-dj-tobzy-imole-giwa-house-of-mara-jam",
+    "13527f3d-e5fb-467c-84eb-c3223bbe7957::kerli|amanati::precious": "13527f3d-kerli-precious",
+    "13527f3d-e5fb-467c-84eb-c3223bbe7957::azhar hussain::zahra ho nazar e karam ho koi ata": "13527f3d-azhar-hussain-zahra-ho-nazar-e-karam-ho-koi-ata"
   },
   "byPosition": {
     "51067548-b2d2-4c49-b3db-e445a68c3a05::0": "51067548-an-marlen-tahtede-eest",
@@ -825,6 +829,10 @@
     "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::0": "9a3d8942-karjakoer-masha-ja-karu",
     "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::1": "9a3d8942-pet-shop-boys-other-ranks",
     "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::2": "9a3d8942-anneli-tambla-jeesus-see-on-minu-soov",
-    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::3": "9a3d8942-sally-herbert-bade"
+    "9a3d8942-5ef9-438a-a0c7-7a1a7c965747::3": "9a3d8942-sally-herbert-bade",
+    "13527f3d-e5fb-467c-84eb-c3223bbe7957::0": "13527f3d-elisabeth-tiffany-aftejas",
+    "13527f3d-e5fb-467c-84eb-c3223bbe7957::1": "13527f3d-dj-tobzy-imole-giwa-house-of-mara-jam",
+    "13527f3d-e5fb-467c-84eb-c3223bbe7957::2": "13527f3d-kerli-precious",
+    "13527f3d-e5fb-467c-84eb-c3223bbe7957::3": "13527f3d-azhar-hussain-zahra-ho-nazar-e-karam-ho-koi-ata"
   }
 }

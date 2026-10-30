@@ -1,5 +1,57 @@
 [
   {
+    "guid": "13527f3d-e5fb-467c-84eb-c3223bbe7957",
+    "title": "Ansambel Ouu käis Jaapanis tuuril. „Kõik tahtsid meiega eesti keeles rääkida“",
+    "publishedAt": "2026-10-30T10:31:32.000Z",
+    "chooser": "Raul Saaremets",
+    "guests": [
+      "Hyrr Innokent Vainola"
+    ],
+    "songs": [
+      {
+        "artists": [
+          "elisabeth tiffany"
+        ],
+        "artistsRaw": "elisabeth tiffany",
+        "title": "Äftejas",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "DJ Tobzy Imole Giwa",
+          "DJ Amacoz",
+          "DJ Landlord"
+        ],
+        "artistsRaw": "DJ Tobzy Imole Giwa, DJ Amacoz, DJ Landlord",
+        "title": "House of Mara Jam",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Kerli",
+          "Amanati"
+        ],
+        "artistsRaw": "Kerli, Amanati",
+        "title": "Precious",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Azhar Hussain"
+        ],
+        "artistsRaw": "Azhar Hussain",
+        "title": "Zahra Ho Nazar E Karam Ho Koi Ata",
+        "chooser": null,
+        "note": null
+      }
+    ],
+    "unparsedLines": [],
+    "status": "ok"
+  },
+  {
     "guid": "9a3d8942-5ef9-438a-a0c7-7a1a7c965747",
     "title": "Leslie Laasner hullumeelselt hästi läinud Hu? tagasitulekukontserdist: „Pisarad voolasid endal ka”",
     "publishedAt": "2026-10-19T10:54:30.000Z",

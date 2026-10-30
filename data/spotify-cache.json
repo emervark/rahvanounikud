@@ -3330,5 +3330,41 @@
       "Jimmy Somerville"
     ],
     "confidence": 1
+  },
+  "13527f3d-elisabeth-tiffany-aftejas": {
+    "id": "1nb8qQ9PKk5WfkrL8vw2kw",
+    "name": "äftekas",
+    "artists": [
+      "elisabeth tiffany"
+    ],
+    "confidence": 0.907
+  },
+  "13527f3d-dj-tobzy-imole-giwa-house-of-mara-jam": {
+    "id": "7l8ie1px17MfrI4Y20ILJW",
+    "name": "House of Mara Jam",
+    "artists": [
+      "DJ TOBZY IMOLE GIWA",
+      "Dj Amacoz",
+      "DJ Landlord",
+      "Dj IBK"
+    ],
+    "confidence": 1
+  },
+  "13527f3d-kerli-precious": {
+    "id": "0xNjXnzcxBSh1WEBZzcTxF",
+    "name": "Precious",
+    "artists": [
+      "Kerli",
+      "Amanati"
+    ],
+    "confidence": 1
+  },
+  "13527f3d-azhar-hussain-zahra-ho-nazar-e-karam-ho-koi-ata": {
+    "id": "1pg0XRfliZXs4ih4De9iYy",
+    "name": "Zahra Ho Nazar E Karam Ho Koi Ata",
+    "artists": [
+      "Azhar Hussain"
+    ],
+    "confidence": 1
   }
 }

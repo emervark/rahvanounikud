@@ -1,11 +1,11 @@
 # Ülevaatamist vajavad lood
 
-Koostatud failist `data/episodes.json` (99 saadet, 408 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
+Koostatud failist `data/episodes.json` (100 saadet, 412 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
 
 | Korv | Lugusid |
 |---|---|
-| Kahtlane link üleval | 4 |
-| Pakkumine olemas, link puudub | 5 |
+| Kahtlane link üleval | 5 |
+| Pakkumine olemas, link puudub | 6 |
 | Kumbki link puudub | 0 |
 | YouTube veel otsimata | 0 |
 
@@ -18,6 +18,12 @@ pealkirjas artistit ei ole („kah mul asi") või kui pealkiri on veidi teisiti
 kirjutatud („I LUV BEING MYSELF"). Nimekiri on madalaimast kindlusest ülespoole,
 nii et tõelised vead on eespool — allapoole jõudes muutub üle vaatamine kiiresti
 mõttetuks.
+
+### DJ Tobzy Imole Giwa, DJ Amacoz, DJ Landlord — House of Mara Jam
+`13527f3d-dj-tobzy-imole-giwa-house-of-mara-jam` · saade 100 · 2026-10-30
+- **YouTube 0,77** → House of Mara Jam
+  https://www.youtube.com/watch?v=u9Qxh1Vs5WQ
+- Otsi ise: [YouTube](https://www.youtube.com/results?search_query=DJ%20Tobzy%20Imole%20Giwa%2C%20DJ%20Amacoz%2C%20DJ%20Landlord%20House%20of%20Mara%20Jam) · [Spotify](https://open.spotify.com/search/DJ%20Tobzy%20Imole%20Giwa%2C%20DJ%20Amacoz%2C%20DJ%20Landlord%20House%20of%20Mara%20Jam)
 
 ### Sally Herbert, Jimmy Sommerville — Bade
 `9a3d8942-sally-herbert-bade` · saade 99 · 2026-10-19
@@ -54,6 +60,9 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 - **0,01** Kergo Klubi — Kergo Klubi räpp — saade 5 · 2024-04-05
   - pakub: Yung Lord — Yung Lord – ДЕВОЧКА ЛАМБО (Prod. Call Me G) → https://www.youtube.com/watch?v=OMDz9uYw96w
   - `bf14f06b-kergo-klubi-kergo-klubi-rapp` · [otsi](https://www.youtube.com/results?search_query=Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp)
+- **0,00** elisabeth tiffany — Äftejas — saade 100 · 2026-10-30
+  - pakub: —
+  - `13527f3d-elisabeth-tiffany-aftejas` · [otsi](https://www.youtube.com/results?search_query=elisabeth%20tiffany%20%C3%84ftejas)
 - **0,00** Anneli Tambla — Jeesus see on minu soov — saade 99 · 2026-10-19
   - pakub: —
   - `9a3d8942-anneli-tambla-jeesus-see-on-minu-soov` · [otsi](https://www.youtube.com/results?search_query=Anneli%20Tambla%20Jeesus%20see%20on%20minu%20soov)
