@@ -1,11 +1,11 @@
 # Ülevaatamist vajavad lood
 
-Koostatud failist `data/episodes.json` (100 saadet, 412 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
+Koostatud failist `data/episodes.json` (101 saadet, 416 lugu). Kindluse lävi on 0.72; alla 0.85 loeme kahtlaseks.
 
 | Korv | Lugusid |
 |---|---|
 | Kahtlane link üleval | 5 |
-| Pakkumine olemas, link puudub | 6 |
+| Pakkumine olemas, link puudub | 7 |
 | Kumbki link puudub | 0 |
 | YouTube veel otsimata | 0 |
 
@@ -57,6 +57,9 @@ osa on täiesti mööda, osa on õige lugu vales versioonis.
 - **0,67** heleenyum — Heaven – Slowed — saade 92 · 2026-09-04
   - pakub: heleenyum — Heaven → https://www.youtube.com/watch?v=gQMFQwh_NAg
   - `190ec892-heleenyum-heaven-slowed` · [otsi](https://www.youtube.com/results?search_query=heleenyum%20Heaven%20%E2%80%93%20Slowed)
+- **0,36** Rulers of the Deep — Imagine Where You Are — saade 101 · 2026-11-06
+  - pakub: Rulers, MovingCastleVEVO — Don't Mind → https://www.youtube.com/watch?v=HM71GYqJ2HY
+  - `96cc7cc0-rulers-of-the-deep-imagine-where-you-are` · [otsi](https://www.youtube.com/results?search_query=Rulers%20of%20the%20Deep%20Imagine%20Where%20You%20Are)
 - **0,01** Kergo Klubi — Kergo Klubi räpp — saade 5 · 2024-04-05
   - pakub: Yung Lord — Yung Lord – ДЕВОЧКА ЛАМБО (Prod. Call Me G) → https://www.youtube.com/watch?v=OMDz9uYw96w
   - `bf14f06b-kergo-klubi-kergo-klubi-rapp` · [otsi](https://www.youtube.com/results?search_query=Kergo%20Klubi%20Kergo%20Klubi%20r%C3%A4pp)

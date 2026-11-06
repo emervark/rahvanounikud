@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T18:40:26.721Z",
+  "generatedAt": "2026-11-06T19:59:04.887Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,114 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 100,
-    "songs": 412,
-    "withSpotify": 375,
-    "withYoutube": 398,
+    "episodes": 101,
+    "songs": 416,
+    "withSpotify": 379,
+    "withYoutube": 401,
     "withCriticScore": 4
   },
   "episodes": [
+    {
+      "guid": "96cc7cc0-f0e6-4b53-8b77-a25bcbc15b7e",
+      "title": "Poplaulja Elisabeth Tiffany ansamblist Minimal Wind lahkumisest: „Minul oli selles bändis kõige raskem olla”",
+      "publishedAt": "2026-11-06T11:18:08.000Z",
+      "duration": "01:08:33",
+      "durationSeconds": 4113,
+      "description": "Lauljal Elisabeth Tiffanyl ilmus just esimene kauamängiv „Äftekas”, kus ta on ise ka lugude autor ja produtsent koos abiks olnud Velle Tamme ning Mattias Pärdiga.\nAastal 2024 ilmus tal ka inglisekeelne minialbum „I Just Wanna See The Sparks”, esikalbum on aga täies mahus eestikeelne.\nPlaadil ja ka Elisabeth Tiffany kontsertidel kaasa tegeva Velle Tammega musitseeris ta ka koos ansamblis Minimal Wind. Praegu nad enam nimetatud bändis ei mängi.\nElisabethi sõnul toimus Minimal Windist lahkumine ilma tülita, loomuliku eemaldumisena.\n„See oli kuidagi väga paratamatu,” räägib ta. „Kõik olid selles bändis hästi loomeinimesed ja minul oli selles bändis kõige raskem olla. Seda oli tegelikult mu näost näha. Minu kohta öeldi frontman, kes ma tegelikult olla ei tahtnud. Frontman – kõlab kuidagi nii, et sa oled seal ees, eks ole – aga ma ei tundnud mitte kunagi ennast sellena.”\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• Prodigyboys „Krae püsti”\n• Fred P „Around and More Than”\n• Rulers of the Deep „Imagine Where You Are”\n• 808 Prince (Steven Julien) „Drive”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/96cc7cc0-f0e6-4b53-8b77-a25bcbc15b7e/file/8aeb564c-c507-419a-b087-30dff29913c7.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/96cc7cc0-f0e6-4b53-8b77-a25bcbc15b7e",
+      "spotifyEpisodeId": "2WBUXPxJ8wbmvTuhp9knB3",
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Prodigyboys"
+          ],
+          "artistsRaw": "Prodigyboys",
+          "title": "Krae püsti",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "96cc7cc0-prodigyboys-krae-pusti",
+          "spotifyId": "5FT5LZWrfNLMJT6C1jdwvr",
+          "youtubeId": "MKXDG8_pM2Q",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Prodigyboys%20Krae%20p%C3%BCsti",
+            "youtube": "https://www.youtube.com/results?search_query=Prodigyboys%20Krae%20p%C3%BCsti",
+            "bandcamp": "https://bandcamp.com/search?q=Prodigyboys%20Krae%20p%C3%BCsti"
+          }
+        },
+        {
+          "artists": [
+            "Fred P"
+          ],
+          "artistsRaw": "Fred P",
+          "title": "Around and More Than",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "96cc7cc0-fred-p-around-and-more-than",
+          "spotifyId": "2GHFrWkE583aPHhrEAqxUj",
+          "youtubeId": "yKgzkyWjKw0",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Fred%20P%20Around%20and%20More%20Than",
+            "youtube": "https://www.youtube.com/results?search_query=Fred%20P%20Around%20and%20More%20Than",
+            "bandcamp": "https://bandcamp.com/search?q=Fred%20P%20Around%20and%20More%20Than"
+          }
+        },
+        {
+          "artists": [
+            "Rulers of the Deep"
+          ],
+          "artistsRaw": "Rulers of the Deep",
+          "title": "Imagine Where You Are",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "96cc7cc0-rulers-of-the-deep-imagine-where-you-are",
+          "spotifyId": "3JJ9dQGwQrZP5WQEk7WcY6",
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Rulers%20of%20the%20Deep%20Imagine%20Where%20You%20Are",
+            "youtube": "https://www.youtube.com/results?search_query=Rulers%20of%20the%20Deep%20Imagine%20Where%20You%20Are",
+            "bandcamp": "https://bandcamp.com/search?q=Rulers%20of%20the%20Deep%20Imagine%20Where%20You%20Are"
+          }
+        },
+        {
+          "artists": [
+            "Prince (Steven Julien)"
+          ],
+          "artistsRaw": "Prince (Steven Julien)",
+          "title": "Drive",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "96cc7cc0-prince-steven-julien-drive",
+          "spotifyId": "0hofRAAv2pnBnCYEFbrnzb",
+          "youtubeId": "b5vdMZFcG28",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Prince%20(Steven%20Julien)%20Drive",
+            "youtube": "https://www.youtube.com/results?search_query=Prince%20(Steven%20Julien)%20Drive",
+            "bandcamp": "https://bandcamp.com/search?q=Prince%20(Steven%20Julien)%20Drive"
+          }
+        }
+      ]
+    },
     {
       "guid": "13527f3d-e5fb-467c-84eb-c3223bbe7957",
       "title": "Ansambel Ouu käis Jaapanis tuuril. „Kõik tahtsid meiega eesti keeles rääkida“",

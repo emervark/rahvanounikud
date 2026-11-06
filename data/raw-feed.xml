@@ -4,7 +4,7 @@
     <atom:link href="https://api.delfi.ee/media-api-podcast-worker/v1/rss-feed/33d58660-ca9f-4b57-bb79-27629e949861.rss" rel="self" type="application/rss+xml"/>
     <title>Muusikanõunikud</title>
     <pubDate>Tue, 05 Mar 2024 09:17:28 GMT</pubDate>
-    <lastBuildDate>Fri, 30 Oct 2026 18:39:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 19:39:06 GMT</lastBuildDate>
     <ttl>60</ttl>
     <language>et</language>
     <copyright>All rights reserved</copyright>
@@ -22,6 +22,42 @@
       <url>https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1</url>
     </image>
     <itunes:category text="Society &amp; Culture"/>
+    <item>
+      <guid isPermaLink="false">96cc7cc0-f0e6-4b53-8b77-a25bcbc15b7e</guid>
+      <title>Poplaulja Elisabeth Tiffany ansamblist Minimal Wind lahkumisest: „Minul oli selles bändis kõige raskem olla”</title>
+      <pubDate>Fri, 06 Nov 2026 11:18:08 GMT</pubDate>
+      <itunes:duration>01:08:33</itunes:duration>
+      <itunes:author>Delfi Meedia</itunes:author>
+      <itunes:summary>Lauljal Elisabeth Tiffanyl ilmus just esimene kauamängiv „Äftekas”, kus ta on ise ka lugude autor ja produtsent koos abiks olnud Velle Tamme ning Mattias Pärdiga.
+
+Aastal 2024 ilmus tal ka inglisekeelne minialbum „I Just Wanna See The Sparks”, esikalbum on aga täies mahus eestikeelne.
+
+Plaadil ja ka Elisabeth Tiffany kontsertidel kaasa tegeva Velle Tammega musitseeris ta ka koos ansamblis Minimal Wind. Praegu nad enam nimetatud bändis ei mängi.
+
+Elisabethi sõnul toimus Minimal Windist lahkumine ilma tülita, loomuliku eemaldumisena.
+
+„See oli kuidagi väga paratamatu,” räägib ta. „Kõik olid selles bändis hästi loomeinimesed ja minul oli selles bändis kõige raskem olla. Seda oli tegelikult mu näost näha. Minu kohta öeldi frontman, kes ma tegelikult olla ei tahtnud. Frontman – kõlab kuidagi nii, et sa oled seal ees, eks ole – aga ma ei tundnud mitte kunagi ennast sellena.”
+
+Saatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:
+
+• Prodigyboys „Krae püsti”
+
+• Fred P „Around and More Than”
+
+• Rulers of the Deep „Imagine Where You Are”
+
+• 808 Prince (Steven Julien) „Drive”
+
+Milline lugu võitis? Kuula podcastist!
+
+„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.
+
+Jälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud</itunes:summary>
+      <itunes:subtitle>Lauljal Elisabeth Tiffanyl ilmus just esimene...</itunes:subtitle>
+      <description>&lt;p&gt;Lauljal Elisabeth Tiffanyl ilmus just esimene kauamängiv „Äftekas”, kus ta on ise ka lugude autor ja produtsent koos abiks olnud Velle Tamme ning Mattias Pärdiga.&lt;/p&gt;&lt;p&gt;Aastal 2024 ilmus tal ka inglisekeelne minialbum „I Just Wanna See The Sparks”, esikalbum on aga täies mahus eestikeelne.&lt;/p&gt;&lt;p&gt;Plaadil ja ka Elisabeth Tiffany kontsertidel kaasa tegeva Velle Tammega musitseeris ta ka koos ansamblis Minimal Wind. Praegu nad enam nimetatud bändis ei mängi.&lt;/p&gt;&lt;p&gt;Elisabethi sõnul toimus Minimal Windist lahkumine ilma tülita, loomuliku eemaldumisena.&lt;/p&gt;&lt;p&gt;„See oli kuidagi väga paratamatu,” räägib ta. „Kõik olid selles bändis hästi loomeinimesed ja minul oli selles bändis kõige raskem olla. Seda oli tegelikult mu näost näha. Minu kohta öeldi frontman, kes ma tegelikult olla ei tahtnud. Frontman – kõlab kuidagi nii, et sa oled seal ees, eks ole – aga ma ei tundnud mitte kunagi ennast sellena.”&lt;/p&gt;&lt;p&gt;Saatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:&lt;/p&gt;&lt;p&gt;• Prodigyboys „Krae püsti”&lt;/p&gt;&lt;p&gt;• Fred P „Around and More Than”&lt;/p&gt;&lt;p&gt;• Rulers of the Deep „Imagine Where You Are”&lt;/p&gt;&lt;p&gt;• 808 Prince (Steven Julien) „Drive”&lt;/p&gt;&lt;p&gt;Milline lugu võitis? Kuula podcastist!&lt;/p&gt;&lt;p&gt;„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna Converse Eesti ja Tepsliga.&lt;/p&gt;&lt;p&gt;Jälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud&lt;/p&gt;</description>
+      <enclosure url="https://api.delfi.ee/media-api-podcast-worker/v1/media/96cc7cc0-f0e6-4b53-8b77-a25bcbc15b7e/file/8aeb564c-c507-419a-b087-30dff29913c7.mp3" type="audio/mpeg" length="98715929"/>
+      <itunes:image href="https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"/>
+    </item>
     <item>
       <guid isPermaLink="false">13527f3d-e5fb-467c-84eb-c3223bbe7957</guid>
       <title>Ansambel Ouu käis Jaapanis tuuril. „Kõik tahtsid meiega eesti keeles rääkida“</title>

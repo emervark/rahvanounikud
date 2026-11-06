@@ -1,5 +1,52 @@
 [
   {
+    "guid": "96cc7cc0-f0e6-4b53-8b77-a25bcbc15b7e",
+    "title": "Poplaulja Elisabeth Tiffany ansamblist Minimal Wind lahkumisest: „Minul oli selles bändis kõige raskem olla”",
+    "publishedAt": "2026-11-06T11:18:08.000Z",
+    "chooser": "Raul Saaremets",
+    "guests": [],
+    "songs": [
+      {
+        "artists": [
+          "Prodigyboys"
+        ],
+        "artistsRaw": "Prodigyboys",
+        "title": "Krae püsti",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Fred P"
+        ],
+        "artistsRaw": "Fred P",
+        "title": "Around and More Than",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Rulers of the Deep"
+        ],
+        "artistsRaw": "Rulers of the Deep",
+        "title": "Imagine Where You Are",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Prince (Steven Julien)"
+        ],
+        "artistsRaw": "Prince (Steven Julien)",
+        "title": "Drive",
+        "chooser": null,
+        "note": null
+      }
+    ],
+    "unparsedLines": [],
+    "status": "ok"
+  },
+  {
     "guid": "13527f3d-e5fb-467c-84eb-c3223bbe7957",
     "title": "Ansambel Ouu käis Jaapanis tuuril. „Kõik tahtsid meiega eesti keeles rääkida“",
     "publishedAt": "2026-10-30T10:31:32.000Z",
