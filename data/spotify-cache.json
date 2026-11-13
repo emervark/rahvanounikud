@@ -3401,5 +3401,37 @@
       "KIAH"
     ],
     "confidence": 1
+  },
+  "5dce2514-ott-lepland-morumagus": {
+    "id": "0JUrSYWILdiKado6f6f7rX",
+    "name": "Mõrumagus",
+    "artists": [
+      "Ott Lepland"
+    ],
+    "confidence": 1
+  },
+  "5dce2514-jessie-reyez-salt": {
+    "id": "1fdPAmtxmcfMDVsArJSPsa",
+    "name": "SALT",
+    "artists": [
+      "Jessie Reyez"
+    ],
+    "confidence": 1
+  },
+  "5dce2514-sam-utle-mulle": {
+    "id": "6yu6d2btUHkSQJOJun9Wy8",
+    "name": "ütle mulle",
+    "artists": [
+      "säm"
+    ],
+    "confidence": 1
+  },
+  "5dce2514-tyler-ballgame-tell-me-why": {
+    "id": "5ELh2Z5kTNCWqa3OgzClpT",
+    "name": "Tell Me Why",
+    "artists": [
+      "Tyler Ballgame"
+    ],
+    "confidence": 1
   }
 }

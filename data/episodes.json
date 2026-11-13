@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T19:59:04.887Z",
+  "generatedAt": "2026-11-13T13:13:39.516Z",
   "podcast": {
     "id": "33d58660-ca9f-4b57-bb79-27629e949861",
     "title": "Muusikanõunikud",
@@ -16,13 +16,114 @@
     "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1"
   },
   "stats": {
-    "episodes": 101,
-    "songs": 416,
-    "withSpotify": 379,
-    "withYoutube": 401,
+    "episodes": 102,
+    "songs": 420,
+    "withSpotify": 383,
+    "withYoutube": 404,
     "withCriticScore": 4
   },
   "episodes": [
+    {
+      "guid": "5dce2514-6075-4245-94d1-88a5127f1544",
+      "title": "Lapsest peale nii võru kui eesti keelt rääkinud Kaisa Kuslapuu: „mul on jutustajana neis kahes keeles erinev hääl“",
+      "publishedAt": "2026-11-13T12:20:13.000Z",
+      "duration": "01:18:20",
+      "durationSeconds": 4700,
+      "description": "„Muusikanõunikes” on sel nädalal külaliskriitikuks muusik ja laulukirjutaja Kaisa Kuslapuu.\nKaisa Kuslapuul ilmus mõne nädala eest esimene sooloalbum. Albumilt „vaŕo” leiab 11 lugu, mida ansamblist Lonitseera tuntud Kaisa esitab võro keeles. Võro keeles laulude kirjutamine oli talle uus loominguline väljakutse.\n„Varem kirjutasingi eesti keeles laule, aga mulle tundus, et mul on jutustajana neis kahes keeles erinev hääl. Mingitest asjadest tahan võru keeles laulda ja mingitest asjadest on vaja eesti keeles laulda,” räägib Kaisa.\nKaisa väitel on tal kaks emakeelt ning mõlema keele puhul on ta olnud passiivne õppija. Kodus kõneldi peamiselt võro keelt, kuid ka eesti keelt, ent kui ta täiskasvanuna emakeelt õppima hakkas, sai selleks eesti keel.\n„Mu vanaema kõneles õnneks võro keelt ja ta reageeris eesti keele peale ka,” räägib Kaisa. „Aga tal endal oli keel justnagu kinni ja ta ei suutnud eesti keelt kõnelda.\nNüüd on mul suur hulk tuttavaid, kes tegelevad väga võro keele aktivismiga. Ja kui nendega vestlen, olen saanud aru, et jumala hea on võro keeles kõnelda. Kuidagi tuleb selline rohkem enda tunne peale – selline lõõgastusprojekt.\nVõro keele kõnelejaid on tegelikult päris palju. Mõni inimene mõtleb, et ma olen võtnud endale missiooni, et üks väljasurev keel üles äratada. Aga minge Võromaale või minge vanale Võromaale: kõik kõnelevad elavat võro keelt. Ei ole see asi midagi nii mineviku asi juba.”\nSaatejuht Raul Saaremetsa valikul hinnati järgmisi lugusid:\n• Ott Lepland „Mõrumagus”\n• Jessie Reyez „Salt”\n• Säm „Ütle mulle”\n• Tyler Ballgame „Tell Me Why”\nMilline lugu võitis? Kuula podcastist!\n„Muusikanõunikud“ läheb eetrisse koostöös Muusikalinn Tallinna, Converse Eesti ja Tepsliga.\nJälgi „Muusikanõunikke“ Instagramis: @muusikan6unikud",
+      "audioUrl": "https://api.delfi.ee/media-api-podcast-worker/v1/media/5dce2514-6075-4245-94d1-88a5127f1544/file/67485202-55fb-45cc-b453-116275c22782.mp3",
+      "coverImageUrl": "https://images.delfi.ee/media-api-image-cropper/v1/da675a0b-9072-4b0b-a8d6-a67637e3d05e.jpg?r=1:1",
+      "delfiUrl": "https://tasku.delfi.ee/podcast/33d58660-ca9f-4b57-bb79-27629e949861/5dce2514-6075-4245-94d1-88a5127f1544",
+      "spotifyEpisodeId": "3qnpd53BVAWPE5PmxAbla6",
+      "chooser": "Raul Saaremets",
+      "guests": [],
+      "source": "automaatne",
+      "songs": [
+        {
+          "artists": [
+            "Ott Lepland"
+          ],
+          "artistsRaw": "Ott Lepland",
+          "title": "Mõrumagus",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "5dce2514-ott-lepland-morumagus",
+          "spotifyId": "0JUrSYWILdiKado6f6f7rX",
+          "youtubeId": "H_becoj4oac",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Ott%20Lepland%20M%C3%B5rumagus",
+            "youtube": "https://www.youtube.com/results?search_query=Ott%20Lepland%20M%C3%B5rumagus",
+            "bandcamp": "https://bandcamp.com/search?q=Ott%20Lepland%20M%C3%B5rumagus"
+          }
+        },
+        {
+          "artists": [
+            "Jessie Reyez"
+          ],
+          "artistsRaw": "Jessie Reyez",
+          "title": "Salt",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "5dce2514-jessie-reyez-salt",
+          "spotifyId": "1fdPAmtxmcfMDVsArJSPsa",
+          "youtubeId": "id4aKww9Wq8",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Jessie%20Reyez%20Salt",
+            "youtube": "https://www.youtube.com/results?search_query=Jessie%20Reyez%20Salt",
+            "bandcamp": "https://bandcamp.com/search?q=Jessie%20Reyez%20Salt"
+          }
+        },
+        {
+          "artists": [
+            "Säm"
+          ],
+          "artistsRaw": "Säm",
+          "title": "Ütle mulle",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "5dce2514-sam-utle-mulle",
+          "spotifyId": "6yu6d2btUHkSQJOJun9Wy8",
+          "youtubeId": "690h92jLPdM",
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/S%C3%A4m%20%C3%9Ctle%20mulle",
+            "youtube": "https://www.youtube.com/results?search_query=S%C3%A4m%20%C3%9Ctle%20mulle",
+            "bandcamp": "https://bandcamp.com/search?q=S%C3%A4m%20%C3%9Ctle%20mulle"
+          }
+        },
+        {
+          "artists": [
+            "Tyler Ballgame"
+          ],
+          "artistsRaw": "Tyler Ballgame",
+          "title": "Tell Me Why",
+          "chooser": "Raul Saaremets",
+          "note": null,
+          "id": "5dce2514-tyler-ballgame-tell-me-why",
+          "spotifyId": "5ELh2Z5kTNCWqa3OgzClpT",
+          "youtubeId": null,
+          "soundcloudUrl": null,
+          "bandcamp": null,
+          "criticScore": null,
+          "criticScores": null,
+          "searchUrls": {
+            "spotify": "https://open.spotify.com/search/Tyler%20Ballgame%20Tell%20Me%20Why",
+            "youtube": "https://www.youtube.com/results?search_query=Tyler%20Ballgame%20Tell%20Me%20Why",
+            "bandcamp": "https://bandcamp.com/search?q=Tyler%20Ballgame%20Tell%20Me%20Why"
+          }
+        }
+      ]
+    },
     {
       "guid": "96cc7cc0-f0e6-4b53-8b77-a25bcbc15b7e",
       "title": "Poplaulja Elisabeth Tiffany ansamblist Minimal Wind lahkumisest: „Minul oli selles bändis kõige raskem olla”",

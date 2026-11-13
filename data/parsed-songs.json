@@ -1,5 +1,52 @@
 [
   {
+    "guid": "5dce2514-6075-4245-94d1-88a5127f1544",
+    "title": "Lapsest peale nii võru kui eesti keelt rääkinud Kaisa Kuslapuu: „mul on jutustajana neis kahes keeles erinev hääl“",
+    "publishedAt": "2026-11-13T12:20:13.000Z",
+    "chooser": "Raul Saaremets",
+    "guests": [],
+    "songs": [
+      {
+        "artists": [
+          "Ott Lepland"
+        ],
+        "artistsRaw": "Ott Lepland",
+        "title": "Mõrumagus",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Jessie Reyez"
+        ],
+        "artistsRaw": "Jessie Reyez",
+        "title": "Salt",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Säm"
+        ],
+        "artistsRaw": "Säm",
+        "title": "Ütle mulle",
+        "chooser": null,
+        "note": null
+      },
+      {
+        "artists": [
+          "Tyler Ballgame"
+        ],
+        "artistsRaw": "Tyler Ballgame",
+        "title": "Tell Me Why",
+        "chooser": null,
+        "note": null
+      }
+    ],
+    "unparsedLines": [],
+    "status": "ok"
+  },
+  {
     "guid": "96cc7cc0-f0e6-4b53-8b77-a25bcbc15b7e",
     "title": "Poplaulja Elisabeth Tiffany ansamblist Minimal Wind lahkumisest: „Minul oli selles bändis kõige raskem olla”",
     "publishedAt": "2026-11-06T11:18:08.000Z",

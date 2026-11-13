@@ -55,7 +55,7 @@
     "confidence": 1
   },
   "_kvoot": {
-    "date": "2026-11-06",
+    "date": "2026-11-13",
     "searches": 4
   },
   "c319ff35-liisi-koikson-endaga-vii": {
@@ -1622,5 +1622,26 @@
     "id": "b5vdMZFcG28",
     "title": "DRIVE",
     "confidence": 1
+  },
+  "5dce2514-ott-lepland-morumagus": {
+    "id": "H_becoj4oac",
+    "title": "Mõrumagus",
+    "confidence": 1
+  },
+  "5dce2514-jessie-reyez-salt": {
+    "id": "id4aKww9Wq8",
+    "title": "SALT",
+    "confidence": 1
+  },
+  "5dce2514-sam-utle-mulle": {
+    "id": "690h92jLPdM",
+    "title": "ütle mulle",
+    "confidence": 1
+  },
+  "5dce2514-tyler-ballgame-tell-me-why": {
+    "id": null,
+    "confidence": 0.45,
+    "bestGuess": "Release — Tell Me Why",
+    "bestGuessId": "IoOiz_03FpQ"
   }
 }
